@@ -23,6 +23,14 @@ I sent the report to Sarah.
 
 Do not memorize isolated equations such as “for means 为了” or “in means 在.” Learn complete chunks instead: `for two hours`, `in production`, `on Monday`, and `with the backend team`.
 
+Study prepositions at three levels:
+
+1. **Relationship**: time, place, direction, recipient, reason, or method.
+2. **Chunk**: the preceding word often selects the preposition, as in `responsible for` and `depend on`.
+3. **Situation**: use the chunk in a stand-up, review, investigation, or demo.
+
+A core image is a learning aid, not a rule that replaces usage. Knowing that `on` can suggest contact does not mean every Chinese expression containing 在 takes `on`.
+
 ## 2. First Clarification: and Is Not a Preposition
 
 `And` is a conjunction. It connects words, actions, or clauses. Words such as `for`, `of`, `in`, and `on` are prepositions.
@@ -35,9 +43,9 @@ The API is stable, and the deployment is complete.
 API 很稳定，而且部署已经完成。
 ```
 
-## 3. for: Aiming at a Target
+## 3. for: Connecting to a Target, Recipient, or Range
 
-Think of `for` as pointing toward a target. The target can be a duration, person, reason, or purpose.
+As a learning aid, think of `for` as connecting an action to a target, recipient, reason, purpose, or duration. This is not a complete definition. In real speech, rely on full chunks such as `wait for` and `use something for`.
 
 ### 3.1 for + duration
 
@@ -197,11 +205,11 @@ I am at the office today.
 We discussed the roadmap at the planning meeting.
 我们在规划会议上讨论了路线图。
 
-The request failed at the validation step.
-请求在验证步骤失败了。
+The request failed during validation.
+请求在验证期间失败了。
 ```
 
-`At the meeting` emphasizes the event. `In the meeting room` emphasizes being physically inside the room.
+`At the meeting` emphasizes the event. `In the meeting room` emphasizes being physically inside the room. `At the office` focuses on the workplace location, while `in the office` more strongly suggests being inside it. In everyday use, both can often mean that someone is working from the office.
 
 ## 9. to and from: Direction and Source
 
@@ -235,8 +243,8 @@ We tested the endpoint with Postman.
 There is a problem with the login flow.
 登录流程存在问题。
 
-The release includes a build with the security fix.
-这个版本包含一个带有安全修复的构建。
+We shipped a build with the security fix.
+我们发布了一个带有安全修复的构建。
 ```
 
 Remember `work with someone`, `test with a tool`, and `a problem with something`.
@@ -247,7 +255,7 @@ Remember `work with someone`, `test with a tool`, and `a problem with something`
 
 ```text
 Could you review the pull request by Friday?
-你可以在星期五之前评审这个 PR 吗？
+你可以最迟在星期五评审这个 PR 吗？
 
 We need a decision by the end of the meeting.
 我们需要在会议结束前做出决定。
@@ -322,7 +330,126 @@ Please do not merge this change without running the tests.
 
 `Without` is followed by a noun or an `-ing` form: `without approval`, `without testing`, or `without changing the API`.
 
-## 15. High-Frequency Workplace Chunks
+## 15. What Comes After a Preposition
+
+The part after a preposition is its object. It is commonly a noun, object pronoun, or `-ing` form.
+
+| Pattern | Example | Key point |
+|---|---|---|
+| preposition + noun | `before deployment` | The noun may include an article or modifier. |
+| preposition + pronoun | `with them` | Use an object form: `me`, `him`, `us`, or `them`. |
+| preposition + `-ing` form | `without changing the API` | Do not say `without change the API`. |
+
+```text
+Please talk to me before the meeting.
+请在会议前和我谈一下。
+
+We can fix it without changing the API.
+我们可以在不修改 API 的情况下修复它。
+
+Thank you for helping us with the release.
+感谢你帮助我们完成这次发布。
+```
+
+Words such as `before` and `after` can also introduce a full clause. A clause needs a subject and a verb.
+
+```text
+Please run the tests before you merge the change.
+请在合并修改之前运行测试。
+
+We will monitor the service after the release is complete.
+发布完成后，我们会监控服务。
+```
+
+Also distinguish two uses of `to`:
+
+```text
+I sent the report to Sarah.
+我把报告发给了 Sarah。
+
+I need to update the report.
+我需要更新报告。
+```
+
+In the first sentence, `to` is a preposition followed by a recipient. In the second, it is an infinitive marker followed by the base verb `update`.
+
+## 16. Advanced Workplace Prepositions and Prepositional Phrases
+
+After mastering the basic prepositions, learn these common workplace expressions. Continue to learn them as complete chunks rather than as an isolated word list.
+
+### 16.1 within, between, and across
+
+```text
+Please respond within two business days.
+请在两个工作日内回复。
+
+We need a clear boundary between the frontend and the backend.
+我们需要在前端和后端之间建立清晰的边界。
+
+The issue occurs across all environments.
+这个问题出现在所有环境中。
+```
+
+`Within` means inside a maximum limit. `Between` describes a relationship involving two or more clearly identified items. `Across` emphasizes an entire range.
+
+### 16.2 under, against, and via
+
+```text
+The service becomes unstable under heavy load.
+服务在高负载下会变得不稳定。
+
+We validated the response against the API contract.
+我们根据 API 契约核对了响应。
+
+Please send the confirmation via email.
+请通过电子邮件发送确认信息。
+```
+
+`Under heavy load` describes an operating condition. `Validate against` means compare something with a standard. `Via` identifies a channel or route.
+
+### 16.3 due to, according to, and instead of
+
+These are multiword prepositions. Learn each one as a unit.
+
+```text
+The deployment failed due to a timeout.
+部署因为超时而失败。
+
+According to the logs, the token expired at noon.
+根据日志，令牌在中午过期了。
+
+We reused the existing component instead of creating a new one.
+我们复用了现有组件，而没有创建新组件。
+```
+
+`Due to` introduces a cause. `According to` introduces a source or basis. `Instead of` is followed by a noun, pronoun, or `-ing` form.
+
+## 17. Do Not Treat Every Small Word in a Phrasal Verb as a Regular Preposition
+
+Some verbs combine with words such as `in`, `up`, `back`, or `down` to create a new meaning. Translating each word separately is usually unhelpful.
+
+| Phrasal verb | Workplace meaning |
+|---|---|
+| `log in` | enter a system |
+| `follow up` | take further action |
+| `roll back` | return to an earlier version |
+| `scale up` | increase capacity or size |
+| `shut down` | stop a system |
+
+```text
+I will follow up with the security team tomorrow.
+我明天会向安全团队跟进。
+
+We rolled back the release because of the error.
+由于这个错误，我们回滚了版本。
+
+The system scales up automatically under heavy load.
+系统会在高负载下自动扩容。
+```
+
+A regular preposition usually introduces an object, as in `with the team`. A particle in a phrasal verb helps the verb form a new meaning, as in `follow up`. In practice, learn both types as complete chunks.
+
+## 18. High-Frequency Workplace Chunks
 
 | Chunk | Meaning |
 |---|---|
@@ -356,9 +483,9 @@ We agreed on a smaller scope for this release.
 我们就本次发布采用较小范围达成了一致。
 ```
 
-## 16. Five Workplace Situations
+## 19. Five Workplace Situations
 
-### 16.1 Meetings
+### 19.1 Meetings
 
 ```text
 Let us start with the first item on the agenda.
@@ -371,7 +498,7 @@ Can we agree on the next steps before the meeting ends?
 我们能在会议结束前就下一步达成一致吗？
 ```
 
-### 16.2 Daily Stand-ups
+### 19.2 Daily Stand-ups
 
 ```text
 I worked on the login issue for most of yesterday.
@@ -384,7 +511,7 @@ I plan to finish the fix by this afternoon.
 我计划最迟今天下午完成修复。
 ```
 
-### 16.3 Bug Discussions
+### 19.3 Bug Discussions
 
 ```text
 The error occurs in production but not in staging.
@@ -397,7 +524,7 @@ We can reproduce it with an expired token.
 我们可以使用过期令牌复现这个问题。
 ```
 
-### 16.4 Pull Requests and Code Reviews
+### 19.4 Pull Requests and Code Reviews
 
 ```text
 I left two comments on the pull request.
@@ -410,7 +537,7 @@ Could you add a test for this edge case?
 你可以为这个边界情况增加一个测试吗？
 ```
 
-### 16.5 Demos
+### 19.5 Demos
 
 ```text
 I will walk you through the main workflow.
@@ -423,7 +550,7 @@ This feature is designed for support agents.
 这个功能是为支持人员设计的。
 ```
 
-## 17. Easy-to-Confuse Pairs
+## 20. Easy-to-Confuse Pairs
 
 ### for and since
 
@@ -468,7 +595,9 @@ The team is at the office.
 团队在办公室。
 ```
 
-## 18. Common Errors
+These are useful tendencies, not unbreakable formulas. The natural choice can also depend on a fixed chunk, the speaker's focus, and established English usage.
+
+## 21. Common Errors
 
 ```text
 Wrong: We discussed about the issue.
@@ -495,7 +624,7 @@ Wrong: We will finish it until Friday.
 Correct: We will finish it by Friday.
 ```
 
-## 19. Practice
+## 22. Practice
 
 Complete these before opening the answers.
 
@@ -514,6 +643,11 @@ Complete these before opening the answers.
 13. Which means “complete no later than five”: `by five` or `until five`?
 14. Translate: 这个问题在测试期间出现了。
 15. Give a thirty-second stand-up update using at least five different prepositions.
+16. Which is correct: `without change the API` or `without changing the API`?
+17. Complete: Please respond ___ two business days.
+18. Complete: We validated the response ___ the API contract.
+19. Correct: `Please explain the issue to they.`
+20. In `need to test`, is `to` a preposition of direction?
 
 <details>
 <summary>Show the answers</summary>
@@ -533,15 +667,52 @@ Complete these before opening the answers.
 13. `by five`
 14. `The issue appeared during testing.`
 15. Example: `I worked on the login issue for three hours yesterday. I found an error in the token handler. I discussed it with the backend team. I am waiting for approval, and I plan to finish the fix by noon.`
+16. `without changing the API`
+17. `within`
+18. `against`
+19. `Please explain the issue to them.`
+20. No. Here, `to` is an infinitive marker followed by the base verb `test`.
 
 </details>
 
-## 20. A Three-Part Learning Method
+## 23. From Understanding to Speaking
 
 For each preposition, remember three things together:
 
-1. A core relationship: `for` points toward a target.
+1. A core relationship: `for` often connects an action to a recipient, purpose, reason, or duration.
 2. A fixed chunk: `responsible for testing`.
 3. Your own sentence: `I am responsible for testing the login flow.`
 
-Listen to the complete lesson first and then repeat each example. On the second pass, produce the English from the Chinese. On the third pass, replace the task, person, tool, and time with details from your own work.
+Do not study the entire document in one sitting. Divide it into six sessions:
+
+| Session | Material | Output task |
+|---|---|---|
+| 1 | `at / on / in` for time | Say three meeting times. |
+| 2 | `at / on / in` for places, environments, and platforms | Explain where an issue occurs. |
+| 3 | `for / since / by / until` | Report a duration and a deadline. |
+| 4 | `to / from / with / without` | Describe a recipient, source, tool, and constraint. |
+| 5 | fixed chunks, advanced prepositions, and phrasal verbs | Create ten sentences by replacing parts of chunks. |
+| 6 | meetings, stand-ups, bugs, pull requests, and demos | Speak without notes for one minute. |
+
+Use the same cycle in each session:
+
+1. **Understand**: listen and identify the relationship expressed by the sentence.
+2. **Repeat**: shadow the sentence in chunks rather than pausing after every word.
+3. **Recall**: look only at the Chinese and say the English before playing it.
+4. **Replace**: change the task, person, tool, environment, and time.
+5. **Produce**: close the document and speak about your real work for thirty to sixty seconds.
+
+For example, do not only repeat `I am waiting for access to the staging environment.` Create variations:
+
+```text
+I am waiting for access to the production database.
+我正在等待生产数据库的访问权限。
+
+I am waiting for approval from the security team.
+我正在等待安全团队的批准。
+
+I am waiting for feedback on the pull request.
+我正在等待对这个 PR 的反馈。
+```
+
+The next day and one week later, produce the sentences again from the Chinese prompts. Selecting the right chunk in a new situation matters more than reciting a Chinese definition of a preposition.

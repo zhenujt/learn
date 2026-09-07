@@ -37,6 +37,14 @@ with the backend team
 和后端团队一起
 ```
 
+可以把介词学习分成三层：
+
+1. **关系**：时间、位置、方向、对象、原因或方式。
+2. **搭配**：介词经常由前面的词决定，如 `responsible for`、`depend on`。
+3. **场景**：把搭配放进站会、评审、排错和 Demo 中使用。
+
+“核心感觉”只能帮助理解，不能代替搭配。知道 `on` 有“接触点”的感觉，不代表所有含“在”的中文都用 `on`。
+
 ## 2. 先澄清：and 不是介词
 
 `and` 是连词，用来连接两个词、动作或句子；`for`、`of`、`in`、`on` 等才是介词。
@@ -51,9 +59,9 @@ API 很稳定，而且部署已经完成。
 
 看到 `and` 时，先找它左右连接了什么：上面第一句连接两个动作，第二句连接两个完整分句。
 
-## 3. for：朝向一个目标
+## 3. for：对应目标、对象或一段范围
 
-可以先把 `for` 想成“朝向某个目标”。这个目标可能是一段时间、一个人、一个原因或一种用途。
+可以暂时把 `for` 理解为“面向、对应或持续于某个对象”。这个对象可能是一段时间、一个人、一个原因或一种用途。这只是辅助理解；真正说话时，仍要依靠 `wait for`、`use something for` 等完整搭配。
 
 ### 3.1 for + 一段时间：持续多久
 
@@ -231,11 +239,11 @@ I am at the office today.
 We discussed the roadmap at the planning meeting.
 我们在规划会议上讨论了路线图。
 
-The request failed at the validation step.
-请求在验证步骤失败了。
+The request failed during validation.
+请求在验证期间失败了。
 ```
 
-对比：`at the meeting` 强调参加会议这个活动；`in the meeting room` 强调人在会议室内部。
+对比：`at the meeting` 强调参加会议这个活动；`in the meeting room` 强调人在会议室内部。`at the office` 强调人位于办公地点；`in the office` 更突出人在办公室内部，但日常表达中两者经常都可以表示“人在办公室”。
 
 ## 9. to 与 from：方向和来源
 
@@ -269,8 +277,8 @@ We tested the endpoint with Postman.
 There is a problem with the login flow.
 登录流程存在问题。
 
-The release includes a build with the security fix.
-这个版本包含一个带有安全修复的构建。
+We shipped a build with the security fix.
+我们发布了一个带有安全修复的构建。
 ```
 
 记住三个高频块：`work with someone`、`test with a tool`、`a problem with something`。
@@ -281,7 +289,7 @@ The release includes a build with the security fix.
 
 ```text
 Could you review the pull request by Friday?
-你可以在星期五之前评审这个 PR 吗？
+你可以最迟在星期五评审这个 PR 吗？
 
 We need a decision by the end of the meeting.
 我们需要在会议结束前做出决定。
@@ -356,7 +364,126 @@ Please do not merge this change without running the tests.
 
 `without` 后接名词或动词的 `-ing` 形式：`without approval`、`without testing`、`without changing the API`。
 
-## 15. 软件职场高频固定搭配
+## 15. 介词后面接什么
+
+介词后面的部分叫介词的宾语。最常见的是名词、代词或动词的 `-ing` 形式。
+
+| 结构 | 例子 | 注意 |
+|---|---|---|
+| 介词 + 名词 | `before deployment` | 名词可以带冠词或修饰语 |
+| 介词 + 代词 | `with them` | 用宾格：`me`、`him`、`us`、`them` |
+| 介词 + 动词 `-ing` | `without changing the API` | 不能说 `without change the API` |
+
+```text
+Please talk to me before the meeting.
+请在会议前和我谈一下。
+
+We can fix it without changing the API.
+我们可以在不修改 API 的情况下修复它。
+
+Thank you for helping us with the release.
+感谢你帮助我们完成这次发布。
+```
+
+`before`、`after` 等词也可以连接完整句子。后面是句子时，要有主语和谓语：
+
+```text
+Please run the tests before you merge the change.
+请在合并修改之前运行测试。
+
+We will monitor the service after the release is complete.
+发布完成后，我们会监控服务。
+```
+
+还要区分两种 `to`：
+
+```text
+I sent the report to Sarah.
+我把报告发给了 Sarah。
+
+I need to update the report.
+我需要更新报告。
+```
+
+第一句的 `to` 是介词，后接接收者；第二句的 `to` 是不定式标记，后接动词原形 `update`。
+
+## 16. 软件职场中的进阶高频介词与介词短语
+
+掌握前面的基础介词后，再学习下面这些工作中常见的表达。不要急着背单词表，仍然按完整词块记忆。
+
+### 16.1 within、between 与 across
+
+```text
+Please respond within two business days.
+请在两个工作日内回复。
+
+We need a clear boundary between the frontend and the backend.
+我们需要在前端和后端之间建立清晰的边界。
+
+The issue occurs across all environments.
+这个问题出现在所有环境中。
+```
+
+`within` 强调不超过某个范围；`between` 指两个或多个明确对象之间的关系；`across` 强调整个范围都受到影响。
+
+### 16.2 under、against 与 via
+
+```text
+The service becomes unstable under heavy load.
+服务在高负载下会变得不稳定。
+
+We validated the response against the API contract.
+我们根据 API 契约核对了响应。
+
+Please send the confirmation via email.
+请通过电子邮件发送确认信息。
+```
+
+`under heavy load` 描述运行条件；`validate against` 表示拿一个标准进行核对；`via` 表示经过某种渠道。
+
+### 16.3 due to、according to 与 instead of
+
+这些是由多个词组成的介词短语，学习时要把它们看成一个整体。
+
+```text
+The deployment failed due to a timeout.
+部署因为超时而失败。
+
+According to the logs, the token expired at noon.
+根据日志，令牌在中午过期了。
+
+We reused the existing component instead of creating a new one.
+我们复用了现有组件，而没有创建新组件。
+```
+
+`due to` 后接原因；`according to` 后接信息来源或依据；`instead of` 后接名词、代词或 `-ing` 形式。
+
+## 17. 不要把短语动词中的小词都当成普通介词
+
+有些动词和 `in`、`up`、`back`、`down` 等小词结合后，会形成一个整体含义。此时逐字翻译通常没有帮助。
+
+| 短语动词 | 工作中的意思 |
+|---|---|
+| `log in` | 登录 |
+| `follow up` | 跟进 |
+| `roll back` | 回滚 |
+| `scale up` | 扩容、扩大规模 |
+| `shut down` | 关闭 |
+
+```text
+I will follow up with the security team tomorrow.
+我明天会向安全团队跟进。
+
+We rolled back the release because of the error.
+由于这个错误，我们回滚了版本。
+
+The system scales up automatically under heavy load.
+系统会在高负载下自动扩容。
+```
+
+判断方法：普通介词通常引出后面的对象，如 `with the team`；短语动词中的小词与前面的动词共同构成新含义，如 `follow up`。实际学习时，两类都应当整块记忆。
+
+## 18. 软件职场高频固定搭配
 
 介词经常由前面的动词、形容词或名词决定。把整块记住，比临时翻译更可靠。
 
@@ -392,9 +519,9 @@ We agreed on a smaller scope for this release.
 我们就本次发布采用较小范围达成了一致。
 ```
 
-## 16. 五个真实工作场景
+## 19. 五个真实工作场景
 
-### 16.1 会议
+### 19.1 会议
 
 ```text
 Let us start with the first item on the agenda.
@@ -407,7 +534,7 @@ Can we agree on the next steps before the meeting ends?
 我们能在会议结束前就下一步达成一致吗？
 ```
 
-### 16.2 每日站会
+### 19.2 每日站会
 
 ```text
 I worked on the login issue for most of yesterday.
@@ -420,7 +547,7 @@ I plan to finish the fix by this afternoon.
 我计划最迟今天下午完成修复。
 ```
 
-### 16.3 Bug 讨论
+### 19.3 Bug 讨论
 
 ```text
 The error occurs in production but not in staging.
@@ -433,7 +560,7 @@ We can reproduce it with an expired token.
 我们可以使用过期令牌复现这个问题。
 ```
 
-### 16.4 PR 与代码评审
+### 19.4 PR 与代码评审
 
 ```text
 I left two comments on the pull request.
@@ -446,7 +573,7 @@ Could you add a test for this edge case?
 你可以为这个边界情况增加一个测试吗？
 ```
 
-### 16.5 Demo
+### 19.5 Demo
 
 ```text
 I will walk you through the main workflow.
@@ -459,7 +586,7 @@ This feature is designed for support agents.
 这个功能是为支持人员设计的。
 ```
 
-## 17. 容易混淆的对比
+## 20. 容易混淆的对比
 
 ### for 与 since
 
@@ -508,7 +635,9 @@ The team is at the office.
 团队在办公室。
 ```
 
-## 18. 常见错误
+这里表达的是常见倾向，不是不可改变的公式。具体介词还会受到固定搭配、说话重点和英语习惯影响。
+
+## 21. 常见错误
 
 ```text
 错误：We discussed about the issue.
@@ -537,7 +666,7 @@ The team is at the office.
 正确：We will finish it by Friday.
 ```
 
-## 19. 练习
+## 22. 练习
 
 先不要查看答案。
 
@@ -556,6 +685,11 @@ The team is at the office.
 13. 选择：`by five` 和 `until five` 哪一个表示“不晚于五点完成”？
 14. 翻译：这个问题在测试期间出现了。
 15. 场景输出：使用至少五个不同介词做一次三十秒站会汇报。
+16. 选择：`without change the API` 和 `without changing the API` 哪一个正确？
+17. 填空：Please respond ___ two business days.
+18. 填空：We validated the response ___ the API contract.
+19. 改错：`Please explain the issue to they.`
+20. 判断：在 `need to test` 中，`to` 是不是表示方向的介词？
 
 <details>
 <summary>展开参考答案</summary>
@@ -575,15 +709,52 @@ The team is at the office.
 13. `by five`
 14. `The issue appeared during testing.`
 15. 参考：`I worked on the login issue for three hours yesterday. I found an error in the token handler. I discussed it with the backend team. I am waiting for approval, and I plan to finish the fix by noon.`
+16. `without changing the API`
+17. `within`
+18. `against`
+19. `Please explain the issue to them.`
+20. 不是。这里的 `to` 是不定式标记，后接动词原形 `test`。
 
 </details>
 
-## 20. 学习方法：一个介词记三样
+## 23. 学习方法：从理解到真正会说
 
 每次不要背一个孤立介词，而是一起记住：
 
-1. 一个核心关系：`for` 指向目标。
+1. 一个核心关系：`for` 常把动作和对象、用途、原因或时间段联系起来。
 2. 一个固定搭配：`responsible for testing`。
 3. 一个自己的句子：`I am responsible for testing the login flow.`。
 
-先听完整课程，再逐句跟读。第二遍只看中文说英文，第三遍把句子中的任务、人员、工具和时间替换成你真实工作中的内容。
+不要一次学完全文。建议分成六次：
+
+| 次数 | 学习内容 | 输出任务 |
+|---|---|---|
+| 1 | `at / on / in` 的时间用法 | 说出三个会议时间 |
+| 2 | `at / on / in` 的地点、环境和平台用法 | 描述问题出现在哪里 |
+| 3 | `for / since / by / until` | 汇报持续时间和截止时间 |
+| 4 | `to / from / with / without` | 描述接收者、来源、工具和限制 |
+| 5 | 固定搭配、进阶介词和短语动词 | 替换词块造十个工作句子 |
+| 6 | 会议、站会、Bug、PR 和 Demo | 完成一分钟脱稿表达 |
+
+每次练习采用同一个循环：
+
+1. **听懂**：听英文，确认句子表达的关系。
+2. **跟读**：按词块跟读，不要逐词停顿。
+3. **回忆**：只看中文，在播放前先自己说英文。
+4. **替换**：替换任务、人员、工具、环境和时间。
+5. **输出**：关掉文档，用真实工作内容说三十秒到一分钟。
+
+例如，不要只重复 `I am waiting for access to the staging environment.`，还要主动替换：
+
+```text
+I am waiting for access to the production database.
+我正在等待生产数据库的访问权限。
+
+I am waiting for approval from the security team.
+我正在等待安全团队的批准。
+
+I am waiting for feedback on the pull request.
+我正在等待对这个 PR 的反馈。
+```
+
+第二天和一周后，再只看中文重新说一次。能够在新场景中选对词块，比能够背出介词的中文意思更重要。

@@ -487,14 +487,14 @@
       }
     },
     {
-      "chinese": "请求在验证步骤失败了。",
-      "english": "The request failed at the validation step.",
-      "chineseAudio": "audio/documents/segments/4a9aae4791f586cb65154e283b53127394f75d6cb4230cda05ed8d9563d5a491.mp3",
+      "chinese": "请求在验证期间失败了。",
+      "english": "The request failed during validation.",
+      "chineseAudio": "audio/documents/segments/3c3432f8babf4cbc361d5306a4cf1fd8fb194b47efd055cac6623e4f2cabff7f.mp3",
       "englishAudio": {
-        "michelle-us": "audio/documents/segments/c11cfda477d39ba085fa4a47ca43d7a5df48200f201b370e11f65eb1fbdeaaca.mp3",
-        "jenny-us": "audio/documents/segments/e27cfa51814b0e0200cf4242615b37fb8bde1c7888fd00f27810607300811647.mp3",
-        "ava-us": "audio/documents/segments/5baa07518e3e3e23fecf5609b915e65be1e91c94cbc1792255326026a2d7dc8e.mp3",
-        "sonia-uk": "audio/documents/segments/676e3792102882b5e34df462e3a85e368104675fee788bdbcacb6bfe82fd6abb.mp3"
+        "michelle-us": "audio/documents/segments/85971cdb5c639136d7e72bd42753c536b2c030a34d711b560f51d97a9ddee499.mp3",
+        "jenny-us": "audio/documents/segments/3a511a2341b90a2284eb35d3fc00332fbd98e25551cf1fd936b12222e68e4871.mp3",
+        "ava-us": "audio/documents/segments/3f3879fb65504b095705af3ac528b6ef380cec4f62bacfd3af85ece82a91425b.mp3",
+        "sonia-uk": "audio/documents/segments/d8f3ebdca39d8235d067dd40d3af171a7056994c29b6d987e35919e5017c648a.mp3"
       }
     },
     {
@@ -575,20 +575,20 @@
       }
     },
     {
-      "chinese": "这个版本包含一个带有安全修复的构建。",
-      "english": "The release includes a build with the security fix.",
-      "chineseAudio": "audio/documents/segments/06290718dce3f496c861fcd9916e3015de077199d24176df7315be858ccda000.mp3",
+      "chinese": "我们发布了一个带有安全修复的构建。",
+      "english": "We shipped a build with the security fix.",
+      "chineseAudio": "audio/documents/segments/902ddcb1220a17a59f1353936bdc1550d3327cfad1ab422014c64c056502e9d4.mp3",
       "englishAudio": {
-        "michelle-us": "audio/documents/segments/79c9641f96bab417b910f30225a2363287590c4d0279d115f67eeef144991e8f.mp3",
-        "jenny-us": "audio/documents/segments/155837bd2182ff2d2af453aa14005e1fbe705bf090b3d9b275de3d15ab38d266.mp3",
-        "ava-us": "audio/documents/segments/f87c7d7f7d024d66e2970ff6a5b7da84c721ff4519af5a32e741c8762239860a.mp3",
-        "sonia-uk": "audio/documents/segments/32ce855af61886c9b2d118d1d7e8fecaba89d1667c83955628fe767464a704a0.mp3"
+        "michelle-us": "audio/documents/segments/f485a1a1efaf9f515a27a2d5ac9cfa859878ebccd44c65f728dda9b217b00f8a.mp3",
+        "jenny-us": "audio/documents/segments/b89fc613e501fea409d03ad518f69c8b54d052c00987c114cbd21b68c9ace81c.mp3",
+        "ava-us": "audio/documents/segments/b17ca731e3876af0818edb385139e24c1c633d1aa254055c51bc6a06305a2727.mp3",
+        "sonia-uk": "audio/documents/segments/6339fb50837b3078ff6dee593a923e41ce2ccf90abc4e9e66773c3f41c42c576.mp3"
       }
     },
     {
-      "chinese": "你可以在星期五之前评审这个 PR 吗？",
+      "chinese": "你可以最迟在星期五评审这个 PR 吗？",
       "english": "Could you review the pull request by Friday?",
-      "chineseAudio": "audio/documents/segments/3c14e4d8824b6b65c788d8d49477e5f9147d79b40003b2e4cbd81d652fb5afc1.mp3",
+      "chineseAudio": "audio/documents/segments/2c1a731660571a7f3caf11096caf022ea3ad2e75b923715a02213ac82d26bd49.mp3",
       "englishAudio": {
         "michelle-us": "audio/documents/segments/bb19bf9955eec373b24fcd802b523c88f736d9c31b9de97574fca88b3471f379.mp3",
         "jenny-us": "audio/documents/segments/c0bae4d89d82ab8853c9b315c67752895add8e92ed22d69d15bd4869df63cfdf.mp3",
@@ -748,6 +748,204 @@
         "jenny-us": "audio/documents/segments/96e56411b46f00d6828877b37b61b8d73ecd8292b77bb4bc7f11059a7224050a.mp3",
         "ava-us": "audio/documents/segments/160dcb4925fa9c9d249c2127e8729caa5c21fd14fac88d8f10c373601110bce7.mp3",
         "sonia-uk": "audio/documents/segments/020522b6edea726255679de9c8a6f8c24a2e648200350941d0fd92dccbc2965d.mp3"
+      }
+    },
+    {
+      "chinese": "请在会议前和我谈一下。",
+      "english": "Please talk to me before the meeting.",
+      "chineseAudio": "audio/documents/segments/4c550007cd29bba903a57d37685aea75066e7edf3ed6133a977bd2773f5f9915.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/43df2def4e749a424f32a9cfc3ac5a5890d6c633a55cb7da032b1ca1f6ce183d.mp3",
+        "jenny-us": "audio/documents/segments/1b96ccde17eddae7cd67b460bd62b10ecaacc23a4cf681644c320d83edcb09e7.mp3",
+        "ava-us": "audio/documents/segments/2f4ed10d10a9054665898e1fee26437fc3f5aebe23ba01ac520750a2c9d0030b.mp3",
+        "sonia-uk": "audio/documents/segments/05ed0f40daa5c819211153fc68004d51e38b1cc6f2e9f24eaf52e6da5737914b.mp3"
+      }
+    },
+    {
+      "chinese": "我们可以在不修改 API 的情况下修复它。",
+      "english": "We can fix it without changing the API.",
+      "chineseAudio": "audio/documents/segments/faad79a3c62cabff648d16c755d34aa1208c4ec32c3c3b171ff83416b99a680e.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/b16a82c0c582d997873f08a1a8242da469b34a25dc1d50875111b8550cfacafa.mp3",
+        "jenny-us": "audio/documents/segments/f5ddcc6662da0ef94ca4d0fcace122534bddfda7dcf9f2536684df29263cfa29.mp3",
+        "ava-us": "audio/documents/segments/ddaa2cd9309dd53e6662f9dc4bd3bb842bfc18cc54f35147b87e805e12ce574c.mp3",
+        "sonia-uk": "audio/documents/segments/0517c58603e799955f5404ada32dca6b9eb65dc51e3d2d70b07c0bc9c86eee7c.mp3"
+      }
+    },
+    {
+      "chinese": "感谢你帮助我们完成这次发布。",
+      "english": "Thank you for helping us with the release.",
+      "chineseAudio": "audio/documents/segments/66ce845163f88034774779f27fe09455407513ee3e76461aa53983b085bafad1.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/fef363a977874e70e696ccd24b8ea7b21626e5701d62b9a52c4007eb0b619579.mp3",
+        "jenny-us": "audio/documents/segments/234added943b5b537b71df7efc75c162ef8641251585c6ef0ff8c5c6642e8db8.mp3",
+        "ava-us": "audio/documents/segments/2aec9e475f01cd57cb69e0f037a01f08502806ae7eca9905931c989dea85037c.mp3",
+        "sonia-uk": "audio/documents/segments/c3997a27f874346f8db7296ed72d901d193ec182725cd1063105fa5a59c817c9.mp3"
+      }
+    },
+    {
+      "chinese": "请在合并修改之前运行测试。",
+      "english": "Please run the tests before you merge the change.",
+      "chineseAudio": "audio/documents/segments/d064c1ce2369b46424858bcbc43739c0f3ae2a4ac47ac7e634730a3331cce977.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/dac51669cea29d018821656d81d9411832e17d5b31d0cc6aef33b074be365585.mp3",
+        "jenny-us": "audio/documents/segments/ff339af9d59882167f2f5c50e1e0bf95467ff64dd4ada4caa54ec11e5cb625fe.mp3",
+        "ava-us": "audio/documents/segments/4c441e9dd6cd0dc81232c558a70aad39265a930505e144077502469ef32e74ad.mp3",
+        "sonia-uk": "audio/documents/segments/87e13d32f0410a383adaff6e2e58e25df3dfbc3163984505524bfe1512161f38.mp3"
+      }
+    },
+    {
+      "chinese": "发布完成后，我们会监控服务。",
+      "english": "We will monitor the service after the release is complete.",
+      "chineseAudio": "audio/documents/segments/077f1e80fe2b891661dccf617117f597c7660f417d310276fd9bf36f2a8d4aad.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/f2e8fde5ca56b3e8505ecccd1c40ed69fa32d5e32244e13a2fc13c74737334c7.mp3",
+        "jenny-us": "audio/documents/segments/abf48c60c8344bcf317fe1e2938c78333a2fab4be6b9f0d360f8f1a8c4652ee5.mp3",
+        "ava-us": "audio/documents/segments/f279c69eeacb0548d80d0d6ded76481f2cff1e1123fbe9339e0d694b823ab3e5.mp3",
+        "sonia-uk": "audio/documents/segments/6b5ef60072f0a8eaeae1ff9fbce360ad0491c164c3c99d26945c38066f7c8e86.mp3"
+      }
+    },
+    {
+      "chinese": "我需要更新报告。",
+      "english": "I need to update the report.",
+      "chineseAudio": "audio/documents/segments/b5892d7e635b3b8838621da2e130126392f9af54e1d5e11512f6352bed2174a0.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/1177f64ad06b32c6da9eaa78b20e57b917d9d0d572742a49761f84676599f931.mp3",
+        "jenny-us": "audio/documents/segments/d206d7eb39745424324a61ac50c94087ec4570d0b9a48cbcbf4001b22ef93461.mp3",
+        "ava-us": "audio/documents/segments/4422317307acd65080ec5de2bd1cb46dc3c165d5697d97a56ff16702e785c236.mp3",
+        "sonia-uk": "audio/documents/segments/c9159cf85f0a624ddd0281a9409d19d879d32d0c5dc38f2e1d5bd54012e56829.mp3"
+      }
+    },
+    {
+      "chinese": "请在两个工作日内回复。",
+      "english": "Please respond within two business days.",
+      "chineseAudio": "audio/documents/segments/4ebe601aa675641e2c24297aeae23f38fb8b34b3347b7431a7728e2f125f79cd.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/e5ce9efa72ea4fc32049e86cb12f87a12457b6edbc4d15900dd064335cd395ef.mp3",
+        "jenny-us": "audio/documents/segments/59840ee0f8c7991db3996666841e1c970c6f6d19f66aea2e111f5e31f2bd6d31.mp3",
+        "ava-us": "audio/documents/segments/318179a6e9ce4ad4e3b67ddeddf63746255a103b3f91dd45b4a0e97930a283f1.mp3",
+        "sonia-uk": "audio/documents/segments/2f32da4d284791a7002c0c1e69eaebe285e89f1264ba6ce7a7410e2157fb73b2.mp3"
+      }
+    },
+    {
+      "chinese": "我们需要在前端和后端之间建立清晰的边界。",
+      "english": "We need a clear boundary between the frontend and the backend.",
+      "chineseAudio": "audio/documents/segments/474beb9a27d31d361a10d8c73ff981db6da3671805a8be63565d05a2ba32efcd.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/9bf43f00cac8625edcc5dee370f6dab26350a257334212dc27d24e8e065d9184.mp3",
+        "jenny-us": "audio/documents/segments/842c818b6f4a2a1bff32c141e1cca5591ca24d9b03be7aa60092e79588a9c5e7.mp3",
+        "ava-us": "audio/documents/segments/1b53b0bdeae77e30e0c25e7650ddaf83a3cce94ddddcc29506177ff5d2d599aa.mp3",
+        "sonia-uk": "audio/documents/segments/c3c655e5e7b792f8bc6c497ed463d31e5feac69830318151d7f9f3ace9219cec.mp3"
+      }
+    },
+    {
+      "chinese": "这个问题出现在所有环境中。",
+      "english": "The issue occurs across all environments.",
+      "chineseAudio": "audio/documents/segments/118d30ccad69bfb62db18a519d391fa1615a8596b00a01c18fba28eaf5fcb726.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/a39fb2ca2df5472e3b7a7cc1d81885715d8d80b66c2d2c287fd4bdfec8f35f89.mp3",
+        "jenny-us": "audio/documents/segments/48cc13ca3c7ed4683a26930b87afa95977741d01245acb4954e17bddffc92e9c.mp3",
+        "ava-us": "audio/documents/segments/bfd2eafbce336495f628491623875c3781042ff13fbcc9c8314de857e5f0e8dc.mp3",
+        "sonia-uk": "audio/documents/segments/61cc1bfedf717a676ef1f8feea6f04c7ead5f73ef8e76d47d48570f51bf98201.mp3"
+      }
+    },
+    {
+      "chinese": "服务在高负载下会变得不稳定。",
+      "english": "The service becomes unstable under heavy load.",
+      "chineseAudio": "audio/documents/segments/3ba249232084213ec785ff8c4495067758a6116f4df8b5a2349a1c566662d5c2.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/a1c2708a7cd1460181b1465d0696172ea5357c7aab32f195180650f1fadb5a15.mp3",
+        "jenny-us": "audio/documents/segments/611c7d71b9d55a198a804995770b82a7018853c9a5812486cd7dda43685f1137.mp3",
+        "ava-us": "audio/documents/segments/f6a52fae6b05c09dfa237d6fdb359949b85fc2acbe38b7698c8bc3fae5d01160.mp3",
+        "sonia-uk": "audio/documents/segments/a84908a96611c4b6d4429f89a24d360c2d0cb823a30161a5679b0de7d36b2da2.mp3"
+      }
+    },
+    {
+      "chinese": "我们根据 API 契约核对了响应。",
+      "english": "We validated the response against the API contract.",
+      "chineseAudio": "audio/documents/segments/5879d2db59cf1f23ca22910c3a442ef264c0208b913b8840c34138bd69e8429c.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/1e8a9f7d4297776fa5c481a60e9ddef42c3ea5fb4d83f281fcbd5afb0f6e9329.mp3",
+        "jenny-us": "audio/documents/segments/4109b042d92cc465b021bc7fa7f95ebff0f244abef8c3ab23679d035f320b20c.mp3",
+        "ava-us": "audio/documents/segments/7a1eced320021ddeadcb18a5228fa46404a283871e938b7e25b494c9864f3b07.mp3",
+        "sonia-uk": "audio/documents/segments/3989b56daf22c19340641bbb4075c6be25459321728c8606a179e42b0f84ae54.mp3"
+      }
+    },
+    {
+      "chinese": "请通过电子邮件发送确认信息。",
+      "english": "Please send the confirmation via email.",
+      "chineseAudio": "audio/documents/segments/f06ce9a3c146dcab6a4886d62545fea2ec566615286f28d56a208bfff4d33a4a.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/903a68491bc62e6fc32a4aeda35e4c77d6f43b44d82e8e77939eeba55f3e8ffa.mp3",
+        "jenny-us": "audio/documents/segments/81f5c77c4b97d6240b60750c793f781361098032135a8359e430b584e4c5a3e2.mp3",
+        "ava-us": "audio/documents/segments/624b2a27fa2ba480176699fe698a5da922c879735e73cbec4b3aa6de55af6a07.mp3",
+        "sonia-uk": "audio/documents/segments/2edcfe6461d4049959e69eba45b0a23bef06becc05c118b6b76766b7f13a5408.mp3"
+      }
+    },
+    {
+      "chinese": "部署因为超时而失败。",
+      "english": "The deployment failed due to a timeout.",
+      "chineseAudio": "audio/documents/segments/056b0c9b4a38bd45a6c0828b4102f23e5246c275529c3b1fa34f602ce4abb7ff.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/359b575d96c564c5a8ea77359b07d612d415701ec9dc058068f4ff037537a578.mp3",
+        "jenny-us": "audio/documents/segments/accfadc5eceb965ff3caeffb6dc408479acffe228a8d2bf056842a665e520120.mp3",
+        "ava-us": "audio/documents/segments/2d95ea274f7788e48a78bc9288e6db1b91d438a2e9a0c00d5dfa6197112c26ac.mp3",
+        "sonia-uk": "audio/documents/segments/572e8a2429e0c06a0b9f741281b7e31ea76abeb33bd2624b291e6ce34ae49416.mp3"
+      }
+    },
+    {
+      "chinese": "根据日志，令牌在中午过期了。",
+      "english": "According to the logs, the token expired at noon.",
+      "chineseAudio": "audio/documents/segments/e1cff593100d10faf0c9d8130c6e677fe9fe899fb7b2a8417c3491f439d961fb.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/9564e4c682cad4727e01c6afd963ce5443501b5991a53acd77abbb6389ed88af.mp3",
+        "jenny-us": "audio/documents/segments/d0294ab13817fdf669dd140d6d6c346a0cbde1514ccaa07e9419cc34cebee6f2.mp3",
+        "ava-us": "audio/documents/segments/6c30f46abddb5808491028a7a6b235641e99a6d7d82e6a10e914a5529f46405c.mp3",
+        "sonia-uk": "audio/documents/segments/7b3760fc516270fe9b38ed95598b53444a94447da32d56669e10d0d8bb86d37c.mp3"
+      }
+    },
+    {
+      "chinese": "我们复用了现有组件，而没有创建新组件。",
+      "english": "We reused the existing component instead of creating a new one.",
+      "chineseAudio": "audio/documents/segments/5ba7722ff6fb8a03807c70036e9ab93c535c6d186b5fdb2cd0cdaf9f5e5f884e.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/b57260f9b267b6940a3638e54020c27fe64047cd0b1970e42d60a10ece5e9ee7.mp3",
+        "jenny-us": "audio/documents/segments/b03d79148c3cc6cc5aa73ac88405693eab8e1ab34406ddf83697cccd0fefefa3.mp3",
+        "ava-us": "audio/documents/segments/d2ae18c2e5c10425f0efec2c33e2794efd7bbc4d06c99f03000233e9445fa4ed.mp3",
+        "sonia-uk": "audio/documents/segments/bfdab11392cd3f2ad2861adbe046068313ce2d63288be009e85ee0a4ef4fa2c9.mp3"
+      }
+    },
+    {
+      "chinese": "我明天会向安全团队跟进。",
+      "english": "I will follow up with the security team tomorrow.",
+      "chineseAudio": "audio/documents/segments/072cd6e2c3b04c247e9874a618b2b495dda2a0b5c83db29954b34673c54bc259.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/7923dc70cca80970a7846a6be5246ade01eb8b65f04c60c9a1ca57d85a63461b.mp3",
+        "jenny-us": "audio/documents/segments/fe402e8eb2db1edf40b9d59fa04a7d39efb7c4990175cdd53fb921460b968a2a.mp3",
+        "ava-us": "audio/documents/segments/ea349b5c52d2d0d3d5317b0b4098fdc8e81ed2e1e9236b29d773aaad3ee0e0ab.mp3",
+        "sonia-uk": "audio/documents/segments/43e39a96442504b485a7d85ac081de634744ea2d9ddbc5c9f3eb7c2cca67b35e.mp3"
+      }
+    },
+    {
+      "chinese": "由于这个错误，我们回滚了版本。",
+      "english": "We rolled back the release because of the error.",
+      "chineseAudio": "audio/documents/segments/55f60016846bcf92c792028dcab4711030e13283ea40790b8ee260631af4cc25.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/f4188fcb85d4ead614a4c199ff6d4257be5c856195200b12fa1d55720dadd447.mp3",
+        "jenny-us": "audio/documents/segments/7bdb539e3e97195a48428f0f00f7bdb5720fa8e8a43e5d80e84712f230f13232.mp3",
+        "ava-us": "audio/documents/segments/4af83fad82ce94ba27d5a8b6379da0cd8dcdf5fd9ce732dbf091fc8e66aeef7f.mp3",
+        "sonia-uk": "audio/documents/segments/cffb5ac4695f670f0af818730a5820755dcadf49afd91e12e44fa1789d3b2505.mp3"
+      }
+    },
+    {
+      "chinese": "系统会在高负载下自动扩容。",
+      "english": "The system scales up automatically under heavy load.",
+      "chineseAudio": "audio/documents/segments/ea4477d6c1c739ce14ead22ffe75c04ed7e4bbab275769dafb40764f27c99b34.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/8b318c67719896809629d28f81933f53da6cc3657a06478d1e2254568a63abd0.mp3",
+        "jenny-us": "audio/documents/segments/9cb49e13173f37565b93a82d590e9044127cbae6764857b443a06c8e306a9dff.mp3",
+        "ava-us": "audio/documents/segments/c25e1be2cc2b331187114b027f148c1bf1b555e00f6c28bb740e2ea7a6425245.mp3",
+        "sonia-uk": "audio/documents/segments/10bb69c12bbf206d7e479512f816583ddf4ed8b0f33d0935acd8ca75cbcdb6ba.mp3"
       }
     },
     {
@@ -1056,6 +1254,39 @@
         "jenny-us": "audio/documents/segments/2e13f586189f59b32fd8b2f78649ceae6fb79229c97e1a7740828d26b598487a.mp3",
         "ava-us": "audio/documents/segments/46a694927e159b8ec1821d0d851f1894a570f6e5982d7622d3c3b018fab0e54a.mp3",
         "sonia-uk": "audio/documents/segments/ad5b48069aabf6ec2014ddd528dab8c861c6f8fc05342230bf6853b9342c38d1.mp3"
+      }
+    },
+    {
+      "chinese": "我正在等待生产数据库的访问权限。",
+      "english": "I am waiting for access to the production database.",
+      "chineseAudio": "audio/documents/segments/c90e8fcf0444b59e47dfb235b631d1454d1351ce5146c6a6ec1bc06d3f3930cc.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/d00847eaf9359eed8e382f7704ee7c4a523b373de70856b44e67b0200ccbba08.mp3",
+        "jenny-us": "audio/documents/segments/77e4b4b75de153666179b313d94e97de09b233e963b89f227c58201dcbcce296.mp3",
+        "ava-us": "audio/documents/segments/1200c153cb08da16ef6e3b05fd1c8ceef53c50880c7bee9a0de27cfc3baeeaaa.mp3",
+        "sonia-uk": "audio/documents/segments/12e2545d97967d4e0b3ac9e460e7d71d21f60270b578bdc4d6bfabc70a10e03f.mp3"
+      }
+    },
+    {
+      "chinese": "我正在等待安全团队的批准。",
+      "english": "I am waiting for approval from the security team.",
+      "chineseAudio": "audio/documents/segments/5400307ee1f3644d15d9d9dfa32de4b5d42656b0d5ad60865db8049ab969e33d.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/bce7c243d1cc5f7df3cbe57bac36e14344412910f57aac23c883404cf1ca8398.mp3",
+        "jenny-us": "audio/documents/segments/bf1947533d2e727332a59a292957f9d330087a3f0b90fae5760552caaa6663e4.mp3",
+        "ava-us": "audio/documents/segments/185e90b4d2def25e0587c380c6bff5055130a3921ab7a5226c90010adbb48e16.mp3",
+        "sonia-uk": "audio/documents/segments/96b1814ad663125ba59c45da82a8b6ebad4c052d935047ecc0e20c0a15afe3e5.mp3"
+      }
+    },
+    {
+      "chinese": "我正在等待对这个 PR 的反馈。",
+      "english": "I am waiting for feedback on the pull request.",
+      "chineseAudio": "audio/documents/segments/f8ae51df140a38ab47054149e0e725e42db5e04228c44b92353a20dc10faffb6.mp3",
+      "englishAudio": {
+        "michelle-us": "audio/documents/segments/9f489e92665dc31419632134823f5babfe5d7ddbf2cbad1fb86b9a608d0330c4.mp3",
+        "jenny-us": "audio/documents/segments/6fa854b8cc0cf649d41b97284821ddf415d99e7cc97d05ab6a9d7856e5633384.mp3",
+        "ava-us": "audio/documents/segments/4ca0ee9b673e1009f5bce70a01e977ed38ec0c7092203177257720e06623ca63.mp3",
+        "sonia-uk": "audio/documents/segments/3dc093876869cbc112728aa37751844afddd4dec30edfdbe3c638bac54888008.mp3"
       }
     }
   ]
