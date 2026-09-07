@@ -587,14 +587,16 @@ button {
   letter-spacing: 0;
 }
 .word-dialog form,
-.word-dialog label {
+.word-dialog label,
+.word-rich-field {
   display: grid;
   gap: 8px;
 }
 .word-dialog form {
   gap: 18px;
 }
-.word-dialog label {
+.word-dialog label,
+.word-rich-field {
   color: var(--muted);
   font-size: 12px;
   font-weight: 700;

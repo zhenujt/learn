@@ -399,8 +399,14 @@ export function WordsPage() {
                 <label><span className="word-field-heading">读音 / IPA <small>可选</small></span><input value={draft.pronunciation} onChange={(event) => setDraft({ ...draft, pronunciation: event.target.value })} placeholder="/ˈθʌrə/" /></label>
                 <label><span className="word-field-heading">发音提示 <small>可选</small></span><input value={draft.pronunciationNote} onChange={(event) => setDraft({ ...draft, pronunciationNote: event.target.value })} placeholder="例如：THUR-oh，注意 th" /></label>
               </div>
-              <label><span className="word-field-heading">意思 <small>可选</small></span><BasicRichTextEditor value={draft.meaning} onChange={(meaning) => setDraft((current) => ({ ...current, meaning }))} ariaLabel="意思" placeholder="输入中文或英文释义" /></label>
-              <label><span className="word-field-heading">例句 <small>可选</small></span><BasicRichTextEditor value={draft.example} onChange={(example) => setDraft((current) => ({ ...current, example }))} ariaLabel="例句" placeholder="We need a thorough review before the demo." /></label>
+              <div className="word-rich-field" role="group" aria-labelledby="word-meaning-label">
+                <span className="word-field-heading" id="word-meaning-label">意思 <small>可选</small></span>
+                <BasicRichTextEditor value={draft.meaning} onChange={(meaning) => setDraft((current) => ({ ...current, meaning }))} ariaLabel="意思" placeholder="输入中文或英文释义" />
+              </div>
+              <div className="word-rich-field" role="group" aria-labelledby="word-example-label">
+                <span className="word-field-heading" id="word-example-label">例句 <small>可选</small></span>
+                <BasicRichTextEditor value={draft.example} onChange={(example) => setDraft((current) => ({ ...current, example }))} ariaLabel="例句" placeholder="We need a thorough review before the demo." />
+              </div>
               <div className="word-dialog-actions">
                 <button type="button" className="cancel-button" onClick={() => setFormOpen(false)}>取消</button>
                 <button type="submit" className="save-button"><Check size={16} /> 保存</button>
