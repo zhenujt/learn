@@ -83,6 +83,7 @@ jobs:
           cp -r "$TRAINER_DIR/dist/." _site/anki/
           mkdir -p _site/docs-simple-grammar
           cp -r docs-site/dist/. _site/docs-simple-grammar/
+          cp docs-site/dist/index.html _site/index.html
           mkdir -p _site/words
           cp docs-site/dist/index.html _site/words/index.html
           mkdir -p _site/preposition
