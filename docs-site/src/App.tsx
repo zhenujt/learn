@@ -740,7 +740,8 @@ export function App({ initialDocumentPath }: AppProps = {}) {
     const existing = wordStore.readAll().find(
       (item) => !item.deletedAt && item.word.toLocaleLowerCase() === normalizedWord.toLocaleLowerCase(),
     );
-    const existingHasCustomMeaning = existing?.meaning && !existing.meaning.startsWith("本句语境：");
+    const existingHasCustomMeaning = existing?.meaning
+      && !/^(?:句中意思|本身意思|中文释义|本句语境)：/.test(existing.meaning);
     const saved: SavedWord = {
       id: existing?.id ?? crypto.randomUUID(),
       word: normalizedWord,

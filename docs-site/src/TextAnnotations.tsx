@@ -216,11 +216,16 @@ export function TextAnnotations(props: TextAnnotationsProps) {
     setError("");
     setIsAddingWord(true);
     try {
-      const chineseDefinition = await wordTranslation.translate(anchor.quote);
+      const meanings = await wordTranslation.translateMeanings(
+        anchor.quote,
+        anchor.englishExample,
+        anchor.chineseExample,
+      );
       await props.onAddWord({
         word: anchor.quote,
         meaning: [
-          chineseDefinition ? `中文释义：${chineseDefinition}` : "",
+          meanings.contextualMeaning ? `句中意思：${meanings.contextualMeaning}` : "",
+          meanings.dictionaryMeaning ? `本身意思：${meanings.dictionaryMeaning}` : "",
           anchor.chineseExample ? `本句语境：${anchor.chineseExample}` : "",
         ].filter(Boolean).join("\n\n"),
         example: [anchor.englishExample, anchor.chineseExample].filter(Boolean).join("\n\n"),
