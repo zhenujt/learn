@@ -4,7 +4,7 @@
 //
 // The browser keeps sending its own token; this Worker stores no credentials.
 
-const ALLOWED_REPO = "zhenujt/learn-english";
+const ALLOWED_REPO = "zhenujt/learn";
 const ALLOWED_ORIGIN = "https://zhenujt.github.io";
 const UPSTREAM = "https://api.github.com";
 

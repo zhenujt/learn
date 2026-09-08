@@ -3,7 +3,7 @@
 //
 // The browser keeps sending its own GitHub token; this function stores nothing.
 
-const ALLOWED_REPO = "zhenujt/learn-english";
+const ALLOWED_REPO = "zhenujt/learn";
 const ALLOWED_ORIGIN = "https://zhenujt.github.io";
 const UPSTREAM = "https://api.github.com";
 
