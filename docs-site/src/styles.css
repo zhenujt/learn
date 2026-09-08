@@ -959,102 +959,6 @@ button {
   align-items: center;
   gap: 16px;
 }
-.appearance-control {
-  position: relative;
-}
-.appearance-control > summary {
-  list-style: none;
-}
-.appearance-control > summary::-webkit-details-marker {
-  display: none;
-}
-.appearance-control[open] > summary,
-.appearance-control > summary:hover {
-  color: var(--accent);
-  background: var(--accent-soft);
-}
-.appearance-menu {
-  position: absolute;
-  top: 44px;
-  right: 0;
-  z-index: 80;
-  width: 286px;
-  padding: 16px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: var(--paper);
-  box-shadow: 0 18px 50px rgba(20, 37, 33, 0.2);
-}
-.appearance-label {
-  display: block;
-  margin-bottom: 8px;
-  color: var(--muted);
-  font-family: "DM Mono", monospace;
-  font-size: 10px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.reading-mode-options {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 6px;
-  margin-bottom: 16px;
-}
-.reading-mode-options button {
-  min-width: 0;
-  display: grid;
-  place-items: center;
-  gap: 5px;
-  min-height: 64px;
-  padding: 7px 4px;
-  border: 1px solid var(--line);
-  border-radius: 5px;
-  background: transparent;
-  color: var(--muted);
-  font-size: 11px;
-  cursor: pointer;
-}
-.reading-mode-options button.active {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: var(--accent-soft);
-}
-.mode-swatch {
-  width: 32px;
-  height: 16px;
-  border: 1px solid rgba(25, 39, 36, 0.18);
-  border-radius: 3px;
-  background: linear-gradient(90deg, #edf3f1 50%, #293936 50%);
-}
-.mode-swatch.soft {
-  background: linear-gradient(90deg, #f0f3ee 50%, #34423b 50%);
-}
-.mode-swatch.crisp {
-  background: linear-gradient(90deg, #ffffff 50%, #152522 50%);
-}
-.reading-size-options {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border: 1px solid var(--line);
-  border-radius: 5px;
-  overflow: hidden;
-}
-.reading-size-options button {
-  height: 38px;
-  border: 0;
-  border-right: 1px solid var(--line);
-  background: transparent;
-  color: var(--muted);
-  cursor: pointer;
-}
-.reading-size-options button:last-child {
-  border-right: 0;
-}
-.reading-size-options button.active {
-  background: var(--accent-soft);
-  color: var(--accent);
-  font-weight: 700;
-}
 .save-status {
   display: flex;
   align-items: center;
@@ -1320,23 +1224,50 @@ button {
 .text-annotation-highlight:hover {
   background: var(--highlight-hover);
 }
-.add-annotation-button {
+.selection-action-bar {
   position: fixed;
   z-index: 55;
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  min-height: 36px;
-  padding: 0 12px;
   border: 1px solid #004f47;
   border-radius: 5px;
   background: var(--accent);
   box-shadow: 0 8px 24px rgba(32, 35, 31, 0.2);
   color: white;
+  transform: translate(-100%, -100%);
+  overflow: hidden;
+}
+.selection-action-bar button {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 12px;
+  border: 0;
+  background: transparent;
+  color: white;
   font-size: 12px;
   font-weight: 600;
-  transform: translate(-100%, -100%);
   cursor: pointer;
+}
+.selection-action-bar button + button {
+  border-left: 1px solid rgba(255, 255, 255, 0.28);
+}
+.selection-action-bar button:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+.word-save-feedback {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 110;
+  max-width: calc(100vw - 36px);
+  padding: 11px 14px;
+  border-radius: 5px;
+  background: var(--ink);
+  box-shadow: 0 8px 24px rgba(32, 35, 31, 0.24);
+  color: var(--paper);
+  font-size: 12px;
 }
 .annotation-backdrop {
   position: fixed;
@@ -2275,11 +2206,19 @@ button {
     grid-template-columns: 1fr;
     grid-template-rows: 58px minmax(0, 1fr);
   }
-  .add-annotation-button {
+  .selection-action-bar {
     inset: auto 12px calc(12px + env(safe-area-inset-bottom)) 12px !important;
-    justify-content: center;
-    min-height: 46px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     transform: none;
+  }
+  .selection-action-bar button {
+    min-height: 46px;
+    justify-content: center;
+  }
+  .word-save-feedback {
+    right: 12px;
+    bottom: calc(70px + env(safe-area-inset-bottom));
   }
   .annotation-backdrop {
     align-items: end;
@@ -2304,12 +2243,6 @@ button {
   }
   .topbar-actions {
     gap: 8px;
-  }
-  .appearance-menu {
-    position: fixed;
-    top: 64px;
-    right: 12px;
-    width: min(286px, calc(100vw - 24px));
   }
   .brand > span:last-child,
   .batch-save-button svg,
@@ -2477,7 +2410,20 @@ button {
     overflow-wrap: anywhere;
   }
   .markdown-body table {
+    display: table;
+    table-layout: fixed;
     white-space: normal;
+  }
+  .markdown-body th,
+  .markdown-body td {
+    min-width: 0;
+    padding: 9px 8px;
+    overflow-wrap: anywhere;
+  }
+  .markdown-body td code,
+  .bilingual-example-copy strong {
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
   .study-panel { top: 58px; }
   .study-scrim { top: 58px; }

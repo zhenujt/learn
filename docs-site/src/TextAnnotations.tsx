@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState, type RefObject } from "react";
-import { MessageSquarePlus, Trash2, X } from "lucide-react";
+import { BookPlus, MessageSquarePlus, Trash2, X } from "lucide-react";
 import { BasicRichTextEditor } from "./BasicRichTextEditor";
 import type { TextAnnotation } from "./shared/annotation-store";
 import { richTextToPlainText } from "./shared/rich-text";
+import type { SavedWord } from "./shared/word-store";
+import { WordTranslationClient } from "./shared/word-translation";
 
 interface SelectionAnchor {
   quote: string;
@@ -11,6 +13,8 @@ interface SelectionAnchor {
   startOffset: number;
   left: number;
   top: number;
+  englishExample: string;
+  chineseExample: string;
 }
 
 interface TextAnnotationsProps {
@@ -19,9 +23,11 @@ interface TextAnnotationsProps {
   annotations: TextAnnotation[];
   onSave: (annotation: TextAnnotation) => void;
   onDelete: (id: string) => void;
+  onAddWord?: (word: Pick<SavedWord, "word" | "meaning" | "example">) => Promise<void>;
 }
 
 const contextLength = 40;
+const wordTranslation = new WordTranslationClient();
 
 function findAnnotationOffset(text: string, annotation: TextAnnotation): number {
   const offsets: number[] = [];
@@ -112,6 +118,8 @@ export function TextAnnotations(props: TextAnnotationsProps) {
   const [editing, setEditing] = useState<TextAnnotation | "new">();
   const [note, setNote] = useState("");
   const [error, setError] = useState("");
+  const [wordFeedback, setWordFeedback] = useState("");
+  const [isAddingWord, setIsAddingWord] = useState(false);
   const selectionTimerRef = useRef<number | undefined>(undefined);
   const editingAnchorRef = useRef<SelectionAnchor | undefined>(undefined);
 
@@ -156,6 +164,14 @@ export function TextAnnotations(props: TextAnnotationsProps) {
         const fullText = container.textContent ?? "";
         const startOffset = before.toString().length + selection.toString().indexOf(quote);
         const rect = range.getBoundingClientRect();
+        const startElement = range.startContainer instanceof Element
+          ? range.startContainer
+          : range.startContainer.parentElement;
+        const bilingualExample = startElement?.closest(".bilingual-example");
+        const englishExample = bilingualExample
+          ?.querySelector(".bilingual-example-copy strong")?.textContent?.trim() ?? "";
+        const chineseExample = bilingualExample
+          ?.querySelector(".bilingual-example-copy > span")?.textContent?.trim() ?? "";
         setSelectionAnchor({
           quote,
           startOffset,
@@ -163,12 +179,14 @@ export function TextAnnotations(props: TextAnnotationsProps) {
           suffix: fullText.slice(startOffset + quote.length, startOffset + quote.length + contextLength),
           left: Math.min(window.innerWidth - 16, Math.max(16, rect.right)),
           top: Math.max(16, rect.top - 8),
+          englishExample,
+          chineseExample,
         });
       }, 120);
     };
     const dismissSelection = (event: PointerEvent) => {
       const target = event.target as Element;
-      if (!target.closest(".add-annotation-button, mark[data-annotation-id]")) {
+      if (!target.closest(".selection-action-bar, mark[data-annotation-id]")) {
         setSelectionAnchor(undefined);
       }
     };
@@ -190,6 +208,33 @@ export function TextAnnotations(props: TextAnnotationsProps) {
     setError("");
     setEditing("new");
     window.getSelection()?.removeAllRanges();
+  };
+
+  const addWord = async () => {
+    if (!selectionAnchor || !props.onAddWord) return;
+    const anchor = selectionAnchor;
+    setError("");
+    setIsAddingWord(true);
+    try {
+      const chineseDefinition = await wordTranslation.translate(anchor.quote);
+      await props.onAddWord({
+        word: anchor.quote,
+        meaning: [
+          chineseDefinition ? `中文释义：${chineseDefinition}` : "",
+          anchor.chineseExample ? `本句语境：${anchor.chineseExample}` : "",
+        ].filter(Boolean).join("\n\n"),
+        example: [anchor.englishExample, anchor.chineseExample].filter(Boolean).join("\n\n"),
+      });
+      setSelectionAnchor(undefined);
+      window.getSelection()?.removeAllRanges();
+      setWordFeedback(`“${anchor.quote}” 已添加到单词本`);
+      window.setTimeout(() => setWordFeedback(""), 2600);
+    } catch (saveError) {
+      setWordFeedback(saveError instanceof Error ? saveError.message : "无法添加到单词本");
+      window.setTimeout(() => setWordFeedback(""), 3200);
+    } finally {
+      setIsAddingWord(false);
+    }
   };
 
   const closeDialog = () => {
@@ -229,16 +274,22 @@ export function TextAnnotations(props: TextAnnotationsProps) {
   return (
     <>
       {selectionAnchor && !editing && (
-        <button
-          className="add-annotation-button"
+        <div
+          className="selection-action-bar"
           style={{ left: selectionAnchor.left, top: selectionAnchor.top }}
-          type="button"
           onPointerDown={(event) => event.preventDefault()}
-          onClick={beginCreate}
         >
-          <MessageSquarePlus size={16} /> Add note
-        </button>
+          <button type="button" onClick={beginCreate}>
+            <MessageSquarePlus size={16} /> Add note
+          </button>
+          {props.onAddWord && (
+            <button type="button" disabled={isAddingWord} onClick={() => void addWord()}>
+              <BookPlus size={16} /> {isAddingWord ? "Adding..." : "Add word"}
+            </button>
+          )}
+        </div>
       )}
+      {wordFeedback && <div className="word-save-feedback" role="status">{wordFeedback}</div>}
       {editing && (
         <div className="annotation-backdrop">
           <form className="annotation-dialog" role="dialog" aria-modal="true" aria-label="Text note" onSubmit={(event) => { event.preventDefault(); save(); }}>

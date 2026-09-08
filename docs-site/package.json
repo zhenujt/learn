@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "dictionary": "node scripts/generate_word_definitions.mjs",
+    "prebuild": "npm run dictionary",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "test": "vitest run",
@@ -32,6 +34,8 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "csv-parse": "^6.1.0",
+    "ecdict": "0.0.4",
     "vitest": "^4.1.11"
   },
   "overrides": {

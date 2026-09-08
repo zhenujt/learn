@@ -6,12 +6,10 @@ import {
   FileText,
   GraduationCap,
   Eye,
-  Hash,
   Layers,
   LibraryBig,
   LogIn,
   Menu,
-  Palette,
   Pencil,
   Play,
   Save,
@@ -33,6 +31,8 @@ import {
   type TextAnnotation,
 } from "./shared/annotation-store";
 import { StudySyncClient } from "./shared/study-sync";
+import { WordStore, type SavedWord } from "./shared/word-store";
+import { WordSyncClient } from "./shared/word-sync";
 import { AuthDialog } from "../../shared/auth/AuthDialog";
 import { auth } from "../../shared/auth/auth-client";
 import "../../shared/auth/auth-dialog.css";
@@ -75,18 +75,9 @@ const defaultDocumentPath =
   "zero-to-work-english/04-工作沟通B1/software-workplace-grammar-guide.zh.md";
 const lastDocumentStorageKey = "docs-last-document";
 const readingPositionsStorageKey = "docs-reading-positions";
-const readingAppearanceStorageKey = "docs-reading-appearance";
 const audioPositionsStorageKey = "docs-audio-positions";
 const audioPlaylistProgressStorageKey = "docs-audio-playlist-progress";
 const audioVoiceStorageKey = "docs-audio-voice";
-
-type ReadingMode = "cool" | "soft" | "crisp";
-type ReadingSize = "small" | "medium" | "large";
-
-interface ReadingAppearance {
-  mode: ReadingMode;
-  size: ReadingSize;
-}
 
 interface AudioPlaylistManifest {
   version: 1;
@@ -106,30 +97,6 @@ interface AudioPlaylistProgress {
   phase: "chinese" | "english";
   englishPlayNumber: number;
   currentTime: number;
-}
-
-class ReadingAppearanceStore {
-  public read(): ReadingAppearance {
-    try {
-      const value = JSON.parse(
-        localStorage.getItem(readingAppearanceStorageKey) ?? "{}",
-      ) as Partial<ReadingAppearance>;
-      return {
-        mode: value.mode === "soft" || value.mode === "crisp" ? value.mode : "cool",
-        size: value.size === "small" || value.size === "large" ? value.size : "medium",
-      };
-    } catch {
-      return { mode: "cool", size: "medium" };
-    }
-  }
-
-  public save(appearance: ReadingAppearance): void {
-    try {
-      localStorage.setItem(readingAppearanceStorageKey, JSON.stringify(appearance));
-    } catch {
-      // Reading controls still work for the current session.
-    }
-  }
 }
 
 class ReadingProgressStore {
@@ -270,10 +237,11 @@ class AudioPlaylistSettingsStore {
 const readingProgress = new ReadingProgressStore();
 const audioProgress = new AudioProgressStore();
 const audioPlaylistSettings = new AudioPlaylistSettingsStore();
-const readingAppearanceStore = new ReadingAppearanceStore();
 const workspace = new DocumentWorkspaceStore();
 const annotationStore = new AnnotationStore();
 const studySync = new StudySyncClient();
+const wordStore = new WordStore();
+const wordSync = new WordSyncClient();
 
 const slugify = (value: string) =>
   value
@@ -407,14 +375,9 @@ export function App({ initialDocumentPath }: AppProps = {}) {
   const [exerciseMode, setExerciseMode] = useState(false);
   const [wrongOnly, setWrongOnly] = useState(false);
   const [mobileEditorView, setMobileEditorView] = useState<"edit" | "preview">("edit");
-  const [readingAppearance, setReadingAppearance] = useState<ReadingAppearance>(() =>
-    readingAppearanceStore.read(),
-  );
-  const [appearanceOpen, setAppearanceOpen] = useState(false);
   const [authOpen, setAuthOpen] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const documentMainRef = useRef<HTMLElement>(null);
-  const appearanceRef = useRef<HTMLDetailsElement>(null);
   const syncInFlightRef = useRef(false);
   const activeDocument = catalog.find(activePath);
   const draft = drafts[activePath] ?? activeDocument.content;
@@ -446,22 +409,6 @@ export function App({ initialDocumentPath }: AppProps = {}) {
   }, []);
 
   useEffect(() => {
-    if (!appearanceOpen) return;
-    const dismiss = (event: PointerEvent) => {
-      if (!appearanceRef.current?.contains(event.target as Node)) setAppearanceOpen(false);
-    };
-    const dismissWithKeyboard = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setAppearanceOpen(false);
-    };
-    document.addEventListener("pointerdown", dismiss);
-    document.addEventListener("keydown", dismissWithKeyboard);
-    return () => {
-      document.removeEventListener("pointerdown", dismiss);
-      document.removeEventListener("keydown", dismissWithKeyboard);
-    };
-  }, [appearanceOpen]);
-
-  useEffect(() => {
     const onPopState = () => {
       const nextPath = readDocumentPath();
       if (nextPath === activePath) return;
@@ -491,6 +438,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
       .then((user) => {
         setUserEmail(user?.email);
         setAnnotations(annotationStore.setScope(user?.id));
+        wordStore.setScope(user?.id);
       })
       .catch((error: unknown) => {
         setSyncMessage(error instanceof Error ? error.message : "Could not read the sync session");
@@ -499,6 +447,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
     return auth.onChange((_event, session) => {
       setUserEmail(session?.user.email);
       setAnnotations(annotationStore.setScope(session?.user.id));
+      wordStore.setScope(session?.user.id);
     });
   }, []);
 
@@ -769,6 +718,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
       await studySync.signOut();
       setUserEmail(undefined);
       setAnnotations(annotationStore.setScope());
+      wordStore.setScope();
       setSyncMessage("Signed out");
     } catch (error) {
       setSyncMessage(error instanceof Error ? error.message : "Sign-out failed");
@@ -777,6 +727,34 @@ export function App({ initialDocumentPath }: AppProps = {}) {
 
   const saveAnnotation = (annotation: TextAnnotation) => {
     setAnnotations(annotationStore.save(annotation));
+  };
+
+  const saveSelectedWord = async ({
+    word,
+    meaning,
+    example,
+  }: Pick<SavedWord, "word" | "meaning" | "example">) => {
+    const normalizedWord = word.trim();
+    if (!normalizedWord) throw new Error("Select a word first.");
+    const now = new Date().toISOString();
+    const existing = wordStore.readAll().find(
+      (item) => !item.deletedAt && item.word.toLocaleLowerCase() === normalizedWord.toLocaleLowerCase(),
+    );
+    const existingHasCustomMeaning = existing?.meaning && !existing.meaning.startsWith("本句语境：");
+    const saved: SavedWord = {
+      id: existing?.id ?? crypto.randomUUID(),
+      word: normalizedWord,
+      pronunciation: existing?.pronunciation ?? "",
+      meaning: existingHasCustomMeaning ? existing.meaning : meaning || existing?.meaning || "",
+      example: example || existing?.example || "",
+      pronunciationNote: existing?.pronunciationNote ?? "",
+      createdAt: existing?.createdAt ?? now,
+      updatedAt: now,
+    };
+    const words = wordStore.save(saved);
+    void wordSync.user()
+      .then((user) => user ? wordSync.push(words) : undefined)
+      .catch(() => undefined);
   };
 
   const deleteAnnotation = (id: string) => {
@@ -811,16 +789,8 @@ export function App({ initialDocumentPath }: AppProps = {}) {
     setActiveHeading(current?.textContent ?? "");
   };
 
-  const updateReadingAppearance = (update: Partial<ReadingAppearance>) => {
-    const next = { ...readingAppearance, ...update };
-    setReadingAppearance(next);
-    readingAppearanceStore.save(next);
-  };
-
   return (
-    <div
-      className={`app-shell reading-${readingAppearance.mode} reading-${readingAppearance.size} ${isEditing ? "is-editing" : ""}`}
-    >
+    <div className={`app-shell reading-cool reading-medium ${isEditing ? "is-editing" : ""}`}>
       <header className="topbar">
         <button
           className="icon-button menu-button"
@@ -829,9 +799,9 @@ export function App({ initialDocumentPath }: AppProps = {}) {
         >
           <Menu size={20} />
         </button>
-        <button
+        <a
           className="brand"
-          onClick={() => selectDocument("README.md")}
+          href={import.meta.env.VITE_SITE_BASE_PATH ?? "/"}
           aria-label="Learn English home"
         >
           <span className="brand-mark">
@@ -840,7 +810,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
           <span>
             Learn <strong>English</strong>
           </span>
-        </button>
+        </a>
         <div className="topbar-actions">
           {isEditing ? (
             <>
@@ -918,60 +888,11 @@ export function App({ initialDocumentPath }: AppProps = {}) {
               <LogIn size={16} /> Sign in
             </button>
           )}
-          {!isEditing && (
-            <details className="appearance-control" open={appearanceOpen} ref={appearanceRef}>
-              <summary
-                className="icon-button"
-                aria-label="Reading appearance"
-                title="Reading appearance"
-                onClick={(event) => {
-                  event.preventDefault();
-                  setAppearanceOpen((open) => !open);
-                }}
-              >
-                <Palette size={19} />
-              </summary>
-              <div className="appearance-menu">
-                <span className="appearance-label">Reading mode</span>
-                <div className="reading-mode-options">
-                  {(["cool", "soft", "crisp"] as const).map((mode) => (
-                    <button
-                      type="button"
-                      className={readingAppearance.mode === mode ? "active" : ""}
-                      onClick={() => updateReadingAppearance({ mode })}
-                      key={mode}
-                    >
-                      <span className={`mode-swatch ${mode}`} />
-                      {mode === "cool" ? "Cool" : mode === "soft" ? "Soft" : "Crisp"}
-                      {readingAppearance.mode === mode && <Check size={14} />}
-                    </button>
-                  ))}
-                </div>
-                <span className="appearance-label">Text size</span>
-                <div className="reading-size-options" aria-label="Reading text size">
-                  {(["small", "medium", "large"] as const).map((size, index) => (
-                    <button
-                      type="button"
-                      className={readingAppearance.size === size ? "active" : ""}
-                      aria-label={`${size} reading text`}
-                      onClick={() => updateReadingAppearance({ size })}
-                      key={size}
-                    >
-                      A{index === 0 ? "−" : index === 2 ? "+" : ""}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </details>
-          )}
           <button className="icon-button study-button" onClick={() => setStudyOpen(true)} aria-label="Open study tools">
             <GraduationCap size={19} />
           </button>
           <a className="icon-button words-button" href={`${import.meta.env.VITE_SITE_BASE_PATH ?? import.meta.env.BASE_URL}words`} aria-label="Open my words" title="My words">
             <LibraryBig size={19} />
-          </a>
-          <a className="icon-button" href={`${import.meta.env.VITE_SITE_BASE_PATH ?? import.meta.env.BASE_URL}number`} aria-label="Open number practice" title="Numbers and calendar">
-            <Hash size={19} />
           </a>
         </div>
       </header>
@@ -1137,6 +1058,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
               annotations={activeAnnotations}
               onSaveAnnotation={saveAnnotation}
               onDeleteAnnotation={deleteAnnotation}
+              onAddWord={saveSelectedWord}
             />
           </main>
           <aside className="page-outline">
@@ -1202,6 +1124,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
         onSignedOut={() => {
           setUserEmail(undefined);
           setAnnotations(annotationStore.setScope());
+          wordStore.setScope();
           setSyncMessage("Signed out");
         }}
       />
@@ -1218,6 +1141,7 @@ function MarkdownContent({
   annotations,
   onSaveAnnotation,
   onDeleteAnnotation,
+  onAddWord,
 }: {
   content: string;
   documentPath: string;
@@ -1227,6 +1151,7 @@ function MarkdownContent({
   annotations?: TextAnnotation[];
   onSaveAnnotation?: (annotation: TextAnnotation) => void;
   onDeleteAnnotation?: (id: string) => void;
+  onAddWord?: (word: Pick<SavedWord, "word" | "meaning" | "example">) => Promise<void>;
 }) {
   const articleRef = useRef<HTMLElement>(null);
   const sentenceAudioRef = useRef<HTMLAudioElement | null>(null);
@@ -1367,6 +1292,7 @@ function MarkdownContent({
           annotations={annotations}
           onSave={onSaveAnnotation}
           onDelete={onDeleteAnnotation}
+          onAddWord={onAddWord}
         />
       )}
     </>
