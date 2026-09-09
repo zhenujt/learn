@@ -1237,6 +1237,16 @@ button {
   transform: translate(-100%, -100%);
   overflow: hidden;
 }
+.selection-action-bar[data-placement="bottom"] {
+  inset: auto 12px calc(12px + env(safe-area-inset-bottom)) 12px !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transform: none;
+}
+.selection-action-bar[data-placement="bottom"] button {
+  min-height: 46px;
+  justify-content: center;
+}
 .selection-action-bar button {
   min-height: 36px;
   display: inline-flex;

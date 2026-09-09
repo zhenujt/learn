@@ -13,6 +13,7 @@ interface SelectionAnchor {
   startOffset: number;
   left: number;
   top: number;
+  placement: "floating" | "bottom";
   englishExample: string;
   chineseExample: string;
 }
@@ -172,6 +173,7 @@ export function TextAnnotations(props: TextAnnotationsProps) {
           ?.querySelector(".bilingual-example-copy strong")?.textContent?.trim() ?? "";
         const chineseExample = bilingualExample
           ?.querySelector(".bilingual-example-copy > span")?.textContent?.trim() ?? "";
+        const placeAtBottom = navigator.maxTouchPoints > 0;
         setSelectionAnchor({
           quote,
           startOffset,
@@ -179,6 +181,7 @@ export function TextAnnotations(props: TextAnnotationsProps) {
           suffix: fullText.slice(startOffset + quote.length, startOffset + quote.length + contextLength),
           left: Math.min(window.innerWidth - 16, Math.max(16, rect.right)),
           top: Math.max(16, rect.top - 8),
+          placement: placeAtBottom ? "bottom" : "floating",
           englishExample,
           chineseExample,
         });
@@ -281,6 +284,7 @@ export function TextAnnotations(props: TextAnnotationsProps) {
       {selectionAnchor && !editing && (
         <div
           className="selection-action-bar"
+          data-placement={selectionAnchor.placement}
           style={{ left: selectionAnchor.left, top: selectionAnchor.top }}
           onPointerDown={(event) => event.preventDefault()}
         >
