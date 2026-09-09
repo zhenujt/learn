@@ -6,8 +6,10 @@ import {
   Cloud,
   Edit3,
   LogIn,
+  Play,
   Plus,
   Search,
+  Square,
   Trash2,
   Volume2,
   X,
@@ -61,6 +63,8 @@ export function WordsPage() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
   const speechRequestRef = useRef(0);
+  const playlistRequestRef = useRef(0);
+  const [playlistPlaying, setPlaylistPlaying] = useState(false);
 
   const activeWords = useMemo(() => {
     const normalized = query.trim().toLowerCase();
@@ -120,6 +124,7 @@ export function WordsPage() {
   }, [userEmail]);
 
   useEffect(() => () => {
+    playlistRequestRef.current += 1;
     speechRequestRef.current += 1;
     audioRef.current?.pause();
     if (audioRef.current?.src.startsWith("blob:")) URL.revokeObjectURL(audioRef.current.src);
@@ -196,6 +201,7 @@ export function WordsPage() {
     language: "en-US" | "zh-CN",
     key: string,
     jennyFallback = false,
+    onEnded?: () => void,
   ) => {
     if (!text.trim()) return;
     if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) {
@@ -232,7 +238,10 @@ export function WordsPage() {
       });
     };
     utterance.onend = () => {
-      if (utteranceRef.current === utterance) setSpeechFeedback(undefined);
+      if (utteranceRef.current === utterance) {
+        setSpeechFeedback(undefined);
+        onEnded?.();
+      }
     };
     utterance.onerror = () => {
       if (utteranceRef.current === utterance) {
@@ -250,15 +259,20 @@ export function WordsPage() {
     }, 3000);
   };
 
-  const speak = async (text: string, language: "en-US" | "zh-CN", key: string) => {
+  const speak = async (
+    text: string,
+    language: "en-US" | "zh-CN",
+    key: string,
+    onEnded?: () => void,
+  ) => {
     const spokenText = richTextToPlainText(text);
     if (!spokenText) return;
     if (language !== "en-US") {
-      await speakWithSystem(spokenText, language, key);
+      await speakWithSystem(spokenText, language, key, false, onEnded);
       return;
     }
     if (!jennySpeech.available) {
-      await speakWithSystem(spokenText, language, key);
+      await speakWithSystem(spokenText, language, key, false, onEnded);
       return;
     }
 
@@ -277,15 +291,60 @@ export function WordsPage() {
         if (audioRef.current === audio) {
           stopAudio();
           setSpeechFeedback(undefined);
+          onEnded?.();
         }
       };
       audio.onerror = () => {
-        if (audioRef.current === audio) void speakWithSystem(spokenText, language, key, true);
+        if (audioRef.current === audio) void speakWithSystem(spokenText, language, key, true, onEnded);
       };
       await audio.play();
     } catch {
-      if (request === speechRequestRef.current) await speakWithSystem(spokenText, language, key, true);
+      if (request === speechRequestRef.current) await speakWithSystem(spokenText, language, key, true, onEnded);
     }
+  };
+
+  const stopPlaylist = () => {
+    playlistRequestRef.current += 1;
+    speechRequestRef.current += 1;
+    setPlaylistPlaying(false);
+    setSpeechFeedback(undefined);
+    stopAudio();
+    window.speechSynthesis?.cancel();
+  };
+
+  const speakSingle = (text: string, language: "en-US" | "zh-CN", key: string) => {
+    stopPlaylist();
+    void speak(text, language, key);
+  };
+
+  const playAll = () => {
+    if (playlistPlaying) {
+      stopPlaylist();
+      return;
+    }
+
+    const playlist = activeWords.flatMap((word) => {
+      const items = [{ text: word.word, key: `${word.id}:word` }];
+      const example = richTextToPlainText(word.example);
+      if (example) items.push({ text: example, key: `${word.id}:example` });
+      return items;
+    });
+    if (playlist.length === 0) return;
+
+    stopPlaylist();
+    const playlistRequest = ++playlistRequestRef.current;
+    setPlaylistPlaying(true);
+    const playNext = (index: number) => {
+      if (playlistRequest !== playlistRequestRef.current) return;
+      const item = playlist[index];
+      if (!item) {
+        setPlaylistPlaying(false);
+        setSpeechFeedback(undefined);
+        return;
+      }
+      void speak(item.text, "en-US", item.key, () => playNext(index + 1));
+    };
+    playNext(0);
   };
 
   return (
@@ -323,7 +382,15 @@ export function WordsPage() {
           <div>
             <span className="words-kicker">PERSONAL VOCABULARY</span>
             <h1>我的单词本</h1>
-            <p>{activeWords.length} 个单词或短语</p>
+            <div className="words-heading-meta">
+              <p>{activeWords.length} 个单词或短语</p>
+              {activeWords.length > 0 && (
+                <button className="words-play-all" onClick={playAll} aria-label={playlistPlaying ? "停止朗读单词本" : "朗读整个单词本"}>
+                  {playlistPlaying ? <Square size={14} /> : <Play size={15} />}
+                  {playlistPlaying ? "停止" : "Jenny 朗读全部"}
+                </button>
+              )}
+            </div>
           </div>
           <label className="words-search">
             <Search size={18} />
@@ -346,7 +413,7 @@ export function WordsPage() {
                 <div className="word-primary">
                   <div className="word-title-line">
                     <h2>{word.word}</h2>
-                    <button className={`word-audio${speechFeedback?.key === `${word.id}:word` && !speechFeedback.error ? " is-speaking" : ""}`} onClick={() => void speak(word.word, "en-US", `${word.id}:word`)} aria-label={`朗读 ${word.word}`} title="朗读单词">
+                    <button className={`word-audio${speechFeedback?.key === `${word.id}:word` && !speechFeedback.error ? " is-speaking" : ""}`} onClick={() => speakSingle(word.word, "en-US", `${word.id}:word`)} aria-label={`朗读 ${word.word}`} title="Jenny 朗读单词">
                       <Volume2 size={17} />
                     </button>
                   </div>
@@ -361,7 +428,7 @@ export function WordsPage() {
                   {word.meaning ? (
                     <div className="word-spoken-line">
                       <RichTextContent value={word.meaning} />
-                      <button className={`word-audio${speechFeedback?.key === `${word.id}:meaning` && !speechFeedback.error ? " is-speaking" : ""}`} onClick={() => void speak(word.meaning, /[\u3400-\u9fff]/.test(word.meaning) ? "zh-CN" : "en-US", `${word.id}:meaning`)} aria-label="朗读意思" title="朗读意思"><Volume2 size={16} /></button>
+                      <button className={`word-audio${speechFeedback?.key === `${word.id}:meaning` && !speechFeedback.error ? " is-speaking" : ""}`} onClick={() => speakSingle(word.meaning, /[\u3400-\u9fff]/.test(word.meaning) ? "zh-CN" : "en-US", `${word.id}:meaning`)} aria-label="朗读意思" title="朗读意思"><Volume2 size={16} /></button>
                     </div>
                   ) : <p className="word-missing">尚未添加意思</p>}
                 </div>
@@ -370,7 +437,7 @@ export function WordsPage() {
                   {word.example ? (
                     <div className="word-spoken-line">
                       <RichTextContent value={word.example} />
-                      <button className={`word-audio${speechFeedback?.key === `${word.id}:example` && !speechFeedback.error ? " is-speaking" : ""}`} onClick={() => void speak(word.example, "en-US", `${word.id}:example`)} aria-label="朗读例句" title="朗读例句"><Volume2 size={16} /></button>
+                      <button className={`word-audio${speechFeedback?.key === `${word.id}:example` && !speechFeedback.error ? " is-speaking" : ""}`} onClick={() => speakSingle(word.example, "en-US", `${word.id}:example`)} aria-label="朗读例句" title="Jenny 朗读例句"><Volume2 size={16} /></button>
                     </div>
                   ) : <p className="word-missing">尚未添加例句</p>}
                 </div>
