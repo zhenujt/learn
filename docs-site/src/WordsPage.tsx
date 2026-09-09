@@ -350,10 +350,10 @@ export function WordsPage() {
   return (
     <div className="words-shell">
       <header className="topbar words-topbar">
-        <a className="icon-button" href={import.meta.env.BASE_URL} aria-label="返回文档" title="返回文档">
+        <a className="icon-button" href={import.meta.env.VITE_SITE_BASE_PATH ?? "/"} aria-label="返回目录" title="返回目录">
           <ArrowLeft size={20} />
         </a>
-        <a className="brand" href={import.meta.env.BASE_URL}>
+        <a className="brand" href={import.meta.env.VITE_SITE_BASE_PATH ?? "/"}>
           <span className="brand-mark"><BookOpen size={19} /></span>
           <span>Learn <strong>English</strong></span>
         </a>

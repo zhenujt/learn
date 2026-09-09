@@ -5,6 +5,7 @@ import {
   Languages,
   Layers3,
   LibraryBig,
+  Target,
 } from "lucide-react";
 
 interface SiteRoute {
@@ -16,6 +17,13 @@ interface SiteRoute {
 }
 
 const routes: SiteRoute[] = [
+  {
+    path: "plan/",
+    name: "24 周职场口语计划",
+    englishName: "24-WEEK PLAN",
+    description: "从发音地基开始的完整训练计划，含每周任务、精听流程和达标标准。",
+    icon: Target,
+  },
   {
     path: "docs-simple-grammar/",
     name: "英语学习文档",

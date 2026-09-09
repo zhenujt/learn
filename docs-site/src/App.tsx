@@ -21,6 +21,7 @@ import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 import documents from "virtual:analysis-documents";
+import { DocumentLinkResolver } from "./shared/document-link";
 import { GitHubDocumentClient, SaveError } from "./shared/github-client";
 import { RichMarkdownEditor } from "./RichMarkdownEditor";
 import { SaveReviewDialog, type DocumentDiff } from "./SaveReviewDialog";
@@ -73,6 +74,7 @@ interface BatchSaveResponse {
 
 const defaultDocumentPath =
   "zero-to-work-english/04-工作沟通B1/software-workplace-grammar-guide.zh.md";
+const documentLinks = new DocumentLinkResolver(documents.map((document) => document.path));
 const lastDocumentStorageKey = "docs-last-document";
 const readingPositionsStorageKey = "docs-reading-positions";
 const audioPositionsStorageKey = "docs-audio-positions";
@@ -892,7 +894,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
           <button className="icon-button study-button" onClick={() => setStudyOpen(true)} aria-label="Open study tools">
             <GraduationCap size={19} />
           </button>
-          <a className="icon-button words-button" href={`${import.meta.env.VITE_SITE_BASE_PATH ?? import.meta.env.BASE_URL}words`} aria-label="Open my words" title="My words">
+          <a className="icon-button words-button" href={`${import.meta.env.VITE_SITE_BASE_PATH ?? import.meta.env.BASE_URL}words/`} aria-label="Open my words" title="My words">
             <LibraryBig size={19} />
           </a>
         </div>
@@ -1037,6 +1039,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
               documentTitle={activeDocument.title}
               audioPath={activeDocument.audioPath}
               audioPlaylistPath={activeDocument.audioPlaylistPath}
+              onSelectDocument={selectDocument}
             />
           </section>
         </main>
@@ -1060,6 +1063,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
               onSaveAnnotation={saveAnnotation}
               onDeleteAnnotation={deleteAnnotation}
               onAddWord={saveSelectedWord}
+              onSelectDocument={selectDocument}
             />
           </main>
           <aside className="page-outline">
@@ -1143,6 +1147,7 @@ function MarkdownContent({
   onSaveAnnotation,
   onDeleteAnnotation,
   onAddWord,
+  onSelectDocument,
 }: {
   content: string;
   documentPath: string;
@@ -1153,6 +1158,7 @@ function MarkdownContent({
   onSaveAnnotation?: (annotation: TextAnnotation) => void;
   onDeleteAnnotation?: (id: string) => void;
   onAddWord?: (word: Pick<SavedWord, "word" | "meaning" | "example">) => Promise<void>;
+  onSelectDocument?: (path: string) => void;
 }) {
   const articleRef = useRef<HTMLElement>(null);
   const sentenceAudioRef = useRef<HTMLAudioElement | null>(null);
@@ -1215,15 +1221,33 @@ function MarkdownContent({
             h3: ({ children }) => (
               <h3 id={slugify(String(children))}>{children}</h3>
             ),
-            a: ({ href, children }) => (
-              <a
-                href={href}
-                target={href?.startsWith("http") ? "_blank" : undefined}
-                rel="noreferrer"
-              >
-                {children}
-              </a>
-            ),
+            a: ({ href, children }) => {
+              const target = documentLinks.resolve(href, documentPath);
+              if (target) {
+                const documentUrl = `${import.meta.env.BASE_URL}?doc=${encodeURIComponent(target.path)}${target.hash ? `#${target.hash}` : ""}`;
+                return (
+                  <a
+                    href={documentUrl}
+                    onClick={(event) => {
+                      if (!onSelectDocument || event.metaKey || event.ctrlKey || event.shiftKey) return;
+                      event.preventDefault();
+                      onSelectDocument(target.path);
+                    }}
+                  >
+                    {children}
+                  </a>
+                );
+              }
+              return (
+                <a
+                  href={href}
+                  target={href?.startsWith("http") ? "_blank" : undefined}
+                  rel="noreferrer"
+                >
+                  {children}
+                </a>
+              );
+            },
             code: ({ className, children, ...props }) => {
               const value = String(children).replace(/\n$/, "");
               const inlineExample = !className

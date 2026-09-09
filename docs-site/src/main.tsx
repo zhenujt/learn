@@ -1,26 +1,25 @@
-import { StrictMode } from "react";
+import { StrictMode, type ReactElement } from "react";
 import { createRoot } from "react-dom/client";
 import "@toast-ui/editor/dist/toastui-editor.css";
 import { App } from "./App";
 import { HomePage } from "./HomePage";
 import { NumberPage } from "./NumberPage";
+import { PlanPage } from "./PlanPage";
 import { WordsPage } from "./WordsPage";
 import "./styles.css";
 
-const isWordsRoute = /\/words\/?$/.test(window.location.pathname);
-const isNumberRoute = /\/number\/?$/.test(window.location.pathname);
-const isPrepositionRoute = /\/preposition\/?$/.test(window.location.pathname);
-const isHomeRoute = window.location.pathname === (import.meta.env.VITE_SITE_BASE_PATH ?? "/");
+const siteBasePath = import.meta.env.VITE_SITE_BASE_PATH ?? "/";
 const prepositionDocumentPath = "zero-to-work-english/04-工作沟通B1/software-workplace-prepositions.zh.md";
 
+function resolvePage(pathname: string): ReactElement {
+  if (pathname === siteBasePath || /\/list\/?$/.test(pathname)) return <HomePage />;
+  if (/\/plan\/?$/.test(pathname)) return <PlanPage />;
+  if (/\/words\/?$/.test(pathname)) return <WordsPage />;
+  if (/\/number\/?$/.test(pathname)) return <NumberPage />;
+  const isPrepositionRoute = /\/preposition\/?$/.test(pathname);
+  return <App initialDocumentPath={isPrepositionRoute ? prepositionDocumentPath : undefined} />;
+}
+
 createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    {isHomeRoute
-      ? <HomePage />
-      : isWordsRoute
-      ? <WordsPage />
-      : isNumberRoute
-        ? <NumberPage />
-        : <App initialDocumentPath={isPrepositionRoute ? prepositionDocumentPath : undefined} />}
-  </StrictMode>,
+  <StrictMode>{resolvePage(window.location.pathname)}</StrictMode>,
 );

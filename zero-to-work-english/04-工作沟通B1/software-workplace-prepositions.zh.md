@@ -239,8 +239,8 @@ I am at the office today.
 We discussed the roadmap at the planning meeting.
 我们在规划会议上讨论了路线图。
 
-The request failed during validation.
-请求在验证期间失败了。
+The request failed at the validation step.
+请求在验证这一步失败了。
 ```
 
 对比：`at the meeting` 强调参加会议这个活动；`in the meeting room` 强调人在会议室内部。`at the office` 强调人位于办公地点；`in the office` 更突出人在办公室内部，但日常表达中两者经常都可以表示“人在办公室”。
