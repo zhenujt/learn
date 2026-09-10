@@ -18,6 +18,13 @@ interface SiteRoute {
 
 const routes: SiteRoute[] = [
   {
+    path: "adult-english/",
+    name: "成人零基础软件英语",
+    englishName: "ADULT ENGLISH COURSE",
+    description: "20 个单元，从日常交流到开发协作，配套常用语法、听力练习与阶段测评。",
+    icon: BookOpen,
+  },
+  {
     path: "plan/",
     name: "24 周职场口语计划",
     englishName: "24-WEEK PLAN",

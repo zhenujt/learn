@@ -30,24 +30,29 @@ Complete every exercise set with the same method:
 3. Open the reference answers only after finishing the entire set.
 4. Repeat incorrect items one day later. Scenario tasks may have multiple correct answers.
 
-Use the result to choose what to review, not as a gate. If an exercise is difficult, return to the related sentence pattern, use it in a caption-based workplace example, and try again later.
+Use errors to choose what to review, not a fixed percentage as a gate. Check whether you understand a new example and can give a factually appropriate reply. Revisit negation, time, ownership, or conditions when a mistake changes the message; prompt cards are allowed while practising.
 
 The goal is not grammatical complexity. The goal is accurate, reusable speech under pressure.
 
-### Use grammar with meeting captions
-
-For each new pattern, add one short caption task:
-
-1. Identify who is doing what, when it happens, and whether the sentence is negative or conditional.
-2. Say the meaning in your own words.
-3. Give a short reply that matches the real situation.
-4. Ask for repetition or confirmation when one detail is unclear.
-
-You may use Chinese support and English captions at the beginning. Progress means that you understand and respond more reliably, not that you pass a fixed percentage or speak a long answer without reading.
-
 ### Start Here If You Know Only a Few Words
 
-If terms such as *subject*, *verb*, and *past participle* are unfamiliar, complete the **Zero-Basis Preparation** below before reading the numbered levels. Then study only Sections 3, 4.1, 5.1–5.3, and 6.1. Continue when you can pass the first checkpoint.
+If terms such as *subject*, *verb*, and *past participle* are unfamiliar, use the **Zero-Basis Preparation** below alongside short meeting practice. Start with Sections 3, 4.1, 5.1–5.3, and 6.1 as needed. You do not need to finish this guide or pass a checkpoint before practising a meeting reply.
+
+### Teams caption route: understand one sentence, give one reply
+
+Start with the [caption practice unit](software-meeting-demo-14-day.md). Use this guide to answer a specific question about a sentence, then return to the conversation.
+
+| Caption | Meaning to check | Possible reply and its meaning |
+|---|---|---|
+| Is the build ready? | A question about the current state: `be + adjective`. | `Not yet. It's still running.` The build is not ready. |
+| Did you test the fix? | A question about a past action: `did + base verb`. | `Yes, I tested it this morning.` The action happened. |
+| Have you deployed it yet? | A question about completion up to now. | `No, not yet.` Deployment has not happened. |
+| Can you check whether the tests passed? | A request plus the information to check: `whether` introduces what is uncertain. | `Yes, I'll check the results.` This accepts the check; it does not claim the tests passed. |
+| If QA approves it, we can release it. | Release depends on approval; it is not unconditional permission. | `Do we have QA approval?` Ask about the condition. |
+
+Choose replies according to the facts. Change the tense, negation, or owner and explain how the meaning changes before practising another reply. Useful clauses such as `if`, `because`, and `whether` are part of everyday meeting comprehension; learn them as needed rather than postponing all clauses.
+
+The later 12-week grammar schedule is an optional reference, not a second course to complete alongside the site's 24-week plan. Select a small section for the current meeting task and include it within your daily study time.
 
 On your first pass, you may:
 
@@ -1303,7 +1308,7 @@ Focus:
 
 Daily output: record a 60-second explanation, listen once, and repeat it with fewer pauses.
 
-Move on when the current patterns are useful enough for the next task. Keep reviewing any pattern that prevents you from understanding a caption or giving a short reply; a long unscripted answer is a later goal, not a prerequisite.
+Check progress by interpreting a new caption and giving one accurate reply, initially with a prompt card if needed. Change the owner, time, or status to check understanding beyond memorization. Repeat the relevant pattern when the meaning is wrong; extend replies and reduce support gradually. The weekly schedule is flexible, not a fixed-percentage or unscripted-speaking gate.
 
 ## 14. The Replacement Method
 

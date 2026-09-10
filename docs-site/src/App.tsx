@@ -1224,7 +1224,10 @@ function MarkdownContent({
             a: ({ href, children }) => {
               const target = documentLinks.resolve(href, documentPath);
               if (target) {
-                const documentUrl = `${import.meta.env.BASE_URL}?doc=${encodeURIComponent(target.path)}${target.hash ? `#${target.hash}` : ""}`;
+                const documentBase = /\/adult-english\/?$/.test(window.location.pathname)
+                  ? window.location.pathname
+                  : import.meta.env.BASE_URL;
+                const documentUrl = `${documentBase}?doc=${encodeURIComponent(target.path)}${target.hash ? `#${target.hash}` : ""}`;
                 return (
                   <a
                     href={documentUrl}

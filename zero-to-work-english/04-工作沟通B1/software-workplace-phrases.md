@@ -2,15 +2,28 @@
 
 > A practical phrasebook for software engineers, QA engineers, product managers, designers, support engineers, and technical leads. The examples favor clear, professional English that works in meetings, demos, chat, email, and technical discussions.
 
-## Start with these three layers
+## Choose a small working set
 
-**Layer 1: meeting survival** — short replies, status, repetition, and confirmation. Start here with English captions.
+This is a reference, not a list to memorize from top to bottom. The levels below indicate practice order, not CEFR qualifications. Use the [caption practice unit](software-meeting-demo-14-day.md) for a guided start.
 
-**Layer 2: work expansion** — reasons, risks, timing, scope, and follow-up actions.
+| Practice level | Start with | Use it for |
+|---|---|---|
+| 1: Short replies | The table below, then Section 1's screen/audio questions and Section 5's clarification phrases. | Understanding a short caption, reporting status, and checking meaning. |
+| 2: Routine collaboration | Section 6 on requirements and Section 9 on stand-ups; add only the phrases needed for your task. | Explaining blockers, timing, scope, and next steps. |
+| 3: Extended discussion | Section 3 on technical explanations, Section 4 on demos, and the more complex Q&A examples. | Explaining causes, alternatives, and trade-offs when needed. |
 
-**Layer 3: technical discussion** — requirements, trade-offs, performance, architecture, and decisions.
+### Level 1: understand first, then choose a truthful reply
 
-For each caption, first understand the action and status, then choose one phrase that is true. Do not try to memorize the whole phrasebook at once.
+| Caption or question | Example reply | Use only when |
+|---|---|---|
+| Can you check the logs? | Yes, I can do that. | You can take the task. |
+| Is the fix ready? | Not yet. I'm still working on it. | Work is still in progress. |
+| Can we release today? | I need to check. | You cannot yet confirm readiness. |
+| Could you update the ticket? | Which ticket do you mean? | The reference is unclear. |
+| Can you finish by Thursday? | Do you mean this Thursday? | The date needs confirmation. |
+| A caption is incomplete or unclear. | Could you repeat the last part? | You missed information; do not pretend to understand. |
+
+Daily practice: choose two or three questions, explain their meaning, and reply according to a supplied situation. Then change one fact and give a different reply. Start with a single sentence and optional notes; a 60-second update is a later extension, not an entry requirement. Use English captions with audio, and confirm important dates or instructions in chat if needed. Practise with fictional or permitted material only.
 
 ---
 
@@ -715,7 +728,7 @@ For each caption, first understand the action and status, then choose one phrase
 ## Practice Method
 
 1. Choose one work scenario each day.
-2. Read the questions and responses aloud three times.
+2. Understand the question, choose a truthful reply, then listen with English text and practise the short reply.
 3. Replace the nouns, dates, and systems with details from your own work.
-4. Record a 60-second spoken update.
+4. Record one accurate reply, with a prompt card if needed; extend it to a 60-second update when manageable.
 5. Use at least one phrase in a real meeting or chat message that week.

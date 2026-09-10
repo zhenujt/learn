@@ -1,24 +1,20 @@
-# 第 0 阶段 · 学习方法
+# Learning Methods: Start With a Small Work Task
 
-> 花一周时间先学"怎么学"，能帮你在后面 10 个月里少走一半弯路。
-> 成年人学英语失败，90% 不是因为笨，而是因为**方法错**和**没坚持**。这个阶段专门解决这两件事。
+[中文版](README.zh.md)
 
----
+You do not need to spend a week studying methods or finish pronunciation before practising a short meeting exchange. Start with the [caption practice unit](../04-工作沟通B1/software-meeting-demo-14-day.md), then consult one article for the difficulty you encounter.
 
-## 本阶段目录
+| Resource | Use it for |
+|---|---|
+| [Learning English for your work](01-成年人如何学好英语.md) | Set a concrete goal, check your starting point, and adjust practice. |
+| [Listening with English captions](03-听力训练法.md) | Understand a caption, reply, connect text to audio, and verify important details. |
+| [Scheduling regular practice](02-制定可坚持的学习计划.md) | Legacy Chinese reference for habits; its stage schedule is not a meeting prerequisite. |
+| [Memory and review](04-记忆与复习.md) | Legacy Chinese reference for revisiting words and sentences; select techniques as needed. |
 
-| 序号 | 文件 | 核心内容 |
-|---|---|---|
-| 01 | [成年人如何学好英语](01-成年人如何学好英语.md) | 破除误区，建立正确心态和预期 |
-| 02 | [制定可坚持的学习计划](02-制定可坚持的学习计划.md) | 每日/每周时间安排，打卡与防放弃 |
-| 03 | [听力训练法（看字幕也能进步）](03-听力训练法.md) | 精听、泛听、影子跟读，字幕的正确用法 |
-| 04 | [记忆与复习：对抗遗忘曲线](04-记忆与复习.md) | 间隔重复、Anki、错题本的用法 |
+## One main route
 
----
+English caption -> meaning and intent -> truthful short reply -> clarification -> listen and review.
 
-## 一句话总结这个阶段
+Use the site's current learning plan as the main schedule. Activities from these articles fit inside that time, not on top of it. Start the [work communication resources](../04-工作沟通B1/README.md) immediately if that is your goal. Consult [pronunciation](../01-发音入门/README.md) for specific sound difficulties, not as an entrance examination.
 
-> **学英语 = 正确的方法 × 足够的频率 × 不放弃。**
-> 三者缺一不可，而后两者比第一个更重要。
-
-这 4 篇可以作为参考，不是必须完成的前置关卡。你也可以从 [14 天软件会议与 Demo 生存训练](../04-工作沟通B1/software-meeting-demo-14-day.zh.md) 的字幕辅助练习开始，再按需要返回这里补方法。
+Check a new sentence weekly and note the help you used. The purpose is usable communication, not a guaranteed level after a fixed duration.

@@ -88,6 +88,8 @@ jobs:
           cp docs-site/dist/index.html _site/list/index.html
           mkdir -p _site/plan
           cp docs-site/dist/index.html _site/plan/index.html
+          mkdir -p _site/adult-english
+          cp docs-site/dist/index.html _site/adult-english/index.html
           mkdir -p _site/words
           cp docs-site/dist/index.html _site/words/index.html
           mkdir -p _site/preposition

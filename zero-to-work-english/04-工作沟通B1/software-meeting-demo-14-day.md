@@ -12,19 +12,55 @@ Study for 20–30 minutes each day:
 2. Use the play button beside any example to practise that English phrase on its own.
 3. Replace the bracketed information and produce at least three new sentences.
 4. Record the daily task without restarting after a small mistake.
-5. Use the caption-supported starter below whenever the full task feels too difficult. Continue when the current phrases are useful enough for the next task; do not treat a three-second start or a complete unscripted performance as a hard gate.
+5. Start with a short, accurate reply and a prompt card if needed. Repeat or split a task according to your performance; the 14 days are practice units, not a deadline or a proficiency guarantee.
 
-## Caption-supported starter
+## Start here: English captions and short replies
 
-Before practising a full meeting or demo, use one short English Teams caption or course line:
+You can practise meeting participation before you can host a meeting or deliver a demo. Start with this unit, then use Days 2, 8, 9, and 12 for clarification, status, blockers, and follow-up. Return to the demo units when you need them. These activities belong within your daily study time, not on top of it.
 
-1. Identify who is doing what, the current status, the time, and any negative word.
-2. Say the meaning in Chinese or simple English.
-3. Give one short reply: `Yes, I can do that.`, `I'm still working on it.`, or `I need to check.`
-4. Ask one clarification question if needed: `Could you repeat that?` or `Do you mean ...?`
-5. Listen again with the caption, shadow the line, and briefly test it without the caption.
+For each caption below:
 
-Use only meeting content that is safe to study. Remove names, customer information, credentials, internal code, and other confidential details.
+1. Identify the person, action, status, and time, where present. Notice negation and conditions.
+2. Explain the meaning, using Chinese if helpful. Decide whether the speaker is asking, requesting, or reporting.
+3. Give one reply that matches the supplied facts. Do not promise work or a deadline just to practise a phrase.
+4. Check the sample answer, listen to the sentence with English text, and practise a short reply. Briefly hide the text and listen again when manageable.
+
+### Practice: read, understand, and respond
+
+| English caption | Your situation | Your task |
+|---|---|---|
+| Can you see my screen? | The shared screen is not visible. | Report the problem and ask for help. |
+| Is the fix ready for testing? | You are still working on it. | Give an accurate status. |
+| Can you finish this by Friday? | You need to check the remaining work. | Avoid committing before checking. |
+| Please deploy this after QA approves it. | Approval has not arrived. | Identify the condition and confirm it. |
+| Alex will review the PR. Can you update the tests? | You can update the tests. | Separate Alex's task from yours and reply. |
+
+<details>
+<summary>Check meanings and possible replies</summary>
+
+1. Screen visibility question. "Not yet. Could you share it again?"
+2. Readiness question, not a request to start testing. "Not yet. I'm still working on it."
+3. Deadline question; `by Friday` means no later than Friday. "I need to check. I'll confirm the timing after I review the remaining work."
+4. Deploy only after approval, not immediately. "Just to confirm, should I wait for QA approval before deploying?"
+5. Alex reviews the PR; you update the tests. "Yes, I'll update the tests."
+
+These are examples, not the only correct answers. A different short reply is suitable if it preserves the facts and intent.
+
+</details>
+
+### Captions are useful, but verify important details
+
+Teams live captions can lag, revise earlier text, or misrecognize names, technical terms, numbers, and negation. English captions support English reading; understanding a Chinese translation alone does not show that you understand the English sentence. Confirm owners, deadlines, scope, and deployment instructions, using meeting chat when appropriate.
+
+- "Do you mean the login fix?"
+- "Could you put the deadline in the chat?"
+- "I missed the last part. Could you repeat it?"
+
+Use fictional examples or work material explicitly permitted for learning. Do not record meetings or upload internal captions, code, or customer information to external tools without permission. Edited examples are not verbatim meeting transcripts.
+
+### Check progress without memorizing the answers
+
+Change the task, owner, time, or negation in two captions. Explain the new meaning and reply again. If you miss a condition or give the wrong status, revisit that sentence pattern. Keep captions and prompt cards as needed; reduce support gradually. Completing this unit does not establish a CEFR level.
 
 ## Day 1: Join and start a meeting
 
