@@ -12,7 +12,19 @@ Study for 20–30 minutes each day:
 2. Use the play button beside any example to practise that English phrase on its own.
 3. Replace the bracketed information and produce at least three new sentences.
 4. Record the daily task without restarting after a small mistake.
-5. Continue only when you can begin within three seconds and finish the task.
+5. Use the caption-supported starter below whenever the full task feels too difficult. Continue when the current phrases are useful enough for the next task; do not treat a three-second start or a complete unscripted performance as a hard gate.
+
+## Caption-supported starter
+
+Before practising a full meeting or demo, use one short English Teams caption or course line:
+
+1. Identify who is doing what, the current status, the time, and any negative word.
+2. Say the meaning in Chinese or simple English.
+3. Give one short reply: `Yes, I can do that.`, `I'm still working on it.`, or `I need to check.`
+4. Ask one clarification question if needed: `Could you repeat that?` or `Do you mean ...?`
+5. Listen again with the caption, shadow the line, and briefly test it without the caption.
+
+Use only meeting content that is safe to study. Remove names, customer information, credentials, internal code, and other confidential details.
 
 ## Day 1: Join and start a meeting
 

@@ -21,7 +21,7 @@ const routes: SiteRoute[] = [
     path: "plan/",
     name: "24 周职场口语计划",
     englishName: "24-WEEK PLAN",
-    description: "从发音地基开始的完整训练计划，含每周任务、精听流程和达标标准。",
+    description: "从 Teams 英文字幕理解和简单回复开始，结合必要语法、听力与每周会议练习。",
     icon: Target,
   },
   {

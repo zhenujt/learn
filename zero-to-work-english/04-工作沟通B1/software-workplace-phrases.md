@@ -2,6 +2,16 @@
 
 > A practical phrasebook for software engineers, QA engineers, product managers, designers, support engineers, and technical leads. The examples favor clear, professional English that works in meetings, demos, chat, email, and technical discussions.
 
+## Start with these three layers
+
+**Layer 1: meeting survival** — short replies, status, repetition, and confirmation. Start here with English captions.
+
+**Layer 2: work expansion** — reasons, risks, timing, scope, and follow-up actions.
+
+**Layer 3: technical discussion** — requirements, trade-offs, performance, architecture, and decisions.
+
+For each caption, first understand the action and status, then choose one phrase that is true. Do not try to memorize the whole phrasebook at once.
+
 ---
 
 ## 1. Starting a Meeting

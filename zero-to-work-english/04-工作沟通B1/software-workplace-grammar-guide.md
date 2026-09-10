@@ -30,9 +30,20 @@ Complete every exercise set with the same method:
 3. Open the reference answers only after finishing the entire set.
 4. Repeat incorrect items one day later. Scenario tasks may have multiple correct answers.
 
-Reach 80% before moving to the next level. Below 80%, review only the sections connected to your errors and try the set again.
+Use the result to choose what to review, not as a gate. If an exercise is difficult, return to the related sentence pattern, use it in a caption-based workplace example, and try again later.
 
 The goal is not grammatical complexity. The goal is accurate, reusable speech under pressure.
+
+### Use grammar with meeting captions
+
+For each new pattern, add one short caption task:
+
+1. Identify who is doing what, when it happens, and whether the sentence is negative or conditional.
+2. Say the meaning in your own words.
+3. Give a short reply that matches the real situation.
+4. Ask for repetition or confirmation when one detail is unclear.
+
+You may use Chinese support and English captions at the beginning. Progress means that you understand and respond more reliably, not that you pass a fixed percentage or speak a long answer without reading.
 
 ### Start Here If You Know Only a Few Words
 
@@ -1292,7 +1303,7 @@ Focus:
 
 Daily output: record a 60-second explanation, listen once, and repeat it with fewer pauses.
 
-Continue only when you can produce at least 70% of the week's core sentences from their meanings, replace two content words, and speak for 20–60 seconds without reading. Repeating a week is part of the plan, not a failure.
+Move on when the current patterns are useful enough for the next task. Keep reviewing any pattern that prevents you from understanding a caption or giving a short reply; a long unscripted answer is a later goal, not a prerequisite.
 
 ## 14. The Replacement Method
 
