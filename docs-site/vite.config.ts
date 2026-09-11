@@ -7,6 +7,7 @@ import react from "@vitejs/plugin-react";
 import { defineConfig, type Plugin } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 import { MarkdownValidator } from "./src/shared/markdown-validator.ts";
+import { CoursePublication } from "./src/shared/course-publication.ts";
 
 const siteDirectory = path.dirname(fileURLToPath(import.meta.url));
 const repositoryDirectory = path.resolve(siteDirectory, "..");
@@ -31,9 +32,11 @@ interface AnalysisDocument {
 
 class MarkdownDocumentRepository {
   public load(): AnalysisDocument[] {
-    return this.collectFiles(repositoryDirectory)
+    const documents = this.collectFiles(repositoryDirectory)
       .sort()
       .map((filePath) => this.readDocument(filePath));
+    CoursePublication.validate(documents.map((document) => document.path));
+    return documents;
   }
 
   public save(relativePath: string, content: string): AnalysisDocument {
