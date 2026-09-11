@@ -6,6 +6,8 @@
 
 Do not memorize the whole page before speaking. Find the meaning you want to express, read one pattern, say your own example, and return to the corresponding unit. Grammar helps listeners identify who, what, when, and whether something is true. The examples below are basic working patterns, not an exhaustive grammar of English.
 
+If you understand rules but cannot build sentences, use the [foundation workbook: 10 stations and 68 exercises](08-foundation-workbook.md). Follow the main lessons through states versus actions, quantity, questions and negatives, common time expressions, requests, and conditions. Each station includes answers, spoken tasks, and next-day retrieval; memorizing this reference is not required.
+
 For fuller comparisons and guided practice, use [Common grammar: 12 topics and 48 exercises](06-everyday-grammar.md). It expands sentence jobs, noun phrases, agreement, modifiers, questions, tense contrasts, passive voice, nonfinite forms, clauses, conditions, modals, and reporting. [Optional grammar](07-optional-grammar.md) gives short explanations of lower-priority patterns; you may skip those without delaying the main course.
 
 ## 1. Build the sentence skeleton: Units 1-4

@@ -4,7 +4,7 @@
 
 ## What to prepare
 
-Use this course, a notebook, a voice recorder, and a way to hear English: a patient partner, teacher, dictionary audio, or text-to-speech (TTS). No recorded audio is bundled. TTS is a useful consistent model, but later add varied human voices and interactive feedback. A phone is sufficient; no paid service or programming setup is required.
+Use this course, a notebook, a voice recorder, and a way to hear English: a patient partner, teacher, dictionary audio, or text-to-speech (TTS). The listening lab includes 20 TTS recordings across 10 tasks; other main lessons, the foundation workbook, and variants do not yet include audio. TTS is a useful consistent model, but later add varied human voices and interactive feedback. A phone is sufficient; no paid service or programming setup is required.
 
 If you cannot understand this page in English, use the Chinese version first. English-only explanations are not an entrance requirement. Learn a little, use it, and return to the reference when needed.
 
@@ -18,6 +18,8 @@ If you cannot understand this page in English, use the Chinese version first. En
 6. Learn the names of the letters in your own name from the sound guide. Do not postpone speaking until you know every sound symbol.
 
 This is a successful first session even if you pause often. Do not attempt a whole grammar reference today.
+
+Next, alongside Units 1-2, use [foundation workbook Station 1](08-foundation-workbook.md) to distinguish I am ready from I work here. Follow its unit mapping one station at a time: understand, answer, then cover the model and produce your own sentences the following day. Do not finish the entire workbook first. Select common grammar by priority; advanced patterns do not block the main route.
 
 ## What the basic terms mean
 

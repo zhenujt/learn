@@ -4,7 +4,16 @@
 
 ## Route and practice method
 
-This supplements the existing lessons; it does not replace their basic tense, question, and pronunciation teaching. Common means useful for everyday life and ordinary software collaboration, not an exact frequency ranking. Learn Sections 1-4 alongside Units 1-8, Sections 5-6 alongside Units 5-12, and Sections 7-12 alongside Units 13-20. Revisit earlier sections whenever a task exposes a gap. Do not finish this page before starting to speak.
+This supplements the existing lessons; it does not replace their basic tense, question, and pronunciation teaching. Common means useful for everyday life and ordinary software collaboration, not an exact frequency ranking. Start with the [foundation workbook](08-foundation-workbook.md) alongside the lessons, then select material here by the priorities below. Revisit earlier sections whenever a task exposes a gap. Do not finish this page before starting to speak.
+
+| Priority | Material on this page | Method |
+| --- | --- | --- |
+| Revisit during foundations | Sections 1-4: sentence jobs, articles and quantity, pronouns and agreement, comparison and prepositions; direct questions and negatives in Section 5 | Alongside Units 1-12; one small distinction at a time, not a whole section per sitting |
+| Practise after foundations stabilize | Embedded questions in Section 5; common passives in Section 7; verb combinations in Section 8; content, relative, time, reason and condition clauses in Section 9; simple reported messages and short answers in Section 12 | Alongside Units 13-20; one communicative use per session, short sentences before combinations |
+| Learn common meanings first | Past versus present perfect and future expressions in Section 6; real conditions and hypothetical options in Section 10; requests, suggestions, obligations and current possibilities in Section 11 | Use corresponding foundation stations, then select these paragraphs first |
+| Add later as needed | Perfect continuous, past perfect and future continuous in Section 6; past counterfactuals and regrets in Section 10; past deductions in Section 11; tag questions in Section 12 | Separate sessions when work or reading repeatedly requires them; not prerequisites for beginner speech |
+
+For example, do not cover all three clause types in Section 9 in one day. Start with I think ..., then the file that ..., then contrast because / if / when. In Section 8, establish need to check, enjoy reading, and thanks for checking before comparing remember/stop/try. Recognizing the later-priority material is enough to continue the main lessons initially; you need not answer all four section exercises before proceeding.
 
 Spend one short session on the explanation and four exercises, and another on the transfer task. For every model: understand it, hear it through a partner or TTS, cover it, and change one fact. There is no bundled audio. Write answers before opening the key. A grammatically correct answer with the wrong time, negative, or factual claim still needs repair. The four questions in each section have a key; the open speaking/writing task has observable checks rather than one compulsory script.
 

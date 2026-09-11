@@ -36,6 +36,7 @@ A 45-minute session: 5 minutes retrieval, 10 minutes listening/reading, 10 minut
 
 - [Start here: zero-level orientation and baseline](00-start-here.md)
 - [Sounds, spelling, numbers, and listening habits](01-sounds-and-spelling.md)
+- [Foundation workbook: 10 progressive stations, 68 exercises, and retrieval practice](08-foundation-workbook.md)
 - [Plain-language grammar reference](02-grammar-reference.md)
 - [Common grammar: 12 topics, 48 exercises, and transfer tasks](06-everyday-grammar.md)
 - [Optional grammar: brief recognition notes, safe to skip for now](07-optional-grammar.md)
@@ -43,7 +44,17 @@ A 45-minute session: 5 minutes retrieval, 10 minutes listening/reading, 10 minut
 - [Listening lab: scripts, questions, answers](04-listening-lab.md)
 - [Assessments, rubrics, and next steps](05-assessments.md)
 
-Use common-grammar Sections 1-4 alongside Units 1-8, Sections 5-6 alongside Units 5-12, and Sections 7-12 alongside Units 13-20. Split each topic into explanation/practice and a later speaking task; extend the schedule when needed. The quick reference is for lookup, not a prerequisite to speaking. Optional patterns need recognition only when encountered, not memorization or a passing test.
+**Build foundations alongside the lessons, then expand common grammar as tasks require it.** You do not need a completed grammar book before speaking. Recognizing advanced patterns does not establish reliable basics.
+
+| Order | Alongside lessons | Material and goal |
+| --- | --- | --- |
+| Build short sentences | Units 1-7 | Workbook Stations 1-4: be, noun quantity, routines, questions and negatives |
+| Make time clear | Units 8-11 | Stations 5-8: ongoing activity, past events, plans and completion, with meaning contrasts |
+| Connect meanings | Unit 12 onward | Stations 9-10 and mixed check: requests, requirements, reasons and conditions |
+| Expand everyday expression | Units 13-20; consult earlier as needed | Common grammar: articles, comparison, prepositions, passives, verb combinations, basic clauses and reported messages |
+| Add when needed | No universal completion deadline | Perfect continuous, past counterfactuals and past deductions in separate sessions; formal inversion remains optional |
+
+Give each station at least an explanation/exercise session and a later speaking session; extend the schedule as needed. Mix retrieval the next day, three days later, and a week later to test independent production rather than familiarity. The new workbook sentences have no bundled audio; the listening lab's existing 20 recordings remain available. See [common-grammar priorities](06-everyday-grammar.md) for the detailed route. The quick reference is for lookup. Optional patterns need recognition when encountered, not memorization or a passing test.
 
 ## The 20-unit route
 
