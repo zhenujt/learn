@@ -4,7 +4,9 @@
 
 ## 声音怎样准备
 
-这里是原创脚本，没有随附录音。请搭档或老师读朗读卡中的英文，或使用文字转语音（TTS）。学习者先看问题、不看卡片。帮助者只把英文正文放进语音工具，不读标题、译文或答案。独学可先准备语音，关脚本，过一段时间再听；已经仔细读过脚本的尝试要记为“有支持练习”，不能算陌生听力测验。
+每组已附两段原创脚本的合成语音（TTS）：Michelle 美音和 Sonia 英音，均以略慢语速（-15%）朗读。网站上的播放器在折叠朗读卡外，支持暂停、拖动和重播；只读英文正文，不读题目、角色标签、译文或答案。先看问题，不打开脚本，听 Michelle；理解后换 Sonia。两段是同一脚本，不是两套陌生听力测验。对话由单一声音按轮次朗读，不是真人多人录音。
+
+也可以请搭档或老师读英文卡片。已经仔细读过脚本的尝试要记为“有支持练习”，不能算陌生听力测验。下方变式没有单独音频，请搭档改读；不能用原音频回答变式。
 
 用自然清楚的意群朗读。初学可放慢，但不是每个词都拆开念。理解后换第二个声音。TTS 可能误读标识，也不能完全模拟自然插话，仍需真人互动。
 
@@ -24,6 +26,14 @@
 辅助词：tester 软件测试者；bag 包。
 
 问题：1. 姓名？2. 职业？3. 电脑是谁的？4. 充电器在哪里？
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 1 Michelle (US)" src="audio/listening/lab-01-michelle-us-3e74ff8bb2ef.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 1 Sonia (UK)" src="audio/listening/lab-01-sonia-uk-a2bbd4ee3bdd.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>朗读卡 1</summary>
@@ -47,6 +57,14 @@ Rosa，测试者，电脑是 Rosa 的，充电器在她包里。电脑不是新�
 
 问题：1. 周几？2. 原时间与新时间？3. 哪个房间？4. 哪个时区？
 
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 2 Michelle (US)" src="audio/listening/lab-02-michelle-us-fd5acae35f40.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 2 Sonia (UK)" src="audio/listening/lab-02-sonia-uk-1cafb1459942.mp3"></audio>
+<!-- listening-audio:end -->
+
 <details>
 <summary>朗读卡 2</summary>
 
@@ -68,6 +86,14 @@ The meeting is on Thursday. The time has changed. It is not at nine fifteen. It 
 辅助词：soup 汤；total 合计。
 
 问题：1. 什么没有？2. 改点什么？3. 什么饮料？4. 总价、付款方式？
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 3 Michelle (US)" src="audio/listening/lab-03-michelle-us-7cf0e355d922.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 3 Sonia (UK)" src="audio/listening/lab-03-sonia-uk-5cd764c7054d.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>朗读卡 3：两角色，或一人按轮次停顿</summary>
@@ -103,6 +129,14 @@ Server: Yes, you can.
 
 问题：1. 平时在哪工作？2. 今天在哪？3. 正做什么？4. 何时再打电话？
 
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 4 Michelle (US)" src="audio/listening/lab-04-michelle-us-2b41e48a4b85.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 4 Sonia (UK)" src="audio/listening/lab-04-sonia-uk-2123c3e2c145.mp3"></audio>
+<!-- listening-audio:end -->
+
 <details>
 <summary>朗读卡 4</summary>
 
@@ -124,6 +158,14 @@ I usually work in Room 12, but someone is repairing the window there. Today I'm 
 辅助词：connection 连接；address 本例为服务器地址。
 
 问题：1. 什么何时出问题？2. 重启解决了吗？3. 哪个修改有效？4. 成功后做什么？
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 5 Michelle (US)" src="audio/listening/lab-05-michelle-us-aa5459d140a7.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 5 Sonia (UK)" src="audio/listening/lab-05-sonia-uk-9bbc0d9b7fc5.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>朗读卡 5</summary>
@@ -147,6 +189,14 @@ Yesterday at eleven, the app lost its connection. I restarted it, but the connec
 
 问题：1. 已完成什么？2. 未完成什么？3. 谁处理依赖？4. 今天承诺什么，哪项有条件？
 
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 6 Michelle (US)" src="audio/listening/lab-06-michelle-us-23dbe25ba179.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 6 Sonia (UK)" src="audio/listening/lab-06-sonia-uk-d2e2cc9240d9.mp3"></audio>
+<!-- listening-audio:end -->
+
 <details>
 <summary>朗读卡 6</summary>
 
@@ -168,6 +218,14 @@ I've written the summary and sent it to the team. I haven't run the final tests 
 辅助词：affected 受影响；session 一次使用会话。
 
 问题：1. 环境和浏览器？2. 步骤？3. 预期与实际？4. 频率与未测范围？
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 7 Michelle (US)" src="audio/listening/lab-07-michelle-us-b6443dfb152c.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 7 Sonia (UK)" src="audio/listening/lab-07-sonia-uk-b617792fbb74.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>朗读卡 7</summary>
@@ -191,6 +249,14 @@ I'm testing in the staging environment with Browser R version eight. I open a ne
 
 问题：1. 必须改的行为？2. 必须保留什么？3. 加什么测试？4. 什么可选？
 
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 8 Michelle (US)" src="audio/listening/lab-08-michelle-us-677373ae80e4.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 8 Sonia (UK)" src="audio/listening/lab-08-sonia-uk-a2bececbbf75.mp3"></audio>
+<!-- listening-audio:end -->
+
 <details>
 <summary>朗读卡 8</summary>
 
@@ -212,6 +278,14 @@ The empty-input check needs to happen before the network request. That's require
 辅助词：target 目标；evidence 决策证据。
 
 问题：1. 已批准发布吗？2. 缺什么证据？3. 谁何时发？4. 谁何时决定？
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 9 Michelle (US)" src="audio/listening/lab-09-michelle-us-a234930f361e.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 9 Sonia (UK)" src="audio/listening/lab-09-sonia-uk-97c673b0efb0.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>朗读卡 9</summary>
@@ -244,6 +318,14 @@ Coordinator: Thanks, Leila. I'll record you as the decision owner.
 辅助词：sample 样本；recovery 恢复；handover 交接。
 
 问题：1. 哪里、什么影响已确认？2. 重试证明什么？3. 仍未知什么？4. 谁何时更新？5. 不能宣布什么？
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 10 Michelle (US)" src="audio/listening/lab-10-michelle-us-d12e8aec4508.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 10 Sonia (UK)" src="audio/listening/lab-10-sonia-uk-9bf2ec4a697e.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>朗读卡 10</summary>

@@ -1207,12 +1207,14 @@ function MarkdownContent({
             h1: ({ children }) => (
               <>
                 <h1 id={slugify(String(children))}>{children}</h1>
-                <DocumentAudioPlayer
-                  title={documentTitle}
-                  documentPath={documentPath}
-                  audioPath={audioPath}
-                  audioPlaylistPath={audioPlaylistPath}
-                />
+                {!content.includes("<!-- listening-audio:start -->") && (
+                  <DocumentAudioPlayer
+                    title={documentTitle}
+                    documentPath={documentPath}
+                    audioPath={audioPath}
+                    audioPlaylistPath={audioPlaylistPath}
+                  />
+                )}
               </>
             ),
             h2: ({ children }) => (
@@ -1220,6 +1222,19 @@ function MarkdownContent({
             ),
             h3: ({ children }) => (
               <h3 id={slugify(String(children))}>{children}</h3>
+            ),
+            audio: ({ node: _node, src, ...props }) => (
+              <audio
+                {...props}
+                src={src?.startsWith("audio/listening/") ? `${import.meta.env.BASE_URL}${src}` : src}
+                onPlay={(event) => {
+                  const playingAudio = event.currentTarget;
+                  articleRef.current?.querySelectorAll("audio").forEach((audio) => {
+                    if (audio !== playingAudio) audio.pause();
+                  });
+                  sentenceAudioRef.current?.pause();
+                }}
+              />
             ),
             a: ({ href, children }) => {
               const target = documentLinks.resolve(href, documentPath);

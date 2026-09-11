@@ -10,7 +10,7 @@ Build the ability to introduce yourself, manage everyday needs, read short messa
 
 Completing pages does not guarantee fluency, a CEFR level, or success in every technical meeting. The early material works toward A1-type tasks, followed by A2-type exchanges and selected B1-type workplace tasks. This is curriculum orientation, not certification. Unfamiliar accents, fast group discussion, and complex technical negotiations require further practice.
 
-These are complete text lessons with dialogues, explanations, exercises, answers, and performance tasks. **Recorded audio is not included.** Use the listening lab with a partner, teacher, or text-to-speech reader. Text-to-speech supports initial practice but cannot replace varied speakers or conversational feedback.
+These are complete text lessons with dialogues, explanations, exercises, answers, and performance tasks. **The [listening lab](04-listening-lab.md) includes 20 TTS recordings across 10 tasks**, playable on the website with Michelle (US) or Sonia (UK), both slightly slowed. Other lessons and variants do not yet include audio; use a partner, teacher, or text-to-speech reader. Text-to-speech supports initial practice but cannot replace varied human speakers or conversational feedback.
 
 ## Teaching design and commercial courses
 

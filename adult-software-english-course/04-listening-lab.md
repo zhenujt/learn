@@ -4,7 +4,9 @@
 
 ## Audio setup and boundaries
 
-These are original scripts, not included audio recordings. Ask a partner or teacher to read the English inside a reader card, or use TTS. The learner should see the questions but not the card before listening. A helper can copy only the English script into a speech reader; it must not read section labels, translations, or answers. If studying alone, prepare speech first, close the script, and listen later. If you already read the script closely, count that attempt as supported practice, not an unseen listening test.
+Each lab includes two synthesized recordings (TTS) of its original script: Michelle (US) and Sonia (UK), both at a slightly slower rate (-15%). Website players sit outside the collapsed reader cards and support pause, seeking, and replay. Audio contains only the English script, without questions, role labels, translations, or answers. Read the questions without opening the script, listen to Michelle, then try Sonia after understanding the message. Both voices read the same script, not two unseen tests. Dialogues use one voice with turns, not multiple human speakers.
+
+A partner or teacher can also read the English card. If you already read the script closely, count that attempt as supported practice, not an unseen listening test. The variants below have no separate recordings; ask a partner to read the changed script rather than using the original audio to answer a variant.
 
 Use a comfortable natural voice with clear phrase boundaries. Beginners may need slower delivery, but avoid spelling out every word unless asked. A second voice is useful once the message is understood. TTS can pronounce identifiers oddly and may not simulate natural interruptions; human interaction remains important.
 
@@ -24,6 +26,14 @@ Record whether each answer was independent, obtained after repetition, or obtain
 Support: tester = someone who checks software; bag = a container you carry.
 
 Listen for: 1. Speaker's name. 2. Job. 3. Whose laptop this is. 4. Where the charger is.
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 1 Michelle (US)" src="audio/listening/lab-01-michelle-us-3e74ff8bb2ef.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 1 Sonia (UK)" src="audio/listening/lab-01-sonia-uk-a2bbd4ee3bdd.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>Reader card 1</summary>
@@ -47,6 +57,14 @@ Support: changed = became different; instead = replacing the earlier choice.
 
 Questions: 1. Which day? 2. Old and new times? 3. Which room? 4. Which time zone?
 
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 2 Michelle (US)" src="audio/listening/lab-02-michelle-us-fd5acae35f40.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 2 Sonia (UK)" src="audio/listening/lab-02-sonia-uk-1cafb1459942.mp3"></audio>
+<!-- listening-audio:end -->
+
 <details>
 <summary>Reader card 2</summary>
 
@@ -68,6 +86,14 @@ Variant: change the new time to 10:15 and room to 308. Ask for a read-back of al
 Support: soup = liquid food; total = all prices added.
 
 Questions: 1. Which item is unavailable? 2. What does the customer order instead? 3. Which drink? 4. Total and payment method?
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 3 Michelle (US)" src="audio/listening/lab-03-michelle-us-7cf0e355d922.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 3 Sonia (UK)" src="audio/listening/lab-03-sonia-uk-5cd764c7054d.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>Reader card 3: two roles or one reader with pauses</summary>
@@ -103,6 +129,14 @@ Support: repair = fix; result = information from a test.
 
 Questions: 1. Where does the person usually work? 2. Where are they today? 3. What are they doing? 4. When should you call again?
 
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 4 Michelle (US)" src="audio/listening/lab-04-michelle-us-2b41e48a4b85.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 4 Sonia (UK)" src="audio/listening/lab-04-sonia-uk-2123c3e2c145.mp3"></audio>
+<!-- listening-audio:end -->
+
 <details>
 <summary>Reader card 4</summary>
 
@@ -124,6 +158,14 @@ Variant: Room 14 becomes Room 16 and two thirty becomes three thirty; keep the n
 Support: connection = link between systems; address = destination identifier here.
 
 Questions: 1. What failed and when? 2. Did restarting solve it? 3. What change helped? 4. What happened after the successful test?
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 5 Michelle (US)" src="audio/listening/lab-05-michelle-us-aa5459d140a7.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 5 Sonia (UK)" src="audio/listening/lab-05-sonia-uk-9bbc0d9b7fc5.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>Reader card 5</summary>
@@ -147,6 +189,14 @@ Support: permission = authorization; summary = short account of main points.
 
 Questions: 1. What is already complete? 2. What is not complete? 3. Who supplies the dependency? 4. What is promised today, and what is conditional?
 
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 6 Michelle (US)" src="audio/listening/lab-06-michelle-us-23dbe25ba179.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 6 Sonia (UK)" src="audio/listening/lab-06-sonia-uk-d2e2cc9240d9.mp3"></audio>
+<!-- listening-audio:end -->
+
 <details>
 <summary>Reader card 6</summary>
 
@@ -168,6 +218,14 @@ Variant: Mei becomes Arun and access becomes available only Friday morning; the 
 Support: affected = experiencing the problem; session = one period of using the app.
 
 Questions: 1. Environment and browser? 2. Trigger steps? 3. Expected versus actual? 4. Frequency and untested scope?
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 7 Michelle (US)" src="audio/listening/lab-07-michelle-us-b6443dfb152c.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 7 Sonia (UK)" src="audio/listening/lab-07-sonia-uk-b617792fbb74.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>Reader card 7</summary>
@@ -191,6 +249,14 @@ Support: approval = permission to proceed; wording = words used in a message.
 
 Questions: 1. Required behavior change? 2. What must remain unchanged? 3. Which test is needed? 4. Which suggestion is optional?
 
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 8 Michelle (US)" src="audio/listening/lab-08-michelle-us-677373ae80e4.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 8 Sonia (UK)" src="audio/listening/lab-08-sonia-uk-a2bececbbf75.mp3"></audio>
+<!-- listening-audio:end -->
+
 <details>
 <summary>Reader card 8</summary>
 
@@ -212,6 +278,14 @@ Variant: rename is required too; reviewer still allows message wording to remain
 Support: target = desired outcome; evidence = information supporting a decision.
 
 Questions: 1. Is release approved? 2. What evidence is missing? 3. Who posts it and when? 4. Who decides and when?
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 9 Michelle (US)" src="audio/listening/lab-09-michelle-us-a234930f361e.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 9 Sonia (UK)" src="audio/listening/lab-09-sonia-uk-97c673b0efb0.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>Reader card 9</summary>
@@ -244,6 +318,14 @@ Variant: change review to tomorrow 11:00 and add `Friday is no longer our target
 Support: sample = limited set examined; recovery = return to normal service; handover = transfer of responsibility.
 
 Questions: 1. What impact is confirmed and where? 2. What does the retry prove? 3. What remains unknown? 4. Who owns the next update and at what time? 5. What should not be announced yet?
+
+<!-- listening-audio:start -->
+<p>Michelle (US)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 10 Michelle (US)" src="audio/listening/lab-10-michelle-us-d12e8aec4508.mp3"></audio>
+
+<p>Sonia (UK)</p>
+<audio controls preload="none" style="width:100%;max-width:480px" aria-label="Lab 10 Sonia (UK)" src="audio/listening/lab-10-sonia-uk-9bf2ec4a697e.mp3"></audio>
+<!-- listening-audio:end -->
 
 <details>
 <summary>Reader card 10</summary>

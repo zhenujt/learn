@@ -11,7 +11,8 @@
     "test": "vitest run",
     "preview": "vite preview",
     "audio:document": "../.venv/bin/python scripts/generate_document_audio.py",
-    "audio:all": "../.venv/bin/python scripts/generate_document_audio.py --all"
+    "audio:all": "../.venv/bin/python scripts/generate_document_audio.py --all",
+    "audio:listening": "node scripts/generate_listening_audio.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.109.0",
