@@ -14,6 +14,7 @@ import {
   TriangleAlert,
 } from "lucide-react";
 import { PlanProgressStore } from "./shared/plan-progress";
+import { SpokenText } from "./shared/spoken-text";
 
 const planProgress = new PlanProgressStore();
 
@@ -442,13 +443,13 @@ export function PlanPage() {
                     <span className="plan-daily-minutes">{block.minutes}</span>
                   </div>
                   <h3>{block.name}</h3>
-                  <p>{block.detail}</p>
+                  <p><SpokenText text={block.detail} /></p>
                 </article>
               );
             })}
           </div>
           <ul className="plan-routine-list">
-            {weeklyRoutines.map((routine) => <li key={routine}>{routine}</li>)}
+            {weeklyRoutines.map((routine) => <li key={routine}><SpokenText text={routine} /></li>)}
           </ul>
         </section>
 
@@ -466,7 +467,7 @@ export function PlanPage() {
                 <span className="plan-listening-order">{step.order}</span>
                 <div>
                   <strong>{step.name}</strong>
-                  <span>{step.detail}</span>
+                  <span><SpokenText text={step.detail} /></span>
                 </div>
               </article>
             ))}
@@ -494,7 +495,7 @@ export function PlanPage() {
           <div className="plan-skip">
             <h3>逐条录音自查</h3>
             <ul>
-              {pronunciationChecks.map((item) => <li key={item}>{item}</li>)}
+              {pronunciationChecks.map((item) => <li key={item}><SpokenText text={item} /></li>)}
             </ul>
           </div>
         </section>
@@ -524,8 +525,8 @@ export function PlanPage() {
                         <strong>{week.week}</strong>
                         <span>{week.focus}</span>
                       </div>
-                      <p><span className="plan-week-label">学什么</span>{week.study}</p>
-                      <p><span className="plan-week-label">输出任务</span>{week.output}</p>
+                      <p><span className="plan-week-label">学什么</span><SpokenText text={week.study} /></p>
+                      <p><span className="plan-week-label">输出任务</span><SpokenText text={week.output} /></p>
                     </div>
                   </article>
                 );

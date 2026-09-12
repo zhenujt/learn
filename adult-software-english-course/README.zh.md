@@ -36,6 +36,7 @@
 
 - [从这里开始：基础说明与起点检查](00-start-here.zh.md)
 - [发音、拼写、数字与听音习惯](01-sounds-and-spelling.zh.md)
+- [周育如老师 KK 音标学习笔记](09-phonetic-symbols.zh.md)
 - [基础练习册：10 个递进站、68 道练习与复习安排](08-foundation-workbook.zh.md)
 - [白话语法参考](02-grammar-reference.zh.md)
 - [常用语法补充：12 个专题、48 道练习与迁移任务](06-everyday-grammar.zh.md)

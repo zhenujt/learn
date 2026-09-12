@@ -2,6 +2,7 @@ import { createEmptyCard, fsrs, get_fuzz_range, Rating, State, type Card as Fsrs
 import type { SupabaseClient } from '@supabase/supabase-js'
 import type { CardProgress, ReviewGrade, ReviewLogEntry, ReviewStats, StudyCard } from './types'
 import { supabase } from './auth'
+import { pronunciation } from '../../../../docs-site/src/shared/pronunciation'
 
 const PROGRESS_KEY = 'sentence-trainer-progress-v2'
 const LEGACY_PROGRESS_KEY = 'sentence-trainer-progress-v1'
@@ -617,10 +618,17 @@ export class CloudProgressSync {
 
 /** Ensures only one in-app pronunciation track plays at a time. */
 export class AudioController {
-  private currentAudio: HTMLAudioElement | null = null
-  private finishCurrent: (() => void) | null = null
   private playbackId = 0
   private looping = false
+  private onStateChange?: (looping: boolean) => void
+  private resolveText: (source: string) => string
+
+  /**
+   * @param resolveText Retrieves the original English for a recording URL.
+   */
+  constructor(resolveText: (source: string) => string = () => '') {
+    this.resolveText = resolveText
+  }
 
   /** Stops the previous in-app track and starts the requested audio file. */
   async play(source: string): Promise<void> {
@@ -638,6 +646,7 @@ export class AudioController {
 
     this.stop()
     this.looping = true
+    this.onStateChange = onStateChange
     const playbackId = this.playbackId
     onStateChange(true)
     void this.playLoop(sources, playbackId).catch(() => {
@@ -651,10 +660,9 @@ export class AudioController {
   stop(): void {
     this.playbackId += 1
     this.looping = false
-    this.currentAudio?.pause()
-    this.finishCurrent?.()
-    this.currentAudio = null
-    this.finishCurrent = null
+    pronunciation.stop()
+    this.onStateChange?.(false)
+    this.onStateChange = undefined
   }
 
   private async playLoop(sources: string[], playbackId: number): Promise<void> {
@@ -667,18 +675,6 @@ export class AudioController {
   }
 
   private playOnce(source: string): Promise<void> {
-    return new Promise((resolve, reject) => {
-      const audio = new Audio(source)
-      this.currentAudio = audio
-      const finish = () => {
-        if (this.currentAudio === audio) this.currentAudio = null
-        if (this.finishCurrent === finish) this.finishCurrent = null
-        resolve()
-      }
-      this.finishCurrent = finish
-      audio.addEventListener('ended', finish, { once: true })
-      audio.addEventListener('error', () => reject(new Error(`Unable to play ${source}`)), { once: true })
-      audio.play().catch(reject)
-    })
+    return pronunciation.play(this.resolveText(source), { recording: source })
   }
 }

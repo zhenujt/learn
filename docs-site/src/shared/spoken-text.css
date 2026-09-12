@@ -1,0 +1,6 @@
+.speech-control { display: inline; white-space: normal; }
+.speech-button { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; padding: 0; margin: 0 3px; border: 1px solid #cadbd4; border-radius: 5px; color: #176348; background: #f1f8f4; vertical-align: middle; cursor: pointer; flex-shrink: 0; }
+.speech-button:hover, .speech-button.is-playing { background: #dceee3; color: #134c37; }
+.speech-button:focus-visible { outline: 2px solid #176348; outline-offset: 2px; }
+.speech-error { display: inline; color: #a52b35; font-size: 12px; white-space: normal; overflow-wrap: anywhere; }
+.speech-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

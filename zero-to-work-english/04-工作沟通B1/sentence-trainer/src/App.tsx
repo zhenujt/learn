@@ -12,7 +12,12 @@ import './App.css'
 
 const cards = cardsJson as StudyCard[]
 const scheduler = new ReviewScheduler()
-const audioController = new AudioController()
+const audioController = new AudioController((source) => {
+  const item = cards.find((candidate) => [candidate.naturalAudio, candidate.clearAudio,
+    candidate.jennyNaturalAudio, candidate.jennyClearAudio, candidate.michelleNaturalAudio,
+    candidate.michelleClearAudio].some((path) => `${import.meta.env.BASE_URL}${path}` === source))
+  return item ? `${item.question} ${item.response}` : ''
+})
 const cloudProgressSync = new CloudProgressSync(scheduler)
 const EMPTY_PREVIEW: Record<ReviewGrade, string> = { again: '', hard: '', good: '', easy: '' }
 
@@ -32,9 +37,12 @@ function App() {
   const [session, setSession] = useState<Session | null>(null)
   const [resetRequested, setResetRequested] = useState(false)
   const [authOpen, setAuthOpen] = useState(false)
+  const [audioError, setAudioError] = useState('')
   const card = queue[cardIndex]
   const stats = scheduler.getStats()
   const preview = useMemo(() => (card && revealed ? scheduler.preview(card.id) : EMPTY_PREVIEW), [card, revealed])
+
+  useEffect(() => () => audioController.stop(), [activeView])
 
   useEffect(() => {
     const handlePrompt = (event: Event) => {
@@ -102,7 +110,14 @@ function App() {
     setInstallPrompt(null)
   }
 
-  const playAudio = (source: string) => audioController.play(`${import.meta.env.BASE_URL}${source}`)
+  const playAudio = async (source: string) => {
+    setAudioError('')
+    try {
+      await audioController.play(`${import.meta.env.BASE_URL}${source}`)
+    } catch (error) {
+      setAudioError(error instanceof Error ? error.message : '无法播放，请重试')
+    }
+  }
   const toggleAudioLoop = (sources: string[], onStateChange: (looping: boolean) => void) => {
     audioController.toggleLoop(
       sources.map((source) => `${import.meta.env.BASE_URL}${source}`),
@@ -132,7 +147,10 @@ function App() {
         </div>
       </header>
 
-      <main>
+      <main onClickCapture={(event) => {
+        if ((event.target as Element).closest('.speech-button')) audioController.stop()
+      }}>
+        {audioError && <p role="alert" className="auth-error">{audioError}</p>}
         {activeView === 'study' && <StudyView key={card?.id ?? 'complete'} card={card} current={cardIndex} total={queue.length} reviewedCards={reviewedCards} revealed={revealed} onReveal={() => setRevealed(true)} onGrade={gradeCard} preview={preview} onPlay={playAudio} onToggleLoop={toggleAudioLoop} onRestart={startNextSession} />}
         {activeView === 'library' && <LibraryView cards={cards} onPlay={playAudio} />}
         {activeView === 'progress' && <ProgressView cards={cards} scheduler={scheduler} onReset={resetProgress} />}

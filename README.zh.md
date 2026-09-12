@@ -58,3 +58,7 @@ npm --prefix docs-site run audio:all
 - 基础篇后：能介绍自己、描述日程、询问和回答工作中的简单问题。
 - 进阶篇后：能解释 bug、写清晰 issue、阅读常见技术文档，并在会议中说明原因与条件。
 - 高级篇后：能写有逻辑的邮件、设计说明和英语考试中的论证段落。
+
+
+
+https://dict.youdao.com/pronounce/base?product=webdict&appVersion=1&client=web&mid=1&vendor=web&screen=1&model=1&imei=1&network=wifi&keyfrom=dick&keyid=voiceDictWeb&mysticTime=1789216622238&yduuid=abcdefg&le=&phonetic=&rate=4&word=Do%20you%20know&type=2&id=&sign=9caa673a641fb61b7fa68a63690c422f&pointParam=appVersion,client,imei,keyfrom,keyid,mid,model,mysticTime,network,product,rate,screen,type,vendor,word,yduuid,key

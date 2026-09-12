@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, BookOpen, CalendarDays, CheckCircle2, Hash, Volume2 } from "lucide-react";
-import { JennySpeechClient } from "./shared/jenny-speech";
+import { pronunciation } from "./shared/pronunciation";
 
-const jennySpeech = new JennySpeechClient();
 const lessonAudioPath = "audio/documents/326bdc791d130c143374.mp3";
 
 interface SpokenItem {
@@ -104,68 +103,21 @@ interface SpeechState {
 /** Interactive reference for English numbers, years, months, and weekdays. */
 export function NumberPage() {
   const [speech, setSpeech] = useState<SpeechState>();
-  const audioRef = useRef<HTMLAudioElement | null>(null);
   const requestRef = useRef(0);
 
   useEffect(() => () => {
     requestRef.current += 1;
-    audioRef.current?.pause();
-    if (audioRef.current?.src.startsWith("blob:")) URL.revokeObjectURL(audioRef.current.src);
-    window.speechSynthesis?.cancel();
+    pronunciation.stop();
   }, []);
 
-  const stopAudio = () => {
-    const audio = audioRef.current;
-    audio?.pause();
-    if (audio?.src.startsWith("blob:")) URL.revokeObjectURL(audio.src);
-    audioRef.current = null;
-  };
-
-  const speakWithSystem = (text: string, key: string) => {
-    if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) {
-      setSpeech({ key, error: true });
-      return;
-    }
-    requestRef.current += 1;
-    stopAudio();
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US";
-    utterance.rate = 0.82;
-    const voices = window.speechSynthesis.getVoices();
-    utterance.voice = voices.find((voice) => voice.lang.toLowerCase() === "en-us")
-      ?? voices.find((voice) => voice.lang.toLowerCase().startsWith("en"))
-      ?? null;
-    utterance.onend = () => setSpeech((current) => current?.key === key ? undefined : current);
-    utterance.onerror = () => setSpeech({ key, error: true });
-    setSpeech({ key, error: false });
-    window.speechSynthesis.speak(utterance);
-  };
-
   const speak = async (text: string, key: string) => {
-    if (!jennySpeech.available) {
-      speakWithSystem(text, key);
-      return;
-    }
     const request = ++requestRef.current;
-    stopAudio();
-    window.speechSynthesis?.cancel();
     setSpeech({ key, error: false });
     try {
-      const blob = await jennySpeech.synthesize(text);
-      if (request !== requestRef.current) return;
-      const audio = new Audio(URL.createObjectURL(blob));
-      audioRef.current = audio;
-      audio.onended = () => {
-        if (audioRef.current === audio) {
-          stopAudio();
-          setSpeech(undefined);
-        }
-      };
-      audio.onerror = () => speakWithSystem(text, key);
-      await audio.play();
+      await pronunciation.play(text);
+      if (request === requestRef.current) setSpeech(undefined);
     } catch {
-      if (request === requestRef.current) speakWithSystem(text, key);
+      if (request === requestRef.current) setSpeech({ key, error: true });
     }
   };
 
@@ -180,7 +132,7 @@ export function NumberPage() {
         className={`word-audio${speech?.key === key && !speech.error ? " is-speaking" : ""}`}
         onClick={() => void speak(item.text, key)}
         aria-label={`朗读 ${item.text}`}
-        title="朗读"
+        title="有道朗读（失败时使用设备语音）"
       >
         <Volume2 size={17} />
       </button>
@@ -214,7 +166,7 @@ export function NumberPage() {
           </div>
           <div className="number-audio-panel">
             <div><Volume2 size={20} /><span><strong>完整课程音频</strong><small>中文提示 + 英文三遍跟读</small></span></div>
-            <audio controls preload="metadata" src={`${import.meta.env.BASE_URL}${lessonAudioPath}`}>
+            <audio controls preload="metadata" onPlay={() => { requestRef.current += 1; pronunciation.stop(); setSpeech(undefined); }} src={`${import.meta.env.BASE_URL}${lessonAudioPath}`}>
               当前浏览器不支持音频播放。
             </audio>
           </div>

@@ -2,6 +2,7 @@ import { useDeferredValue, useState, type ReactNode } from 'react'
 import { Check, ChevronRight, Download, Eye, EyeOff, Headphones, Repeat2, RotateCcw, Search, Snail, Sparkles, Square, Volume2 } from 'lucide-react'
 import type { ReviewScheduler } from './services'
 import type { ReviewGrade, StudyCard } from './types'
+import { SpeechButton, SpokenText } from '../../../../docs-site/src/shared/spoken-text'
 
 interface StudyViewProps {
   card: StudyCard | undefined
@@ -78,7 +79,7 @@ export function StudyView({ card, current, total, reviewedCards, revealed, onRev
                           <h2>{reviewedCard.question}</h2>
                           <strong>{reviewedCard.response}</strong>
                           <div className="review-vocabulary">
-                            {reviewedCard.grammar.vocabulary.slice(0, 4).map((item) => <span key={item.word}>{item.word}<small>{item.meaning}</small></span>)}
+                            {reviewedCard.grammar.vocabulary.slice(0, 4).map((item) => <span key={item.word}>{item.word}<SpeechButton text={item.word} /><small>{item.meaning}</small></span>)}
                           </div>
                         </div>
                       )}
@@ -194,7 +195,7 @@ function VocabularyPanel({ card }: { card: StudyCard }) {
       <div className="vocabulary-list">
         {card.grammar.vocabulary.map((item) => (
           <article key={item.word}>
-            <div className="word-summary"><strong>{item.word}</strong><span>{item.partOfSpeech}</span><p>{item.meaning}</p></div>
+            <div className="word-summary"><strong>{item.word}<SpeechButton text={item.word} /></strong><span>{item.partOfSpeech}</span><p>{item.meaning}</p></div>
             <div className="pronunciations">
               <div><span>美式 IPA</span>/{item.americanIpa}/</div>
               <div><span>英式 IPA</span>/{item.britishIpa}/</div>
@@ -215,17 +216,17 @@ function GrammarPanel({ card }: { card: StudyCard }) {
         <div><dt>问句句型</dt><dd>{card.grammar.questionPattern}</dd></div>
         <div><dt>回答句型</dt><dd>{card.grammar.responsePattern}</dd></div>
         <div><dt>时态</dt><dd>{card.grammar.tense}</dd></div>
-        <div className="chunk-row"><dt>意群切块</dt><dd>{card.grammar.chunks}</dd></div>
+        <div className="chunk-row"><dt>意群切块</dt><dd><SpokenText text={card.grammar.chunks} /></dd></div>
       </dl>
       <div className="template-examples">
         <div>
           <span>问句模板例句</span>
-          <strong>{card.grammar.templateExamples.question.english}</strong>
+          <strong>{card.grammar.templateExamples.question.english}<SpeechButton text={card.grammar.templateExamples.question.english} /></strong>
           <p>{card.grammar.templateExamples.question.chinese}</p>
         </div>
         <div>
           <span>回答模板例句</span>
-          <strong>{card.grammar.templateExamples.response.english}</strong>
+          <strong>{card.grammar.templateExamples.response.english}<SpeechButton text={card.grammar.templateExamples.response.english} /></strong>
           <p>{card.grammar.templateExamples.response.chinese}</p>
         </div>
       </div>
@@ -291,7 +292,7 @@ export function ProgressView({ cards, scheduler, onReset }: { cards: StudyCard[]
         <h2>推荐记忆法</h2>
         <ol>
           <li><span>01</span><div><strong>答案后默写</strong><p>先看中文和标准英文，再隐藏答案完整输入。输入有误就选择“重来”。</p></div></li>
-          <li><span>02</span><div><strong>意群记忆</strong><p>按斜线分块，不背孤立单词：Can you / give us / an update?</p></div></li>
+          <li><span>02</span><div><strong>意群记忆</strong><p><SpokenText text="按斜线分块，不背孤立单词：Can you / give us / an update?" /></p></div></li>
           <li><span>03</span><div><strong>双速影子跟读</strong><p>清晰分词听边界，自然连读练真实听力，每句各跟三遍。</p></div></li>
           <li><span>04</span><div><strong>替换造句</strong><p>把 [task]、[date]、[feature] 换成当天真实工作，记忆会更牢。</p></div></li>
         </ol>

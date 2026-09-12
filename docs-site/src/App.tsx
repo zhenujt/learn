@@ -20,6 +20,9 @@ import {
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
+import { SpeechButton, SpokenText } from "./shared/spoken-text";
+import { rehypePronunciation } from "./shared/rehype-pronunciation";
+import { pronunciation } from "./shared/pronunciation";
 import documents from "virtual:analysis-documents";
 import { DocumentLinkResolver } from "./shared/document-link";
 import { GitHubDocumentClient, SaveError } from "./shared/github-client";
@@ -1161,15 +1164,13 @@ function MarkdownContent({
   onSelectDocument?: (path: string) => void;
 }) {
   const articleRef = useRef<HTMLElement>(null);
-  const sentenceAudioRef = useRef<HTMLAudioElement | null>(null);
   const [audioPlaylist, setAudioPlaylist] = useState<AudioPlaylistManifest>();
   const annotationKey = annotations
     ?.map((annotation) => `${annotation.id}:${annotation.updatedAt}`)
     .join("|");
 
   useEffect(() => {
-    sentenceAudioRef.current?.pause();
-    sentenceAudioRef.current = null;
+    pronunciation.stop();
     setAudioPlaylist(undefined);
     if (!audioPlaylistPath) return;
 
@@ -1188,22 +1189,21 @@ function MarkdownContent({
     return () => controller.abort();
   }, [audioPlaylistPath]);
 
-  useEffect(() => () => sentenceAudioRef.current?.pause(), []);
-
-  const playSentence = (audioPath: string) => {
-    sentenceAudioRef.current?.pause();
-    const audio = new Audio(`${import.meta.env.BASE_URL}${audioPath}`);
-    sentenceAudioRef.current = audio;
-    void audio.play();
-  };
+  useEffect(() => () => pronunciation.stop(), [documentPath]);
 
   return (
     <>
       <article className="markdown-body" ref={articleRef} key={`${documentPath}:${annotationKey}`}>
         <ReactMarkdown
-          rehypePlugins={[rehypeRaw]}
+          rehypePlugins={[rehypeRaw, rehypePronunciation]}
           remarkPlugins={[remarkGfm]}
           components={{
+            button: ({ node, children, ...props }) => {
+              const text = node?.properties["data-pronunciation"] ?? node?.properties.dataPronunciation;
+              if (typeof text !== "string") return <button {...props}>{children}</button>;
+              const recording = audioPlaylist?.examples.find((example) => example.english.trim() === text)?.englishAudio["jenny-us"];
+              return <SpeechButton text={text} recording={recording ? `${import.meta.env.BASE_URL}${recording}` : undefined} />;
+            },
             h1: ({ children }) => (
               <>
                 <h1 id={slugify(String(children))}>{children}</h1>
@@ -1228,11 +1228,11 @@ function MarkdownContent({
                 {...props}
                 src={src?.startsWith("audio/listening/") ? `${import.meta.env.BASE_URL}${src}` : src}
                 onPlay={(event) => {
+                  pronunciation.stop();
                   const playingAudio = event.currentTarget;
                   articleRef.current?.querySelectorAll("audio").forEach((audio) => {
                     if (audio !== playingAudio) audio.pause();
                   });
-                  sentenceAudioRef.current?.pause();
                 }}
               />
             ),
@@ -1275,15 +1275,7 @@ function MarkdownContent({
                 return (
                   <span className="inline-audio-example">
                     <code {...props}>{children}</code>
-                    <button
-                      type="button"
-                      className="sentence-audio-button is-inline"
-                      aria-label={`播放：${inlineExample.english}`}
-                      title="播放 Jenny 英文朗读"
-                      onClick={() => playSentence(inlineExample.englishAudio["jenny-us"])}
-                    >
-                      <Play size={12} fill="currentColor" />
-                    </button>
+                    <SpeechButton text={inlineExample.english} recording={`${import.meta.env.BASE_URL}${inlineExample.englishAudio["jenny-us"]}`} />
                   </span>
                 );
               }
@@ -1299,7 +1291,7 @@ function MarkdownContent({
                   }, [])
                 : [];
               if (examples.length * 2 !== lines.length) {
-                return <code className={className} {...props}>{children}</code>;
+                return <code className={className} {...props}>{!className || className === "language-text" ? <SpokenText text={value} /> : children}</code>;
               }
               return (
                 <span className="bilingual-example-list">
@@ -1309,15 +1301,7 @@ function MarkdownContent({
                         <strong>{example.english}</strong>
                         <span>{example.chinese}</span>
                       </span>
-                      <button
-                        type="button"
-                        className="sentence-audio-button"
-                        aria-label={`播放：${example.english}`}
-                        title="播放 Jenny 英文朗读"
-                        onClick={() => playSentence(example.englishAudio["jenny-us"])}
-                      >
-                        <Play size={15} fill="currentColor" />
-                      </button>
+                      <SpeechButton text={example.english} recording={`${import.meta.env.BASE_URL}${example.englishAudio["jenny-us"]}`} />
                     </span>
                   ))}
                 </span>
@@ -1440,6 +1424,7 @@ function LegacyDocumentAudioPlayer({
           preload="metadata"
           src={`${import.meta.env.BASE_URL}${audioPath}`}
           aria-label={`${title} 例句音频`}
+          onPlay={() => pronunciation.stop()}
           onTimeUpdate={() => {
             if (Date.now() - lastSavedAtRef.current >= 1000) saveCurrentPosition();
           }}
@@ -1603,7 +1588,7 @@ function DocumentAudioPlaylistPlayer({
                 restoreTimeRef.current = 0;
               }
             }}
-            onPlay={() => { shouldContinueRef.current = true; }}
+            onPlay={() => { pronunciation.stop(); shouldContinueRef.current = true; }}
             onPause={() => {
               if (!audioRef.current?.ended) shouldContinueRef.current = false;
               saveProgress();

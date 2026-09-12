@@ -36,6 +36,7 @@ A 45-minute session: 5 minutes retrieval, 10 minutes listening/reading, 10 minut
 
 - [Start here: zero-level orientation and baseline](00-start-here.md)
 - [Sounds, spelling, numbers, and listening habits](01-sounds-and-spelling.md)
+- [Chou Yu-Ju KK phonetic symbols](09-phonetic-symbols.md)
 - [Foundation workbook: 10 progressive stations, 68 exercises, and retrieval practice](08-foundation-workbook.md)
 - [Plain-language grammar reference](02-grammar-reference.md)
 - [Common grammar: 12 topics, 48 exercises, and transfer tasks](06-everyday-grammar.md)
