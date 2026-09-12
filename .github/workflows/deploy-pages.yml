@@ -94,6 +94,8 @@ jobs:
           cp docs-site/dist/index.html _site/words/index.html
           mkdir -p _site/preposition
           cp docs-site/dist/index.html _site/preposition/index.html
+            mkdir -p _site/number
+            cp docs-site/dist/index.html _site/number/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
