@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, BookOpen, CalendarDays, CheckCircle2, Hash, Volume2 } from "lucide-react";
+import { LoginButton } from "./shared/LoginButton";
 import { pronunciation } from "./shared/pronunciation";
 
 const lessonAudioPath = "audio/documents/326bdc791d130c143374.mp3";
@@ -155,6 +156,7 @@ export function NumberPage() {
           <a href="#weekdays">星期</a>
           <a href="#practice">练习</a>
         </nav>
+        <LoginButton />
       </header>
 
       <main className="number-main">

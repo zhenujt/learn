@@ -5,6 +5,7 @@ import { App } from "./App";
 import { HomePage } from "./HomePage";
 import { NumberPage } from "./NumberPage";
 import { PlanPage } from "./PlanPage";
+import { SentencesPage } from "./SentencesPage";
 import { WordsPage } from "./WordsPage";
 import documents from "virtual:analysis-documents";
 import "./styles.css";
@@ -23,6 +24,7 @@ function resolvePage(pathname: string): ReactElement {
     return <App initialDocumentPath={documentPath} />;
   }
   if (/\/plan\/?$/.test(pathname)) return <PlanPage />;
+  if (/\/sentences\/?$/.test(pathname)) return <SentencesPage />;
   if (/\/words\/?$/.test(pathname)) return <WordsPage />;
   if (/\/number\/?$/.test(pathname)) return <NumberPage />;
   const isPrepositionRoute = /\/preposition\/?$/.test(pathname);

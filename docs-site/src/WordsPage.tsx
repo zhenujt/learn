@@ -255,15 +255,15 @@ export function WordsPage() {
             {syncMessage === "已同步" && <Check size={14} />}
             {syncMessage}
           </span>
-          {wordSync.configured && userEmail ? (
+          {userEmail ? (
             <button className="secondary-command" onClick={() => void sync()}>
               <Cloud size={16} /> 同步
             </button>
-          ) : wordSync.configured ? (
+          ) : (
             <button className="secondary-command" onClick={() => setAuthOpen(true)}>
               <LogIn size={16} /> 登录
             </button>
-          ) : null}
+          )}
           <button className="save-button" onClick={openCreate}>
             <Plus size={17} /> 添加单词
           </button>

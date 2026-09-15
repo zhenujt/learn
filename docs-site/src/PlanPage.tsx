@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { PlanProgressStore } from "./shared/plan-progress";
 import { SpokenText } from "./shared/spoken-text";
+import { LoginButton } from "./shared/LoginButton";
 
 const planProgress = new PlanProgressStore();
 
@@ -407,6 +408,7 @@ export function PlanPage() {
         <div className="plan-progress-summary" role="status">
           已完成 {completed.length} / {totalWeeks} 项
         </div>
+        <LoginButton />
       </header>
 
       <main className="plan-main">

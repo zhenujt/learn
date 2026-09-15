@@ -889,7 +889,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
               </button>
             </>
           )}
-          {!isEditing && studySync.configured && !userEmail && (
+          {!isEditing && !userEmail && (
             <button className="secondary-command sign-in-button" onClick={openSignIn}>
               <LogIn size={16} /> Sign in
             </button>

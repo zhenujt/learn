@@ -79,13 +79,18 @@ button {
 .home-brand svg {
   color: var(--accent);
 }
-.home-header > span,
+.home-header-actions > span,
 .home-kicker,
 .home-route-number,
 .home-route-meta {
   font-family: "DM Mono", monospace;
 }
-.home-header > span {
+.home-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.home-header-actions > span {
   color: var(--muted);
   font-size: 11px;
 }
@@ -457,6 +462,9 @@ button {
 }
 .number-jump a:hover {
   color: var(--accent);
+}
+.number-topbar .sign-in-button {
+  margin-left: 16px;
 }
 .number-main {
   width: min(1120px, calc(100% - 48px));
@@ -2488,6 +2496,9 @@ button {
   color: var(--muted);
   font-family: "DM Mono", monospace;
   font-size: 11px;
+}
+.plan-topbar .sign-in-button {
+  margin-left: 16px;
 }
 .plan-main {
   width: min(1120px, calc(100% - 48px));

@@ -7,6 +7,7 @@ import {
   LibraryBig,
   Target,
 } from "lucide-react";
+import { LoginButton } from "./shared/LoginButton";
 
 interface SiteRoute {
   path: string;
@@ -60,6 +61,13 @@ const routes: SiteRoute[] = [
     icon: BookOpen,
   },
   {
+    path: "sentences/",
+    name: "我的句子本",
+    englishName: "PERSONAL SENTENCE BOOK",
+    description: "手动记录常用句型、英文例句和中文意思，积累自己的表达方式。",
+    icon: Languages,
+  },
+  {
     path: "anki/",
     name: "Anki 句子训练",
     englishName: "SENTENCE TRAINER",
@@ -80,7 +88,7 @@ export function HomePage() {
     <div className="home-shell">
       <header className="home-header">
         <div className="home-brand"><BookOpen size={19} /> Learn <strong>English</strong></div>
-        <span>学习入口</span>
+        <div className="home-header-actions"><span>学习入口</span><LoginButton /></div>
       </header>
       <main className="home-main">
         <div className="home-intro">
