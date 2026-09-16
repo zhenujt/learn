@@ -1,12 +1,15 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
-import { ArrowLeft, BookOpen, Check, Edit3, Languages, Plus, Search, Trash2, Volume2, X } from "lucide-react";
+import { ArrowLeft, BookOpen, Check, Cloud, Edit3, Languages, LogIn, Plus, Search, Trash2, Volume2, X } from "lucide-react";
+import { AuthDialog } from "../../shared/auth/AuthDialog";
+import { auth } from "../../shared/auth/auth-client";
 import { BasicRichTextEditor, RichTextContent } from "./BasicRichTextEditor";
 import { pronunciation } from "./shared/pronunciation";
-import { LoginButton } from "./shared/LoginButton";
 import { richTextToPlainText } from "./shared/rich-text";
 import { SentenceStore, type SavedSentence } from "./shared/sentence-store";
+import { SentenceSyncClient } from "./shared/sentence-sync";
 
 const sentenceStore = new SentenceStore();
+const sentenceSync = new SentenceSyncClient();
 
 interface SentenceDraft {
   pattern: string;
@@ -33,12 +36,17 @@ export function SentencesPage() {
   const [editingId, setEditingId] = useState<string>();
   const [formOpen, setFormOpen] = useState(false);
   const [draft, setDraft] = useState<SentenceDraft>(emptyDraft);
+  const [userEmail, setUserEmail] = useState<string>();
+  const [authOpen, setAuthOpen] = useState(false);
+  const [syncMessage, setSyncMessage] = useState(sentenceSync.configured ? "" : "仅保存在此设备");
   const [speechFeedback, setSpeechFeedback] = useState<SpeechFeedback>();
+  const syncingRef = useRef(false);
   const speechRequestRef = useRef(0);
 
   const activeSentences = useMemo(() => {
     const normalized = query.trim().toLowerCase();
     return sentences
+      .filter((sentence) => !sentence.deletedAt)
       .filter((sentence) => !normalized ||
         `${sentence.pattern} ${richTextToPlainText(sentence.examples)} ${richTextToPlainText(sentence.meaning)}`
           .toLowerCase()
@@ -46,13 +54,51 @@ export function SentencesPage() {
       .sort((left, right) => right.updatedAt.localeCompare(left.updatedAt));
   }, [query, sentences]);
 
+  const sync = async () => {
+    if (syncingRef.current) return;
+    syncingRef.current = true;
+    try {
+      setSyncMessage("正在同步…");
+      const user = await sentenceSync.user();
+      if (!user) throw new Error("登录后即可跨设备同步");
+      setUserEmail(user.email);
+      const scopedSentences = sentenceStore.setScope(user.id);
+      const storageKey = sentenceStore.storageKey;
+      await sentenceSync.push(scopedSentences);
+      const cloudSentences = await sentenceSync.pull();
+      if (sentenceStore.storageKey !== storageKey) return;
+      const merged = sentenceStore.mergeCloud(cloudSentences);
+      await sentenceSync.push(merged);
+      setSentences(merged);
+      setSyncMessage("已同步");
+    } catch (error) {
+      setSyncMessage(error instanceof Error ? error.message : "同步失败");
+    } finally {
+      syncingRef.current = false;
+    }
+  };
+
+  useEffect(() => {
+    if (!sentenceSync.configured) return;
+    void sentenceSync.user().then((user) => {
+      setUserEmail(user?.email);
+      setSentences(sentenceStore.setScope(user?.id));
+      if (user) void sync();
+    }).catch(() => setSyncMessage("无法读取登录状态"));
+    return auth.onChange((_event, session) => {
+      setUserEmail(session?.user.email);
+      setSentences(sentenceStore.setScope(session?.user.id));
+      if (session?.user) void sync();
+    });
+  }, []);
+
   useEffect(() => {
     const refresh = (event: StorageEvent) => {
       if (event.key === sentenceStore.storageKey) setSentences(sentenceStore.readAll());
     };
     window.addEventListener("storage", refresh);
     return () => window.removeEventListener("storage", refresh);
-  }, []);
+  }, [userEmail]);
 
   useEffect(() => () => {
     speechRequestRef.current += 1;
@@ -91,11 +137,13 @@ export function SentencesPage() {
     };
     setSentences(sentenceStore.save(saved));
     setFormOpen(false);
+    if (userEmail) window.setTimeout(() => void sync(), 0);
   };
 
   const remove = (sentence: SavedSentence) => {
-    if (!window.confirm(`删除句型“${sentence.pattern}”？`)) return;
+    if (!window.confirm(`删除句型“${sentence.pattern}”？此操作会同步到其他设备。`)) return;
     setSentences(sentenceStore.remove(sentence.id));
+    if (userEmail) window.setTimeout(() => void sync(), 0);
   };
 
   const speak = async (text: string, language: "en-US" | "zh-CN", key: string) => {
@@ -135,8 +183,19 @@ export function SentencesPage() {
           <span>Learn <strong>English</strong></span>
         </a>
         <div className="topbar-actions">
-          <span className="words-sync-status" role="status">仅保存在此设备</span>
-          <LoginButton />
+          <span className="words-sync-status" role="status">
+            {syncMessage === "已同步" && <Check size={14} />}
+            {syncMessage}
+          </span>
+          {userEmail ? (
+            <button className="secondary-command" onClick={() => void sync()}>
+              <Cloud size={16} /> 同步
+            </button>
+          ) : (
+            <button className="secondary-command" onClick={() => setAuthOpen(true)}>
+              <LogIn size={16} /> 登录
+            </button>
+          )}
           <button className="save-button" onClick={openCreate}>
             <Plus size={17} /> 添加句型
           </button>
@@ -235,6 +294,18 @@ export function SentencesPage() {
           </section>
         </div>
       )}
+
+      <AuthDialog
+        open={authOpen}
+        email={userEmail}
+        onClose={() => setAuthOpen(false)}
+        onSignedIn={() => void sync()}
+        onSignedOut={() => {
+          setUserEmail(undefined);
+          setSentences(sentenceStore.setScope());
+          setSyncMessage("已退出登录");
+        }}
+      />
     </div>
   );
 }
