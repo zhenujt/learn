@@ -57,6 +57,11 @@ class MarkdownExampleExtractor:
         if self.FENCED_ONLY_MARKER not in content:
             examples.extend(self._extract_table_examples(content))
             examples.extend(self._extract_inline_examples(content))
+            for line in content.splitlines():
+                if re.match(r"\*\*[A-Z]:\*\*\s", line):
+                    example = self._split_mixed_line(re.sub(r"^\*\*[A-Z]:\*\*\s*", "", line))
+                    if example:
+                        examples.append(example)
         return self._unique(examples)
 
     def _extract_fenced_examples(self, content: str) -> list[BilingualExample]:
@@ -84,13 +89,43 @@ class MarkdownExampleExtractor:
 
     def _extract_table_examples(self, content: str) -> list[BilingualExample]:
         examples: list[BilingualExample] = []
+        headers: list[str] = []
         for line in content.splitlines():
             if not line.lstrip().startswith("|"):
+                headers = []
                 continue
             cells = [self._plain_text(cell) for cell in line.strip().strip("|").split("|")]
             if all(re.fullmatch(r"[-: ]+", cell) for cell in cells if cell):
                 continue
-            english_cells = [cell for cell in cells if self._is_english(cell)]
+            if not headers:
+                headers = cells
+                continue
+            translation_index = next(
+                (index for index, header in enumerate(headers) if header in ("中文", "中文与用法", "意思")),
+                None,
+            )
+            english_index = next(
+                (index for index, header in enumerate(headers) if header in ("英文", "可替换句型", "结构与例句")),
+                None,
+            )
+            if translation_index is not None and english_index is not None:
+                if max(translation_index, english_index) < len(cells):
+                    english = cells[english_index]
+                    chinese = re.split(r"(?<=[。！？])", cells[translation_index], maxsplit=1)[0]
+                    if self._is_english(english) and self._is_chinese(chinese):
+                        examples.append(BilingualExample(chinese, english))
+                continue
+            corrected_index = next(
+                (index for index, header in enumerate(headers) if header in ("推荐表达", "自然或正确形式", "工作例句", "例句")),
+                None,
+            )
+            if corrected_index is not None:
+                if corrected_index < len(cells):
+                    example = self._split_mixed_line(cells[corrected_index])
+                    if example:
+                        examples.append(example)
+                continue
+            english_cells = [cell for cell in cells if self._is_english(cell) and cell.endswith((".", "!", "?"))]
             chinese_cells = [cell for cell in cells if self._is_chinese(cell) and not ENGLISH_PATTERN.search(cell)]
             if len(english_cells) == 1 and chinese_cells:
                 examples.append(BilingualExample(chinese_cells[0], english_cells[0]))
@@ -105,6 +140,7 @@ class MarkdownExampleExtractor:
                 continue
             if (
                 in_fence
+                or line.lstrip().startswith("|")
                 or not CHINESE_PATTERN.search(line)
                 or any(cue in line for cue in self.EXCLUDED_CUES)
             ):
