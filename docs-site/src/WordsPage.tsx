@@ -39,6 +39,9 @@ interface SpeechFeedback {
   error: boolean;
 }
 
+const createWordId = () => globalThis.crypto?.randomUUID?.() ?? "10000000-1000-4000-8000-100000000000".replace(/[018]/g, (digit) =>
+  (Number(digit) ^ Math.floor(Math.random() * 16) & 15 >> Number(digit) / 4).toString(16));
+
 const emptyDraft: WordDraft = {
   word: "",
   pronunciation: "",
@@ -147,11 +150,14 @@ export function WordsPage() {
   const save = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const normalizedWord = draft.word.trim();
-    if (!normalizedWord) return;
+    if (!normalizedWord) {
+      setSyncMessage("请输入单词或短语");
+      return;
+    }
     const now = new Date().toISOString();
     const current = editingId ? words.find((word) => word.id === editingId) : undefined;
     const saved: SavedWord = {
-      id: current?.id ?? crypto.randomUUID(),
+      id: current?.id ?? createWordId(),
       word: normalizedWord,
       pronunciation: draft.pronunciation.trim(),
       meaning: draft.meaning.trim(),
@@ -160,9 +166,14 @@ export function WordsPage() {
       createdAt: current?.createdAt ?? now,
       updatedAt: now,
     };
-    setWords(wordStore.save(saved));
-    setFormOpen(false);
-    if (userEmail) window.setTimeout(() => void sync(), 0);
+    try {
+      setWords(wordStore.save(saved));
+      setFormOpen(false);
+      setSyncMessage(userEmail ? "已保存，正在同步…" : "已保存到此设备");
+      if (userEmail) window.setTimeout(() => void sync(), 0);
+    } catch (error) {
+      setSyncMessage(error instanceof Error ? `保存失败：${error.message}` : "保存失败，请重试");
+    }
   };
 
   const remove = (word: SavedWord) => {

@@ -19,6 +19,13 @@ interface SiteRoute {
 
 const routes: SiteRoute[] = [
   {
+    path: "workplace-speaking/",
+    name: "工作日常英语口语",
+    englishName: "WORKPLACE SPEAKING",
+    description: "工作交流句型、中文解释、完整对话与 30 项分层语法总结。",
+    icon: Languages,
+  },
+  {
     path: "adult-english/",
     name: "成人零基础软件英语",
     englishName: "ADULT ENGLISH COURSE",

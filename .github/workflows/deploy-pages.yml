@@ -96,6 +96,8 @@ jobs:
           cp docs-site/dist/index.html _site/sentences/index.html
           mkdir -p _site/preposition
           cp docs-site/dist/index.html _site/preposition/index.html
+          mkdir -p _site/workplace-speaking
+          cp docs-site/dist/index.html _site/workplace-speaking/index.html
             mkdir -p _site/number
             cp docs-site/dist/index.html _site/number/index.html
 

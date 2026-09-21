@@ -27,6 +27,9 @@ function resolvePage(pathname: string): ReactElement {
   if (/\/sentences\/?$/.test(pathname)) return <SentencesPage />;
   if (/\/words\/?$/.test(pathname)) return <WordsPage />;
   if (/\/number\/?$/.test(pathname)) return <NumberPage />;
+  if (/\/workplace-speaking\/?$/.test(pathname)) {
+    return <App initialDocumentPath="workplace-spoken-english.zh.md" />;
+  }
   const isPrepositionRoute = /\/preposition\/?$/.test(pathname);
   return <App initialDocumentPath={isPrepositionRoute ? prepositionDocumentPath : undefined} />;
 }
