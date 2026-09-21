@@ -137,6 +137,95 @@
 | I'll rejoin the call. | 我重新进一下会议。 | 说明断线后的动作。 |
 | I missed the last point because my connection dropped. | 刚才断线了，最后一点我没听到。 | 明确漏听范围，方便对方补充。 |
 
+### 9.1 会议突发情况：先记住这 8 句
+
+**先用一句短话表达基本意思，够用就停。** 没听懂就请对方再说，不知道就说要确认，不必凑成长句。需要安排后续时，再补一句。下面优先使用简单、自然的会议口语。
+
+| 英文 | 中文 | 什么时候用 |
+| --- | --- | --- |
+| Sorry, I clicked it by mistake. | 抱歉，我点错了。 | 误举手被点名时说；必要时补 No question, thanks.（没有问题，谢谢。） |
+| Sorry, could you say that again? | 不好意思，能再说一遍吗？ | 问题没听清。 |
+| Could you speak more slowly, please? | 请说慢一点好吗？ | 对方语速太快；需要重说时，再用上一句。 |
+| Could you say it another way? | 能换个说法吗？ | 听清了，但没理解意思。 |
+| Let me think. | 让我想想。 | 需要几秒组织答案。 |
+| Let me check with my team. | 我跟团队确认一下。 | 不能当场确定答案。 |
+| Can we talk after the meeting? | 我们能会后聊吗？ | 需要更多时间讨论。 |
+| Sorry, go ahead. | 不好意思，你先说。 | 两个人同时开口。 |
+
+### 9.2 误操作、被点名与发言顺序
+
+| 英文 | 中文 | 什么时候用 |
+| --- | --- | --- |
+| Sorry, wrong button. | 抱歉，按错了。 | 误点表情或其他按钮。 |
+| That answers my question. Thanks. | 这就解答了我的问题，谢谢。 | 举手后，别人已经讲清楚了。 |
+| Sorry, are you asking me? | 不好意思，你是在问我吗？ | 不确定是否在叫你。 |
+| Nothing to add, thanks. | 没有要补充的，谢谢。 | 被问有没有补充；不是用来回避问题。 |
+| You first. | 你先说。 | 同时开口时让对方先说，语气友好即可。 |
+| Can I finish my point? | 我能把这点说完吗？ | 被打断时使用，语气放平。 |
+| Can I ask a quick question? | 我能问个简短问题吗？ | 想插入一个问题。 |
+
+### 9.3 没听清、没听懂、只听懂一部分
+
+| 英文 | 中文 | 什么时候用 |
+| --- | --- | --- |
+| Could you repeat the last part? | 能重复最后一部分吗？ | 只补没听到的部分。 |
+| Can you give me an example? | 能举个例子吗？ | 不理解抽象的说法。 |
+| What does "ready" mean here? | 这里的 ready 是什么意思？ | 不懂某个词；替换 ready 即可。 |
+| This version or the next one? | 这一版还是下一版？ | 已知在讨论版本时，简短确认即可。 |
+| You mean the deadline, right? | 你指截止时间，对吗？ | 确认自己理解的主题。 |
+| Could you type it in the chat? | 能打字发在聊天里吗？ | 需要看文字才能理解。 |
+| Could you spell that? | 能拼一下吗？ | 名字或缩写没听清。 |
+| Fifteen or fifty? | 十五还是五十？ | 当场核实数字，语气用疑问语调。 |
+| Can we take one question at a time? | 能一个问题一个问题来吗？ | 对方一次问了很多内容。 |
+
+**简单区分：** say that again = 再说一遍；speak more slowly = 说慢点；say it another way = 换个说法。还是不懂，可以直接说 **Sorry, I still don't understand.**（不好意思，我还是没明白。）再请对方举例或打字，不要假装听懂。
+
+### 9.4 听懂了，但暂时答不上来
+
+| 英文 | 中文 | 什么时候用 |
+| --- | --- | --- |
+| I'm not sure. I'll check. | 我不确定，我查一下。 | 暂时不知道答案，先这样接话即可。 |
+| Let me check with a colleague. | 我跟同事确认一下。 | 需要找同事核实。 |
+| Let me confirm that first. | 我先确认一下。 | 不把猜测说成事实。 |
+| I can answer the first part. | 第一部分我可以回答。 | 先回答会的部分，再说 I'll check the rest.（其余的我确认一下。） |
+| That's just an estimate. | 那只是估计。 | 已给出估计值后，说明它不是确定结果。 |
+| Maya, can you help? | Maya，你能帮忙吗？ | 问题已说清楚，邀请在场同事协助。 |
+| I need approval first. | 我需要先获得批准。 | 超出权限，不能自己承诺。 |
+| I don't have a date yet. | 我还没有确定的日期。 | 无法当场确认时间。 |
+
+**需要跟进时，再选一句补上：** I'll get back to you today.（我今天回复你。）／I'll update you tomorrow.（我明天同步进展。）若不知道对方急不急，就问 When do you need an answer?（你什么时候需要答复？）只承诺自己能做到的时间；更新进展不等于保证解决问题。
+
+### 9.5 问题复杂、偏题或会议快超时
+
+| 英文 | 中文 | 什么时候用 |
+| --- | --- | --- |
+| Yes, but it depends. | 可以，但要看情况。 | 接着说清关键条件，不能只停在 depends。 |
+| Can we set up another call? | 能再约一次会议吗？ | 需要更多时间或其他人参与。 |
+| Can we discuss this at the end? | 能在最后讨论这个吗？ | 仍准备在本场会议处理。 |
+| We're short on time. What's next? | 时间不多了，下一步是什么？ | 快超时了，先确定后续行动。 |
+| Can we discuss this separately? | 我们能单独讨论这个吗？ | 偏离当前议题，需要另谈。 |
+| I'll send you an invite. | 我给你发邀请。 | 已经同意另约会议。 |
+| Do you need the details now? | 你现在需要了解细节吗？ | 确认是否当场展开。 |
+
+想说“问题比较复杂”，简单说 **We need more time for this.**（这件事需要更多时间。）再问 **Can we talk after the meeting?** 即可。不要说 Your question is too complicated，容易像在责怪对方。如果问题影响当前决策，应先讲清必要信息。
+
+### 9.6 技术故障、说错了与临时离开
+
+| 英文 | 中文 | 什么时候用 |
+| --- | --- | --- |
+| Sorry, I was on mute. | 抱歉，刚才静音了。 | 然后直接重说刚才的话。 |
+| Your sound keeps cutting out. | 你的声音总是断断续续。 | 说明音频问题，再请对方重复。 |
+| I got disconnected. What did I miss? | 刚才断线了，我错过了什么？ | 重连后接上讨论。 |
+| Sorry, wrong window. One moment. | 抱歉，共享错窗口了，稍等。 | 先停止错误共享，再切换。 |
+| The demo isn't working. Let me explain. | 演示出问题了，我口头解释一下。 | 演示失败时继续说明，不让大家一直等。 |
+| Sorry, I meant Thursday. | 抱歉，我指的是周四。 | 刚说错日期时立即更正。 |
+| Let me try again. | 我重新说一下。 | 说乱了就重新组织。 |
+| I'll be right back. | 我很快回来。 | 短暂离席；确实很快回来时使用。 |
+| Sorry, I have another meeting. I need to go. | 抱歉，我还有个会议，需要先走了。 | 提前离开；需要时另补 I'll read the notes.（我会看会议记录。） |
+| I'm back. Please go on. | 我回来了，请继续。 | 回到会议，不必让大家停下重讲。 |
+
+**紧张时先记这四句：** Say that again, please.（请再说一遍。）／Let me check.（我确认一下。）／Can we talk later?（我们晚点聊吗？）／Sorry, go ahead.（不好意思，你先说。）一句够用就停，不必每次都解释一大段。简单不等于生硬：正常语气，加一个 sorry、please 或 thanks 通常就够了。
+
 ## 10. 汇报进展与下一步
 
 | 英文 | 中文 | 解释与语气 |
