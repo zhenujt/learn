@@ -519,6 +519,382 @@
 
 听力特别注意缩写和弱读：I'll 与 I'd、we've 与 we've been、can 与 can't。否定词和数字听错的后果比口音不标准更大；不确定就复述确认。正式协作无需刻意模仿 gonna、wanna，更不应把它们当作书面标准。
 
+### 23.1 从查句子到练问答
+
+前面的表格用于查表达；下面用来练“听到一句话，自己接下一句”。**每次只练两组，先说清意思，再逐渐减少看稿。** 简短回答不等于只能答 Yes 或 No，也不等于必须省略完整句子。
+
+1. 看懂对方的问题，确认问的是状态、时间、动作，还是意见。
+2. 读懂简短回答，只看本组需要的结构，不必一次学完第24章。
+3. 跟读后遮住回答，只看问题，自己回答。
+4. 替换一个任务、对象或时间，再说一次。
+5. 改变实际情况后重新回答；不能因为背过 Sure 就答应做不到的事。
+
+下面的 it、this、that 都依赖上下文。双方不知道指什么时，要说出具体对象，例如 the report（报告），不要只说“它”。
+
+### 23.2 十组工作短问答：理解、替换、自己回答
+
+#### 练习 1：请你检查一下
+
+**对方问：** Can you check this? 你能检查一下这个吗？
+
+**你回答：** Sure. I'll check. 可以，我看看。
+
+**看懂结构：**
+
+- `Can you + 动词原形...?`：这里用于请求，不只是询问能力。
+- `I'll = I will`；`I'll + 动词原形`：这里表示答应接下来做某事。
+- `check`：检查。双方已知道检查什么时，可以不再重复对象；也可以说 I'll check it.（我会检查它。）
+
+**替换练习：**
+
+- I'll check the numbers. 我会核对数字。
+- I'll check the document. 我会检查文档。
+
+**情况变了：** 现在没空，但下午能做，可以答 **I can check it this afternoon.**（我今天下午可以检查。）这不是拒绝，而是说明可行时间。
+
+#### 练习 2：准备好了吗
+
+**对方问：** Is it ready? 准备好了吗？
+
+**你回答：** Not yet. I'm still working on it. 还没，我还在做。
+
+**看懂结构：**
+
+- `Is it + 形容词...?`：询问状态；`ready` 是形容词，意思是“准备好的”。
+- `Not yet.`：还没有。在这个上下文中相当于 It isn't ready yet.
+- `I'm = I am`；`am working` 表示当前正在做，`still` 表示仍然；`work on + 事项` 是“处理／做某事”。
+
+**替换练习：**
+
+- I'm still checking the numbers. 我还在核对数字。
+- I'm still updating the document. 我还在更新文档。
+
+**情况变了：** 已经就绪，可以答 **Yes, it's ready.**（是的，准备好了。）如果只是初稿完成，要说 **The draft is ready.**（初稿好了。）别让对方误以为最终版也好了。
+
+#### 练习 3：什么时候能发送
+
+**对方问：** When can you send it? 你什么时候能发？
+
+**你回答：** This afternoon. 今天下午。
+
+**看懂结构：**
+
+- `When + can + you + 动词原形...?`：询问你什么时候能做某事。
+- `send it`：发送它；具体指什么由上文确定。
+- `This afternoon.`：时间短语作简答；完整说法是 I can send it this afternoon.（我今天下午能发。）this afternoon 前不加 in。
+
+**替换练习：**
+
+- I can send it tomorrow morning. 我明天上午能发。
+- I can send it after the meeting. 我会后能发。
+
+**情况变了：** 日期还不能确定，可以答 **I'm not sure yet. I'll check.**（我还不确定，我确认一下。）对方需要明确期限时，应进一步约定日期、时刻和时区，不只说“下午”。
+
+#### 练习 4：有没有问题
+
+**对方问：** Do you have any questions? 你有问题吗？
+
+**你回答：** No questions, thanks. 没有问题，谢谢。
+
+**看懂结构：**
+
+- `Do you have + 名词...?`：询问有没有；这里 have 是“有”，不是完成时助动词。
+- `any questions`：疑问句中询问是否有问题，questions 用复数。
+- `No questions, thanks.`：会议中的简短回应；完整表达是 I don't have any questions.（我没有问题。）
+
+**替换练习：**
+
+- I have one question. 我有一个问题。
+- I have a question about the deadline. 我有个关于截止时间的问题。
+
+**情况变了：** 有一处没懂，可以答 **Yes. Could you explain the last part?**（有，能解释一下最后一部分吗？）“没有问题”不能代替“我没听懂”。
+
+#### 练习 5：没听清，请再说一次
+
+**对方问：** When can you send the report? 你什么时候能发报告？
+
+**你回答：** Could you say that again? 你能再说一遍吗？
+
+这里假设你没听清对方的问题，所以先请求重复，不急着给时间。
+
+**看懂结构：**
+
+- `Could you + 动词原形...?`：礼貌地请对方做某事；这里 could 不表示过去。
+- `say`：说；`that`：刚才说的内容；`again`：再一次。
+- 这组结构后接原形，例如 say、explain、check，不用 to say 或 saying。
+
+**替换练习：**
+
+- Could you explain that? 能解释一下吗？
+- Could you check this? 能检查一下这个吗？
+- Could you send me the link? 能把链接发给我吗？
+
+**情况变了：** 听清了声音但不懂意思，可以说 **Could you say it another way?**（能换个说法吗？）听懂重说的问题后，再回答 **This afternoon.**（今天下午。）
+
+#### 练习 6：现在在做什么
+
+**对方问：** What are you working on? 你现在在做什么？
+
+**你回答：** I'm checking the report. 我正在检查报告。
+
+**看懂结构：**
+
+- `What are you working on?`：询问当前处理的事项；work on 是一个搭配，不要漏掉 on。
+- `I'm + 动词-ing`：描述当前正在做的工作，不一定表示说话这一秒仍在操作。
+- `check the report`：检查报告；check 直接接对象，这里不需要 on。
+
+**替换练习：**
+
+- I'm updating the document. 我正在更新文档。
+- I'm testing the new version. 我正在测试新版。
+
+**情况变了：** 目前在等别人的回复，可以答 **I'm waiting for feedback.**（我在等反馈。）wait for 是“等待”，不是 work on。
+
+#### 练习 7：需要什么帮助
+
+**对方问：** What do you need? 你需要什么？
+
+**你回答：** I need the latest numbers. 我需要最新数据。
+
+**看懂结构：**
+
+- `What do you need?`：询问需要的东西；do 帮助构成问句，need 保持原形。
+- `I need + 名词`：需要某物；`the latest numbers` 指当前所需的最新数据。
+- `I need to + 动词原形`：需要做某事。比较 I need the report.（我需要报告。）与 I need to check the report.（我需要检查报告。）
+
+**替换练习：**
+
+- I need the file. 我需要那份文件。
+- I need to check the details. 我需要核查细节。
+
+**情况变了：** 需要对方具体帮忙，可以答 **Could you send me the file?**（能把文件发给我吗？）说出动作，比只说 I need help.（我需要帮助。）更容易让对方接手。
+
+#### 练习 8：这个期限能做到吗
+
+**对方问：** Can you finish it today? 你今天能完成吗？
+
+**你回答：** I need more time. 我需要更多时间。
+
+**看懂结构：**
+
+- `Can you finish it today?`：这里询问今天完成是否可行，不是仅仅问你有没有做这件事的能力。
+- `I need + 名词短语`：说明需要什么；`more time` 是“更多时间”。
+- `finish` 表示完成；仅仅开始做或交初稿，不一定满足对方的 finish。
+
+**替换练习：**
+
+- I need another day. 我还需要一天。
+- I can finish it tomorrow. 我明天能完成。
+
+**情况变了：** 今天确实能做完，可以答 **Yes. I can finish it today.**（可以，我今天能完成。）否则提出真实可行的时间，再问 **Would that work?**（这样可以吗？）不要单方面改期限。
+
+#### 练习 9：知道原因吗
+
+**对方问：** Do you know why it failed? 你知道它为什么失败吗？
+
+**你回答：** I'm not sure. Let me check. 我不确定，让我查一下。
+
+**看懂结构：**
+
+- `Do you know + why it failed?`：why it failed 是要知道的内容，内层使用陈述语序，不再倒装成 why did it fail。
+- `I'm not sure.`：我不确定；sure 是形容词，前面需要 am。
+- `Let me + 动词原形`：让我做某事；用 Let me check，不是 Let me to check。
+
+**替换练习：**
+
+- Let me check the logs. 让我查一下日志。
+- Let me check with my team. 让我跟团队确认一下。
+
+**情况变了：** 完全不知道时，可以直接答 **I don't know yet. I'll check.**（我还不知道，我查一下。）若需要跟进，再约定回复时间；不要把猜测当作已确认的原因。
+
+#### 练习 10：现在方便讨论吗
+
+**对方问：** Do you have a minute? 你现在有空聊一下吗？
+
+**你回答：** Sure. Go ahead. 可以，你说。
+
+**看懂结构：**
+
+- `Do you have a minute?`：通常是在请求短暂交谈，不一定严格指六十秒。
+- `Sure.`：这里表示愿意；`Go ahead.`：在这个语境中表示“请说／继续”。
+- 同一句 Go ahead 在其他语境也可能表示“可以开始做”，要结合对方刚才提出的请求理解。
+
+**替换练习：**
+
+- Can we talk after lunch? 我们午饭后聊可以吗？
+- Can we talk after the meeting? 我们会后聊可以吗？
+
+**情况变了：** 现在无法讨论，可以答 **I'm in a meeting. Can we talk later?**（我在开会，我们晚点聊可以吗？）需要后续安排时，再共同确定时间。
+
+### 23.3 遮住答案：换个情况还能回答吗
+
+这些题没有唯一答案。先根据事实回答，再检查表达；**不要只看见 Can you 就一律答 Sure。**
+
+| 对方说 | 实际情况 | 你的任务 |
+| --- | --- | --- |
+| Can you check this? | 现在没空，下午可以 | 给出可以检查的时间。 |
+| Is it ready? | 还没，正在核对数字 | 说明未完成和正在做的事。 |
+| When can you send it? | 明天上午能发送 | 用时间短语或完整句回答。 |
+| Do you have any questions? | 想问截止日期 | 说明有一个关于期限的问题。 |
+| What are you working on? | 正在更新文档 | 用 I'm + 动词-ing 回答。 |
+| Can you finish it today? | 今天不行，明天可以 | 明确限制并协商替代时间。 |
+| Do you know why it failed? | 需要向团队核实 | 不猜原因，说明要确认。 |
+| Do you have a minute? | 没听清对方说什么 | 先请求重复，不假装听懂。 |
+
+**参考回答：**
+
+1. I can check it this afternoon. 我今天下午可以检查。
+2. Not yet. I'm still checking the numbers. 还没，我还在核对数字。
+3. Tomorrow morning. 明天上午。
+4. Yes. I have a question about the deadline. 有，我有个关于截止日期的问题。
+5. I'm updating the document. 我正在更新文档。
+6. Not today. I can finish it tomorrow. Would that work? 今天不行，我明天能完成，这样可以吗？
+7. I'm not sure. Let me check with my team. 我不确定，让我跟团队确认一下。
+8. Could you say that again? 你能再说一遍吗？
+
+第二轮不要只重复原题：把 today 换成 tomorrow，把 report 换成 document，或者把“还没做好”改成“已经做好”。也可以请练习伙伴换种问法，例如把 When can you send it? 换成 What time can you send it?（你几点能发？），这时应回答具体时刻，而不只是某一天。
+
+### 23.4 每次十分钟的练法
+
+- **2 分钟看懂：** 选两组问答，弄清问题、回答和一个核心结构。
+- **3 分钟听说：** 有音频时听一句、暂停、复述；没有音频时先朗读，不把朗读当作听力检验。
+- **3 分钟自己答：** 遮住答案，请伙伴提问，或者只看英文问题回答；每组至少改变一次实际情况。
+- **2 分钟检查：** 录下回答，检查有没有答对问题、说清时间、误作承诺，再修正一个关键语言问题。
+
+第二天先不看答案复习，隔几天再换场景练。进步的标准不是“能连续背出十组”，而是**对方换个问法或事实发生变化后，你仍能给出合适的简短回应**。需要补语法时，再按问题查第24章：问句看24.10，进行时看24.4，can/could 看24.9，let/need to 看24.17。
+
+### 23.5 再补八组：会议与协作短问答
+
+这八组接着23.2练，合计18组。**同一个问题，根据实际情况选择一句回答，不需要把所有选项连着说。** 英文和中文放在一起，先理解，再遮住回复练习。
+
+#### 练习 11：能听到吗
+
+**对方问：** Can you hear me? 能听到我说话吗？
+
+| 实际情况 | 简短回复 | 中文 |
+| --- | --- | --- |
+| 声音正常 | Yes, I can. | 能听到。 |
+| 完全听不到，打字回复 | I can't hear you. | 我听不到你说话。 |
+| 声音断断续续 | Your audio is cutting out. | 你的声音断断续续。 |
+
+**看懂结构：** `Can you + 动词原形...?` 在这里询问能否听到；`Yes, I can.` 省略了双方已知的 hear you。hear 是“听到”，不需要加 to。
+
+**替换练习：** Can you hear me clearly? 能听清我说话吗？
+
+**注意：** “能听到”不一定等于“听懂意思”。听得到但不理解时，可以说 I can hear you, but I don't understand.（我能听到，但没理解。）
+
+#### 练习 12：能看到屏幕吗
+
+**对方问：** Can you see my screen? 能看到我的屏幕吗？
+
+| 实际情况 | 简短回复 | 中文 |
+| --- | --- | --- |
+| 看得到且清楚 | Yes, it's clear. | 能，很清楚。 |
+| 还没看到共享画面 | Not yet. | 还看不到。 |
+| 画面有了，但文字太小 | The text is too small. | 字太小了。 |
+
+**看懂结构：** `see + 对象` 表示看到什么；`my screen` 是“我的屏幕”。回答中的 `it's = it is`，clear 是形容词，表示清楚。
+
+**替换练习：** Can you see the slides? 能看到幻灯片吗？
+
+**需要对方调整时：** Could you zoom in? 能放大一点吗？对方调整后，再确认是否看清。
+
+#### 练习 13：已经发了吗
+
+**对方问：** Have you sent it? 你已经发了吗？
+
+| 实际情况 | 简短回复 | 中文 |
+| --- | --- | --- |
+| 已发送 | Yes, I've sent it. | 发了，我已经发了。 |
+| 尚未发送 | Not yet. | 还没。 |
+| 不确定是否已发送 | Let me check. | 我查一下。 |
+
+**看懂结构：** `Have you + 过去分词...?` 在这里询问是否已经完成；sent 是 send 的过去分词。`I've = I have`。也可以简答 Yes, I have.（是的，发了。）
+
+**替换练习：** Have you checked it? 你已经检查过了吗？回答可用 Yes, I have. 或 Not yet.，但不能继续说 I've sent it，因为问的动作已经变了。
+
+**尚未发送但马上会发：** Not yet. I'll send it now. 还没，我现在发。只有确实准备马上发送时才这样承诺。
+
+#### 练习 14：这个安排可以吗
+
+**对方问：** Does that work for you? 这个安排对你来说可以吗？
+
+| 实际情况 | 简短回复 | 中文 |
+| --- | --- | --- |
+| 可以接受 | Yes, that works. | 可以，这样没问题。 |
+| 时间不合适 | Sorry, that time doesn't work for me. | 抱歉，那个时间我不方便。 |
+| 要先核实日程 | Let me check my calendar. | 我先看一下日程。 |
+
+**看懂结构：** `work for someone` 在这里是“对某人合适／可行”，不是“为某人工作”。问句 Does that work...? 中用原形 work；肯定回答 That works. 中用 works。
+
+**替换练习：** Does Friday work for you? 周五你方便吗？
+
+**不合适时给出替代：** Would Monday work? 周一可以吗？that 也可能指方案，不一定指时间；要根据上文回答。
+
+#### 练习 15：需要帮忙吗
+
+**对方问：** Do you need any help? 你需要帮忙吗？
+
+| 实际情况 | 简短回复 | 中文 |
+| --- | --- | --- |
+| 需要对方帮忙检查 | Yes, please. Could you check this? | 需要，谢谢。能帮我检查一下这个吗？ |
+| 暂时不需要 | No, thanks. I'm fine for now. | 不用了，谢谢。我目前能应付。 |
+| 想先自己试试 | Let me try first. | 让我先试试。 |
+
+**看懂结构：** `Do you need + 名词...?` 询问是否需要某物；help 在这里是不可数名词。`for now` 表示“目前／暂时”，不是永远不需要帮助。
+
+**替换练习：** Could you check the numbers? 能帮我核对数字吗？接受帮助后，把 this 换成明确对象更容易协作。
+
+#### 练习 16：有新进展吗
+
+**对方问：** Any updates? 有新进展吗？
+
+| 实际情况 | 简短回复 | 中文 |
+| --- | --- | --- |
+| 有已完成的成果 | Yes. The draft is ready. | 有，初稿好了。 |
+| 暂无新消息 | No updates yet. | 暂时没有新进展。 |
+| 正在等反馈 | I'm still waiting for feedback. | 我还在等反馈。 |
+
+**看懂结构：** `Any updates?` 在跟进事情时可理解为 Do you have any updates?；update 作名词表示新消息或进展。`No updates yet.` 说明暂时没有新内容可同步，不一定表示没有在做事。
+
+**替换练习：** Any updates on the report? 报告有新进展吗？`on + 事项` 说明问的是哪件事。
+
+**需要跟进时：** I'll check and get back to you. 我确认后回复你。必要时再约定回复时间，不把“没有进展”当成结束跟进。
+
+#### 练习 17：谁在处理
+
+**对方问：** Who's handling this? 谁在处理这件事？
+
+| 实际情况 | 简短回复 | 中文 |
+| --- | --- | --- |
+| 自己正在处理 | I'm handling it. | 我在处理。 |
+| 已知由同事处理 | Maya is handling it. | Maya 在处理。 |
+| 不知道负责人 | I'm not sure. I'll check. | 我不确定，我确认一下。 |
+
+**看懂结构：** 这里 `Who's = Who is`；`is handling` 表示正在处理。who 本身询问动作执行者，不再加 do。handle 直接接对象，例如 handle this。
+
+**替换练习：** Who's handling the review? 谁在处理审阅工作？
+
+**区分当前状态与接下任务：** I'm handling it. 是“我正在处理”；I'll handle it. 是“我来处理”。后者是在承担任务，不要混成同一个意思。
+
+#### 练习 18：还有补充吗
+
+**对方问：** Anything to add? 有什么要补充的吗？
+
+| 实际情况 | 简短回复 | 中文 |
+| --- | --- | --- |
+| 没有补充 | Nothing to add, thanks. | 没有要补充的，谢谢。 |
+| 有一个要点 | Yes, one thing. We need more time. | 有一点，我们需要更多时间。 |
+| 需要几秒思考 | Let me think for a moment. | 让我想一下。 |
+
+**看懂结构：** `Anything to add?` 相当于 Do you have anything to add?；这里 `to add` 说明“要补充的”内容。`Nothing to add.` 是在当前问题下可以理解的简答。
+
+**替换练习：** Yes, one thing. We need approval first. 有一点，我们需要先获得批准。
+
+**别混用：** Do you have any questions? 问有没有疑问；Anything to add? 问有没有补充内容。Nothing to add 不代表已经理解所有内容，有疑问仍可提出来。
+
+**练一轮：** 请伙伴随机选问题，你按事实回答，再让伙伴改变条件。例如“已发送”改成“尚未发送”，“我正在处理”改成“不知道谁负责”。练会选答案，比连续背完三种回复更重要。
+
 ## 24. 最后：工作口语到底需要哪些语法
 
 **先练基础句子骨架和常用时态，再练礼貌请求、条件与从句。** 不需要先背完所有语法术语才能开口；也不能只背短语而忽略否定、时间和条件，因为这些会直接改变工作含义。
