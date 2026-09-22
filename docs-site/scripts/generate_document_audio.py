@@ -53,6 +53,9 @@ class MarkdownExampleExtractor:
 
     def extract(self, document_path: Path) -> list[BilingualExample]:
         content = document_path.read_text(encoding="utf-8")
+        practice_pattern = r"^#### 练习 \d+：.*?(?=^#{1,4} |\Z)"
+        practice_blocks = re.findall(practice_pattern, content, re.MULTILINE | re.DOTALL)
+        content = re.sub(practice_pattern, "", content, flags=re.MULTILINE | re.DOTALL)
         examples = self._extract_fenced_examples(content)
         if self.FENCED_ONLY_MARKER not in content:
             examples.extend(self._extract_table_examples(content))
@@ -62,7 +65,29 @@ class MarkdownExampleExtractor:
                     example = self._split_mixed_line(re.sub(r"^\*\*[A-Z]:\*\*\s*", "", line))
                     if example:
                         examples.append(example)
+            for block in practice_blocks:
+                examples.extend(self._extract_practice_examples(block))
         return self._unique(examples)
+
+    def _extract_practice_examples(self, content: str) -> list[BilingualExample]:
+        examples: list[BilingualExample] = []
+        for paragraph in content.split("\n\n"):
+            if paragraph.lstrip().startswith("|"):
+                examples.extend(self._extract_table_examples(paragraph))
+                continue
+            for line in paragraph.splitlines():
+                if "`" in line:
+                    continue
+                candidate = re.sub(r"^\*\*(?:对方问|你回答|替换练习)：\*\*\s*", "", line)
+                candidate = self._plain_text(candidate)
+                example = self._split_mixed_line(candidate)
+                if example:
+                    chinese = re.split(r"(?<=[。！？])", example.chinese, maxsplit=1)[0]
+                    examples.append(BilingualExample(chinese, example.english))
+                for english, chinese in re.findall(r"\*\*([^*]+)\*\*（([^）]+)）", line):
+                    if self._is_english(english) and self._is_chinese(chinese):
+                        examples.append(BilingualExample(chinese, english))
+        return examples
 
     def _extract_fenced_examples(self, content: str) -> list[BilingualExample]:
         examples: list[BilingualExample] = []
@@ -100,12 +125,14 @@ class MarkdownExampleExtractor:
             if not headers:
                 headers = cells
                 continue
+            if "你的任务" in headers:
+                continue
             translation_index = next(
                 (index for index, header in enumerate(headers) if header in ("中文", "中文与用法", "意思")),
                 None,
             )
             english_index = next(
-                (index for index, header in enumerate(headers) if header in ("英文", "可替换句型", "结构与例句")),
+                (index for index, header in enumerate(headers) if header in ("英文", "可替换句型", "结构与例句", "简短回复")),
                 None,
             )
             if translation_index is not None and english_index is not None:
