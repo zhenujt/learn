@@ -655,6 +655,80 @@ too + 形容词表示过度：It's too risky.（风险过高。）形容词 + en
 
 常见固定搭配：responsible for、depend on、agree with someone、focus on、access to、interested in。介词不能逐词照搬中文，要连同搭配记。
 
+#### 工作原句拆解：to、into 与 figure out
+
+**原句（保留原来的写法）：**
+
+> Lets create another feature backlog to figure out if we can integrate M365 teams notification into our agentic workflow to send notification to the target users (e.g. notify the issue creator when the agent replied)
+
+你的中文理解是：让我们创建一个新的功能需求列表（backlog），探讨能否将 M365 Teams 通知功能集成到我们的智能体（agentic）工作流中，以便向目标用户发送通知，例如当智能体回复时，通知问题创建者。
+
+**这句话实际有三个独立的 to，不是四个。** 两个是不定式标记，一个是介词；into 是另一个完整单词，不能把它算作一次 to。句子虽然长，但可以分成“做什么 → 为了弄清什么 → 集成到哪里 → 为了什么 → 发给谁”。
+
+| 句子片段 | 基本意思 | 语法作用 |
+| --- | --- | --- |
+| Let's create another feature backlog | 让我们再建一个功能待办列表 | Let's + 动词原形，提出一起做某事。 |
+| to figure out | 为了弄清楚 | to + 动词原形，不定式表目的，说明为什么创建这项待办。 |
+| if we can integrate M365 Teams notifications | 我们是否能集成 M365 Teams 通知 | if 引导宾语从句，说明要弄清楚什么；can 后接原形 integrate。 |
+| into our agentic workflow | 到我们的智能体工作流中 | into 是介词，后接名词短语，说明集成到哪里。 |
+| to send notifications | 以便发送通知 | to + 动词原形，不定式表目的，说明集成通知功能的目的。 |
+| to the target users | 向目标用户 | to 是介词，后接名词短语，说明通知发给谁。 |
+| notify the issue creator when the agent replies | 智能体回复时，通知问题创建者 | notify 直接接人；when 引导时间状语从句。 |
+
+表中为了学习使用了规范写法。原句中的 Lets 应写成 **Let's**；产品名写 **M365 Teams**；泛指多次通知通常说 **notifications**。如果描述预期的工作流行为，用 **when the agent replies**，而不是原句的过去式 replied。
+
+**1. 两种 to：为了做什么，还是给谁？**
+
+- **to figure out / to send**：后面接动词原形，这里的意思是“为了……”，属于不定式表目的。
+- **to the target users**：后面接名词短语，意思是“向目标用户”，属于介词短语。
+
+用一个短句对比：**I called to explain the issue to you.**（我打电话，是为了向你解释这个问题。）其中 **to explain** 回答“为什么打电话”，**to you** 回答“向谁解释”。
+
+但不是所有 **to + 动词原形** 都表示目的：**I want to check.**（我想确认一下。）中的 to check 补充说明“想做什么”，不能翻译成“为了确认”。判断时要看它和前面动词的关系。
+
+介词 to 也可以接动名词：**I'm looking forward to working with you.**（期待与你合作。）这里是固定搭配 look forward to，to 是介词，所以用 working，不用 work。相关用法见下一节。
+
+**2. into：把 A 集成到 B 中**
+
+把 **integrate A into B** 当成一个搭配记：A 是要加入的功能，B 是接收它的系统。
+
+> We can integrate Teams notifications into the workflow.
+>
+> 我们可以把 Teams 通知集成到工作流中。
+
+into 在这里表示“纳入其中”，不是物理上的走进去。对比：**integrate A with B** 更强调让 A 与 B 协同工作；**integrate A into B** 更强调把 A 纳入 B。不要把所有中文的“到”都机械翻译成同一个介词，要跟着动词搭配学。
+
+**3. figure out：整体记作“弄清楚、想出”**
+
+**figure out 是短语动词**，其中 out 是小品词，在这里不表示某个地点的“外面”。整个短语表示通过思考、调查等弄清楚某事。
+
+| 常见结构 | 英文例句 | 中文意思 |
+| --- | --- | --- |
+| figure out + 名词 | Let's figure out the cause. | 我们来查清原因。 |
+| figure out + if/whether 从句 | Let's figure out if this is possible. | 我们来弄清这是否可行。 |
+| figure out + how to do | Let's figure out how to do it. | 我们来想想怎么做。 |
+| figure + 代词 + out | I'll figure it out. | 我会弄清楚的。 |
+
+用代词 it 时放中间：**figure it out**，不说 figure out it。figure out 也不是一定表示“解决”：弄清原因之后，可能还需要另外采取措施修复问题。
+
+**4. if 在这里是“是否”，不是“如果”**
+
+**figure out if we can integrate...** = 弄清楚我们是否能集成……，这里 if 引导宾语从句，可以换成 whether。
+
+对比：**If we can integrate it, we'll test it.**（如果能集成，我们就测试。）这里 if 才引导条件状语从句，意思是“如果”。看 if 后面的内容是在表达一个待回答的问题，还是后续行动的条件。
+
+**5. 工作中可以拆成短句说**
+
+如果你想表达的是“再加一条功能待办”，用 **another backlog item** 更准确。**another feature backlog** 表示另一个完整的功能待办列表，不是一条事项。
+
+| 英文 | 中文 | 用法 |
+| --- | --- | --- |
+| Let's add another backlog item. | 我们再加一条待办吧。 | 先说要做什么。 |
+| Let's see if we can send Teams notifications. | 我们看看能不能发送 Teams 通知。 | 用 see if 表达“看看是否可行”，口语更简单。 |
+| For example, notify the issue creator when the agent replies. | 比如，智能体回复时，通知问题创建者。 | 给出具体使用场景。 |
+
+最后记住两种不同搭配：**send a notification to someone**（向某人发通知）和 **notify someone**（通知某人）。notify 后直接接人，不说 notify to someone。原句里的 **e.g.** 就是“例如”，开会时直接说 **for example** 即可。
+
 ### 24.17 动词不定式与动名词【必会】
 
 want/need/plan/decide + to do：We decided to postpone the review.（我们决定推迟审阅。）avoid/finish/consider/mind + doing：We should avoid changing the scope again.（应避免再次改变范围。）
