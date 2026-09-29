@@ -19,6 +19,13 @@ interface SiteRoute {
 
 const routes: SiteRoute[] = [
   {
+    path: "meeting-english-phrases/",
+    name: "会议高频英文表达",
+    englishName: "MEETING ENGLISH",
+    description: "会议常用短语、表达次数、实用句型与汇报练习。",
+    icon: Languages,
+  },
+  {
     path: "workplace-speaking/",
     name: "工作日常英语口语",
     englishName: "WORKPLACE SPEAKING",

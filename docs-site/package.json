@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dictionary": "node scripts/generate_word_definitions.mjs",
-    "prebuild": "npm run dictionary",
+    "check:meeting-sync": "node scripts/check-meeting-sync.mjs",
+    "prebuild": "npm run check:meeting-sync && npm run dictionary",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "test": "vitest run",
