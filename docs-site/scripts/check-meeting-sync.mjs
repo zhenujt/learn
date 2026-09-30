@@ -9,9 +9,10 @@ export class MeetingDocumentSync {
   }
 
   verify(allowMissingMeeting = false) {
-    const publishedDocument = path.join(this.learnRoot, "meeting-english-phrases.md");
-    if (!fs.existsSync(publishedDocument)) {
-      throw new Error("The published meeting English document is missing.");
+    for (const file of ["meeting-english-phrases.md", "meeting-english-phrases.zh.md"]) {
+      if (!fs.existsSync(path.join(this.learnRoot, file))) {
+        throw new Error(`Published meeting document is missing: ${file}`);
+      }
     }
     if (!fs.existsSync(this.meetingRoot)) {
       if (allowMissingMeeting) {

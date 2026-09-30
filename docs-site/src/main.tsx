@@ -31,9 +31,10 @@ function resolvePage(pathname: string): ReactElement {
     return <App initialDocumentPath="workplace-spoken-english.zh.md" />;
   }
   if (/\/meeting-english-phrases\/?$/.test(pathname)) {
-    const documentPath = import.meta.env.DEV
-      ? "meeting-english-phrases.zh.md"
-      : "meeting-english-phrases.md";
+    const requestedPath = new URL(window.location.href).searchParams.get("doc");
+    const documentPath = requestedPath === "meeting-english-phrases.md"
+      ? requestedPath
+      : "meeting-english-phrases.zh.md";
     return <App key={documentPath} initialDocumentPath={documentPath} />;
   }
   const isPrepositionRoute = /\/preposition\/?$/.test(pathname);
