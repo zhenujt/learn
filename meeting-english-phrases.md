@@ -2,13 +2,16 @@
 
 ## Sources and Counting Method
 
-Based on six meetings across five transcript files:
+Based on nine meetings across eight transcript files:
 
 - sep-after.txt: September 10 and 14, 2026.
 - sep-21.txt: September 21, 2026.
 - sep-22.txt: September 22, 2026.
 - sep-23.txt: September 23, 2026.
 - sep-24.txt: September 24, 2026.
+- sep-28.txt: September 28, 2026.
+- sep-29.txt: September 29, 2026.
+- sep-30.txt: September 30, 2026.
 
 Source transcripts are available locally in the Meeting project and are not published on the learning website.
 
@@ -18,29 +21,29 @@ Counts are occurrences in the transcripts, ignoring case, punctuation, and line 
 
 | Phrase | Count | Meaning or use |
 | --- | ---: | --- |
-| set up | 71 | Create or configure an account, repository, pipeline, or meeting. |
-| working on | 50 | Describe a task currently being handled. |
-| make sure | 28 | Ensure or confirm something. |
-| at this point | 20 | At the current stage. |
-| figure out | 20 | Understand something or find a solution. |
-| work with / working with... | 18 | Collaborate with someone or use something in your work. |
+| set up | 85 | Create or configure an account, repository, pipeline, or meeting. |
+| working on | 68 | Describe a task currently being handled. |
+| make sure | 36 | Ensure or confirm something. |
+| at this point | 24 | At the current stage. |
+| figure out | 25 | Understand something or find a solution. |
+| work with / working with... | 21 | Collaborate with someone or use something in your work. |
 | go ahead | 16 | Invite someone to speak or proceed. |
-| take a look | 16 | Examine or review something. |
-| go through | 15 | Review or explain something step by step. |
-| I wonder if... | 15 | Ask a question or suggest an option politely. |
-| I'm not sure... | 13 | Express uncertainty or raise a concern gently. |
-| in terms of... | 12 | Specify the aspect being discussed. |
-| we can consider... | 9 | Suggest an option for consideration. |
-| once we have... | 9 | Introduce a prerequisite for the next step. |
-| let me know | 8 | Ask someone to inform you. |
-| check with... | 8 | Consult someone or confirm information with them. |
-| feel free to... | 7 | Invite someone to contribute or act. |
-| follow up | 7 | Continue checking or acting on a previous matter. |
-| let me check | 7 | Indicate that you need to look something up or verify it. |
-| reach out to... | 6 | Contact a person or team. |
-| double-check | 6 | Verify something again for accuracy. |
+| take a look | 24 | Examine or review something. |
+| go through | 17 | Review or explain something step by step. |
+| I wonder if... | 16 | Ask a question or suggest an option politely. |
+| I'm not sure... | 19 | Express uncertainty or raise a concern gently. |
+| in terms of... | 13 | Specify the aspect being discussed. |
+| we can consider... | 11 | Suggest an option for consideration. |
+| once we have... | 10 | Introduce a prerequisite for the next step. |
+| let me know | 12 | Ask someone to inform you. |
+| check with... | 12 | Consult someone or confirm information with them. |
+| feel free to... | 12 | Invite someone to contribute or act. |
+| follow up | 13 | Continue checking or acting on a previous matter. |
+| let me check | 13 | Indicate that you need to look something up or verify it. |
+| reach out to... | 7 | Contact a person or team. |
+| double-check | 9 | Verify something again for accuracy. |
 
-Counting notes: "work with" (14) and "working with" (4) are combined. "double check" and "double-check" are treated as the same expression. "check with" includes occurrences within "double-check with", so rows can overlap and should not be added together.
+Counting notes: "work with" (17) and "working with" (4) are combined. "double check" and "double-check" are treated as the same expression. "check with" includes occurrences within "double-check with", so rows can overlap and should not be added together.
 
 **Useful distinction:** "take a look" means to examine; "go through" suggests a more detailed review; "figure out" means to reach an understanding or solution.
 
@@ -64,16 +67,22 @@ These are natural templates based on recurring transcript expressions. Except fo
 | Check before answering | Let me check the current status. |
 | Verify again | We need to double-check the permissions. |
 | Clarify your meaning | Just to clarify, we're evaluating the options, not implementing them yet. |
+| Raise a concern | My main concern is how this change will affect existing consumers. |
+| Confirm an implication | Does that mean consumers need to install an additional dependency? |
+| Give conditional agreement | As long as we follow the existing guidelines, the proposal looks good to me. |
+| Report a pending approval | The request is still pending approval. |
+| Gather input | Let's get input from the web team before making a decision. |
+| Suggest a temporary option | We can consider reusing the existing resources as a short-term solution. |
 | Change topics | Let's move on to the next topic. |
 | Invite feedback | Any questions or comments? |
 | Finish your update | That's all from my side. |
 
 Exact recurring fragments:
 
-- "Let me share my screen": 8 occurrences.
+- "Let me share my screen": 9 occurrences.
 - "Can you see my screen": 5 occurrences.
-- "That's all": 28 occurrences, including different sentence endings.
-- "questions or comments": 8 occurrences; "comments or questions": 10 occurrences, for 18 combined.
+- "That's all": 37 occurrences, including different sentence endings.
+- "questions or comments": 8 occurrences; "comments or questions": 13 occurrences, for 21 combined.
 - "Just to clarify": 2 occurrences.
 
 ## Responses and Fillers
@@ -81,12 +90,12 @@ Exact recurring fragments:
 | Expression | Count | Usage |
 | --- | ---: | --- |
 | No worries. | 13 | Respond casually to thanks or an apology. |
-| Got it. | 8 | Confirm understanding. |
-| Looks good... | 4 | Give a positive assessment of something reviewed. |
-| Sounds good. | 5 | Agree with a suggestion or plan. |
-| I think | 205 | Introduce an opinion or soften a statement. |
+| Got it. | 9 | Confirm understanding. |
+| Looks good... | 6 | Give a positive assessment of something reviewed. |
+| Sounds good. | 9 | Agree with a suggestion or plan. |
+| I think | 266 | Introduce an opinion or soften a statement. |
 | kind of | 57 | Soften or approximate a description. |
-| I mean | 50 | Clarify or reformulate a point. |
+| I mean | 62 | Clarify or reformulate a point. |
 
 The last three are common in spontaneous speech. Learn to recognize them, but do not deliberately reproduce their frequency. Clear, short sentences are usually easier to follow.
 

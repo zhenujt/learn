@@ -2,13 +2,16 @@
 
 ## 来源与统计方法
 
-基于以下 5 个文件中的 6 场会议：
+基于以下 8 个文件中的 9 场会议：
 
 - sep-after.txt：2026 年 9 月 10 日、14 日。
 - sep-21.txt：2026 年 9 月 21 日。
 - sep-22.txt：2026 年 9 月 22 日。
 - sep-23.txt：2026 年 9 月 23 日。
 - sep-24.txt：2026 年 9 月 24 日。
+- sep-28.txt：2026 年 9 月 28 日。
+- sep-29.txt：2026 年 9 月 29 日。
+- sep-30.txt：2026 年 9 月 30 日。
 
 原始转录仅保留在本地 Meeting 项目中，不发布到学习网站。
 
@@ -18,29 +21,29 @@
 
 | 短语 | 次数 | 意思或使用场景 |
 | --- | ---: | --- |
-| set up | 71 | 建立、配置：账号、仓库、流水线；也可用于安排会议。 |
-| working on | 50 | 正在处理某项工作。 |
-| make sure | 28 | 确保、确认。 |
-| at this point | 20 | 目前、现阶段。 |
-| figure out | 20 | 弄清楚、找出解决办法。 |
-| work with / working with... | 18 | 和某人合作；也可表示使用某物开展工作。 |
+| set up | 85 | 建立、配置：账号、仓库、流水线；也可用于安排会议。 |
+| working on | 68 | 正在处理某项工作。 |
+| make sure | 36 | 确保、确认。 |
+| at this point | 24 | 目前、现阶段。 |
+| figure out | 25 | 弄清楚、找出解决办法。 |
+| work with / working with... | 21 | 和某人合作；也可表示使用某物开展工作。 |
 | go ahead | 16 | 请继续、你先说、开始做。 |
-| take a look | 16 | 看一下、检查一下。 |
-| go through | 15 | 逐项查看、仔细过一遍。 |
-| I wonder if... | 15 | 我在想是否可以……；委婉询问或建议。 |
-| I'm not sure... | 13 | 我不确定……；也用于委婉表达疑虑。 |
-| in terms of... | 12 | 就……而言、在……方面。 |
-| we can consider... | 9 | 我们可以考虑…… |
-| once we have... | 9 | 一旦具备某个条件，就可以进行下一步。 |
-| let me know | 8 | 告诉我、跟我说一下。 |
-| check with... | 8 | 找某人确认信息、征求意见。 |
-| feel free to... | 7 | 欢迎、尽管…… |
-| follow up | 7 | 跟进之前的事项。 |
-| let me check | 7 | 我先查看或确认一下。 |
-| reach out to... | 6 | 主动联系某人或团队。 |
-| double-check | 6 | 再次核实，确保信息准确。 |
+| take a look | 24 | 看一下、检查一下。 |
+| go through | 17 | 逐项查看、仔细过一遍。 |
+| I wonder if... | 16 | 我在想是否可以……；委婉询问或建议。 |
+| I'm not sure... | 19 | 我不确定……；也用于委婉表达疑虑。 |
+| in terms of... | 13 | 就……而言、在……方面。 |
+| we can consider... | 11 | 我们可以考虑…… |
+| once we have... | 10 | 一旦具备某个条件，就可以进行下一步。 |
+| let me know | 12 | 告诉我、跟我说一下。 |
+| check with... | 12 | 找某人确认信息、征求意见。 |
+| feel free to... | 12 | 欢迎、尽管…… |
+| follow up | 13 | 跟进之前的事项。 |
+| let me check | 13 | 我先查看或确认一下。 |
+| reach out to... | 7 | 主动联系某人或团队。 |
+| double-check | 9 | 再次核实，确保信息准确。 |
 
-统计说明：work with（14 次）与 working with（4 次）合并计数；double check 与 double-check 视为同一表达。check with 包含 double-check with 中的出现次数，因此各行可能重叠，不能直接相加。
+统计说明：work with（17 次）与 working with（4 次）合并计数；double check 与 double-check 视为同一表达。check with 包含 double-check with 中的出现次数，因此各行可能重叠，不能直接相加。
 
 **三个容易混淆的表达：** take a look 是“看一下”，go through 是“仔细过一遍”，figure out 是“弄明白、找到办法”。
 
@@ -64,16 +67,22 @@
 | 回答前核实 | Let me check the current status. | 我先查看一下当前状态。 |
 | 再次核实 | We need to double-check the permissions. | 我们需要再次核实权限。 |
 | 澄清意思 | Just to clarify, we're evaluating the options, not implementing them yet. | 澄清一下，我们还在评估方案，尚未开始实施。 |
+| 表达顾虑 | My main concern is how this change will affect existing consumers. | 我主要担心的是，这个改动会如何影响现有使用方。 |
+| 确认含义 | Does that mean consumers need to install an additional dependency? | 这是否意味着使用方需要安装额外的依赖？ |
+| 有条件地认可 | As long as we follow the existing guidelines, the proposal looks good to me. | 只要遵循现有指南，我认为这个方案就没问题。 |
+| 说明审批状态 | The request is still pending approval. | 这个申请还在等待审批。 |
+| 征求团队意见 | Let's get input from the web team before making a decision. | 我们先听听 Web 团队的意见，再做决定。 |
+| 提出临时方案 | We can consider reusing the existing resources as a short-term solution. | 我们可以考虑复用现有资源，作为短期解决方案。 |
 | 切换话题 | Let's move on to the next topic. | 我们进入下一个话题。 |
 | 征求意见 | Any questions or comments? | 大家有什么问题或意见吗？ |
 | 结束汇报 | That's all from my side. | 我这边就这些。 |
 
 原文片段的出现次数：
 
-- “Let me share my screen”：8 次。
+- “Let me share my screen”：9 次。
 - “Can you see my screen”：5 次。
-- “That's all”：28 次，包含不同的句尾搭配。
-- “questions or comments”：8 次；“comments or questions”：10 次，合计 18 次。
+- “That's all”：37 次，包含不同的句尾搭配。
+- “questions or comments”：8 次；“comments or questions”：13 次，合计 21 次。
 - “Just to clarify”：2 次。
 
 ## 常见回应与口头填充
@@ -81,12 +90,12 @@
 | 表达 | 次数 | 用法 |
 | --- | ---: | --- |
 | No worries. | 13 | 没关系、不客气，用于回应道歉或感谢。 |
-| Got it. | 8 | 明白了。 |
-| Looks good... | 4 | 看起来没问题，用于评价看过的内容。 |
-| Sounds good. | 5 | 听起来不错，用于同意建议或计划。 |
-| I think | 205 | 我认为；引出观点或缓和语气。 |
+| Got it. | 9 | 明白了。 |
+| Looks good... | 6 | 看起来没问题，用于评价看过的内容。 |
+| Sounds good. | 9 | 听起来不错，用于同意建议或计划。 |
+| I think | 266 | 我认为；引出观点或缓和语气。 |
 | kind of | 57 | 有点、某种程度上；表达不精确或缓和语气。 |
-| I mean | 50 | 我的意思是；用于解释或重新表述。 |
+| I mean | 62 | 我的意思是；用于解释或重新表述。 |
 
 后三个在即兴口语里非常常见。听懂即可，不必刻意模仿重复次数；简短清晰的句子通常更容易让别人理解。
 
