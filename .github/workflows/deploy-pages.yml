@@ -100,6 +100,8 @@ jobs:
           cp docs-site/dist/index.html _site/workplace-speaking/index.html
           mkdir -p _site/meeting-english-phrases
           cp docs-site/dist/index.html _site/meeting-english-phrases/index.html
+          mkdir -p _site/demo-platform
+          cp docs-site/dist/index.html _site/demo-platform/index.html
             mkdir -p _site/number
             cp docs-site/dist/index.html _site/number/index.html
 

@@ -5,6 +5,7 @@ import {
   Languages,
   Layers3,
   LibraryBig,
+  Presentation,
   Target,
 } from "lucide-react";
 import { LoginButton } from "./shared/LoginButton";
@@ -18,6 +19,13 @@ interface SiteRoute {
 }
 
 const routes: SiteRoute[] = [
+  {
+    path: "demo-platform/",
+    name: "Platform 演示稿",
+    englishName: "PLATFORM DEMO",
+    description: "产品介绍原始讲解稿与零基础语法解析。",
+    icon: Presentation,
+  },
   {
     path: "meeting-english-phrases/",
     name: "会议高频英文表达",

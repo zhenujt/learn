@@ -30,6 +30,9 @@ function resolvePage(pathname: string): ReactElement {
   if (/\/workplace-speaking\/?$/.test(pathname)) {
     return <App initialDocumentPath="workplace-spoken-english.zh.md" />;
   }
+  if (/\/demo-platform\/?$/.test(pathname)) {
+    return <App initialDocumentPath="demo-platform.md" />;
+  }
   if (/\/meeting-english-phrases\/?$/.test(pathname)) {
     const requestedPath = new URL(window.location.href).searchParams.get("doc");
     const documentPath = requestedPath === "meeting-english-phrases.md"
