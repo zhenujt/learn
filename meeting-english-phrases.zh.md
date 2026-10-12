@@ -2,7 +2,7 @@
 
 ## 来源与统计方法
 
-基于以下 8 个文件中的 9 场会议：
+基于以下 11 个文件中的 12 场会议：
 
 - sep-after.txt：2026 年 9 月 10 日、14 日。
 - sep-21.txt：2026 年 9 月 21 日。
@@ -12,6 +12,9 @@
 - sep-28.txt：2026 年 9 月 28 日。
 - sep-29.txt：2026 年 9 月 29 日。
 - sep-30.txt：2026 年 9 月 30 日。
+- oct-8.txt：2026 年 10 月 8 日。
+- oct-12-afternoon.txt：2026 年 10 月 12 日下午的工作流程讨论。
+- oct-12-night.txt：2026 年 10 月 12 日晚间同步及 PR 工作流程讨论。
 
 原始转录仅保留在本地 Meeting 项目中，不发布到学习网站。
 
@@ -21,31 +24,71 @@
 
 | 短语 | 次数 | 意思或使用场景 |
 | --- | ---: | --- |
-| set up | 85 | 建立、配置：账号、仓库、流水线；也可用于安排会议。 |
-| working on | 68 | 正在处理某项工作。 |
-| make sure | 36 | 确保、确认。 |
-| at this point | 24 | 目前、现阶段。 |
-| figure out | 25 | 弄清楚、找出解决办法。 |
+| set up | 95 | 建立、配置：账号、仓库、流水线；也可用于安排会议。 |
+| working on | 81 | 正在处理某项工作。 |
+| make sure | 50 | 确保、确认。 |
+| at this point | 26 | 目前、现阶段。 |
+| figure out | 31 | 弄清楚、找出解决办法。 |
 | work with / working with... | 21 | 和某人合作；也可表示使用某物开展工作。 |
-| go ahead | 16 | 请继续、你先说、开始做。 |
-| take a look | 24 | 看一下、检查一下。 |
-| go through | 17 | 逐项查看、仔细过一遍。 |
-| I wonder if... | 16 | 我在想是否可以……；委婉询问或建议。 |
-| I'm not sure... | 19 | 我不确定……；也用于委婉表达疑虑。 |
+| go ahead | 28 | 请继续、你先说、开始做。 |
+| take a look | 31 | 看一下、检查一下。 |
+| go through | 20 | 逐项查看、仔细过一遍。 |
+| I wonder if... | 18 | 我在想是否可以……；委婉询问或建议。 |
+| I'm not sure... | 26 | 我不确定……；也用于委婉表达疑虑。 |
 | in terms of... | 13 | 就……而言、在……方面。 |
-| we can consider... | 11 | 我们可以考虑…… |
+| we can consider... | 12 | 我们可以考虑…… |
 | once we have... | 10 | 一旦具备某个条件，就可以进行下一步。 |
 | let me know | 12 | 告诉我、跟我说一下。 |
-| check with... | 12 | 找某人确认信息、征求意见。 |
+| check with... | 20 | 找某人确认信息、征求意见。 |
 | feel free to... | 12 | 欢迎、尽管…… |
-| follow up | 13 | 跟进之前的事项。 |
+| follow up | 15 | 跟进之前的事项。 |
 | let me check | 13 | 我先查看或确认一下。 |
-| reach out to... | 7 | 主动联系某人或团队。 |
-| double-check | 9 | 再次核实，确保信息准确。 |
+| reach out to... | 8 | 主动联系某人或团队。 |
+| double-check | 18 | 再次核实，确保信息准确。 |
+| for example | 42 | 例如，用具体例子说明。 |
+| pick up | 21 | 接手、开始处理某项任务。 |
+| go back to | 7 | 回到之前的话题、步骤或阶段。 |
+| get back to | 5 | 核实后再回复某人。 |
+| responsible for | 4 | 负责某项任务或职责；后接名词或动名词。 |
+| instead of | 12 | 而不是、代替；后接名词或动名词。 |
+| right now | 44 | 现在、目前，用于描述当前情况。 |
+| in the future | 28 | 将来，不一定表示马上要实施的计划。 |
 
 统计说明：work with（17 次）与 working with（4 次）合并计数；double check 与 double-check 视为同一表达。check with 包含 double-check with 中的出现次数，因此各行可能重叠，不能直接相加。
 
 **三个容易混淆的表达：** take a look 是“看一下”，go through 是“仔细过一遍”，figure out 是“弄明白、找到办法”。
+
+## 10 月 12 日下午讨论中的重复句式
+
+本次新增表达须常用、可复用，并满足：在 10 月 12 日下午转录中至少出现 2 次、全部来源累计至少 4 次、至少出现在 2 份转录中。for example、pick up、go back to、get back to、responsible for 在本次讨论中依次出现 6、2、6、2、3 次。预建的空白日文件不计入来源数量。
+
+下表统计的是固定开头片段，不是完整例句或所有语法变体。例句经过规范化，供练习使用，不是逐字引用或已确认的项目决定。各行可能重叠：Do we need to 也包含 we need to。
+
+| 开头片段 | 10 月 12 日下午 | 全部来源 | 结构与练习例句 |
+| --- | ---: | ---: | --- |
+| We need to... | 13 | 101 | need to + 动词原形：We need to confirm the acceptance criteria. 我们需要确认验收标准。 |
+| Do we need to...? | 2 | 6 | Do + 主语 + need to + 动词原形：Do we need to update the assignee? 我们需要更新负责人吗？ |
+| We will have... | 14 | 21 | will + 动词原形：We will have a review session next week. 我们下周会有一次评审会。 |
+| It means that... | 7 | 10 | that 后接完整从句：It means that the story is ready for testing. 这意味着该故事已准备好进入测试。 |
+| If you have any... | 2 | 11 | if 条件从句 + 主句：If you have any concerns, please share them with the team. 如果有任何顾虑，请向团队提出。 |
+
+**易混淆表达：** go back to 是回到话题或阶段；get back to someone 通常是稍后回复某人。例如：Let's go back to the previous step.（我们回到上一步。）/ I'll check and get back to you.（我确认后回复你。）
+
+## 10 月 12 日晚间讨论中的重复句式
+
+沿用相同筛选门槛：晚间转录中至少出现 2 次、全部来源累计至少 4 次、至少出现在 2 份转录中。instead of、right now、in the future 在晚间分别出现 2、4、2 次。全部来源累计次数包含 10 月 12 日下午和晚间两场讨论；上表的下午次数仍只统计下午。
+
+这里统计固定片段，可出现在句子中间，不是完整练习例句的出现次数。下方例句经过规范化，供学习使用，不是逐字引用或已确认的项目决定。
+
+| 固定片段 | 10 月 12 日晚间 | 全部来源 | 结构与练习例句 |
+| --- | ---: | ---: | --- |
+| Before we... | 5 | 19 | before + 主语 + 动词：Before we start implementation, we need to verify the pipeline. 开始实现之前，我们需要验证流水线。 |
+| Do we have...? | 3 | 9 | Do + 主语 + have + 名词短语：Do we have access to the repository? 我们有这个仓库的访问权限吗？ |
+| We already have... | 3 | 18 | already 放在实义动词 have 前：We already have a runner we can reuse. 我们已经有一个可以复用的 runner。 |
+| I just want to... | 3 | 17 | want to + 动词原形；just 缓和语气：I just want to confirm the scope. 我只是想确认一下范围。 |
+| We can probably... | 2 | 5 | can + probably + 动词原形：We can probably reuse the existing workflow. 我们很可能可以复用现有工作流。 |
+
+**用法提醒：** 应说 instead of creating a new runner，不说 instead of to create a new runner。We already have a runner 描述目前已有的状态；We have already configured a runner 用现在完成时表示配置动作已经完成。probably 表示可能性较高，不是确定承诺。
 
 ## 可直接使用的会议句型
 
@@ -79,10 +122,10 @@
 
 原文片段的出现次数：
 
-- “Let me share my screen”：9 次。
-- “Can you see my screen”：5 次。
-- “That's all”：37 次，包含不同的句尾搭配。
-- “questions or comments”：8 次；“comments or questions”：13 次，合计 21 次。
+- “Let me share my screen”：14 次。
+- “Can you see my screen”：9 次。
+- “That's all”：50 次，包含不同的句尾搭配。
+- “questions or comments”：13 次；“comments or questions”：15 次，合计 28 次。
 - “Just to clarify”：2 次。
 
 ## 常见回应与口头填充
@@ -90,12 +133,12 @@
 | 表达 | 次数 | 用法 |
 | --- | ---: | --- |
 | No worries. | 13 | 没关系、不客气，用于回应道歉或感谢。 |
-| Got it. | 9 | 明白了。 |
-| Looks good... | 6 | 看起来没问题，用于评价看过的内容。 |
-| Sounds good. | 9 | 听起来不错，用于同意建议或计划。 |
-| I think | 266 | 我认为；引出观点或缓和语气。 |
-| kind of | 57 | 有点、某种程度上；表达不精确或缓和语气。 |
-| I mean | 62 | 我的意思是；用于解释或重新表述。 |
+| Got it. | 16 | 明白了。 |
+| Looks good... | 7 | 看起来没问题，用于评价看过的内容。 |
+| Sounds good. | 15 | 听起来不错，用于同意建议或计划。 |
+| I think | 320 | 我认为；引出观点或缓和语气。 |
+| kind of | 64 | 有点、某种程度上；表达不精确或缓和语气。 |
+| I mean | 95 | 我的意思是；用于解释或重新表述。 |
 
 后三个在即兴口语里非常常见。听懂即可，不必刻意模仿重复次数；简短清晰的句子通常更容易让别人理解。
 
