@@ -6,7 +6,8 @@ applyTo: "**"
 # Mandatory Meeting / Learn Synchronization
 
 - This rule applies across workspaces to `/Users/czheng1/Desktop/Meeting` and `/Users/czheng1/Desktop/learn`.
-- Both roots must contain byte-identical copies of `meeting-english-phrases.md` and `meeting-english-phrases.zh.md`.
+- Both roots must contain byte-identical copies of `meeting-english-phrases.md`, `meeting-english-phrases.zh.md`, `meeting-frequent-words.md`, and `meeting-frequent-words.zh.md`.
+- For every meeting-corpus update, update both the phrase and frequent-words references in English and Chinese in the same task, then synchronize all four documents across both roots.
 - Edits may originate in either project. Read both copies first, reconcile divergent edits without discarding user work, then update both in the same task. Neither project is permanently authoritative.
 - Keep the English and Chinese versions semantically aligned. Never mark an update complete while either counterpart is missing or different; report inaccessible counterparts as a blocker.
 - Keep this instruction and its `.zh.md` companion identical in both projects under `.github/instructions/` and in the user's VS Code prompts directory. Update all rule copies when changing the synchronization policy.

@@ -27,11 +27,25 @@ const routes: SiteRoute[] = [
     icon: Presentation,
   },
   {
+    path: "meeting-complete-vocabulary/",
+    name: "会议完整词汇",
+    englishName: "MEETING VOCABULARY",
+    description: "完整会议词汇、词性、出现次数、中文释义与双语例句。",
+    icon: LibraryBig,
+  },
+  {
     path: "meeting-english-phrases/",
     name: "会议高频英文表达",
     englishName: "MEETING ENGLISH",
     description: "会议常用短语、表达次数、实用句型与汇报练习。",
     icon: Languages,
+  },
+  {
+    path: "meeting-frequent-words/",
+    name: "会议高频词汇",
+    englishName: "MEETING KEY WORDS",
+    description: "软件项目与 Ticket 讲解中的常用词汇、含义与场景例句。",
+    icon: BookOpen,
   },
   {
     path: "workplace-speaking/",

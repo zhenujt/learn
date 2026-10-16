@@ -33,11 +33,25 @@ function resolvePage(pathname: string): ReactElement {
   if (/\/demo-platform\/?$/.test(pathname)) {
     return <App initialDocumentPath="demo-platform.md" />;
   }
-  if (/\/meeting-english-phrases\/?$/.test(pathname)) {
+  const meetingRoute = pathname.match(
+    /\/(meeting-complete-vocabulary|meeting-english-phrases|meeting-frequent-words)\/?$/,
+  );
+  if (meetingRoute) {
     const requestedPath = new URL(window.location.href).searchParams.get("doc");
-    const documentPath = requestedPath === "meeting-english-phrases.md"
+    const documentPath = meetingRoute[1] === "meeting-english-phrases" && requestedPath === "meeting-english-phrases.md"
       ? requestedPath
-      : "meeting-english-phrases.zh.md";
+      : `${meetingRoute[1]}.zh.md`;
+    if (!documents.some((document) => document.path === documentPath)) {
+      return (
+        <div className="home-shell">
+          <main className="home-main">
+            <h1>文档暂不可用</h1>
+            <p role="status">当前站点未包含文档：{documentPath}</p>
+            <a href={siteBasePath}>返回学习目录</a>
+          </main>
+        </div>
+      );
+    }
     return <App key={documentPath} initialDocumentPath={documentPath} />;
   }
   const isPrepositionRoute = /\/preposition\/?$/.test(pathname);

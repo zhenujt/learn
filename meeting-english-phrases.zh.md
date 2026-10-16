@@ -2,9 +2,9 @@
 
 ## 来源与统计方法
 
-基于以下 11 个文件中的 12 场会议：
+统计覆盖全部 96 份 `.txt` 文件；其中 14 份包含非空 `Content:` 发言，共 3,165 条。以下列出实际参与词频统计的文件：
 
-- sep-after.txt：2026 年 9 月 10 日、14 日。
+
 - sep-21.txt：2026 年 9 月 21 日。
 - sep-22.txt：2026 年 9 月 22 日。
 - sep-23.txt：2026 年 9 月 23 日。
@@ -15,46 +15,61 @@
 - oct-8.txt：2026 年 10 月 8 日。
 - oct-12-afternoon.txt：2026 年 10 月 12 日下午的工作流程讨论。
 - oct-12-night.txt：2026 年 10 月 12 日晚间同步及 PR 工作流程讨论。
+- oct-13-grooming-1.txt：2026 年 10 月 13 日第一轮待办梳理与估点会议。
+- oct-13.txt：2026 年 10 月 13 日团队同步及会后 SSR 演示。
+- oct-14.txt：2026 年 10 月 14 日团队同步、流水线迁移讨论及反馈插件演示。
+- oct-15.txt：2026 年 10 月 15 日视觉测试、兼容性与 CI 工具讨论。
 
 原始转录仅保留在本地 Meeting 项目中，不发布到学习网站。
 
-次数按转录文本统计，忽略大小写、标点和换行。除非特别说明，否则不合并不同说法。同一次发言中的重复也计入次数，因此不是会议场数或说话人数。转录误听可能影响结果。这是一份实用表达精选，不是完整的词频排行榜。
+次数按以下文件中的非空 `Content:` 发言统计，忽略大小写、标点和换行。除非特别说明，否则不合并不同说法。同一次发言中的重复也计入次数，因此不是会议场数或说话人数。转录误听可能影响结果。这是一份实用表达精选，不是完整的词频排行榜。
+
+
+
+完整的逐词词表（含词形归并、词性、中文释义、例句和次数）请见[会议完整词汇表](meeting-complete-vocabulary.zh.md#全部转录词汇)。
 
 ## 高频实用短语
 
 | 短语 | 次数 | 意思或使用场景 |
 | --- | ---: | --- |
-| set up | 95 | 建立、配置：账号、仓库、流水线；也可用于安排会议。 |
-| working on | 81 | 正在处理某项工作。 |
-| make sure | 50 | 确保、确认。 |
-| at this point | 26 | 目前、现阶段。 |
-| figure out | 31 | 弄清楚、找出解决办法。 |
-| work with / working with... | 21 | 和某人合作；也可表示使用某物开展工作。 |
-| go ahead | 28 | 请继续、你先说、开始做。 |
-| take a look | 31 | 看一下、检查一下。 |
-| go through | 20 | 逐项查看、仔细过一遍。 |
-| I wonder if... | 18 | 我在想是否可以……；委婉询问或建议。 |
-| I'm not sure... | 26 | 我不确定……；也用于委婉表达疑虑。 |
-| in terms of... | 13 | 就……而言、在……方面。 |
+| set up | 71 | 建立、配置：账号、仓库、流水线；也可用于安排会议。 |
+| working on | 99 | 正在处理某项工作。 |
+| make sure | 52 | 确保、确认。 |
+| at this point | 17 | 目前、现阶段。 |
+| figure out | 32 | 弄清楚、找出解决办法。 |
+| work with / working with... | 15 | 和某人合作；也可表示使用某物开展工作。 |
+| go ahead | 24 | 请继续、你先说、开始做。 |
+| take a look | 37 | 看一下、检查一下。 |
+| go through | 18 | 逐项查看、仔细过一遍。 |
+| I wonder if... | 20 | 我在想是否可以……；委婉询问或建议。 |
+| I'm not sure... | 32 | 我不确定……；也用于委婉表达疑虑。 |
+| in terms of... | 12 | 就……而言、在……方面。 |
 | we can consider... | 12 | 我们可以考虑…… |
 | once we have... | 10 | 一旦具备某个条件，就可以进行下一步。 |
 | let me know | 12 | 告诉我、跟我说一下。 |
-| check with... | 20 | 找某人确认信息、征求意见。 |
-| feel free to... | 12 | 欢迎、尽管…… |
-| follow up | 15 | 跟进之前的事项。 |
-| let me check | 13 | 我先查看或确认一下。 |
-| reach out to... | 8 | 主动联系某人或团队。 |
-| double-check | 18 | 再次核实，确保信息准确。 |
-| for example | 42 | 例如，用具体例子说明。 |
-| pick up | 21 | 接手、开始处理某项任务。 |
+| check with... | 24 | 找某人确认信息、征求意见。 |
+| feel free to... | 11 | 欢迎、尽管…… |
+| follow up | 20 | 跟进之前的事项。 |
+| let me check | 14 | 我先查看或确认一下。 |
+| reach out to... | 10 | 主动联系某人或团队。 |
+| double-check | 23 | 再次核实，确保信息准确。 |
+| for example | 30 | 例如，用具体例子说明。 |
+| pick up | 26 | 接手、开始处理某项任务。 |
 | go back to | 7 | 回到之前的话题、步骤或阶段。 |
 | get back to | 5 | 核实后再回复某人。 |
 | responsible for | 4 | 负责某项任务或职责；后接名词或动名词。 |
-| instead of | 12 | 而不是、代替；后接名词或动名词。 |
-| right now | 44 | 现在、目前，用于描述当前情况。 |
-| in the future | 28 | 将来，不一定表示马上要实施的计划。 |
+| instead of | 15 | 而不是、代替；后接名词或动名词。 |
+| right now | 42 | 现在、目前，用于描述当前情况。 |
+| in the future | 18 | 将来，不一定表示马上要实施的计划。 |
+| based on | 15 | 基于某项证据、假设或范围作出决定或估算。 |
+| go with | 15 | 在讨论中选择或接受某个方案。 |
+| as a reference | 5 | 作为参考或比较的依据。 |
+| familiar with | 4 | 熟悉、了解某事物；通常与 be 动词连用。 |
+| in general | 14 | 总体而言、通常来说，允许存在例外。 |
+| for now | 8 | 暂时、目前，表示之后可能调整的决定或安排。 |
+| have a look | 4 | 看一下；后接查看对象时用 at。 |
 
-统计说明：work with（17 次）与 working with（4 次）合并计数；double check 与 double-check 视为同一表达。check with 包含 double-check with 中的出现次数，因此各行可能重叠，不能直接相加。
+统计说明：work with（19 次）与 working with（4 次）合并计数；double check 与 double-check 视为同一表达。check with 包含 double-check with 中的出现次数，因此各行可能重叠，不能直接相加。
 
 **三个容易混淆的表达：** take a look 是“看一下”，go through 是“仔细过一遍”，figure out 是“弄明白、找到办法”。
 
@@ -66,11 +81,11 @@
 
 | 开头片段 | 10 月 12 日下午 | 全部来源 | 结构与练习例句 |
 | --- | ---: | ---: | --- |
-| We need to... | 13 | 101 | need to + 动词原形：We need to confirm the acceptance criteria. 我们需要确认验收标准。 |
-| Do we need to...? | 2 | 6 | Do + 主语 + need to + 动词原形：Do we need to update the assignee? 我们需要更新负责人吗？ |
-| We will have... | 14 | 21 | will + 动词原形：We will have a review session next week. 我们下周会有一次评审会。 |
-| It means that... | 7 | 10 | that 后接完整从句：It means that the story is ready for testing. 这意味着该故事已准备好进入测试。 |
-| If you have any... | 2 | 11 | if 条件从句 + 主句：If you have any concerns, please share them with the team. 如果有任何顾虑，请向团队提出。 |
+| We need to... | 13 | 123 | need to + 动词原形：We need to confirm the acceptance criteria. 我们需要确认验收标准。 |
+| Do we need to...? | 2 | 7 | Do + 主语 + need to + 动词原形：Do we need to update the assignee? 我们需要更新负责人吗？ |
+| We will have... | 14 | 24 | will + 动词原形：We will have a review session next week. 我们下周会有一次评审会。 |
+| It means that... | 7 | 9 | that 后接完整从句：It means that the story is ready for testing. 这意味着该故事已准备好进入测试。 |
+| If you have any... | 2 | 13 | if 条件从句 + 主句：If you have any concerns, please share them with the team. 如果有任何顾虑，请向团队提出。 |
 
 **易混淆表达：** go back to 是回到话题或阶段；get back to someone 通常是稍后回复某人。例如：Let's go back to the previous step.（我们回到上一步。）/ I'll check and get back to you.（我确认后回复你。）
 
@@ -82,13 +97,89 @@
 
 | 固定片段 | 10 月 12 日晚间 | 全部来源 | 结构与练习例句 |
 | --- | ---: | ---: | --- |
-| Before we... | 5 | 19 | before + 主语 + 动词：Before we start implementation, we need to verify the pipeline. 开始实现之前，我们需要验证流水线。 |
-| Do we have...? | 3 | 9 | Do + 主语 + have + 名词短语：Do we have access to the repository? 我们有这个仓库的访问权限吗？ |
-| We already have... | 3 | 18 | already 放在实义动词 have 前：We already have a runner we can reuse. 我们已经有一个可以复用的 runner。 |
-| I just want to... | 3 | 17 | want to + 动词原形；just 缓和语气：I just want to confirm the scope. 我只是想确认一下范围。 |
-| We can probably... | 2 | 5 | can + probably + 动词原形：We can probably reuse the existing workflow. 我们很可能可以复用现有工作流。 |
+| Before we... | 5 | 14 | before + 主语 + 动词：Before we start implementation, we need to verify the pipeline. 开始实现之前，我们需要验证流水线。 |
+| Do we have...? | 3 | 11 | Do + 主语 + have + 名词短语：Do we have access to the repository? 我们有这个仓库的访问权限吗？ |
+| We already have... | 3 | 21 | already 放在实义动词 have 前：We already have a runner we can reuse. 我们已经有一个可以复用的 runner。 |
+| I just want to... | 3 | 19 | want to + 动词原形；just 缓和语气：I just want to confirm the scope. 我只是想确认一下范围。 |
+| We can probably... | 2 | 6 | can + probably + 动词原形：We can probably reuse the existing workflow. 我们很可能可以复用现有工作流。 |
 
 **用法提醒：** 应说 instead of creating a new runner，不说 instead of to create a new runner。We already have a runner 描述目前已有的状态；We have already configured a runner 用现在完成时表示配置动作已经完成。probably 表示可能性较高，不是确定承诺。
+
+## 10 月 13 日讨论中的重复句式
+
+沿用相同筛选门槛：在两份新增转录中的至少一份出现 2 次、全部来源累计至少 4 次、至少出现在 2 份转录中。based on、go with、as a reference、familiar with、in general 在梳理会议中分别出现 4、5、3、2、2 次；团队同步中另有 go with 2 次、in general 3 次。
+
+各场次数按固定片段分别统计；全部来源累计次数包含所有列出的转录。此前表格中的单场次数保持不变。例句经过规范化，供练习使用，不是逐字引用或已确认的项目决定。
+
+| 固定片段 | 10 月 13 日梳理会议 | 10 月 13 日团队同步 | 全部来源 | 结构与练习例句 |
+| --- | ---: | ---: | ---: | --- |
+| Do you mean...? | 2 | 2 | 6 | Do you mean + 从句：Do you mean we should estimate the parent task? 你的意思是，我们应该给父任务估点吗？ |
+| Do you think...? | 4 | 0 | 8 | Do you think + 从句：Do you think we need input from the design team? 你觉得我们需要设计团队的意见吗？ |
+| We don't need to... | 3 | 1 | 20 | don't need to + 动词原形：We don't need to test every scenario in this spike. 这次探索任务不需要测试所有场景。 |
+| so that... | 6 | 2 | 46 | so that + 从句，常用于表达目的：Let's link the stories so that we can track the dependency. 我们把这些故事关联起来，以便跟踪依赖关系。 |
+| We will continue... | 1 | 3 | 8 | continue + 动名词或 to + 动词原形：We will continue reviewing the remaining tickets tomorrow. 我们明天会继续评审剩余工单。 |
+
+**用法提醒：** Do you mean...? 用于确认对方的意思；Do you think...? 用于询问对方的看法。We don't need to 表示“没有必要”，不是“禁止”。可以说 Let's go with this option（我们选这个方案）、Our estimate is based on the current scope（我们的估算基于当前范围）、Use this story as a reference（用这个故事作为参考）、I'm familiar with the workflow（我熟悉这个工作流）。
+
+转录提醒：梳理会议中的 Let me share my square 很可能是 Let me share my screen 的识别错误，但统计时不会悄悄将它计入后者的精确次数。
+
+## 10 月 13 日 Grooming 讨论中的重复表达
+
+沿用相同筛选门槛：在 oct-13-grooming-1.txt 中至少出现 2 次、全部来源累计至少 4 次、至少出现在 2 份转录中。全部来源累计次数包含本次讨论；前面各表的单场次数保持不变。
+
+下表统计固定片段，不合并所有语法变体，也不是完整例句的出现次数。例句经过规范化，供练习使用，不是逐字引用或已确认的项目决定，其中的故事点估算也不代表实际决定。
+
+| 固定片段 | 10 月 13 日 Grooming | 全部来源 | 结构与练习例句 |
+| --- | ---: | ---: | --- |
+| based on... | 4 | 15 | based on + 名词短语：Let's estimate this task based on its current scope. 我们根据当前范围来估算这个任务吧。 |
+| as a reference | 3 | 5 | use something as a reference：We can use this completed story as a reference. 我们可以把这个已完成的故事作为参考。 |
+| go with... | 5 | 15 | go with + 选项：Let's go with the simpler approach. 我们选更简单的方案吧。 |
+| familiar with... | 2 | 4 | be familiar with + 名词短语：I'm not familiar with the approval process yet. 我还不熟悉审批流程。 |
+| Do you think...? | 4 | 8 | Do you think + 完整从句：Do you think we need input from the design team? 你认为我们需要设计团队的意见吗？ |
+| I think we can... | 5 | 13 | I think + we can + 动词原形：I think we can split this story into smaller tasks. 我认为我们可以把这个故事拆成更小的任务。 |
+| We can start... | 2 | 20 | start + 动名词或 to + 动词原形：We can start estimating once the scope is clear. 范围明确后，我们就可以开始估算。 |
+| so that... | 6 | 46 | so that + 表示目的的从句：Let's clarify the dependencies so that we can estimate the work more accurately. 我们先明确依赖关系，以便更准确地估算工作。 |
+
+**用法提醒：** 这里的 go with 表示“选择某个方案”，go through 表示“仔细过一遍”。表达“某人熟悉某事”时用 be familiar with，不用 be familiar to。so that 引出目的，so 可以引出结果。转录出现了 Let me share my square；共享屏幕时应说 Let me share my screen，但统计时不把这处疑似误听算作精确匹配。
+
+## 10 月 14 日讨论中的重复句式
+
+沿用相同筛选门槛：在 10 月 14 日转录中至少出现 2 次、全部来源累计至少 4 次、至少出现在 2 份转录中。for now 和 have a look 在本场分别出现 2 次和 3 次。此前表格的单场次数保持不变；全部来源累计次数包含所有列出的转录。
+
+统计固定片段，不是完整例句或所有语法变体。保留撇号：so that's 不计入 so that。例句经过规范化，供练习使用，不是逐字引用或已确认的项目决定。
+
+| 固定片段 | 10 月 14 日 | 全部来源 | 结构与练习例句 |
+| --- | ---: | ---: | --- |
+| follow up with... | 3 | 7 | follow up with + 人：I'll follow up with the designer in the Teams thread. 我会在 Teams 讨论串里与设计师跟进。 |
+| I don't think... | 4 | 17 | I don't think + 从句：I don't think we need a separate ticket for the same functionality. 我觉得同一个功能不需要单独再建一个工单。 |
+| We have to... | 4 | 12 | have to + 动词原形：We have to identify which pipeline needs this feature. 我们必须明确哪条流水线需要这个功能。 |
+| If we see... | 2 | 4 | if + 一般现在时，后接主句：If we see performance issues, we can revisit this option. 如果发现性能问题，我们可以重新考虑这个选项。 |
+| We can still... | 2 | 15 | can + still + 动词原形：We can still keep these tasks and link them to the migration story. 我们仍然可以保留这些任务，并将它们关联到迁移故事。 |
+
+**用法提醒：** follow up with someone 指跟进的对象，follow up on something 指跟进的事项。更具体的 follow up with 次数已包含在上表的 follow up 中。have a look at the document 和 take a look at the document 意思相近，但精确次数分开统计。I don't think we need... 可以缓和反对意见；we have to 表示要求，不是建议。
+
+转录提醒：is my ice cream visible 很可能是 Is my screen visible? 的识别错误，不会按纠正后的说法计数。feedback 在此处不可数，应说 collect feedback，不说 collect feedbacks。
+
+## 10 月 15 日讨论中的实用表达
+
+以下短语在 10 月 15 日转录中逐字出现。次数按完整短语精确统计；练习例句经过规范化，并非转录原句。
+
+| 短语 | 10 月 15 日 | 全部来源 | 含义或练习例句 |
+| --- | ---: | ---: | --- |
+| next step | 2 | 12 | 下一步：The next step is to validate the interface contract. 下一步是验证接口契约。 |
+| reach out to | 1 | 10 | 联系某人或团队：I'll reach out to the team that owns the runner. 我会联系负责 runner 的团队。 |
+| work together | 1 | 5 | 合作：The platform teams need to work together on the test gate. 各平台团队需要共同推进测试门禁。 |
+| backward compatibility | 1 | 8 | 向后兼容：We need to preserve backward compatibility. 我们需要保持向后兼容。 |
+| performance difference | 1 | 1 | 性能差异：Let's investigate the performance difference. 我们来调查一下性能差异。 |
+| test gate | 1 | 2 | 变更继续推进前必须通过的检查：Add a visual test as a merge gate. 将视觉测试设为合并门禁。 |
+| visual test | 2 | 5 | 检查界面呈现效果的测试：Run the visual test before merging. 合并前运行视觉测试。 |
+| code format | 1 | 2 | 代码格式：Check the code format in CI. 在 CI 中检查代码格式。 |
+| PR merge automation | 1 | 1 | 自动合并拉取请求：We can evaluate PR merge automation after the checks pass. 检查通过后，我们可以评估 PR 自动合并。 |
+| contract governance | 1 | 1 | 共享接口的规则与责任归属：Clarify contract governance before changing the schema. 修改 schema 前先明确契约治理机制。 |
+| contract validation | 1 | 1 | 验证是否满足接口契约：Add contract validation to the pipeline. 在流水线中加入契约验证。 |
+| drift tooling | 1 | 1 | 检测定义偏差的工具：Use drift tooling to compare generated outputs. 使用偏差检测工具比较生成结果。 |
+
+10 月 15 日转录中的部分上下文可能存在语音识别错误。上表保留原文短语的计数；润色后的英语请参考练习例句。
 
 ## 可直接使用的会议句型
 
@@ -122,23 +213,23 @@
 
 原文片段的出现次数：
 
-- “Let me share my screen”：14 次。
-- “Can you see my screen”：9 次。
-- “That's all”：50 次，包含不同的句尾搭配。
-- “questions or comments”：13 次；“comments or questions”：15 次，合计 28 次。
-- “Just to clarify”：2 次。
+- “Let me share my screen”：15 次。
+- “Can you see my screen”：11 次。
+- “That's all”：59 次，包含不同的句尾搭配。
+- “questions or comments”：19 次；“comments or questions”：19 次，合计 38 次。
+- “Just to clarify”：1 次。
 
 ## 常见回应与口头填充
 
 | 表达 | 次数 | 用法 |
 | --- | ---: | --- |
-| No worries. | 13 | 没关系、不客气，用于回应道歉或感谢。 |
+| No worries. | 10 | 没关系、不客气，用于回应道歉或感谢。 |
 | Got it. | 16 | 明白了。 |
-| Looks good... | 7 | 看起来没问题，用于评价看过的内容。 |
-| Sounds good. | 15 | 听起来不错，用于同意建议或计划。 |
-| I think | 320 | 我认为；引出观点或缓和语气。 |
-| kind of | 64 | 有点、某种程度上；表达不精确或缓和语气。 |
-| I mean | 95 | 我的意思是；用于解释或重新表述。 |
+| Looks good... | 11 | 看起来没问题，用于评价看过的内容。 |
+| Sounds good. | 17 | 听起来不错，用于同意建议或计划。 |
+| I think | 334 | 我认为；引出观点或缓和语气。 |
+| kind of | 32 | 有点、某种程度上；表达不精确或缓和语气。 |
+| I mean | 112 | 我的意思是；用于解释或重新表述。 |
 
 后三个在即兴口语里非常常见。听懂即可，不必刻意模仿重复次数；简短清晰的句子通常更容易让别人理解。
 
@@ -180,3 +271,5 @@
 5. **That's all from my side.** 我这边就这些。
 
 本中文文档已获准发布到学习网站；此例外不适用于其他中文 Markdown 或原始会议转录。
+
+另请参阅：[会议高频英文单词](meeting-frequent-words.zh.md)及[英文版](meeting-frequent-words.md)。

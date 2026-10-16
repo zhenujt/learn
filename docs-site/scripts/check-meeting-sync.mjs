@@ -9,7 +9,12 @@ export class MeetingDocumentSync {
   }
 
   verify(allowMissingMeeting = false) {
-    for (const file of ["meeting-english-phrases.md", "meeting-english-phrases.zh.md"]) {
+    for (const file of [
+      "meeting-english-phrases.md",
+      "meeting-english-phrases.zh.md",
+      "meeting-frequent-words.md",
+      "meeting-frequent-words.zh.md",
+    ]) {
       if (!fs.existsSync(path.join(this.learnRoot, file))) {
         throw new Error(`Published meeting document is missing: ${file}`);
       }
@@ -23,6 +28,8 @@ export class MeetingDocumentSync {
     const files = [
       "meeting-english-phrases.md",
       "meeting-english-phrases.zh.md",
+      "meeting-frequent-words.md",
+      "meeting-frequent-words.zh.md",
       ".github/instructions/meeting-learn-sync.instructions.md",
       ".github/instructions/meeting-learn-sync.instructions.zh.md",
     ];
