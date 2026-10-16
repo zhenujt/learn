@@ -26,7 +26,7 @@ Counts are occurrences in non-empty `Content:` utterances in the listed files, i
 
 
 
-For the complete word-by-word vocabulary with grouped forms, parts of speech, Chinese meanings, examples, and counts, see the [Complete Meeting Vocabulary](meeting-complete-vocabulary.md#complete-corpus-vocabulary).
+For every recorded word form on its own row, with related words adjacent and groups ordered by combined frequency, see the [Complete Meeting Vocabulary](meeting-complete-vocabulary.md#complete-corpus-vocabulary). All 2,083 source lemmas were reviewed, covering 2,688 observed forms and 56,290 occurrences. Zero-count reference forms are explicitly marked. This selected phrase list retains its own counting method.
 
 ## Useful Recurring Phrases
 

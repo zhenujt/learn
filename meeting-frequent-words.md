@@ -4,6 +4,8 @@
 
 This is a curated vocabulary guide for explaining software tickets, technical proposals, and cross-team work. Ticket examples are model sentences based on your Figma-to-Web/native ticket description; they are not transcript quotations. Counts cover all 96 `.txt` files in the Meeting folder; only 14 files contain non-empty `Content:` lines, totaling 3,165 spoken-content lines. Counts are case-insensitive. Inflections are combined when noted; multiword phrases count exact phrase matches. A count of 0 means the term did not occur in the transcripts.
 
+The [Complete Meeting Vocabulary](meeting-complete-vocabulary.md#complete-corpus-vocabulary) covers all 2,083 source lemmas and 2,688 observed forms. Each form is listed separately with its own count, related words are adjacent, and groups follow descending combined frequency. This curated guide keeps its existing combined entries and counts; use the complete table for the per-form breakdown.
+
 ## Ticket Planning and Ownership
 
 | Word or phrase | Count | Meaning in software work | Ticket-style example |
