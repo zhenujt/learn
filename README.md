@@ -29,6 +29,10 @@ This course is for software engineers in China who attend English stand-ups and 
 
 For archived courses, material unique to those courses, and the lessons that replace them, see [Where the Old Materials Went](dev-meeting-english/README.md#where-the-old-materials-went).
 
+## Document navigation
+
+When you open a document link or switch documents, the left navigation expands the current section and centers the highlighted entry when there is enough room to scroll. The document content does not move. On mobile, open the navigation drawer to see the current entry.
+
 ## Document audio
 
 The docs site shows an audio panel below every Markdown title. Generated recordings read each available Chinese prompt once, followed by the matching English example three times with the slow `en-US-MichelleNeural` voice.

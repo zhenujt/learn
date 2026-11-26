@@ -381,6 +381,8 @@ export function App({ initialDocumentPath }: AppProps = {}) {
   const [mobileEditorView, setMobileEditorView] = useState<"edit" | "preview">("edit");
   const [authOpen, setAuthOpen] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const documentTreeRef = useRef<HTMLElement>(null);
+  const activeDocumentButtonRef = useRef<HTMLButtonElement>(null);
   const documentMainRef = useRef<HTMLElement>(null);
   const syncInFlightRef = useRef(false);
   const activeDocument = catalog.find(activePath);
@@ -492,6 +494,20 @@ export function App({ initialDocumentPath }: AppProps = {}) {
       behavior: "auto",
     });
   }, [activePath, isEditing]);
+
+  useLayoutEffect(() => {
+    const tree = documentTreeRef.current;
+    const button = activeDocumentButtonRef.current;
+    if (!tree || !button) return;
+
+    const section = button.closest("details");
+    if (section) section.open = true;
+
+    const treeCenter = tree.getBoundingClientRect().top + tree.clientTop + tree.clientHeight / 2;
+    const { top, bottom } = button.getBoundingClientRect();
+    // Scroll only the tree so the document keeps its own reading position.
+    tree.scrollTop += (top + bottom) / 2 - treeCenter;
+  }, [activeDocument.path, navigationOpen, query]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -923,7 +939,7 @@ export function App({ initialDocumentPath }: AppProps = {}) {
           />
           <kbd>/</kbd>
         </label>
-        <nav className="document-tree" aria-label="Documentation navigation">
+        <nav ref={documentTreeRef} className="document-tree" aria-label="Documentation navigation">
           {catalog.sections.map((section) => {
             const sectionDocuments = filteredDocuments.filter(
               (document) => document.section === section,
@@ -942,6 +958,8 @@ export function App({ initialDocumentPath }: AppProps = {}) {
                 {sectionDocuments.map((document) => (
                   <button
                     key={document.path}
+                    ref={document.path === activeDocument.path ? activeDocumentButtonRef : undefined}
+                    aria-current={document.path === activeDocument.path ? "page" : undefined}
                     className={
                       document.path === activeDocument.path ? "active" : ""
                     }
