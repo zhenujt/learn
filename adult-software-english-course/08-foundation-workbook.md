@@ -1,5 +1,10 @@
 # Foundation Workbook: Make Everyday Sentences Reliable
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [Grammar Index: Primary to Senior High School, Ordered by Meeting Frequency](../dev-meeting-english/grammar/README.md), [P02 Checkpoint Tests](../dev-meeting-english/practice/02-checkpoint-tests.md). This page is kept for reference and is no longer updated.
+
+
 [中文](08-foundation-workbook.zh.md) · [Course](README.md) · [Grammar reference](02-grammar-reference.md) · [Common grammar next](06-everyday-grammar.md)
 
 ## Route and Completion Checks

@@ -1,5 +1,10 @@
 # 阶段测评：五次检查是否真正会用
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [P02 阶段测验（四个阶段 + 总测验）](../dev-meeting-english/practice/02-checkpoint-tests.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](05-assessments.md) · [目录](README.zh.md) · [听力训练](04-listening-lab.zh.md) · [语法帮助](02-grammar-reference.zh.md)
 
 ## 怎样公平测

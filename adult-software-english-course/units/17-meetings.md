@@ -1,5 +1,10 @@
 # Unit 17: Participating in Meetings
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [M03 Hosting, Screen Sharing, and Moving On](../../dev-meeting-english/meetings/03-hosting-and-screen-sharing.md). This page is kept for reference and is no longer updated.
+
+
 [中文](17-meetings.zh.md) · [Course](../README.md) · [Next](18-demos.md)
 
 ## Goal and vocabulary

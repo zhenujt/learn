@@ -1,5 +1,10 @@
 # 06 代词、修饰语与比较
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G03 代词与指代：it、this、that、they、one](../dev-meeting-english/grammar/03-pronouns-and-reference.zh.md)、[G15 形容词、副词与比较](../dev-meeting-english/grammar/15-adjectives-adverbs-comparison.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 代词要与所代替的名词在人称、数上匹配：`I/me/my/mine/myself`，`they/them/their/theirs/themselves`。形容词放在名词前或连系动词后；副词常修饰动作。比较级：`A + be/V + comparative + than + B`；最高级：`the + superlative + in/of ...`。

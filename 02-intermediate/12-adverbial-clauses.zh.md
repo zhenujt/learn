@@ -1,5 +1,10 @@
 # 12 状语从句
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G20 状语从句：when、once、before、until、although](../dev-meeting-english/grammar/20-adverbial-clauses.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 状语从句说明时间、原因、条件、让步、目的、结果或方式。常用结构：`when/while/as + 时间`，`because/since + 原因`，`if/unless + 条件`，`although/though + 让步`，`so that + 目的`。条件或时间从句谈未来时，常用一般现在：`If it rains tomorrow, we will stay home.`

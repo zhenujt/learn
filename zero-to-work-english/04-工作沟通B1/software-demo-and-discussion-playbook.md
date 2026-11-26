@@ -1,5 +1,10 @@
 # Software Demo and Discussion Playbook
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [M03 Hosting, Screen Sharing, and Moving On](../../dev-meeting-english/meetings/03-hosting-and-screen-sharing.md), [M05 Opinions, Agreement, and Suggestions](../../dev-meeting-english/meetings/05-opinions-and-suggestions.md). This page is kept for reference and is no longer updated.
+
+
 > A progressive speaking system for frontend demos, technical discussions, Q&A, and everyday software-team communication.
 
 ## 1. The One Routine to Remember

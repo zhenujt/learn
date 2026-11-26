@@ -1,5 +1,10 @@
 # 可跳过的语法：见到能认出，暂时不用练熟
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [语法目录：小学到高中，按会议使用频率排序](../dev-meeting-english/grammar/README.zh.md)、[G24 高级语法速览：虚拟语气、倒装、强调句、独立主格](../dev-meeting-english/grammar/24-advanced-grammar-overview.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](07-optional-grammar.md) · [课程目录](README.zh.md) · [常用语法与练习](06-everyday-grammar.zh.md)
 
 ## 这一整页可以跳过

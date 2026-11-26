@@ -1,5 +1,10 @@
 # 04 三大基本时态：一般现在、一般过去、一般将来
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G07 一般现在时与现在进行时：说状态](../dev-meeting-english/grammar/07-present-simple-and-continuous.zh.md)、[G08 一般过去时与现在完成时：说完成](../dev-meeting-english/grammar/08-past-simple-and-present-perfect.zh.md)、[G09 将来表达：will、be going to、进行时表将来](../dev-meeting-english/grammar/09-future-will-going-to.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义
 
 时态把事件放在时间线上。初学者先牢固掌握三大一般时态：习惯/事实用一般现在，已结束的过去事件用一般过去，未来计划或预测用一般将来。不要见到“现在”就机械使用 `am/is/are`；普通动作需要实义动词。

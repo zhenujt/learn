@@ -1,5 +1,10 @@
 # Unit 16: Reviews and Respectful Disagreement
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [M05 Opinions, Agreement, and Suggestions](../../dev-meeting-english/meetings/05-opinions-and-suggestions.md). This page is kept for reference and is no longer updated.
+
+
 [中文](16-reviews.zh.md) · [Course](../README.md) · [Next](17-meetings.md)
 
 ## Goal and words

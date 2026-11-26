@@ -1,5 +1,10 @@
 # Original Practical English Ladder for Adults
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This page belongs to general everyday English and overlaps little with meeting English. For meeting English, use [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md), [Grammar Index: Primary to Senior High School, Ordered by Meeting Frequency](../dev-meeting-english/grammar/README.md). You can still use this page for everyday English.
+
+
 This is an original four-book course for adult beginners. It develops ability from short everyday sentences to clear professional communication without reproducing any existing textbook's chapters, passages, or exercises.
 
 Study the Chinese lesson first. Book One also provides matching English review pages; Books Two through Four currently use the Chinese main lessons for detailed study and output practice. Each Chinese lesson includes goals, key patterns, progressive examples, common errors, speaking and writing tasks, and self-check answers.

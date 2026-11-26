@@ -1,5 +1,10 @@
 # 周育如老师 KK 音标学习笔记
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [第 1 阶段 · 发音入门](../zero-to-work-english/01-发音入门/README.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](09-phonetic-symbols.md) · [课程目录](README.zh.md) · [发音与拼写基础](01-sounds-and-spelling.zh.md)
 
 ## 核实范围：已确认是谁、用哪套符号；不是视频逐字稿

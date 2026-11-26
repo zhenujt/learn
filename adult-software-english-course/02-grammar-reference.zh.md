@@ -1,5 +1,10 @@
 # 语法参考：先想表达什么，再检查句子
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [语法目录：小学到高中，按会议使用频率排序](../dev-meeting-english/grammar/README.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](02-grammar-reference.md) · [目录](README.zh.md) · [练习与测评](05-assessments.zh.md)
 
 ## 怎样使用

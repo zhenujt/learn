@@ -1,5 +1,10 @@
 # Unit 4: Daily Routines
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This page belongs to general everyday English and overlaps little with meeting English. For meeting English, use [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md). You can still use this page for everyday English.
+
+
 [中文](04-daily-routines.zh.md) · [Course](../README.md) · [Next](05-questions-and-clarification.md)
 
 ## Goal and words

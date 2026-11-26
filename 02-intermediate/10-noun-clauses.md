@@ -1,5 +1,10 @@
 # 10 Noun Clauses
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [G18 Noun Clauses](../dev-meeting-english/grammar/18-noun-clauses.md). This page is kept for reference and is no longer updated.
+
+
 ## Definition and Core Formula
 
 A noun clause acts as a subject, object, complement, or apposition. Use `that + statement`, `whether/if + statement`, or `wh-word + statement`. Use statement word order inside the clause.

@@ -312,7 +312,8 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,svg,json}"],
-        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+        // All Markdown documents are inlined into the main bundle, so it must stay precacheable offline.
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
         navigateFallback: "index.html",
       },
     }),

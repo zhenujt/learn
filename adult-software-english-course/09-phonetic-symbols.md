@@ -1,5 +1,10 @@
 # Chou Yu-Ju KK Phonetic Symbols: Study Notes
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [第 1 阶段 · 发音入门](../zero-to-work-english/01-发音入门/README.md). This page is kept for reference and is no longer updated.
+
+
 [中文](09-phonetic-symbols.zh.md) · [Course](README.md) · [Sounds and spelling](01-sounds-and-spelling.md)
 
 ## Verification: Teacher and notation confirmed; this is not a video transcript

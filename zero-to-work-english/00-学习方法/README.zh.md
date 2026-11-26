@@ -1,5 +1,10 @@
 # 学习方法：从一个小工作任务开始
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [学习计划：16 周，每天 40 分钟](../../dev-meeting-english/00-study-plan.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English version](README.md)
 
 不必先花一周研究方法，也不必学完发音才练会议短对话。先做[字幕起步单元](../04-工作沟通B1/software-meeting-demo-14-day.zh.md)，遇到具体困难再查一篇方法文档。

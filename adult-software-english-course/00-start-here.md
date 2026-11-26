@@ -1,5 +1,10 @@
 # Start Here: A Beginner's Study Routine
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md), [Study Plan: 16 Weeks, 40 Minutes a Day](../dev-meeting-english/00-study-plan.md). This page is kept for reference and is no longer updated.
+
+
 [中文](00-start-here.zh.md) · [Course](README.md) · [Sounds](01-sounds-and-spelling.md) · [Unit 1](units/01-hello.md)
 
 ## What to prepare

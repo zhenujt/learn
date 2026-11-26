@@ -1,5 +1,10 @@
 # 13 Reported Speech and Long Sentences
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [G22 Reported Speech and Tense Backshift](../dev-meeting-english/grammar/22-reported-speech.md), [G17 Conjunctions and Linking](../dev-meeting-english/grammar/17-conjunctions-and-linking.md). This page is kept for reference and is no longer updated.
+
+
 ## Definition and Core Formula
 
 Report speech with `said/told + (that) + clause`. With a past reporting verb, time commonly shifts back: `will -> would`, `am -> was`. Build long sentences from a clear main clause, then add only necessary reasons, conditions, or modifiers.

@@ -1,5 +1,10 @@
 # Workplace Spoken English: A Practical Guide
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](dev-meeting-english/README.md): [Meeting Situations: Using Grammar in Stand-Ups and Weekly Meetings](dev-meeting-english/meetings/README.md), [G23 Spoken Grammar: Ellipsis, Fragments, Fillers, Self-Correction](dev-meeting-english/grammar/23-spoken-grammar.md). This page is kept for reference and is no longer updated.
+
+
 Chinese edition: [工作日常英语口语全指南](workplace-spoken-english.zh.md)
 
 This guide covers everyday conversations with colleagues, managers, clients, and partner teams. It is about work, not tourism or personal-life conversations. Most sections apply across office roles; software-specific language has its own section. The aim is to communicate facts, requests, ownership, deadlines, and next steps clearly.

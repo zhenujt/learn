@@ -1,5 +1,10 @@
 # 02 Nouns, Articles, and Determiners
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [G02 Nouns, Articles, and Quantifiers](../dev-meeting-english/grammar/02-nouns-articles-quantifiers.md). This page is kept for reference and is no longer updated.
+
+
 ## Definition and Core Formula
 
 Countable singular nouns normally need a determiner: `a/an/the/this/my + singular noun`. Use `a/an` for a non-specific item and `the` for a known item. Use no article for general plural or uncountable nouns: `Developers need feedback.`

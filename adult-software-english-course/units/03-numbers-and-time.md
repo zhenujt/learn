@@ -1,5 +1,10 @@
 # Unit 3: Numbers and Time
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This page belongs to general everyday English and overlaps little with meeting English. For meeting English, use [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md). You can still use this page for everyday English.
+
+
 [中文](03-numbers-and-time.zh.md) · [Course](../README.md) · [Next](04-daily-routines.md)
 
 ## Goal and words

@@ -1,5 +1,10 @@
 # 听力训练室：十组短信息任务
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [学习计划：16 周，每天 40 分钟](../dev-meeting-english/00-study-plan.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](04-listening-lab.md) · [目录](README.zh.md) · [发音](01-sounds-and-spelling.zh.md) · [测评](05-assessments.zh.md)
 
 ## 声音怎样准备

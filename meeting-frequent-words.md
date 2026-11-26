@@ -2,40 +2,40 @@
 
 ## Scope
 
-This is a curated vocabulary guide for explaining software tickets, technical proposals, and cross-team work. Ticket examples are model sentences based on your Figma-to-Web/native ticket description; they are not transcript quotations. Counts cover all 96 `.txt` files in the Meeting folder; only 16 files contain non-empty `Content:` lines, totaling 3,524 spoken-content lines. Counts are case-insensitive. Inflections are combined when noted; multiword phrases count exact phrase matches. A count of 0 means the term did not occur in the transcripts.
+This is a curated vocabulary guide for explaining software tickets, technical proposals, and cross-team work. Ticket examples are model sentences based on your Figma-to-Web/native ticket description; they are not transcript quotations. Counts cover all 96 `.txt` files in the Meeting folder; only 18 files contain non-empty `Content:` lines, totaling 4,147 spoken-content lines. Counts are case-insensitive. Inflections are combined when noted; multiword phrases count exact phrase matches. A count of 0 means the term did not occur in the transcripts.
 
-The [Complete Meeting Vocabulary](meeting-complete-vocabulary.md#complete-corpus-vocabulary) covers all 2,144 source lemmas and 2,781 observed forms. Each form is listed separately with its own count, related words are adjacent, and groups follow descending combined frequency. This curated guide keeps its combined-entry structure with refreshed counts; use the complete table for the per-form breakdown.
+The [Complete Meeting Vocabulary](meeting-complete-vocabulary.md#complete-corpus-vocabulary) covers all 2,394 source lemmas and 3,128 observed forms. Each form is listed separately with its own count, related words are adjacent, and groups follow descending combined frequency. This curated guide keeps its combined-entry structure with refreshed counts; use the complete table for the per-form breakdown.
 
-Counts now include oct-19.txt and oct-20.txt. The labels architecture(s), align / alignment forms, and plan / plans / planned / planning make their previously counted forms explicit. Entries marked forms include the named verbs' base, third-person singular, past, past-participle, and -ing forms, plus singular/plural forms of the named nouns, but not other derivatives. Other entries count only the explicitly listed forms.
+Counts include every populated transcript through October 22, including oct-19.txt, oct-20.txt, oct-21.txt, and oct-22.txt; oct-23.txt is empty. The labels architecture(s), align / alignment forms, and plan / plans / planned / planning make their previously counted forms explicit. Entries marked forms include the named verbs' base, third-person singular, past, past-participle, and -ing forms, plus singular/plural forms of the named nouns, but not other derivatives. Other entries count only the explicitly listed forms.
 
 ## Ticket Planning and Ownership
 
 | Word or phrase | Count | Meaning in software work | Ticket-style example |
 | --- | ---: | --- | --- |
 | scope | 17 | The boundaries of what a ticket or project includes | We should clarify the scope before splitting this feature into tickets. |
-| requirement(s) | 24 | A condition or capability the solution must satisfy | The ticket should capture the design and engineering requirements. |
-| clarify / clarifies / clarified / clarifying / clarification | 10 | Make an unclear point explicit; an explanation that resolves ambiguity | We need to clarify whether the designer or developer owns each part. |
+| requirement(s) | 30 | A condition or capability the solution must satisfy | The ticket should capture the design and engineering requirements. |
+| clarify / clarifies / clarified / clarifying / clarification | 11 | Make an unclear point explicit; an explanation that resolves ambiguity | We need to clarify whether the designer or developer owns each part. |
 | break down | 3 | Divide a large piece of work into smaller, manageable tasks | Let's break the feature down into design, Web, and native subtasks. |
 | task allocation | 0 | How work is assigned across people or teams | We should agree on task allocation before implementation starts. |
 | role allocation | 0 | How responsibilities are divided between roles or disciplines | Let's clarify role allocation between design and engineering before we split the work. |
 | responsibility / responsibilities | 2 | The work or outcome someone is accountable for | The ticket should make each person's responsibilities explicit. |
 | ownership | 4 | Clear accountability for a component, decision, or deliverable | Let's determine ownership of the Figma-variable conversion. |
-| determine / determines / determined / determining | 14 | Establish or decide something based on discussion or evidence | We need to determine which parts belong to design and which belong to engineering. |
+| determine / determines / determined / determining | 19 | Establish or decide something based on discussion or evidence | We need to determine which parts belong to design and which belong to engineering. |
 | acceptance criteria | 0 | Conditions that must be met for a ticket to be considered complete | Add acceptance criteria for Web and native output to the ticket. |
 
 ## Feasibility and Technical Decisions
 
 | Word or phrase | Count | Meaning in software work | Ticket-style example |
 | --- | ---: | --- | --- |
-| proof of concept (PoC) | 12 | A small experiment that tests whether an idea can work | Let's build a PoC to test converting Figma variables into Web and native code. |
-| feasibility / feasible | 24 | Whether something can be done with available technology, time, and resources | The PoC will help us evaluate the feasibility of the conversion. |
+| proof of concept (PoC) | 17 | A small experiment that tests whether an idea can work | Let's build a PoC to test converting Figma variables into Web and native code. |
+| feasibility / feasible | 32 | Whether something can be done with available technology, time, and resources | The PoC will help us evaluate the feasibility of the conversion. |
 | viability / viable | 0 | Whether an approach is practical and worth pursuing over time | We should assess the long-term viability of maintaining one shared source. |
-| evaluate / evaluation | 21 | Examine evidence or options to reach a decision | We can evaluate the options after the PoC is complete. |
-| validate / validation | 18 | Check that an assumption, design, or implementation is correct | We need to validate the generated code on both platforms. |
+| evaluate / evaluation | 22 | Examine evidence or options to reach a decision | We can evaluate the options after the PoC is complete. |
+| validate / validation | 19 | Check that an assumption, design, or implementation is correct | We need to validate the generated code on both platforms. |
 | constraint(s) | 0 | A limitation that affects the solution, such as platform or resource limits | The ticket should document platform constraints and known limitations. |
 | trade-off | 0 | A choice where improving one quality affects another | We should document the trade-off between shared code and platform-specific behavior. |
-| proposal / proposals / propose / proposes / proposed / proposing | 36 | A suggested plan or solution for review | The proposal should include the PoC results and a recommended approach. |
-| specific | 19 | Clearly defined rather than broad or ambiguous | Let's list the specific variables and output formats in scope. |
+| proposal / proposals / propose / proposes / proposed / proposing | 45 | A suggested plan or solution for review | The proposal should include the PoC results and a recommended approach. |
+| specific | 28 | Clearly defined rather than broad or ambiguous | Let's list the specific variables and output formats in scope. |
 
 ## Architecture and Delivery
 
@@ -44,13 +44,13 @@ Counts now include oct-19.txt and oct-20.txt. The labels architecture(s), align 
 | architecture(s) | 34 | The high-level structure and boundaries of a system | We need to agree on the architecture before implementation begins. |
 | architectural | 0 | Relating to the structure or design of a system | This is an architectural decision because it affects both platforms. |
 | infrastructure | 7 | Shared systems and foundations that support development or delivery | The implementation may depend on updates to the repository infrastructure. |
-| implement / implementation forms | 36 | The work of building a design or plan in code | The ticket covers the implementation of the conversion pipeline. |
-| cover / covers / covered / covering | 11 | Include a feature, task, or concern within the ticket's scope | This ticket covers the PoC, implementation, and rollout. |
+| implement / implementation forms | 37 | The work of building a design or plan in code | The ticket covers the implementation of the conversion pipeline. |
+| cover / covers / covered / covering | 14 | Include a feature, task, or concern within the ticket's scope | This ticket covers the PoC, implementation, and rollout. |
 | during implementation | 0 | While the software is being built | We may uncover edge cases during implementation. |
-| integrate / integration forms | 32 | Connecting a component or system with another one | We should include integration with the existing design-token workflow. |
-| dependency / dependencies | 33 | A requirement or piece of work that another task relies on | Let's identify dependencies before we commit to a delivery date. |
-| migrate / migration forms | 41 | Moving an existing system, data, or workflow to a new one | We may need a migration plan for repositories using the old format. |
-| compatibility / compatible | 20 | The ability to work correctly with other systems or versions | We need to check compatibility with the current Web and native toolchains. |
+| integrate / integration forms | 36 | Connecting a component or system with another one | We should include integration with the existing design-token workflow. |
+| dependency / dependencies | 37 | A requirement or piece of work that another task relies on | Let's identify dependencies before we commit to a delivery date. |
+| migrate / migration forms | 42 | Moving an existing system, data, or workflow to a new one | We may need a migration plan for repositories using the old format. |
+| compatibility / compatible | 22 | The ability to work correctly with other systems or versions | We need to check compatibility with the current Web and native toolchains. |
 | standardize / standardization forms | 0 | Make processes or outputs consistent across teams or repositories | We should standardize the generated variable format across platforms. |
 | convention(s) | 5 | An agreed, repeated way of naming or organizing code and files | The ticket should follow the repository's existing naming conventions. |
 
@@ -59,7 +59,7 @@ Counts now include oct-19.txt and oct-20.txt. The labels architecture(s), align 
 | Word or phrase | Count | Meaning in software work | Ticket-style example |
 | --- | ---: | --- | --- |
 | coordinate / coordinates / coordinated / coordinating | 2 | Arrange work or decisions with other people or teams | I'll coordinate with the various pods before finalizing the plan. |
-| align / alignment forms | 15 | Reach agreement on a plan, expectation, or decision | Let's align on the PR template before rolling it out. |
+| align / alignment forms | 18 | Reach agreement on a plan, expectation, or decision | Let's align on the PR template before rolling it out. |
 | various | 1 | Several different people, teams, or items | The change needs input from various pods that own the repositories. |
 | standardize across | 0 | Make something consistent in multiple systems or groups | We want to standardize the PR template across repositories. |
 | coverage | 5 | The range of cases, components, or teams included | The PoC should cover the most common variable types on both platforms. |
@@ -71,83 +71,83 @@ These additional terms broaden the list with vocabulary found in the same softwa
 
 | Word or phrase | Count | Meaning in software work | Useful collocation |
 | --- | ---: | --- | --- |
-| ticket(s) | 111 | A tracked unit of work or request | create / update a ticket |
-| task(s) | 115 | A piece of work to be completed | break a task into subtasks |
-| story / stories | 221 | An agile work item describing a user need or feature | create a story; estimate story points |
-| backlog(s) | 69 | A prioritized queue of pending work | refine the backlog |
-| subtask(s) | 46 | A smaller work item under a parent ticket | split work into subtasks |
+| ticket(s) | 115 | A tracked unit of work or request | create / update a ticket |
+| task(s) | 122 | A piece of work to be completed | break a task into subtasks |
+| story / stories | 234 | An agile work item describing a user need or feature | create a story; estimate story points |
+| backlog(s) | 70 | A prioritized queue of pending work | refine the backlog |
+| subtask(s) | 53 | A smaller work item under a parent ticket | split work into subtasks |
 | estimate / estimation forms | 20 | Predicting the effort or size of work | estimate effort / story points |
-| sprint(s) | 93 | A fixed-length development iteration | plan the next sprint |
+| sprint(s) | 97 | A fixed-length development iteration | plan the next sprint |
 | priority / priorities | 7 | The relative urgency or importance of work | set / reprioritize a ticket |
 | blocker(s) / blocking | 14 | An issue preventing progress | identify a blocker |
 | resource allocation | 1 | Assigning limited people, time, or computing resources | limited resource allocation |
-| plan / plans / planned / planning | 85 | An intended sequence of work or decisions | implementation plan; sprint planning |
+| plan / plans / planned / planning | 89 | An intended sequence of work or decisions | implementation plan; sprint planning |
 | roadmap(s) | 8 | A high-level view of planned product work | product roadmap |
-| role(s) | 11 | A person's function or responsibility area | design role; engineering role |
-| test / tests / tested / testing | 157 | Checking whether behavior meets expectations | regression testing; test a workflow |
-| research / researches / researched / researching | 88 | Investigation to gather evidence or compare options | research a technical option |
-| compare / comparison forms | 42 | Examine options side by side | technical comparison |
+| role(s) | 12 | A person's function or responsibility area | design role; engineering role |
+| test / tests / tested / testing | 186 | Checking whether behavior meets expectations | regression testing; test a workflow |
+| research / researches / researched / researching | 96 | Investigation to gather evidence or compare options | research a technical option |
+| compare / comparison forms | 43 | Examine options side by side | technical comparison |
 | alternative(s) | 2 | Another possible solution | consider an alternative |
-| approach(es) | 23 | A way of solving or organizing the work | choose an implementation approach |
-| recommend / recommendation forms | 9 | Advice about which option to choose | make a recommendation |
-| decision(s) | 13 | A conclusion reached after discussion or evaluation | document the decision |
-| limitation(s) | 22 | A restriction on what a system or approach can do | known limitations |
-| option(s) | 21 | One of several possible choices | compare the available options |
+| approach(es) | 27 | A way of solving or organizing the work | choose an implementation approach |
+| recommend / recommendation forms | 12 | Advice about which option to choose | make a recommendation |
+| decision(s) | 15 | A conclusion reached after discussion or evaluation | document the decision |
+| limitation(s) | 25 | A restriction on what a system or approach can do | known limitations |
+| option(s) | 33 | One of several possible choices | compare the available options |
 | refine / refinement forms | 15 | Improving or clarifying an existing plan or artifact | refine the proposal |
-| technical / technically | 42 | Relating to engineering details or technology | technical requirements |
-| component(s) | 189 | A reusable or independently managed part of a system | shared component |
-| design / designs / designed / designing | 191 | The structure or specification of a product or system | design system; design review |
-| designer(s) | 72 | People responsible for product or visual design | coordinate with the designer |
-| developer(s) | 46 | People who implement or maintain software | hand off work to developers |
-| system(s) | 83 | A connected set of software or services | existing system |
-| structure / structures / structured / structuring | 37 | How code, packages, or data are organized | monorepo structure |
-| platform(s) | 94 | A target environment or technical foundation | Web and native platforms |
-| framework(s) | 38 | A reusable software foundation | framework support |
-| library / libraries | 34 | Reusable code packaged for use by software | publish a library |
-| package(s) | 54 | A distributable unit of code or functionality | publish a package |
-| repository / repositories / repo(s) | 76 | A version-controlled codebase | across repositories |
-| code | 52 | Program instructions or implementation | generate code |
-| token(s) | 73 | A named design value, credential, or technical unit; context determines the meaning | design tokens |
-| variable(s) | 8 | A named value that can change or be referenced | Figma variables |
-| Figma | 55 | The design tool referenced in the ticket scenario | export from Figma |
-| convert / conversion forms | 5 | Transforming data or code from one format to another | variable conversion |
-| generate / generation forms | 8 | Producing code or artifacts automatically | code generation |
-| output(s) | 17 | The result produced by a tool or process | expected output |
-| pipeline(s) | 146 | An automated sequence of build, test, or delivery steps | conversion pipeline |
-| workflow(s) | 123 | A repeatable process, manual or automated | existing workflow |
-| configure / configuration forms | 32 | Settings that determine how a system behaves | configure the pipeline |
+| technical / technically | 43 | Relating to engineering details or technology | technical requirements |
+| component(s) | 217 | A reusable or independently managed part of a system | shared component |
+| design / designs / designed / designing | 232 | The structure or specification of a product or system | design system; design review |
+| designer(s) | 79 | People responsible for product or visual design | coordinate with the designer |
+| developer(s) | 54 | People who implement or maintain software | hand off work to developers |
+| system(s) | 114 | A connected set of software or services | existing system |
+| structure / structures / structured / structuring | 42 | How code, packages, or data are organized | monorepo structure |
+| platform(s) | 116 | A target environment or technical foundation | Web and native platforms |
+| framework(s) | 47 | A reusable software foundation | framework support |
+| library / libraries | 38 | Reusable code packaged for use by software | publish a library |
+| package(s) | 69 | A distributable unit of code or functionality | publish a package |
+| repository / repositories / repo(s) | 79 | A version-controlled codebase | across repositories |
+| code | 72 | Program instructions or implementation | generate code |
+| token(s) | 107 | A named design value, credential, or technical unit; context determines the meaning | design tokens |
+| variable(s) | 22 | A named value that can change or be referenced | Figma variables |
+| Figma | 84 | The design tool referenced in the ticket scenario | export from Figma |
+| convert / conversion forms | 7 | Transforming data or code from one format to another | variable conversion |
+| generate / generation forms | 20 | Producing code or artifacts automatically | code generation |
+| output(s) | 25 | The result produced by a tool or process | expected output |
+| pipeline(s) | 155 | An automated sequence of build, test, or delivery steps | conversion pipeline |
+| workflow(s) | 137 | A repeatable process, manual or automated | existing workflow |
+| configure / configuration forms | 34 | Settings that determine how a system behaves | configure the pipeline |
 | release / releases / released / releasing | 46 | Making a version or feature available | release a change |
-| deploy / deployment forms | 8 | Installing or publishing software to an environment | deployment process |
-| build / builds / built / building | 28 | A compiled or packaged version of software | build the package |
+| deploy / deployment forms | 11 | Installing or publishing software to an environment | deployment process |
+| build / builds / built / building | 55 | A compiled or packaged version of software | build the package |
 | regression | 9 | A defect where a change breaks existing behavior | regression testing |
 | security | 26 | Protection of systems, data, and access | security requirements |
-| consistency / consistent | 2 | Similar behavior or formatting across implementations | maintain consistency across platforms |
+| consistency / consistent | 3 | Similar behavior or formatting across implementations | maintain consistency across platforms |
 | naming | 4 | The rules used to name code, files, or resources | naming convention |
-| design system(s) | 63 | A shared collection of design rules and reusable UI elements | unified design system |
-| design token(s) | 4 | A named design value such as a color, spacing, or font size | map design tokens to code |
+| design system(s) | 80 | A shared collection of design rules and reusable UI elements | unified design system |
+| design token(s) | 14 | A named design value such as a color, spacing, or font size | map design tokens to code |
 | monorepo(s) | 8 | A repository containing multiple packages or projects | monorepo structure |
 | monolithic | 6 | Built or organized as one large unit | monolithic structure |
-| API(s) | 5 | An interface through which software systems communicate | API integration |
-| cloud | 51 | Hosted computing services and infrastructure | cloud resources |
-| resource(s) | 46 | Computing, access, or other assets used by a system | provision cloud resources |
-| environment(s) | 16 | A configured place where software runs | development environment |
-| foundation(s) | 32 | Shared underlying capabilities or technical groundwork | token foundations |
+| API(s) | 7 | An interface through which software systems communicate | API integration |
+| cloud | 55 | Hosted computing services and infrastructure | cloud resources |
+| resource(s) | 52 | Computing, access, or other assets used by a system | provision cloud resources |
+| environment(s) | 19 | A configured place where software runs | development environment |
+| foundation(s) | 45 | Shared underlying capabilities or technical groundwork | token foundations |
 | server(s) | 29 | A system that provides services or data to clients | server-side support |
-| Web | 131 | The browser-based application platform | Web implementation |
-| native | 130 | An application built for a specific mobile or desktop platform | native implementation |
-| during | 25 | Within the period when an activity is happening | during implementation |
+| Web | 181 | The browser-based application platform | Web implementation |
+| native | 167 | An application built for a specific mobile or desktop platform | native implementation |
+| during | 29 | Within the period when an activity is happening | during implementation |
 | specifically | 3 | In a precise or explicitly stated way | specifically for this workflow |
-| collaborate / collaboration forms | 17 | Working jointly with another person or team | collaborate with the design team |
-| review / reviews / reviewed / reviewing | 123 | Examine work and provide approval or feedback | PR review |
-| feedback | 25 | Comments intended to improve or evaluate work | collect feedback |
-| discuss / discussion forms | 100 | A conversation to examine an issue or decision | continue the discussion |
-| progress | 49 | How much work has been completed | share a progress update |
+| collaborate / collaboration forms | 18 | Working jointly with another person or team | collaborate with the design team |
+| review / reviews / reviewed / reviewing | 133 | Examine work and provide approval or feedback | PR review |
+| feedback | 27 | Comments intended to improve or evaluate work | collect feedback |
+| discuss / discussion forms | 112 | A conversation to examine an issue or decision | continue the discussion |
+| progress | 52 | How much work has been completed | share a progress update |
 | status / statuses | 41 | The current state of a task or system | check the status |
-| impact / impacts / impacted / impacting | 5 | The effect a change may have | assess the impact |
+| impact / impacts / impacted / impacting | 16 | The effect a change may have | assess the impact |
 | risk(s) | 11 | A possible problem or unwanted outcome | identify project risks |
-| stakeholder(s) | 22 | People affected by or involved in a decision | align with stakeholders |
-| consumer(s) | 27 | Products or teams that use a library, service, or platform | downstream consumers |
-| pod(s) | 41 | A small cross-functional team | coordinate with other pods |
+| stakeholder(s) | 23 | People affected by or involved in a decision | align with stakeholders |
+| consumer(s) | 33 | Products or teams that use a library, service, or platform | downstream consumers |
+| pod(s) | 46 | A small cross-functional team | coordinate with other pods |
 
 ## Verbatim Meeting Examples
 
@@ -157,27 +157,27 @@ The counts below use the full transcript set described above. The context column
 
 | Word or phrase | Count | Meaning in software work | Useful collocation |
 | --- | ---: | --- | --- |
-| challenge(s) | 4 | A difficulty or obstacle that needs to be addressed | investigate integration challenges |
+| challenge(s) | 5 | A difficulty or obstacle that needs to be addressed | investigate integration challenges |
 | visibility | 7 | How easily a feature or component can be seen or accessed | investigate component visibility |
-| investigate / investigation forms | 13 | Examine a problem or topic systematically | investigate platform behavior |
-| effort(s) | 11 | Work, time, or resources needed to complete something | estimate the effort required |
+| investigate / investigation forms | 15 | Examine a problem or topic systematically | investigate platform behavior |
+| effort(s) | 14 | Work, time, or resources needed to complete something | estimate the effort required |
 | analysis / analyses | 7 | Detailed examination of a problem or options | perform a technical analysis |
-| contract(s) | 3 | An agreed interface or set of expectations between modules | define an interface contract |
+| contract(s) | 5 | An agreed interface or set of expectations between modules | define an interface contract |
 | governance | 2 | Rules and ownership for managing a shared interface or process | establish contract governance |
 | drift | 2 | Unintended divergence between implementations or definitions | detect schema drift |
 | tooling | 5 | Tools that support development, validation, or operations | add drift-detection tooling |
-| performance | 14 | How fast or efficiently a system performs | compare runner performance |
-| runner(s) | 63 | A machine or service that executes automated jobs | configure a GitHub Actions runner |
+| performance | 23 | How fast or efficiently a system performs | compare runner performance |
+| runner(s) | 71 | A machine or service that executes automated jobs | configure a GitHub Actions runner |
 | module(s) | 12 | A separately organized part of a software system | define module ownership |
-| schema(s) | 3 | A formal description of data or interface structure | validate the module schema |
-| automate / automation forms | 45 | Perform a process automatically using software | automate PR merging |
-| verify / verification forms | 29 | Check that a configuration or result is correct | verify the pipeline configuration |
-| visual | 12 | Related to how a user interface looks | run a visual regression test |
-| E2E | 6 | End-to-end; testing a complete flow across components | configure E2E tests |
-| patch(es) | 7 | A targeted code change, often applied to an existing framework | implement a framework patch |
+| schema(s) | 6 | A formal description of data or interface structure | validate the module schema |
+| automate / automation forms | 49 | Perform a process automatically using software | automate PR merging |
+| verify / verification forms | 31 | Check that a configuration or result is correct | verify the pipeline configuration |
+| visual | 16 | Related to how a user interface looks | run a visual regression test |
+| E2E | 8 | End-to-end; testing a complete flow across components | configure E2E tests |
+| patch(es) | 10 | A targeted code change, often applied to an existing framework | implement a framework patch |
 | projection | 2 | Rendering or passing content through a component slot | investigate slot projection |
 | delegator(s) | 4 | A service or agent that delegates or executes work on another system | configure a runner delegator |
-| action(s) | 65 | An automated workflow unit or operation; context matters | run a GitHub Action |
+| action(s) | 67 | An automated workflow unit or operation; context matters | run a GitHub Action |
 
 ### Exact Multiword Phrases
 
@@ -188,17 +188,17 @@ The counts below use the full transcript set described above. The context column
 | contract governance | 1 | 1 |
 | contract validation | 1 | 2 |
 | drift tooling | 1 | 2 |
-| backward compatibility | 1 | 11 |
+| backward compatibility | 1 | 13 |
 | performance difference | 1 | 1 |
 | work together | 1 | 5 |
-| next step | 2 | 17 |
+| next step | 2 | 19 |
 | reach out to | 1 | 10 |
 | PR merge automation | 1 | 1 |
 | harness PR job | 1 | 1 |
 | test gate | 1 | 2 |
-| visual test | 2 | 7 |
-| code format | 1 | 2 |
-| Linux Visual CI | 1 | 3 |
+| visual test | 2 | 9 |
+| code format | 1 | 3 |
+| Linux Visual CI | 1 | 4 |
 
 These October 15 collocations reflect transcript wording. Some surrounding sentences contain speech-recognition errors, so use the collocations as vocabulary evidence rather than polished example sentences.
 
@@ -209,22 +209,22 @@ Counts cover all current transcripts, not only October 19 and 20. Only explicitl
 | Word or phrase | Count | Meaning in software work | Useful collocation |
 | --- | ---: | --- | --- |
 | breaking change(s) | 11 | A change that can break existing consumers. | flag a breaking change |
-| pull request template(s) | 12 | A standard structure for pull-request descriptions. | assign ownership of the PR template |
-| baseline(s) | 19 | An agreed reference for support or comparison. | finalize the support baseline |
-| support version baseline | 3 | The agreed set of supported versions. | review the support version baseline |
+| pull request template(s) | 16 | A standard structure for pull-request descriptions. | assign ownership of the PR template |
+| baseline(s) | 24 | An agreed reference for support or comparison. | finalize the support baseline |
+| support version baseline | 4 | The agreed set of supported versions. | review the support version baseline |
 | internal dependency | 2 | A dependency used inside the project or its toolchain. | separate internal dependencies from consumer requirements |
-| browser version(s) | 8 | A particular browser release or supported release range. | confirm supported browser versions |
-| smoke test(s) | 7 | A small check that essential behavior works. | run an SSR smoke test |
-| hydration | 6 | Attaching client-side behavior to server-rendered content. | validate hydration behavior |
+| browser version(s) | 12 | A particular browser release or supported release range. | confirm supported browser versions |
+| smoke test(s) | 10 | A small check that essential behavior works. | run an SSR smoke test |
+| hydration | 9 | Attaching client-side behavior to server-rendered content. | validate hydration behavior |
 | assertion(s) | 1 | A test condition that must hold. | add a server-render assertion |
 | registration | 2 | Registering a component or name with a system. | check component registration |
 | refactor | 1 | Restructure code without changing its external behavior. | refactor a module |
 | prefix | 1 | A marker at the beginning of a name or title. | use a feature prefix in the PR title |
 | enforce / enforced | 1 | Require a rule to be followed. | enforce the commit convention in CI |
 | formalize | 1 | Make an arrangement explicit and official. | formalize the variable structure |
-| EKS | 5 | Amazon Elastic Kubernetes Service. | configure an EKS cluster |
+| EKS | 7 | Amazon Elastic Kubernetes Service. | configure an EKS cluster |
 | HTTP connector | 1 | An integration connector that sends HTTP requests. | check HTTP connector licensing |
-| simulator | 1 | Software that imitates another device or environment. | embed a simulator in a web page |
+| simulator | 7 | Software that imitates another device or environment. | embed a simulator in a web page |
 | free trial | 1 | Temporary access for evaluating a product. | verify the free trial conditions |
 | premium license | 18 | A license providing higher-tier features. | confirm premium license availability |
 | message ID | 3 | The identifier of a message in a conversation. | pass the message ID to the workflow |
@@ -232,6 +232,37 @@ Counts cover all current transcripts, not only October 19 and 20. Only explicitl
 | PAT | 1 | Personal access token; a credential, not a value to copy into notes. | limit PAT permissions |
 
 Trial and the likely mistranscription trail are counted separately, as are premium and premier. Internal CI toolchain versions and consumer compatibility are different scopes and should be distinguished explicitly. License duration and feature availability require separate confirmation.
+
+## October 21 and 22: Design and Publishing Terms
+
+Counts cover the entire current corpus and combine only the explicitly labeled forms. Phrases may overlap other sections, so rows are not additive. Collocations are practice expressions, not proof of software approval, confirmed vulnerabilities, or implemented publishing workflows. The complete vocabulary still keeps each word form on a separate row.
+
+| Word or phrase | Count | Meaning in software work | Useful collocation |
+| --- | ---: | --- | --- |
+| native rendering | 3 | Rendering through the native platform. | compare native rendering with a web implementation |
+| self-hosted | 13 | Operated on infrastructure controlled by the team. | evaluate a self-hosted simulator |
+| software approval | 2 | Authorization to use software under applicable policy. | confirm software approval before adoption |
+| concurrent | 1 | Happening or active at the same time. | measure concurrent simulator sessions |
+| nightly build | 1 | A build scheduled to run at night. | check the nightly build results |
+| Playwright | 2 | A browser automation and testing tool. | run cross-browser tests with Playwright |
+| Snyk | 1 | A security scanning product; findings need review. | review Snyk findings |
+| geometry | 4 | A design-foundation category for dimensions and spacing. | organize geometry values |
+| breakpoint(s) | 11 | A threshold for responsive layout or style changes. | adjust typography at each breakpoint |
+| density | 5 | How compactly interface elements are arranged. | switch the table density |
+| font family | 6 | A named family of typefaces. | choose a font family for white labeling |
+| palette | 4 | A coordinated collection of colors. | define the theme palette |
+| padding | 2 | Space inside an element, between its content and border. | adjust the button padding |
+| margin | 2 | Space outside an element. | set the page margin |
+| gutter(s) | 1 | Space between layout columns or regions. | configure grid gutters |
+| viewport(s) | 1 | The visible area used to display a page. | test smaller viewports |
+| processor(s) | 2 | A step or program that transforms input data. | transform the data with a processor |
+| generator(s) | 4 | A tool that produces output from input data. | maintain a platform-specific generator |
+| registry | 8 | A service used to publish and retrieve packages. | publish a package to a private registry |
+| direct dependency | 1 | A dependency explicitly consumed by the project. | consume the token package as a direct dependency |
+| shared repo | 1 | A repository maintained or used by multiple teams. | maintain transformation logic in a shared repo |
+| placeholder(s) | 12 | A reserved stand-in rather than the real implementation. | reserve the package name with a placeholder |
+| parallel stage | 1 | A pipeline stage that can run alongside another. | separate publishing into parallel stages |
+| output | 25 | The result produced by a process. | compare generated output before publishing |
 
 ## Verbatim Meeting Examples
 

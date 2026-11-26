@@ -1,5 +1,10 @@
 # 第 18 课：解释功能与演示
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [M03 主持会议、共享屏幕与切换话题](../../dev-meeting-english/meetings/03-hosting-and-screen-sharing.zh.md)、[M05 发表看法、同意、反对与提建议](../../dev-meeting-english/meetings/05-opinions-and-suggestions.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](18-demos.md) · [目录](../README.zh.md) · [下一课](19-messages-and-incidents.zh.md)
 
 ## 目标与词汇

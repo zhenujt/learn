@@ -1,5 +1,10 @@
 # Sounds, Spelling, Numbers, and Clear Speech
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [第 1 阶段 · 发音入门](../zero-to-work-english/01-发音入门/README.md). This page is kept for reference and is no longer updated.
+
+
 [中文](01-sounds-and-spelling.zh.md) · [Course](README.md) · [Listening Lab](04-listening-lab.md)
 
 ## Start with sound, not a symbol exam

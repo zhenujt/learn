@@ -1,5 +1,10 @@
 # 14 天软件会议与 Demo 生存训练
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [学习计划：16 周，每天 40 分钟](../../dev-meeting-english/00-study-plan.zh.md)、[M03 主持会议、共享屏幕与切换话题](../../dev-meeting-english/meetings/03-hosting-and-screen-sharing.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 > 面向需要尽快参加英文会议、演示软件功能的零基础学习者。先把高频表达作为完整句块使用，再到《软件职场英语语法全解》中理解规则。
 
 [English version](software-meeting-demo-14-day.md) · [语法全解](software-workplace-grammar-guide.zh.md) · [场景表达手册](software-workplace-phrases.zh.md)

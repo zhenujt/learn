@@ -1,5 +1,10 @@
 # Numbers, Years, Months, and Weekdays - test
 
+<!-- course-status: dev-meeting-english -->
+
+> ✅ **Still in use (2026-11-26):** This page is a reference used by the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](dev-meeting-english/README.md). It is not duplicated there.
+
+
 > A practical reference for reading numbers from 0 to 100,000,000 and saying years, months, weekdays, and dates.
 
 ## 1. Numbers from 0 to 20

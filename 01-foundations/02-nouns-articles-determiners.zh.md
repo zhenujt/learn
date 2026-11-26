@@ -1,5 +1,10 @@
 # 02 名词、冠词与限定词
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G02 名词、冠词与数量表达](../dev-meeting-english/grammar/02-nouns-articles-quantifiers.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义
 
 名词是人、地点、事物或概念：`engineer, office, database, trust`。可数名词能数：`one bug / two bugs`；不可数名词通常不能直接数：`information, advice, equipment`。单数可数名词前通常必须有限定词，最常见的是 `a/an`、`the`、`this/that`、`my/your` 或数词。

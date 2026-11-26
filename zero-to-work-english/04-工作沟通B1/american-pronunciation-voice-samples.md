@@ -1,5 +1,10 @@
 # American Pronunciation Voice Samples
 
+<!-- course-status: dev-meeting-english -->
+
+> ✅ **Still in use (2026-11-26):** This page is a reference used by the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md). It is not duplicated there.
+
+
 > Compare several American English neural voices using exactly the same software meeting script. Wear headphones, listen to every sample twice, and choose the voice that is easiest for you to understand and imitate.
 
 ## Sample Script

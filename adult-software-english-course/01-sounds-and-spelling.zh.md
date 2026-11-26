@@ -1,5 +1,10 @@
 # 发音、拼写、数字与清楚表达
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [第 1 阶段 · 发音入门](../zero-to-work-english/01-发音入门/README.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](01-sounds-and-spelling.md) · [目录](README.zh.md) · [听力训练室](04-listening-lab.zh.md)
 
 ## 从声音开始，不先考音标

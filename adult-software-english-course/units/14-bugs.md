@@ -1,5 +1,10 @@
 # Unit 14: Reporting and Reproducing Bugs
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [M06 Blockers, Risks, Delays, and Asking for Help](../../dev-meeting-english/meetings/06-blockers-risks-and-help.md). This page is kept for reference and is no longer updated.
+
+
 [中文](14-bugs.zh.md) · [Course](../README.md) · [Next](15-requirements.md)
 
 ## Goal and words

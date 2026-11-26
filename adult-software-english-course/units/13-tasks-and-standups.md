@@ -1,5 +1,10 @@
 # Unit 13: Tasks and Stand-ups
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [M01 Stand-Up Updates](../../dev-meeting-english/meetings/01-stand-up-updates.md). This page is kept for reference and is no longer updated.
+
+
 [中文](13-tasks-and-standups.zh.md) · [Course](../README.md) · [Next](14-bugs.md)
 
 ## Goal and vocabulary

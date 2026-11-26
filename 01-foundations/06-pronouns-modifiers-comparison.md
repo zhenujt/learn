@@ -1,5 +1,10 @@
 # 06 Pronouns, Modifiers, and Comparison
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [G03 Pronouns and Reference](../dev-meeting-english/grammar/03-pronouns-and-reference.md), [G15 Adjectives, Adverbs, and Comparison](../dev-meeting-english/grammar/15-adjectives-adverbs-comparison.md). This page is kept for reference and is no longer updated.
+
+
 ## Definition and Core Formula
 
 Use subject forms (`I, she, they`) as subjects and object forms (`me, her, them`) as objects. Compare with `A + comparative + than + B`; use `the + superlative` for the top item.

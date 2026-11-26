@@ -1,5 +1,10 @@
 # 第 15 课：澄清需求与验收条件
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [M04 提问、澄清与确认理解](../../dev-meeting-english/meetings/04-questions-and-clarifying.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](15-requirements.md) · [目录](../README.zh.md) · [下一课](16-reviews.zh.md)
 
 ## 目标与词汇

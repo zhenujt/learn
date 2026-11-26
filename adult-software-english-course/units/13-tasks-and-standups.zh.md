@@ -1,5 +1,10 @@
 # 第 13 课：任务与站会更新
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [M01 站会：昨天、今天、阻塞](../../dev-meeting-english/meetings/01-stand-up-updates.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](13-tasks-and-standups.md) · [目录](../README.zh.md) · [下一课](14-bugs.zh.md)
 
 ## 目标与词汇

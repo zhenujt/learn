@@ -1,5 +1,10 @@
 # 软件行业常用英语：提问、回复与场景表达
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [会议场景：把语法用在站会和周会里](../../dev-meeting-english/meetings/README.zh.md)、[G14 短语动词与固定搭配](../../dev-meeting-english/grammar/14-phrasal-verbs-and-collocations.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 > 面向软件工程师、测试工程师、产品经理、设计师、技术支持和技术负责人的实用英语手册。内容按照真实工作流程组织，可直接用于会议、演示、技术讲解、Q&A、聊天、邮件和故障沟通。
 
 ## 每次只选一小组表达

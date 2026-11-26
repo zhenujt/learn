@@ -1,5 +1,10 @@
 # English for Adult Software Developers: From First Sentences to Work Conversations
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md). This page is kept for reference and is no longer updated.
+
+
 [中文入口](README.zh.md)
 
 An original course for adults starting English from the beginning. No previous English grammar, pronunciation notation, or course is required. Software experience is useful but not required: technical situations are explained through simple actions.

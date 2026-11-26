@@ -1,5 +1,10 @@
 # Software Workplace Prepositions: Meetings, Speech, and Technical Communication
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [G16 Prepositions: for, to, of, in, on, with…](../../dev-meeting-english/grammar/16-prepositions.md). This page is kept for reference and is no longer updated.
+
+
 <!-- sentence-audio: fenced-only -->
 
 > Learn relationships and reusable workplace phrases instead of memorizing one Chinese translation for each preposition.
@@ -105,6 +110,26 @@ This endpoint is for internal use only.
 The flag is used for testing new features.
 这个开关用于测试新功能。
 ```
+
+### 3.5 For X, …: introducing a topic (the most common use in meetings)
+
+The most frequent `for` in meetings is none of the four uses above. It starts the sentence, names a module or task, and is followed by a comma. It means "as for …" and tells listeners which part comes next.
+
+```text
+For the web part, most stories are completed.
+至于 Web 部分，大部分 Story 已经完成。
+
+For the native part, we have finished the integration.
+Native 部分，我们已经完成了集成。
+
+And for the platform part?
+那平台这部分呢？
+
+That's all for my part.
+我这部分就这些。
+```
+
+For all seven meeting uses of `for`, how to tell them apart, and practice, see [G16 Prepositions](../../dev-meeting-english/grammar/16-prepositions.md) in the new course.
 
 ## 4. of: Belonging, Parts, and Composition
 

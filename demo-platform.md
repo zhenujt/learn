@@ -1,3 +1,7 @@
+<!-- course-status: dev-meeting-english -->
+
+> ✅ **继续使用（2026-11-26）**：本文是新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](dev-meeting-english/README.zh.md) 引用的参考资料，内容不重复，继续使用。
+
 Hello everyone. I’m Carter Zheng, a developer on the Platform team. Today, I’ll introduce our products and show how they support the Vega design system.
 
 ## Slide 2: Agenda

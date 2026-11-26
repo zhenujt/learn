@@ -1,5 +1,10 @@
 # 第 14 课：报告与复现缺陷
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [M06 阻塞、风险、延期与求助](../../dev-meeting-english/meetings/06-blockers-risks-and-help.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](14-bugs.md) · [目录](../README.zh.md) · [下一课](15-requirements.zh.md)
 
 ## 目标与词汇

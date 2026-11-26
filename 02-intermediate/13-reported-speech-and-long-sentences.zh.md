@@ -1,5 +1,10 @@
 # 13 间接引语与长句组织
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G22 间接引语与时态呼应](../dev-meeting-english/grammar/22-reported-speech.zh.md)、[G17 连词与连接：and、but、so、because、also、then](../dev-meeting-english/grammar/17-conjunctions-and-linking.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 直接引语重复原话：`Ana said, "I am ready."`；间接引语报告内容：`Ana said (that) she was ready.` 当报告动词是过去时，时间通常后移一步：`am -> was`，`will -> would`，`can -> could`，`today -> that day`。事实仍有效时可不后移。

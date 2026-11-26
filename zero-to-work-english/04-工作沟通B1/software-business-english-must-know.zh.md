@@ -1,5 +1,10 @@
 # 软件商务英语核心问答 100 句
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [会议场景：把语法用在站会和周会里](../../dev-meeting-english/meetings/README.zh.md)、[G14 短语动词与固定搭配](../../dev-meeting-english/grammar/14-phrasal-verbs-and-collocations.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 > 软件团队中最常用的 100 组简单问答，分为跨岗位高频的“核心必会”和场景相关的“按需掌握”两级。练习时请把 `[方括号]` 中的内容替换成自己的任务、日期和系统名称。
 
 ## 使用方法

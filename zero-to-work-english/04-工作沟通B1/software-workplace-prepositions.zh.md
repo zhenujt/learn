@@ -1,5 +1,10 @@
 # 软件职场英语介词：会议、口语与技术沟通
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [G16 介词：for、to、of、in、on、with……](../../dev-meeting-english/grammar/16-prepositions.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 <!-- sentence-audio: fenced-only -->
 
 > 不背孤立中文意思。先看介词表达的“关系”，再把它和工作场景中的词组一起记住。
@@ -111,7 +116,7 @@ The job failed for the same reason.
 这个任务因为同样的原因失败了。
 ```
 
-### 3.4 for + 用途：用来做什么
+### 3.4 for + 用途：用于……、供……使用
 
 ```text
 We use this channel for release updates.
@@ -123,6 +128,26 @@ This endpoint is for internal use only.
 The flag is used for testing new features.
 这个开关用于测试新功能。
 ```
+
+### 3.5 For X, …：引出话题（会议里最常见）
+
+会议里出现最多的 `for` 其实不在上面四类里：它放在句首，后面接一个模块或任务，再加逗号，意思是"至于……、说到……"，用来告诉大家下面要讲哪一块。
+
+```text
+For the web part, most stories are completed.
+至于 Web 部分，大部分 Story 已经完成。
+
+For the native part, we have finished the integration.
+Native 部分，我们已经完成了集成。
+
+And for the platform part?
+那平台这部分呢？
+
+That's all for my part.
+我这部分就这些。
+```
+
+`for` 在会议里的 7 种用法、判断方法和练习，见新教材 [G16 介词](../../dev-meeting-english/grammar/16-prepositions.zh.md)。
 
 ## 4. of：属于、组成或关于
 

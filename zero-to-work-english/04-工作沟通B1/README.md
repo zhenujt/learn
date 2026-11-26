@@ -1,5 +1,10 @@
 # Software Workplace Communication: Captions and Short Replies
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [Meeting Situations: Using Grammar in Stand-Ups and Weekly Meetings](../../dev-meeting-english/meetings/README.md). This page is kept for reference and is no longer updated.
+
+
 [中文版](README.zh.md)
 
 You can begin supported workplace practice before finishing general A1/A2 lessons. The folder's B1 label describes a broad course destination, not an entry requirement or a promise that completion establishes B1. Unfamiliar technical discussions may require more support and language ability.

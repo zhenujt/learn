@@ -1,5 +1,10 @@
 # 01 Word Classes and Sentence Parts
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [G01 Sentence Skeleton: Parts of Speech, Sentence Parts, and Five Patterns](../dev-meeting-english/grammar/01-sentence-skeleton.md). This page is kept for reference and is no longer updated.
+
+
 ## Definition and Core Formula
 
 The main word classes are nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and determiners. The minimum English sentence is `Subject + Verb`. Build phrases as `determiner + adjective + noun` and `adverb + verb`.

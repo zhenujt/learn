@@ -1,5 +1,10 @@
 # Learning Methods: Start With a Small Work Task
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [Study Plan: 16 Weeks, 40 Minutes a Day](../../dev-meeting-english/00-study-plan.md). This page is kept for reference and is no longer updated.
+
+
 [中文版](README.zh.md)
 
 You do not need to spend a week studying methods or finish pronunciation before practising a short meeting exchange. Start with the [caption practice unit](../04-工作沟通B1/software-meeting-demo-14-day.md), then consult one article for the difficulty you encounter.

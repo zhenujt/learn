@@ -1,5 +1,10 @@
 # Unit 20: An Integrated Software Communication Project
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [M02 Weekly Sprint Sync](../../dev-meeting-english/meetings/02-weekly-sprint-sync.md). This page is kept for reference and is no longer updated.
+
+
 [中文](20-integrated-project.zh.md) · [Course](../README.md) · [Final Assessment](../05-assessments.md)
 
 ## Goal and vocabulary

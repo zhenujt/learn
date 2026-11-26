@@ -1,5 +1,10 @@
 # Unit 18: Explaining a Feature and Giving a Demo
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [M03 Hosting, Screen Sharing, and Moving On](../../dev-meeting-english/meetings/03-hosting-and-screen-sharing.md), [M05 Opinions, Agreement, and Suggestions](../../dev-meeting-english/meetings/05-opinions-and-suggestions.md). This page is kept for reference and is no longer updated.
+
+
 [中文](18-demos.zh.md) · [Course](../README.md) · [Next](19-messages-and-incidents.md)
 
 ## Goal and vocabulary

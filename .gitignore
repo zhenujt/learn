@@ -2,5 +2,5 @@ docs-site/node_modules/
 docs-site/dist/
 docs-site/.env*
 docs-site/.audio-cache/
-*.zh.md
+# *.zh.md
 !/meeting-english-phrases.zh.md

@@ -1,5 +1,10 @@
 # 03 Five Basic Sentence Patterns
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [G01 Sentence Skeleton: Parts of Speech, Sentence Parts, and Five Patterns](../dev-meeting-english/grammar/01-sentence-skeleton.md). This page is kept for reference and is no longer updated.
+
+
 ## Definition and Core Formula
 
 The patterns are `S+V`, `S+V+O`, `S+V+C`, `S+V+IO+DO`, and `S+V+O+C`. A complement describes the subject or object: `The issue is urgent`; `The change made the page faster`.

@@ -75,8 +75,7 @@ interface BatchSaveResponse {
   documents?: SaveResponse["document"][];
 }
 
-const defaultDocumentPath =
-  "zero-to-work-english/04-工作沟通B1/software-workplace-grammar-guide.zh.md";
+const defaultDocumentPath = "dev-meeting-english/README.zh.md";
 const documentLinks = new DocumentLinkResolver(documents.map((document) => document.path));
 const lastDocumentStorageKey = "docs-last-document";
 const readingPositionsStorageKey = "docs-reading-positions";

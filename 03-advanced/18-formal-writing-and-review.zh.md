@@ -1,5 +1,10 @@
 # 18 正式写作、衔接与综合复盘
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G24 高级语法速览：虚拟语气、倒装、强调句、独立主格](../dev-meeting-english/grammar/24-advanced-grammar-overview.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 正式英语追求清晰、可验证、逻辑可追踪。段落公式：`主题句 + 解释/证据 + 例子/影响 + 小结或过渡`。用衔接词表达关系：递进 `furthermore`，转折 `however`，因果 `therefore`，举例 `for example`，结论 `therefore/in conclusion`。优先具体动词和可验证名词，少用空泛的 `very good`、`things`。

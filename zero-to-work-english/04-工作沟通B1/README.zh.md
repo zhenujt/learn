@@ -1,5 +1,10 @@
 # 软件工作沟通：字幕理解与短回复
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [会议场景：把语法用在站会和周会里](../../dev-meeting-english/meetings/README.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English version](README.md)
 
 不必先完成通用 A1/A2 课程，才能开始有辅助的工作沟通练习。文件夹的 B1 标签表示大致课程方向，不是入门门槛，也不保证学完就达到 B1。陌生的技术讨论可能需要更多语言能力和帮助。

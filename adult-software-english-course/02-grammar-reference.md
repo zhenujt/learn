@@ -1,5 +1,10 @@
 # Grammar Reference: Build a Message, Then Check It
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [Grammar Index: Primary to Senior High School, Ordered by Meeting Frequency](../dev-meeting-english/grammar/README.md). This page is kept for reference and is no longer updated.
+
+
 [中文](02-grammar-reference.zh.md) · [Course](README.md) · [Practice and assessment](05-assessments.md)
 
 ## How to use this page

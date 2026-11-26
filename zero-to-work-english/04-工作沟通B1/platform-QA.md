@@ -1,3 +1,7 @@
+<!-- course-status: dev-meeting-english -->
+
+> ✅ **Still in use (2026-11-26):** This page is a reference used by the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md). It is not duplicated there.
+
 1.1 What is the difference between vega-mcp and vega-assistant?
 1.2 How are vega-mcp and vega-assistant different?
 1.3 How does vega-mcp compare to vega-assistant?

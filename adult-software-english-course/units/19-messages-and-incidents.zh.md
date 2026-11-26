@@ -1,5 +1,10 @@
 # 第 19 课：消息、交接与事故更新
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [M06 阻塞、风险、延期与求助](../../dev-meeting-english/meetings/06-blockers-risks-and-help.zh.md)、[M07 收尾、确认分工与会后跟进](../../dev-meeting-english/meetings/07-wrap-up-and-action-items.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](19-messages-and-incidents.md) · [目录](../README.zh.md) · [下一课](20-integrated-project.zh.md)
 
 ## 目标与词汇

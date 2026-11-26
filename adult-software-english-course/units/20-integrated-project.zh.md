@@ -1,5 +1,10 @@
 # 第 20 课：综合软件沟通项目
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)，对应 [M02 周会与 Sprint 同步：逐项汇报进度](../../dev-meeting-english/meetings/02-weekly-sprint-sync.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 [English](20-integrated-project.md) · [目录](../README.zh.md) · [最终测评](../05-assessments.zh.md)
 
 ## 目标与词汇

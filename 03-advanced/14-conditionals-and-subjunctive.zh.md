@@ -1,5 +1,10 @@
 # 14 条件句与虚拟语气
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G21 条件句：if 的四种用法](../dev-meeting-english/grammar/21-conditionals.zh.md)、[G24 高级语法速览：虚拟语气、倒装、强调句、独立主格](../dev-meeting-english/grammar/24-advanced-grammar-overview.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 条件句表达真实可能、假设或对过去的遗憾。零条件：`If + present, present`；第一条件：`If + present, will + V`；第二条件：`If + past, would + V`（与现在/未来事实相反或可能性低）；第三条件：`If + had + V-ed, would have + V-ed`（与过去事实相反）。

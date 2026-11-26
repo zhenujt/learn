@@ -1,5 +1,10 @@
 # 09 Infinitives, Gerunds, and Participles
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [G13 Non-Finite Verbs: to do, doing, done](../dev-meeting-english/grammar/13-to-do-doing-done.md). This page is kept for reference and is no longer updated.
+
+
 ## Definition and Core Formula
 
 Use `to + V` after verbs such as `decide` and for purpose; use `V-ing` as a noun or after a preposition; use participles to modify nouns. A non-finite form cannot be the only main verb.

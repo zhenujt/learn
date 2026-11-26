@@ -1,5 +1,10 @@
 # 05 Questions, Negatives, and Imperatives
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [G05 Questions, Negatives, and Short Answers](../dev-meeting-english/grammar/05-questions-and-negatives.md), [G06 Imperatives, Let's, and Polite Requests](../dev-meeting-english/grammar/06-imperatives-lets-please.md). This page is kept for reference and is no longer updated.
+
+
 ## Definition and Core Formula
 
 For ordinary verbs use `do/does/did + not + V` and `Do/Does/Did + S + V?`. With `be`, move `be` before the subject. Use `V` for an imperative and `Don't + V` for a negative command.

@@ -1,5 +1,10 @@
 # 第 10 课：计划与承诺
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文属于通用生活英语内容，和会议英语目标重叠较少。会议英语请学习新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../../dev-meeting-english/README.zh.md)；需要补充生活英语时，可以继续使用本文。
+
+
 [English](10-plans.md) · [目录](../README.zh.md) · [下一课](11-completion.zh.md)
 
 ## 目标与词汇

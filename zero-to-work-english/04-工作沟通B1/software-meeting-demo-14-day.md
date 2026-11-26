@@ -1,5 +1,10 @@
 # 14-Day Software Meeting and Demo Survival Course
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [Study Plan: 16 Weeks, 40 Minutes a Day](../../dev-meeting-english/00-study-plan.md), [M03 Hosting, Screen Sharing, and Moving On](../../dev-meeting-english/meetings/03-hosting-and-screen-sharing.md). This page is kept for reference and is no longer updated.
+
+
 > A task-first course for beginners who need to join English meetings and demonstrate software quickly. Learn each phrase as a complete unit, then use the grammar guide to understand and extend it.
 
 [Chinese version](software-meeting-demo-14-day.zh.md) · [Grammar guide](software-workplace-grammar-guide.md) · [Workplace phrasebook](software-workplace-phrases.md)

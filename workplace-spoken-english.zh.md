@@ -1,5 +1,10 @@
 # 工作日常英语口语全指南
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](dev-meeting-english/README.zh.md)，对应 [会议场景：把语法用在站会和周会里](dev-meeting-english/meetings/README.zh.md)、[G23 口语语法：省略、碎片句、填充词与自我修正](dev-meeting-english/grammar/23-spoken-grammar.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 英文版：[Workplace Spoken English](workplace-spoken-english.md)
 
 这份指南面向与同事、经理、客户和跨团队伙伴的日常工作交流，不讨论旅游、购物或生活闲聊。前半部分适用于多数办公室岗位，软件开发场景单独列出。目标不是背“高级词”，而是能说清楚：发生了什么、需要什么、谁来做、什么时候完成、下一步是什么。

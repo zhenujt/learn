@@ -1,5 +1,10 @@
 # Software Workplace English: Questions and Responses
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [Meeting Situations: Using Grammar in Stand-Ups and Weekly Meetings](../../dev-meeting-english/meetings/README.md), [G14 Phrasal Verbs and Collocations](../../dev-meeting-english/grammar/14-phrasal-verbs-and-collocations.md). This page is kept for reference and is no longer updated.
+
+
 > A practical phrasebook for software engineers, QA engineers, product managers, designers, support engineers, and technical leads. The examples favor clear, professional English that works in meetings, demos, chat, email, and technical discussions.
 
 ## Choose a small working set

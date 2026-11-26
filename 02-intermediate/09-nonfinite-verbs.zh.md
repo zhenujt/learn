@@ -1,5 +1,10 @@
 # 09 不定式、动名词与分词
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G13 非谓语动词：to do、doing、done](../dev-meeting-english/grammar/13-to-do-doing-done.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 非谓语动词不能单独作句子的主谓语。`to + V` 常表示目的、计划或具体动作：`plan to deploy`；`V-ing` 可作名词或介词后的宾语：`Testing matters.` / `before deploying`；过去分词常表示被动/完成：`the files uploaded yesterday`；现在分词常表示主动/进行：`the engineer working remotely`。

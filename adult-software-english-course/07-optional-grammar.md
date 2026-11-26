@@ -1,5 +1,10 @@
 # Optional Grammar: Recognize It and Keep Going
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [Grammar Index: Primary to Senior High School, Ordered by Meeting Frequency](../dev-meeting-english/grammar/README.md), [G24 Advanced Grammar Overview](../dev-meeting-english/grammar/24-advanced-grammar-overview.md). This page is kept for reference and is no longer updated.
+
+
 [中文](07-optional-grammar.zh.md) · [Course](README.md) · [Common grammar and practice](06-everyday-grammar.md)
 
 ## You may skip this whole page

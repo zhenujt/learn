@@ -1,5 +1,10 @@
 # 03 五大基本句型
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G01 句子骨架：词性、句子成分与五大句型](../dev-meeting-english/grammar/01-sentence-skeleton.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义
 
 绝大多数英语句子可还原为五大句型。掌握它们，比记大量“万能句”更可靠。`be`、`seem`、`become` 等连系动词后接的是主语补语，不是宾语。

@@ -1,5 +1,10 @@
 # Unit 10: Plans and Commitments
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This page belongs to general everyday English and overlaps little with meeting English. For meeting English, use [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md). You can still use this page for everyday English.
+
+
 [中文](10-plans.zh.md) · [Course](../README.md) · [Next](11-completion.md)
 
 ## Goal and words

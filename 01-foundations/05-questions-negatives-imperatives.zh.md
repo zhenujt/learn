@@ -1,5 +1,10 @@
 # 05 否定、疑问与祈使句
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G05 疑问句、否定句与简短回答](../dev-meeting-english/grammar/05-questions-and-negatives.zh.md)、[G06 祈使句、Let's 与礼貌请求](../dev-meeting-english/grammar/06-imperatives-lets-please.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 英语用助动词帮助构成否定和疑问。实义动词的一般现在/过去：否定 `S + do/does/did not + V`，一般疑问 `Do/Does/Did + S + V?`。`be` 动词直接提前或加 `not`：`Are you ready?` / `I am not ready.` 祈使句用 `V + ...`；否定祈使句用 `Don't + V`。

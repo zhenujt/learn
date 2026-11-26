@@ -1,5 +1,10 @@
 # 07 情态动词、介词和连词
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G11 情态动词：can、could、should、would、may、might、must、need to](../dev-meeting-english/grammar/11-modal-verbs.zh.md)、[G16 介词：for、to、of、in、on、with……](../dev-meeting-english/grammar/16-prepositions.zh.md)、[G17 连词与连接：and、but、so、because、also、then](../dev-meeting-english/grammar/17-conjunctions-and-linking.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 情态动词表达能力、义务、建议、可能性：`can/could/may/might/must/should + V`。它们后永远用动词原形，否定直接加 `not`。介词表达时间、地点、关系：`at 9:00`、`on Monday`、`in July`、`in a file`、`on a page`。连词连接并列信息：`and, but, or, so`。

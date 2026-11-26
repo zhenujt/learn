@@ -1,5 +1,10 @@
 # 11 定语从句
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G19 定语从句：which、who、that、where](../dev-meeting-english/grammar/19-relative-clauses.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 定语从句修饰前面的名词（先行词）。人用 `who/that`，物用 `which/that`，所属关系用 `whose`，地点用 `where`，时间用 `when`。限制性从句不加逗号，说明“是哪一个”；非限制性从句用逗号补充信息，通常不用 `that`。

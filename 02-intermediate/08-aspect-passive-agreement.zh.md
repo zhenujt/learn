@@ -1,5 +1,10 @@
 # 08 完成、进行、被动与主谓一致
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G08 一般过去时与现在完成时：说完成](../dev-meeting-english/grammar/08-past-simple-and-present-perfect.zh.md)、[G10 其他时态与 16 种时态总表](../dev-meeting-english/grammar/10-other-tenses.zh.md)、[G12 被动语态](../dev-meeting-english/grammar/12-passive-voice.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 进行时强调过程：`be + V-ing`；现在完成时连接过去与现在：`have/has + V-ed`；被动语态强调承受者：`be + V-ed`。时态由 `be/have` 承担：`The bug was fixed.`、`The bug has been fixed.`

@@ -1,5 +1,10 @@
 # Software Workplace Grammar: A Progressive Guide
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [Grammar Index: Primary to Senior High School, Ordered by Meeting Frequency](../../dev-meeting-english/grammar/README.md). This page is kept for reference and is no longer updated.
+
+
 > A practical grammar system for the 100 sentence cards, software demos, meetings, status updates, bug discussions, code reviews, and technical decisions.
 
 ## 1. How to Use This Guide

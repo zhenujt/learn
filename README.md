@@ -1,12 +1,40 @@
-# Practical English Grammar for Adult Beginners
+# learn-english
 
-This is the English-review companion to [the Chinese main textbook](README.zh.md). Study the numbered Chinese lessons first, then use the matching English file to explain the same rule without translation. The course moves from simple sentences to workplace communication and formal writing.
+> [中文版](README.zh.md)
 
-- `01-foundations`: sentence building and everyday communication
-- `02-intermediate`: clauses, voice, and connected information
-- `03-advanced`: hypothesis, emphasis, concise formal writing
+## Start here
 
-Every lesson contains a definition, a core formula, common mistakes, progressive examples, and a self-check with answers.# learn-english
+**Main course: [English for Software Meetings: From Reading Subtitles to Giving Updates](dev-meeting-english/README.md)**
+
+This course is for software engineers in China who attend English stand-ups and weekly meetings with subtitles. School grammar from primary to senior high is merged into 24 lessons by topic. Each topic is tagged by how often it appears in real meetings: must learn, common, recognize only, or not needed. Seven meeting scenarios, subtitle drills, and checkpoint tests support the grammar.
+
+1. [Study plan: 16 weeks, 40 minutes a day](dev-meeting-english/00-study-plan.md)
+2. [How to read meeting subtitles](dev-meeting-english/01-how-to-read-subtitles.md)
+3. [Grammar index (G01–G24)](dev-meeting-english/grammar/README.md)
+4. [Meeting scenarios (M01–M07)](dev-meeting-english/meetings/README.md)
+
+## References still in use
+
+| Resource | Notes |
+| --- | --- |
+| [Meeting phrases](meeting-english-phrases.md) | Generated from meeting subtitles and kept in sync with the Meeting project |
+| [Meeting frequent words](meeting-frequent-words.md) | Same source |
+| [Complete meeting vocabulary](meeting-complete-vocabulary.md) | Every word that appeared in meetings |
+| [Pronunciation basics](zero-to-work-english/01-发音入门/README.md) | Phonetic symbols, stress, and linking |
+| [1000 frequent words](zero-to-work-english/99-词汇表/1000高频词.md) | General vocabulary |
+| [Numbers, years, months, and weekdays](numbers-years-months-weekdays.md) | Reading numbers and dates |
+| [Platform demo script](demo-platform.md) | Demo material |
+
+## Archived material
+
+The older materials below have been merged into the main course. They are kept for reference and are no longer updated. Each old page starts with a note that links to the matching new lesson.
+
+- `01-foundations`, `02-intermediate`, `03-advanced`: 18 grammar lessons
+- `english-grammar/英语语法全解.md`: 45-chapter grammar reference
+- `adult-software-english-course`: adult software English course
+- `zero-to-work-english`: zero-to-work English (pronunciation and vocabulary are still in use)
+- `workplace-spoken-english`: everyday workplace spoken English
+- `new-concept-adult-english`, `new-concept-adult-english-348`: general everyday English courses
 
 ## Document audio
 

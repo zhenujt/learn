@@ -1,5 +1,10 @@
 # 15 倒装与强调句
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **已存档（2026-11-26）**：本文内容已合并到新主线教材 [软件开发会议英语：从看懂字幕到开口汇报](../dev-meeting-english/README.zh.md)，对应 [G24 高级语法速览：虚拟语气、倒装、强调句、独立主格](../dev-meeting-english/grammar/24-advanced-grammar-overview.zh.md)。本文保留作参考，不再更新；学习请以新教材为准。
+
+
 ## 定义与核心公式
 
 倒装通过把助动词/连系动词放在主语前突出信息：`Never have I seen ...`，`Only after ... did we ...`。否定或限制副词在句首时常倒装。强调句固定为：`It is/was + 被强调部分 + that/who + 其余部分`。不要把普通疑问句和强调句混淆。

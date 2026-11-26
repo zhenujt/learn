@@ -1,5 +1,10 @@
 # Assessments: Five Checks of What You Can Use
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [P02 Checkpoint Tests](../dev-meeting-english/practice/02-checkpoint-tests.md). This page is kept for reference and is no longer updated.
+
+
 [中文](05-assessments.zh.md) · [Course](README.md) · [Listening practice](04-listening-lab.md) · [Grammar help](02-grammar-reference.md)
 
 ## How to assess fairly

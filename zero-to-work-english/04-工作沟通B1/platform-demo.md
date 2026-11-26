@@ -1,3 +1,7 @@
+<!-- course-status: dev-meeting-english -->
+
+> ✅ **Still in use (2026-11-26):** This page is a reference used by the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md). It is not duplicated there.
+
 Hello everyone. I’m Carter Zheng, a developer on the Platform team. Today, I’ll introduce our products and show how they support the Vega design system.
 
 ## Slide 2: Agenda

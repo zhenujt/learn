@@ -1,5 +1,10 @@
 # Unit 6: Food and Shopping
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This page belongs to general everyday English and overlaps little with meeting English. For meeting English, use [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md). You can still use this page for everyday English.
+
+
 [中文](06-food-and-shopping.zh.md) · [Course](../README.md) · [Next](07-places-and-directions.md)
 
 ## Goal and words

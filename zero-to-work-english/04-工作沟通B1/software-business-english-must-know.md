@@ -1,5 +1,10 @@
 # Core Software Business English
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../../dev-meeting-english/README.md): [Meeting Situations: Using Grammar in Stand-Ups and Weekly Meetings](../../dev-meeting-english/meetings/README.md), [G14 Phrasal Verbs and Collocations](../../dev-meeting-english/grammar/14-phrasal-verbs-and-collocations.md). This page is kept for reference and is no longer updated.
+
+
 > 100 short, high-frequency questions and responses for software teams, divided into cross-role `(Core)` exchanges and role- or situation-specific `(As needed)` exchanges. Replace the words in `[brackets]` with details from your own work.
 
 ## How to Use This List

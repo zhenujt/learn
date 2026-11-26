@@ -1,5 +1,10 @@
 # 18 Formal Writing and Review
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [G24 Advanced Grammar Overview](../dev-meeting-english/grammar/24-advanced-grammar-overview.md). This page is kept for reference and is no longer updated.
+
+
 ## Definition and Core Formula
 
 Build a paragraph with `topic sentence + explanation/evidence + example/impact + transition`. Use logical links precisely: `however`, `therefore`, `for example`, and `furthermore`. Prefer specific verbs and measurable nouns.

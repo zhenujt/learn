@@ -1,5 +1,10 @@
 # 16 Ellipsis, Substitution, and Parallelism
 
+<!-- course-status: dev-meeting-english -->
+
+> 📦 **Archived (2026-11-26):** This content has been merged into the new main course, [English for Software Meetings: From Reading Subtitles to Giving Updates](../dev-meeting-english/README.md): [G23 Spoken Grammar: Ellipsis, Fragments, Fillers, Self-Correction](../dev-meeting-english/grammar/23-spoken-grammar.md), [G24 Advanced Grammar Overview](../dev-meeting-english/grammar/24-advanced-grammar-overview.md). This page is kept for reference and is no longer updated.
+
+
 ## Definition and Core Formula
 
 Omit recoverable repetition: `I can help, and she can too`. Use `one/ones` for countable nouns and `do/does/did` for repeated actions. Keep items in a list in the same grammatical form.
