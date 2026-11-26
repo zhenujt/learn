@@ -17,7 +17,7 @@ Sara Li considered separates concerns but decided to modular instead. improves t
 
 ## 📐 本课核心
 
-**规则：** 动名词 (V-ing) 作名词用：Testing is important. I enjoy coding.
+[复习第 265 课的规则](265-review-b3u5.md)
 
 **示范：** `We need to fix this immediately.` — 我们需要立刻修复。
 

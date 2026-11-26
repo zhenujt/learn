@@ -17,7 +17,7 @@ This report examines more data. First, we review provide a more detailed answer.
 
 ## 📐 本课核心
 
-**规则：** 主题句：每段第一句概括该段要点。
+[复习第 283 课的规则](../book-3-connected-communication/283-data-limitations.md)
 
 **示范：** `In conclusion, we recommend proceeding with option A.` — 总之，我们建议选择方案 A。
 

@@ -17,7 +17,7 @@ If the team had automation gap earlier, they might have code review. The perform
 
 ## 📐 本课核心
 
-**规则：** 结构：If + had + 过去分词, would have + 过去分词。表示过去没有发生的假设。
+[复习第 304 课的规则](304-review-b4u1.md)
 
 **示范：** `She might have finished if she had started earlier.` — 如果她早点开始，可能就完成了。
 

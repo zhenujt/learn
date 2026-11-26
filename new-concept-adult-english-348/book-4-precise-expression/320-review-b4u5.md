@@ -17,7 +17,7 @@ Never has Sara Li seen such a quarterly business review. Only after revenue impa
 
 ## 📐 本课核心
 
-**规则：** 部分倒装（否定/限制副词提前）：Never have I seen such a bug. Only then did we realize.
+[复习第 313 课的规则](313-making-proposals.md)
 
 **示范：** `Rarely does this error occur in production.` — 这个错误在生产环境中很少出现。
 

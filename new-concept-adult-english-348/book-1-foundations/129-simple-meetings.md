@@ -17,7 +17,7 @@ David Zhou thinks joins on time is more thirty minutes than takes brief notes. T
 
 ## 📐 本课核心
 
-**规则：** 短词（1-2 音节）：加 -er / -est → faster, fastest。
+[复习第 124 课的规则](124-files.md)
 
 **示范：** `The new version works better.` — 新版本运行得更好。
 

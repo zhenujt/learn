@@ -17,7 +17,7 @@ Alex Wang asked, "Do you know what the workaround is?" "I'm not sure how the ris
 
 ## 📐 本课核心
 
-**规则：** 间接问句用陈述语序（不倒装）：Could you tell me where the office is?
+[复习第 187 课的规则](187-collecting-evidence.md)
 
 **示范：** `Can you explain how this works?` — 你能解释一下这是怎么运作的吗？
 

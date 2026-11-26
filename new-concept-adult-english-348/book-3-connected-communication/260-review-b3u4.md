@@ -17,7 +17,7 @@ Having project summary, Alex Wang key achievements. lessons learned in clear lan
 
 ## 📐 本课核心
 
-**规则：** 现在分词 (-ing) 表示主动或同时：Working late, Lin found the bug.
+[复习第 259 课的规则](259-reference-and-repetition.md)
 
 **示范：** `Working remotely, I save two hours of commuting.` — 远程办公省了两小时通勤。
 

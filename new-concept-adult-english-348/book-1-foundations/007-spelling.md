@@ -17,7 +17,7 @@ Ravi Gupta is not alone. There are many people in the large office. Ravi Gupta i
 
 ## 📐 本课核心
 
-**规则：** 主语决定 be 的形式：I → am；he / she / it / 单数名词 → is；you / we / they / 复数名词 → are。
+[复习第 001 课的规则](001-hello.md)
 
 **示范：** `She is from Shanghai.` — 她来自上海。
 

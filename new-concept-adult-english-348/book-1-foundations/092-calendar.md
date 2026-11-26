@@ -17,7 +17,7 @@ Did Emma Liu book the room yesterday? Yes. Emma Liu also tomorrow afternoon and 
 
 ## 📐 本课核心
 
-**规则：** 表示过去完成的动作。规则动词加 -ed：worked, checked, deployed。
+[复习第 073 课的规则](073-yesterday.md)
 
 **示范：** `She did not reply to the email.` — 她没有回复那封邮件。
 

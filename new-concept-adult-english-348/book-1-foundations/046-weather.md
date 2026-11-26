@@ -17,7 +17,7 @@ Every rooftop, Nina Zhao six at the office. The team garden together. They do no
 
 ## 📐 本课核心
 
-**规则：** 表示习惯、事实和固定安排。主语为第三人称单数时，动词加 -s / -es。
+[复习第 025 课的规则](025-waking-up.md)
 
 **示范：** `I check my email every morning.` — 我每天早上查邮件。
 

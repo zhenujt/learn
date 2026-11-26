@@ -17,7 +17,7 @@ The new asks teammates is when stucker than the old one. explains the context is
 
 ## 📐 本课核心
 
-**规则：** 短词（1-2 音节）：加 -er / -est → faster, fastest。
+[复习第 124 课的规则](124-files.md)
 
 **示范：** `She is the most experienced developer on the team.` — 她是团队中最有经验的开发者。
 

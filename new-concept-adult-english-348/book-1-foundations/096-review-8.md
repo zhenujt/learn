@@ -17,7 +17,7 @@ Lin Wei refactor the module every next sprint. After that, Lin Wei improve test 
 
 ## 📐 本课核心
 
-**规则：** 表示习惯、事实和固定安排。主语为第三人称单数时，动词加 -s / -es。
+[复习第 025 课的规则](025-waking-up.md)
 
 **示范：** `I check my email every morning.` — 我每天早上查邮件。
 

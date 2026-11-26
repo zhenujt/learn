@@ -17,7 +17,7 @@ Yesterday, Yuki Tanaka joined early. Yuki Tanaka learned the new feature and bui
 
 ## 📐 本课核心
 
-**规则：** 表示过去完成的动作。规则动词加 -ed：worked, checked, deployed。
+[复习第 073 课的规则](073-yesterday.md)
 
 **示范：** `Did you finish the task?` — 你完成任务了吗？
 

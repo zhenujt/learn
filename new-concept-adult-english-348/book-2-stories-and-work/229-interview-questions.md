@@ -17,7 +17,7 @@ The experience is relevant every week. It was first challenging in 2023. project
 
 ## 📐 本课核心
 
-**规则：** 结构：be + 过去分词。主语是动作的接受者。
+[复习第 169 课的规则](169-clear-subjects.md)
 
 **示范：** `Were the tests run before deployment?` — 部署前运行测试了吗？
 

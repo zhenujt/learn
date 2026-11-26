@@ -17,7 +17,7 @@ Sara Li works with a colleague who raised a concern. The tool that they use is a
 
 ## 📐 本课核心
 
-**规则：** who 修饰人：The developer who fixed the bug got a bonus.
+[复习第 193 课的规则](193-opening.md)
 
 **示范：** `The colleague who sits next to me is from the QA team.` — 坐在我旁边的同事来自 QA 团队。
 

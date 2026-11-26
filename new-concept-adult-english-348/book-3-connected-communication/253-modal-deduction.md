@@ -17,7 +17,7 @@ As soon as the have crashed due to load is done, Tom Park will investigate the l
 
 ## 📐 本课核心
 
-**规则：** 时间从句：when, before, after, while, as soon as, until。
+[复习第 241 课的规则](241-time-clauses.md)
 
 **示范：** `Unless we add more tests, the risk remains.` — 除非我们增加测试，否则风险依旧。
 

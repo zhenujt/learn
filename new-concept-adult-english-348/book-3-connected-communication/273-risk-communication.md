@@ -17,7 +17,7 @@ The vulnerability can be expose user data automatically. It had been configurati
 
 ## 📐 本课核心
 
-**规则：** 情态动词 + 被动：can/should/must + be + 过去分词。
+[复习第 271 课的规则](271-bug-reports.md)
 
 **示范：** `A new feature is being developed.` — 一个新功能正在开发中。
 

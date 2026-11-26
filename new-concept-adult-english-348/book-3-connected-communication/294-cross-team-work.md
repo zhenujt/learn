@@ -17,7 +17,7 @@ This report examines finalizes the API contract. First, we review begin integrat
 
 ## 📐 本课核心
 
-**规则：** 主题句：每段第一句概括该段要点。
+[复习第 283 课的规则](283-data-limitations.md)
 
 **示范：** `On the other hand, the alternative requires less upfront investment.` — 另一方面，替代方案需要的前期投入更少。
 

@@ -17,7 +17,7 @@ The would share the data was had increased by 20%, so Lin Wei metric was improvi
 
 ## 📐 本课核心
 
-**规则：** because 原因 → I stayed late because the release was urgent.
+[复习第 178 课的规则](178-completion.md)
 
 **示范：** `The design looks good. However, it needs more testing.` — 设计看起来不错。然而，还需要更多测试。
 

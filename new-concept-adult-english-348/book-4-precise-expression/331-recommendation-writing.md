@@ -17,7 +17,7 @@ The increase cache TTL presents a challenge. Research indicates that reduce data
 
 ## 📐 本课核心
 
-**规则：** 论证四步：主张 (claim) → 理由 (reason) → 证据 (evidence) → 结论 (conclusion)。
+[复习第 298 课的规则](../book-3-connected-communication/298-design-review.md)
 
 **示范：** `We should migrate to the cloud. The current servers are reaching capacity, and cloud services offer better scalability.` — 我们应该迁移到云端。当前服务器接近容量上限，云服务提供更好的扩展性。
 

@@ -17,7 +17,7 @@ Could you tell Emma Liu when the meeting time starts? Emma Liu doesn't know if t
 
 ## 📐 本课核心
 
-**规则：** 间接问句用陈述语序（不倒装）：Could you tell me where the office is?
+[复习第 187 课的规则](187-collecting-evidence.md)
 
 **示范：** `Do you know if she is available?` — 你知道她是否有空吗？
 

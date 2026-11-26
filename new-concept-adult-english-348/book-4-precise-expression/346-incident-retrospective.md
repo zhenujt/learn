@@ -17,7 +17,7 @@ This report examines implemented circuit breakers. First, we review contained th
 
 ## 📐 本课核心
 
-**规则：** 主题句：每段第一句概括该段要点。
+[复习第 283 课的规则](../book-3-connected-communication/283-data-limitations.md)
 
 **示范：** `Furthermore, the new system offers better monitoring capabilities.` — 此外，新系统提供了更好的监控能力。
 

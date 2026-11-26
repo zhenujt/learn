@@ -17,7 +17,7 @@ If the an hour passes, James Hu will sprint immediately. Unless someone ship unt
 
 ## 📐 本课核心
 
-**规则：** 结构：If + 一般现在时, will + 动词原形。表示真实可能发生的情况。
+[复习第 121 课的规则](121-computer.md)
 
 **示范：** `If the test passes, I will deploy it.` — 如果测试通过，我就部署。
 

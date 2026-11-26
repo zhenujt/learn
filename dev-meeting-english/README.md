@@ -42,40 +42,11 @@ Subtitles from 25 real meetings (about 80,000 words; stand-ups, scrum sync-ups, 
 
 **Almost never used:** past perfect (0.4), `used to` (0.2), `if I were` (0.1), third conditional (0), subjunctive `suggest that he be` (0), inversion (0.5). These are covered **briefly** and marked "not needed".
 
-## Frequency Tags
-
-| Tag | Meaning | How to study |
-| --- | --- | --- |
-| 🔴 Must learn | Very frequent in meetings, or basic to any sentence | Understand, practice, and produce it |
-| 🟡 Common | Appears regularly | Understand and practice the most common forms |
-| 🟢 Recognize only | Appears occasionally | Understand it in subtitles; no need to produce it |
-| ⚪ Not needed | Almost never appears | Skim or skip |
-
 ## Course Map
 
-### Read These First
-
-- [Study Plan: 16 Weeks, 40 Minutes a Day](00-study-plan.md)
-- [How to Read Meeting Subtitles](01-how-to-read-subtitles.md)
-
-### Grammar (Primary to Senior High School, Merged by Topic)
-
-Full index with frequency: [Grammar Index](grammar/README.md).
-
-| Stage | Lessons |
-| --- | --- |
-| 1. Understand one sentence | [G01](grammar/01-sentence-skeleton.md) 🔴 · [G02](grammar/02-nouns-articles-quantifiers.md) 🔴 · [G03](grammar/03-pronouns-and-reference.md) 🔴 · [G04](grammar/04-be-and-there-be.md) 🔴 · [G05](grammar/05-questions-and-negatives.md) 🔴 · [G06](grammar/06-imperatives-lets-please.md) 🔴 |
-| 2. Tenses | [G07](grammar/07-present-simple-and-continuous.md) 🔴 · [G08](grammar/08-past-simple-and-present-perfect.md) 🔴 · [G09](grammar/09-future-will-going-to.md) 🔴 · [G10](grammar/10-other-tenses.md) 🟢⚪ |
-| 3. Verb patterns and linking | [G11](grammar/11-modal-verbs.md) 🔴 · [G12](grammar/12-passive-voice.md) 🔴 · [G13](grammar/13-to-do-doing-done.md) 🔴 · [G14](grammar/14-phrasal-verbs-and-collocations.md) 🔴 · [G15](grammar/15-adjectives-adverbs-comparison.md) 🟡 · [G16](grammar/16-prepositions.md) 🔴 · [G17](grammar/17-conjunctions-and-linking.md) 🔴 |
-| 4. Long sentences and speech | [G18](grammar/18-noun-clauses.md) 🔴 · [G19](grammar/19-relative-clauses.md) 🟡 · [G20](grammar/20-adverbial-clauses.md) 🔴 · [G21](grammar/21-conditionals.md) 🔴 · [G22](grammar/22-reported-speech.md) 🟡 · [G23](grammar/23-spoken-grammar.md) 🔴 · [G24](grammar/24-advanced-grammar-overview.md) ⚪ |
-
-### Meeting Situations
-
-| Situation | Lessons |
-| --- | --- |
-| Your update | [M01 Stand-Up](meetings/01-stand-up-updates.md) · [M02 Weekly Sprint Sync](meetings/02-weekly-sprint-sync.md) |
-| Hosting and joining | [M03 Hosting and Screen Sharing](meetings/03-hosting-and-screen-sharing.md) · [M04 Asking and Clarifying](meetings/04-questions-and-clarifying.md) · [M05 Opinions and Suggestions](meetings/05-opinions-and-suggestions.md) |
-| Problems and closing | [M06 Blockers, Risks, and Help](meetings/06-blockers-risks-and-help.md) · [M07 Wrap-Up and Action Items](meetings/07-wrap-up-and-action-items.md) |
+1. Set aside time with the [16-week study plan](00-study-plan.md). Use the [four-step subtitle method](01-how-to-read-subtitles.md) to find the subject and verb in a spoken update.
+2. Follow the [grammar index G01–G24](grammar/README.md): read a single clause, place its action in time, link actions and clauses, then unpack long subtitles and spoken shortcuts. The frequency tags distinguish structures to practice from those you only need to recognize.
+3. Apply the grammar in [meeting situations M01–M07](meetings/README.md). Start with your own update, practice hosting and asking questions, then explain blockers and confirm who will do what next.
 
 ### Practice and Tests
 

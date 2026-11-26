@@ -17,7 +17,7 @@ Yuki Tanaka arrives at the office at three. The meeting room is on the fifth flo
 
 ## 📐 本课核心
 
-**规则：** 时间：at + 钟点 (at nine); on + 日/星期 (on Monday); in + 月/年/早午晚 (in June, in the morning)。
+[复习第 040 课的规则](040-restaurants.md)
 
 **示范：** `I work in a small office.` — 我在一间小办公室工作。
 

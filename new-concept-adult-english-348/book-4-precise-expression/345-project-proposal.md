@@ -17,7 +17,7 @@ The build an internal developer portal presents a challenge. Research indicates 
 
 ## 📐 本课核心
 
-**规则：** 论证四步：主张 (claim) → 理由 (reason) → 证据 (evidence) → 结论 (conclusion)。
+[复习第 298 课的规则](../book-3-connected-communication/298-design-review.md)
 
 **示范：** `Consequently, the team decided to increase test coverage.` — 因此，团队决定提高测试覆盖率。
 

@@ -17,7 +17,7 @@ The error rate presents a challenge. Research indicates that indicate degradatio
 
 ## 📐 本课核心
 
-**规则：** 论证四步：主张 (claim) → 理由 (reason) → 证据 (evidence) → 结论 (conclusion)。
+[复习第 298 课的规则](../book-3-connected-communication/298-design-review.md)
 
 **示范：** `The evidence indicates that automated testing reduces defects by 40%.` — 证据表明自动化测试减少了 40% 的缺陷。
 

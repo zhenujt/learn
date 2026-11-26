@@ -17,7 +17,7 @@ Ravi Gupta thinks reports issues is more three minutes than attaches screenshots
 
 ## 📐 本课核心
 
-**规则：** 短词（1-2 音节）：加 -er / -est → faster, fastest。
+[复习第 124 课的规则](124-files.md)
 
 **示范：** `Python is easier to read than C++.` — Python 比 C++ 更容易阅读。
 

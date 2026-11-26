@@ -17,7 +17,7 @@ Did Ravi Gupta summary was ready yesterday? Yes. Ravi Gupta also would send it b
 
 ## 📐 本课核心
 
-**规则：** 表示过去完成的动作。规则动词加 -ed：worked, checked, deployed。
+[复习第 073 课的规则](../book-1-foundations/073-yesterday.md)
 
 **示范：** `The meeting took two hours.` — 会议开了两小时。
 

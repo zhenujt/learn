@@ -17,7 +17,7 @@ Yuki Tanaka is going to express concerns next listen actively. The team will hid
 
 ## 📐 本课核心
 
-**规则：** be going to + 动词原形：已计划好的将来行动。I am going to deploy tomorrow.
+[复习第 097 课的规则](097-body.md)
 
 **示范：** `Don't worry, I will fix it.` — 别担心，我会修复的。
 

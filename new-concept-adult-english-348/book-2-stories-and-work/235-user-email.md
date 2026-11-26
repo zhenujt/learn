@@ -17,7 +17,7 @@
 
 ## 📐 本课核心
 
-**规则：** 直接引语变间接引语：时态后退一步 (backshift)。
+[复习第 199 课的规则](199-action-items.md)
 
 **示范：** `She said she had already finished.` — 她说她已经完成了。
 

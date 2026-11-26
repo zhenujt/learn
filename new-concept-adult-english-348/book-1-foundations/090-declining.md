@@ -17,7 +17,7 @@ Yuki Tanaka was complete the audit when the next month happened. While the team 
 
 ## 📐 本课核心
 
-**规则：** 结构：was/were + 动词-ing。表示过去某一时刻正在进行的动作。
+[复习第 085 课的规则](085-tomorrow.md)
 
 **示范：** `He wasn't paying attention during the meeting.` — 他开会时没在注意听。
 

@@ -17,7 +17,7 @@ The developer who agreed with the plan is Tom Park. The framework, which is test
 
 ## 📐 本课核心
 
-**规则：** who 修饰人：The developer who fixed the bug got a bonus.
+[复习第 193 课的规则](193-opening.md)
 
 **示范：** `She is the person who trained me.` — 她是培训我的人。
 

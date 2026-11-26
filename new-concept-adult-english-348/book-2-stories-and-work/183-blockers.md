@@ -17,7 +17,7 @@ The removed the dependency was found a workaround, so Ravi Gupta unblocked the t
 
 ## 📐 本课核心
 
-**规则：** because 原因 → I stayed late because the release was urgent.
+[复习第 178 课的规则](178-completion.md)
 
 **示范：** `Although the task was hard, she finished it on time.` — 虽然任务很难，她还是按时完成了。
 

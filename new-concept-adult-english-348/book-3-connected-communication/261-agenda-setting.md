@@ -17,7 +17,7 @@ build finishes carefully, the report was well received. Having starts the meetin
 
 ## 📐 本课核心
 
-**规则：** 现在分词 (-ing) 表示主动或同时：Working late, Lin found the bug.
+[复习第 259 课的规则](259-reference-and-repetition.md)
 
 **示范：** `Having finished the review, she approved the merge.` — 审查完毕后，她批准了合并。
 

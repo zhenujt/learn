@@ -17,7 +17,7 @@ Look! Ravi Gupta is sitting at a desk at the desk. Two colleagues are typing on 
 
 ## 📐 本课核心
 
-**规则：** 结构：am/is/are + 动词-ing。表示此刻正在发生或近期临时安排。
+[复习第 049 课的规则](049-present-continuous.md)
 
 **示范：** `The system is processing your request.` — 系统正在处理你的请求。
 

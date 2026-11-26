@@ -17,7 +17,7 @@ Before Lin Wei wrote the algorithm, the team performant. When the reduced respon
 
 ## 📐 本课核心
 
-**规则：** 时间从句：when, before, after, while, as soon as, until。
+[复习第 241 课的规则](241-time-clauses.md)
 
 **示范：** `Before you merge, make sure all tests pass.` — 合并前确保所有测试通过。
 

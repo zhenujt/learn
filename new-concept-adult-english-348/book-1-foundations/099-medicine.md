@@ -17,7 +17,7 @@ Tomorrow, Tom Park is going to read the instructions. The release will happen on
 
 ## 📐 本课核心
 
-**规则：** be going to + 动词原形：已计划好的将来行动。I am going to deploy tomorrow.
+[复习第 097 课的规则](097-body.md)
 
 **示范：** `Will the release be on time?` — 发布会准时吗？
 

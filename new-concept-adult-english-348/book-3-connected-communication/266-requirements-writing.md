@@ -17,7 +17,7 @@ Lin Wei enjoys requirement. The team decided to clear. the system will handle 10
 
 ## 📐 本课核心
 
-**规则：** 动名词 (V-ing) 作名词用：Testing is important. I enjoy coding.
+[复习第 265 课的规则](265-review-b3u5.md)
 
 **示范：** `I enjoy working with this framework.` — 我喜欢用这个框架工作。
 

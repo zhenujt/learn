@@ -17,7 +17,7 @@ Rarely does this detected the anomaly occur. Only when already escalated did Lin
 
 ## 📐 本课核心
 
-**规则：** 部分倒装（否定/限制副词提前）：Never have I seen such a bug. Only then did we realize.
+[复习第 313 课的规则](313-making-proposals.md)
 
 **示范：** `Never have I seen such a complex system.` — 我从未见过如此复杂的系统。
 

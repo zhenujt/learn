@@ -17,7 +17,7 @@ As soon as the Documenting is done, Sara Li will avoid rushing. While the system
 
 ## 📐 本课核心
 
-**规则：** 时间从句：when, before, after, while, as soon as, until。
+[复习第 241 课的规则](241-time-clauses.md)
 
 **示范：** `Although the deadline was tight, we delivered.` — 虽然截止日期很紧，我们还是交付了。
 

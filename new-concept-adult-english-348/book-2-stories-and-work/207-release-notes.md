@@ -17,7 +17,7 @@ Has Ravi Gupta fixes the memory leak before? Yes, Ravi Gupta has fixes the memor
 
 ## 📐 本课核心
 
-**规则：** 结构：have/has + 过去分词。表示过去的动作与现在有关联（结果、经验、持续）。
+[复习第 145 课的规则](145-past-habits.md)
 
 **示范：** `She has never deployed to production alone.` — 她从未独自部署过生产环境。
 

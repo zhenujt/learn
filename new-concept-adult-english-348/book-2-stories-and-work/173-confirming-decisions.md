@@ -17,7 +17,7 @@ The decision is made every week. It was first agreed in 2023. plans are set auto
 
 ## 📐 本课核心
 
-**规则：** 结构：be + 过去分词。主语是动作的接受者。
+[复习第 169 课的规则](169-clear-subjects.md)
 
 **示范：** `The server is maintained by the ops team.` — 服务器由运维团队维护。
 

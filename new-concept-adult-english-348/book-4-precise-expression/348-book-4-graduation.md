@@ -17,7 +17,7 @@ This report examines continue professional development. First, we review career 
 
 ## 📐 本课核心
 
-**规则：** 主题句：每段第一句概括该段要点。
+[复习第 283 课的规则](../book-3-connected-communication/283-data-limitations.md)
 
 **示范：** `This approach has two main benefits. First, it reduces cost. Second, it improves reliability.` — 这个方案有两个主要好处。第一，降低成本。第二，提高可靠性。
 

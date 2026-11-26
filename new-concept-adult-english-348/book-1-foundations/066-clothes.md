@@ -17,7 +17,7 @@ Yuki Tanaka needs some shirts. There isn't any cotton left. "Do you have any pai
 
 ## 📐 本课核心
 
-**规则：** 可数名词有单复数：a task / tasks; an error / errors。
+[复习第 061 课的规则](061-food.md)
 
 **示范：** `I need some information about the API.` — 我需要一些关于这个 API 的信息。
 

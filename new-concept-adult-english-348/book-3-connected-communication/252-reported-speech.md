@@ -17,7 +17,7 @@ Mia Chen believes that the design was approved is would finalize by Friday. What
 
 ## 📐 本课核心
 
-**规则：** that 从句作宾语：I believe that the approach is correct.
+[复习第 250 课的规则](250-review-b3u2.md)
 
 **示范：** `What surprised me was the speed of the fix.` — 让我惊讶的是修复的速度。
 

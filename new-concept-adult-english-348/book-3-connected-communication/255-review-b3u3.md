@@ -17,7 +17,7 @@ As soon as the improvement is done, Alex Wang will implemented. While the system
 
 ## 📐 本课核心
 
-**规则：** 时间从句：when, before, after, while, as soon as, until。
+[复习第 241 课的规则](241-time-clauses.md)
 
 **示范：** `While the database was migrating, users saw errors.` — 数据库迁移期间用户看到了报错。
 

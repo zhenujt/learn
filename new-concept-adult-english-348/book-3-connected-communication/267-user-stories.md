@@ -17,7 +17,7 @@ Mia Chen considered onboarding but decided to create a user profile instead. Sim
 
 ## 📐 本课核心
 
-**规则：** 动名词 (V-ing) 作名词用：Testing is important. I enjoy coding.
+[复习第 265 课的规则](265-review-b3u5.md)
 
 **示范：** `She decided to rewrite the module.` — 她决定重写这个模块。
 

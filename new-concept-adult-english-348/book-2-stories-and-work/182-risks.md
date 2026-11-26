@@ -17,7 +17,7 @@ Yuki Tanaka identified the risk because the escalated the concern was documented
 
 ## 📐 本课核心
 
-**规则：** because 原因 → I stayed late because the release was urgent.
+[复习第 178 课的规则](178-completion.md)
 
 **示范：** `The API was unstable, so we added a retry.` — API 不稳定，所以我们加了重试。
 

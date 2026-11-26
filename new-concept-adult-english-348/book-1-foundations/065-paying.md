@@ -17,7 +17,7 @@ How much cash does Alex Wang need? Not much. How many receiptss are there? There
 
 ## 📐 本课核心
 
-**规则：** 可数名词有单复数：a task / tasks; an error / errors。
+[复习第 061 课的规则](061-food.md)
 
 **示范：** `Do you have any questions?` — 你有问题吗？
 

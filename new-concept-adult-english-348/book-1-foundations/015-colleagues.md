@@ -17,7 +17,7 @@ Tom Park has a monitor. This is Tom Park's monitor. Its size is large. "Is that 
 
 ## 📐 本课核心
 
-**规则：** 形容词性物主代词放在名词前：my, your, his, her, its, our, their。
+[复习第 013 课的规则](013-family.md)
 
 **示范：** `Is that his phone?` — 那是他的手机吗？
 

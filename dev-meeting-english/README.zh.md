@@ -42,42 +42,11 @@
 
 **几乎不出现的结构：** 过去完成时（0.4）、`used to`（0.2）、`if I were`（0.1）、第三类条件句（0）、虚拟语气 `suggest that he be`（0）、倒装（0.5）。这些在教材里只做**简单介绍**，并标注「用不到」。
 
-## 频率标记
-
-每一课、每一个小知识点都有标记，帮你决定花多少时间：
-
-| 标记 | 含义 | 怎么学 |
-| --- | --- | --- |
-| 🔴 必学 | 会议高频，或者造句的基础 | 读懂、做练习、能自己说出来 |
-| 🟡 常用 | 会议中经常出现 | 读懂、做练习，能用最常见的几个说法 |
-| 🟢 认得即可 | 会议中偶尔出现 | 字幕里看到能懂就行，不用主动说 |
-| ⚪ 用不到 | 会议中几乎不出现 | 扫一眼，知道有这回事；可以直接跳过 |
-
 ## 课程地图
 
-### 先读这两篇
-
-- [学习计划：16 周路线与每天 40 分钟](00-study-plan.zh.md)
-- [怎么读会议字幕：四步读法与过滤噪音](01-how-to-read-subtitles.zh.md)
-
-### 语法（小学 → 高中，按知识点合并）
-
-完整目录和频率见 [语法目录](grammar/README.zh.md)。
-
-| 阶段 | 课程 |
-| --- | --- |
-| 一、看懂一句话 | [G01 句子骨架](grammar/01-sentence-skeleton.zh.md) 🔴 · [G02 名词、冠词与数量](grammar/02-nouns-articles-quantifiers.zh.md) 🔴 · [G03 代词与指代](grammar/03-pronouns-and-reference.zh.md) 🔴 · [G04 be 与 There be](grammar/04-be-and-there-be.zh.md) 🔴 · [G05 疑问句与否定句](grammar/05-questions-and-negatives.zh.md) 🔴 · [G06 祈使句与 Let's](grammar/06-imperatives-lets-please.zh.md) 🔴 |
-| 二、时态 | [G07 一般现在与现在进行](grammar/07-present-simple-and-continuous.zh.md) 🔴 · [G08 一般过去与现在完成](grammar/08-past-simple-and-present-perfect.zh.md) 🔴 · [G09 将来表达](grammar/09-future-will-going-to.zh.md) 🔴 · [G10 其他时态](grammar/10-other-tenses.zh.md) 🟢⚪ |
-| 三、动词扩展与连接 | [G11 情态动词](grammar/11-modal-verbs.zh.md) 🔴 · [G12 被动语态](grammar/12-passive-voice.zh.md) 🔴 · [G13 to do / doing / done](grammar/13-to-do-doing-done.zh.md) 🔴 · [G14 短语动词与搭配](grammar/14-phrasal-verbs-and-collocations.zh.md) 🔴 · [G15 形容词、副词与比较](grammar/15-adjectives-adverbs-comparison.zh.md) 🟡 · [G16 介词](grammar/16-prepositions.zh.md) 🔴 · [G17 连词与连接](grammar/17-conjunctions-and-linking.zh.md) 🔴 |
-| 四、长句与口语 | [G18 名词性从句](grammar/18-noun-clauses.zh.md) 🔴 · [G19 定语从句](grammar/19-relative-clauses.zh.md) 🟡 · [G20 状语从句](grammar/20-adverbial-clauses.zh.md) 🔴 · [G21 条件句](grammar/21-conditionals.zh.md) 🔴 · [G22 间接引语](grammar/22-reported-speech.zh.md) 🟡 · [G23 口语语法](grammar/23-spoken-grammar.zh.md) 🔴 · [G24 高级语法速览](grammar/24-advanced-grammar-overview.zh.md) ⚪ |
-
-### 会议场景（把语法用起来）
-
-| 场景 | 课程 |
-| --- | --- |
-| 自己汇报 | [M01 站会](meetings/01-stand-up-updates.zh.md) · [M02 周会与 Sprint 同步](meetings/02-weekly-sprint-sync.zh.md) |
-| 主持与参与 | [M03 主持会议与共享屏幕](meetings/03-hosting-and-screen-sharing.zh.md) · [M04 提问与澄清](meetings/04-questions-and-clarifying.zh.md) · [M05 看法与建议](meetings/05-opinions-and-suggestions.zh.md) |
-| 问题与收尾 | [M06 阻塞、风险与求助](meetings/06-blockers-risks-and-help.zh.md) · [M07 收尾与行动项](meetings/07-wrap-up-and-action-items.zh.md) |
+1. [安排 16 周的学习时间](00-study-plan.zh.md)，再用[字幕四步读法](01-how-to-read-subtitles.zh.md)练习找主语和谓语。
+2. 从[语法目录 G01–G24](grammar/README.zh.md)选课：先读懂一句话，再判断动作发生的时间，接着连接动作和分句，最后处理长字幕和口语省略。目录里的频率标记区分需要主动掌握和只需认得的结构。
+3. 到[会议场景 M01–M07](meetings/README.zh.md)把句子用起来：先汇报自己的进度，再练主持、提问与建议，最后说明阻塞、确认负责人和下一步。
 
 ### 练习与测验
 

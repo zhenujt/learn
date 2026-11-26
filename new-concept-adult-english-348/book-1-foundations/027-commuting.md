@@ -17,7 +17,7 @@ Tom Park takes the subway every day. After that, Tom Park listens to podcasts fo
 
 ## 📐 本课核心
 
-**规则：** 表示习惯、事实和固定安排。主语为第三人称单数时，动词加 -s / -es。
+[复习第 025 课的规则](025-waking-up.md)
 
 **示范：** `She writes code from nine to six.` — 她从九点写代码到六点。
 

@@ -17,7 +17,7 @@ Sara Li needs some juice. There isn't any rice left. "Do you have any salads?" "
 
 ## 📐 本课核心
 
-**规则：** 可数名词有单复数：a task / tasks; an error / errors。
+[复习第 061 课的规则](061-food.md)
 
 **示范：** `She gave us two pieces of advice.` — 她给了我们两条建议。
 

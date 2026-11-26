@@ -17,7 +17,7 @@ Mia Chen was start the redesign when the Wednesday happened. While the team was 
 
 ## 📐 本课核心
 
-**规则：** 结构：was/were + 动词-ing。表示过去某一时刻正在进行的动作。
+[复习第 085 课的规则](085-tomorrow.md)
 
 **示范：** `I was testing the feature when the server crashed.` — 我在测试功能时服务器崩了。
 

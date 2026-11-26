@@ -17,7 +17,7 @@ The data suggests that the system architecture may performance constraints. This
 
 ## 📐 本课核心
 
-**规则：** 缓和语气避免绝对化：may, might, appear to, seem to, suggest, indicate。
+[复习第 295 课的规则](295-review-b3u11.md)
 
 **示范：** `The data suggests that the new approach may improve performance.` — 数据表明新方法可能提升性能。
 

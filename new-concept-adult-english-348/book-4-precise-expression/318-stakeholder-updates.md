@@ -17,7 +17,7 @@ Never has Mia Chen seen such a design system progress. Only after adoption metri
 
 ## 📐 本课核心
 
-**规则：** 部分倒装（否定/限制副词提前）：Never have I seen such a bug. Only then did we realize.
+[复习第 313 课的规则](313-making-proposals.md)
 
 **示范：** `It was the network latency that caused the timeout.` — 是网络延迟导致了超时。
 

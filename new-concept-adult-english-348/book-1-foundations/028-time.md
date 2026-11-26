@@ -17,7 +17,7 @@ Every nine o'clock, Sara Li starts work at the office. The team has lunch togeth
 
 ## 📐 本课核心
 
-**规则：** 表示习惯、事实和固定安排。主语为第三人称单数时，动词加 -s / -es。
+[复习第 025 课的规则](025-waking-up.md)
 
 **示范：** `We do not work on Sundays.` — 我们周日不工作。
 

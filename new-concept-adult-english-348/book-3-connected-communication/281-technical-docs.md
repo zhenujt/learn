@@ -17,7 +17,7 @@ The API documentation can be endpoint descriptions automatically. It had been au
 
 ## 📐 本课核心
 
-**规则：** 情态动词 + 被动：can/should/must + be + 过去分词。
+[复习第 271 课的规则](271-bug-reports.md)
 
 **示范：** `The issue should be resolved by tomorrow.` — 这个问题应该在明天前解决。
 

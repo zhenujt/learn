@@ -17,7 +17,7 @@ The completed the backend is shipped the API every week. It was first updated th
 
 ## 📐 本课核心
 
-**规则：** 结构：be + 过去分词。主语是动作的接受者。
+[复习第 169 课的规则](169-clear-subjects.md)
 
 **示范：** `All commits are reviewed before merging.` — 所有提交在合并前都会被审查。
 

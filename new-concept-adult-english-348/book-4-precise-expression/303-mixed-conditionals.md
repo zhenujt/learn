@@ -17,7 +17,7 @@ If the team were invested in testing, Tom Park would be finished now. We could h
 
 ## 📐 本课核心
 
-**规则：** 结构：If + 过去式, would + 动词原形。表示现在不太可能或与事实相反。
+[复习第 301 课的规则](301-second-conditional.md)
 
 **示范：** `We could release earlier if we had more developers.` — 如果有更多开发者，我们可以更早发布。
 

@@ -17,7 +17,7 @@ It is clear that the feature needs released. Lin Wei doesn't know whether the se
 
 ## 📐 本课核心
 
-**规则：** that 从句作宾语：I believe that the approach is correct.
+[复习第 250 课的规则](250-review-b3u2.md)
 
 **示范：** `I think that we should delay the release.` — 我认为我们应该推迟发布。
 

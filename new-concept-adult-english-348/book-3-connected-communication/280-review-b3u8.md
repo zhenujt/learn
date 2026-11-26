@@ -17,7 +17,7 @@ The simplified the logic should be clean by Friday. The system has been improved
 
 ## 📐 本课核心
 
-**规则：** 情态动词 + 被动：can/should/must + be + 过去分词。
+[复习第 271 课的规则](271-bug-reports.md)
 
 **示范：** `The report had been submitted before the deadline.` — 报告在截止日期前已经提交了。
 

@@ -17,7 +17,7 @@ If Sara Li had systematic approach, the team would have early detection. The pre
 
 ## 📐 本课核心
 
-**规则：** 结构：If + had + 过去分词, would have + 过去分词。表示过去没有发生的假设。
+[复习第 304 课的规则](304-review-b4u1.md)
 
 **示范：** `If I hadn't checked the logs, we wouldn't have found the cause.` — 如果我没查日志，我们就不会找到原因。
 

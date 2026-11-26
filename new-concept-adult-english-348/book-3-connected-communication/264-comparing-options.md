@@ -17,7 +17,7 @@ Having solution, Sara Li scalable. option A in clear language, the document is e
 
 ## 📐 本课核心
 
-**规则：** 现在分词 (-ing) 表示主动或同时：Working late, Lin found the bug.
+[复习第 259 课的规则](259-reference-and-repetition.md)
 
 **示范：** `Faced with a tight deadline, the team worked overtime.` — 面对紧迫的截止日期，团队加班了。
 

@@ -17,7 +17,7 @@ By the time Lin Wei left a comment, the team had already naming. Lin Wei realize
 
 ## 📐 本课核心
 
-**规则：** 结构：had + 过去分词。表示"过去的过去"——在过去某个时间点之前已完成的动作。
+[复习第 274 课的规则](274-test-strategy.md)
 
 **示范：** `By the time I joined, the team had already decided.` — 在我加入时，团队已经决定了。
 

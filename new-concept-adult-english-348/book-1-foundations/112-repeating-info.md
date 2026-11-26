@@ -17,7 +17,7 @@ Sara Li can repeat the number slowly quickly. Sara Li should immediately before 
 
 ## 📐 本课核心
 
-**规则：** can 表示能力或许可：I can write Python. Can I leave early?
+[复习第 106 课的规则](106-exercise.md)
 
 **示范：** `You should back up your files.` — 你应该备份文件。
 

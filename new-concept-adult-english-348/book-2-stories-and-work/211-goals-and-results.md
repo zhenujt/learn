@@ -17,7 +17,7 @@ At 3 PM yesterday, Tom Park was target was ambitious. The server was had met the
 
 ## 📐 本课核心
 
-**规则：** 结构：was/were + 动词-ing。表示过去某一时刻正在进行的动作。
+[复习第 085 课的规则](../book-1-foundations/085-tomorrow.md)
 
 **示范：** `I was testing the feature when the server crashed.` — 我在测试功能时服务器崩了。
 

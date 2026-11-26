@@ -1,5 +1,5 @@
 import { mkdir, rm, writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
+import { join, posix } from 'node:path';
 const ROOT = new URL('.', import.meta.url).pathname;
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -1140,6 +1140,10 @@ function assembleLesson(lessonNum) {
   const exIdx = (lessonNum - 1) % (g ? g.ex.length : 1);
   const keyExample = g ? g.ex[exIdx] : ['Example sentence.', '例句。'];
   const keyError = g ? g.err[(lessonNum - 1) % g.err.length] : ['Wrong.','Right.','Reason'];
+  const firstLesson = SPIRAL.findIndex(([key]) => key === gKey) + 1;
+  const rule = firstLesson && firstLesson < lessonNum
+    ? `[复习第 ${pad3(firstLesson)} 课的规则](${posix.relative(book.folder, posix.join(getBook(firstLesson).folder, `${pad3(firstLesson)}-${slug(LD[firstLesson - 1][0])}.md`))})`
+    : `**规则：** ${g.r.split('\n')[0]}`;
 
   return `# Lesson ${pad3(lessonNum)}: ${topicEN} / ${topicCN}
 
@@ -1155,7 +1159,7 @@ ${passage}
 
 ## 📐 本课核心
 
-**规则：** ${g ? g.r.split('\n')[0] : ''}
+${rule}
 
 **示范：** \`${keyExample[0]}\` — ${keyExample[1]}
 

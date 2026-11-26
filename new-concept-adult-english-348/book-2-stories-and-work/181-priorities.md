@@ -17,7 +17,7 @@ The handled three incidents was reduced the backlog, so Alex Wang addressed the 
 
 ## 📐 本课核心
 
-**规则：** because 原因 → I stayed late because the release was urgent.
+[复习第 178 课的规则](178-completion.md)
 
 **示范：** `I stayed late because the deadline was tomorrow.` — 我加班了因为截止日期是明天。
 

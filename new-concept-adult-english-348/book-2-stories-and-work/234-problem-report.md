@@ -17,7 +17,7 @@ Mia Chen works with a colleague who incident. The tool that they use is detected
 
 ## 📐 本课核心
 
-**规则：** who 修饰人：The developer who fixed the bug got a bonus.
+[复习第 193 课的规则](193-opening.md)
 
 **示范：** `I need a tool that can handle large files.` — 我需要一个能处理大文件的工具。
 

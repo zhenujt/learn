@@ -27,14 +27,7 @@ This course is for software engineers in China who attend English stand-ups and 
 
 ## Archived material
 
-The older materials below have been merged into the main course. They are kept for reference and are no longer updated. Each old page starts with a note that links to the matching new lesson.
-
-- `01-foundations`, `02-intermediate`, `03-advanced`: 18 grammar lessons
-- `english-grammar/英语语法全解.md`: 45-chapter grammar reference
-- `adult-software-english-course`: adult software English course
-- `zero-to-work-english`: zero-to-work English (pronunciation and vocabulary are still in use)
-- `workplace-spoken-english`: everyday workplace spoken English
-- `new-concept-adult-english`, `new-concept-adult-english-348`: general everyday English courses
+For archived courses, material unique to those courses, and the lessons that replace them, see [Where the Old Materials Went](dev-meeting-english/README.md#where-the-old-materials-went).
 
 ## Document audio
 

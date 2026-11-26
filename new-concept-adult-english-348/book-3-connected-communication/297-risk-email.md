@@ -17,7 +17,7 @@ It is possible that the timeline will at risk. The results indicate a resource g
 
 ## 📐 本课核心
 
-**规则：** 缓和语气避免绝对化：may, might, appear to, seem to, suggest, indicate。
+[复习第 295 课的规则](295-review-b3u11.md)
 
 **示范：** `This appears to be a configuration issue.` — 这似乎是一个配置问题。
 

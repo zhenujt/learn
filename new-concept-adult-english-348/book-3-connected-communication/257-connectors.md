@@ -17,7 +17,7 @@ The developer who design consistency is Mia Chen. The framework, which is user r
 
 ## 📐 本课核心
 
-**规则：** who 修饰人：The developer who fixed the bug got a bonus.
+[复习第 193 课的规则](../book-2-stories-and-work/193-opening.md)
 
 **示范：** `The framework that we chose is lightweight.` — 我们选的框架很轻量。
 

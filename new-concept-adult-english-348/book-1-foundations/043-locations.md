@@ -17,7 +17,7 @@ The file is on Ravi Gupta's desktop. The team works in a room on the fourth floo
 
 ## 📐 本课核心
 
-**规则：** 时间：at + 钟点 (at nine); on + 日/星期 (on Monday); in + 月/年/早午晚 (in June, in the morning)。
+[复习第 040 课的规则](040-restaurants.md)
 
 **示范：** `The file is on your desktop.` — 文件在你的桌面上。
 

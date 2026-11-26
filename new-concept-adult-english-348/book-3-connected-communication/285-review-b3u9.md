@@ -17,7 +17,7 @@ The following section addresses quarterly review. In addition to performance ana
 
 ## 📐 本课核心
 
-**规则：** 主题句：每段第一句概括该段要点。
+[复习第 283 课的规则](283-data-limitations.md)
 
 **示范：** `As mentioned earlier, the primary concern is data security.` — 如前所述，首要关切是数据安全。
 

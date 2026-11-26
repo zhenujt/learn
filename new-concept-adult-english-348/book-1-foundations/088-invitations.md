@@ -17,7 +17,7 @@ Sara Li was join the workshop when the Friday happened. While the team was prepa
 
 ## 📐 本课核心
 
-**规则：** 结构：was/were + 动词-ing。表示过去某一时刻正在进行的动作。
+[复习第 085 课的规则](085-tomorrow.md)
 
 **示范：** `While she was presenting, someone asked a question.` — 她在演示时有人提了问题。
 

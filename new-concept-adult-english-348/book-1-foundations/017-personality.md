@@ -17,7 +17,7 @@ This is our team room. My desk is by the window. Sara's desk is next to mine. Th
 
 ## 📐 本课核心
 
-**规则：** 形容词性物主代词放在名词前：my, your, his, her, its, our, their。
+[复习第 013 课的规则](013-family.md)
 
 **示范：** `That ticket is yours.` — 那张票是你的。
 

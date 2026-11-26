@@ -17,7 +17,7 @@ The ticket is assigned every week. It was first deployed in 2023. fixs are appro
 
 ## 📐 本课核心
 
-**规则：** 结构：be + 过去分词。主语是动作的接受者。
+[复习第 169 课的规则](169-clear-subjects.md)
 
 **示范：** `The feature was released last Friday.` — 该功能上周五发布了。
 

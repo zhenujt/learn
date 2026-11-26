@@ -17,7 +17,7 @@ The latency profile presents a challenge. Research indicates that bottleneck ide
 
 ## 📐 本课核心
 
-**规则：** 论证四步：主张 (claim) → 理由 (reason) → 证据 (evidence) → 结论 (conclusion)。
+[复习第 298 课的规则](../book-3-connected-communication/298-design-review.md)
 
 **示范：** `Admittedly, the cost is higher; however, the long-term savings justify the investment.` — 诚然成本更高；然而长期节省证明了投资的合理性。
 

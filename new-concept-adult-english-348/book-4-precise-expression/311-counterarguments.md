@@ -17,7 +17,7 @@ The manager recommended that Tom Park invest in AI testing the coverage gaps. It
 
 ## 📐 本课核心
 
-**规则：** suggest/recommend/require/insist + that + 主语 + 动词原形（无论人称）。
+[复习第 310 课的规则](310-hedging.md)
 
 **示范：** `I suggest that he attend the meeting.` — 我建议他参加这个会议。
 

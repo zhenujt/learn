@@ -17,7 +17,7 @@ If Mia Chen had design flaw, the team would have user impact. The lack of testin
 
 ## 📐 本课核心
 
-**规则：** 结构：If + had + 过去分词, would have + 过去分词。表示过去没有发生的假设。
+[复习第 304 课的规则](304-review-b4u1.md)
 
 **示范：** `If we had tested more, we would have caught the bug.` — 如果我们多测试，就会发现那个缺陷。
 

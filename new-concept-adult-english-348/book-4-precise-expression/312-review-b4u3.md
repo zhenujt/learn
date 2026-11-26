@@ -17,7 +17,7 @@ Sara Li suggests that the team adopt trunk-based development before merge confli
 
 ## 📐 本课核心
 
-**规则：** suggest/recommend/require/insist + that + 主语 + 动词原形（无论人称）。
+[复习第 310 课的规则](310-hedging.md)
 
 **示范：** `The policy requires that all code be reviewed.` — 政策要求所有代码必须被审查。
 

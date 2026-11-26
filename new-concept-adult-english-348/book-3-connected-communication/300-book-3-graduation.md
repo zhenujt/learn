@@ -17,7 +17,7 @@ Alex Wang proposes that we invest in observability. The primary reason is reliab
 
 ## 📐 本课核心
 
-**规则：** 论证四步：主张 (claim) → 理由 (reason) → 证据 (evidence) → 结论 (conclusion)。
+[复习第 298 课的规则](298-design-review.md)
 
 **示范：** `Consequently, the team decided to increase test coverage.` — 因此，团队决定提高测试覆盖率。
 

@@ -17,7 +17,7 @@ The investigated the failure should be already identified the cause by Friday. T
 
 ## 📐 本课核心
 
-**规则：** 情态动词 + 被动：can/should/must + be + 过去分词。
+[复习第 271 课的规则](271-bug-reports.md)
 
 **示范：** `The database has been migrated successfully.` — 数据库已经成功迁移。
 

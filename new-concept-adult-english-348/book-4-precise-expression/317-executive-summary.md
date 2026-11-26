@@ -17,7 +17,7 @@ Rarely does this platform stability occur. Only when incident trends did Lin Wei
 
 ## 📐 本课核心
 
-**规则：** 部分倒装（否定/限制副词提前）：Never have I seen such a bug. Only then did we realize.
+[复习第 313 课的规则](313-making-proposals.md)
 
 **示范：** `Only after thorough testing did we feel confident.` — 只有经过彻底测试我们才有信心。
 

@@ -17,7 +17,7 @@ At seven, Emma Liu is in the lounge. The keyboard is on the desk. The charger is
 
 ## 📐 本课核心
 
-**规则：** 时间：at + 钟点 (at nine); on + 日/星期 (on Monday); in + 月/年/早午晚 (in June, in the morning)。
+[复习第 040 课的规则](040-restaurants.md)
 
 **示范：** `She goes to the gym after work.` — 她下班后去健身房。
 

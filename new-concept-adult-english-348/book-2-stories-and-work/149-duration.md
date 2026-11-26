@@ -17,7 +17,7 @@ Has Alex Wang used this framework before? Yes, Alex Wang has used this framework
 
 ## 📐 本课核心
 
-**规则：** 结构：have/has + 过去分词。表示过去的动作与现在有关联（结果、经验、持续）。
+[复习第 145 课的规则](145-past-habits.md)
 
 **示范：** `We have used this tool since 2022.` — 我们从 2022 年起就用这个工具了。
 

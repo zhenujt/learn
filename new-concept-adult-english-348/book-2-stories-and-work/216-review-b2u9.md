@@ -17,7 +17,7 @@ Yesterday, Emma Liu system was stable early. Emma Liu would update the team the 
 
 ## 📐 本课核心
 
-**规则：** 表示过去完成的动作。规则动词加 -ed：worked, checked, deployed。
+[复习第 073 课的规则](../book-1-foundations/073-yesterday.md)
 
 **示范：** `I fixed the bug yesterday.` — 我昨天修了那个缺陷。
 

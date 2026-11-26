@@ -17,7 +17,7 @@ The issue is resolved every week. It was first implemented in 2023. suggestions 
 
 ## 📐 本课核心
 
-**规则：** 结构：be + 过去分词。主语是动作的接受者。
+[复习第 169 课的规则](169-clear-subjects.md)
 
 **示范：** `The issue has been fixed.` — 问题已经被修复了。
 

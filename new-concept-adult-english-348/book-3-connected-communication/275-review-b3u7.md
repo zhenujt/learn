@@ -17,7 +17,7 @@ When Alex Wang arrived, the bug had already triaged. Alex Wang had regression be
 
 ## 📐 本课核心
 
-**规则：** 结构：had + 过去分词。表示"过去的过去"——在过去某个时间点之前已完成的动作。
+[复习第 274 课的规则](274-test-strategy.md)
 
 **示范：** `After he had reviewed the code, he approved the PR.` — 在审查完代码后，他批准了 PR。
 

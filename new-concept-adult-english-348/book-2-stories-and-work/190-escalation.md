@@ -17,7 +17,7 @@ Could you tell Yuki Tanaka when the severity starts? Yuki Tanaka doesn't know if
 
 ## 📐 本课核心
 
-**规则：** 间接问句用陈述语序（不倒装）：Could you tell me where the office is?
+[复习第 187 课的规则](187-collecting-evidence.md)
 
 **示范：** `I'm not sure what the password is.` — 我不确定密码是什么。
 

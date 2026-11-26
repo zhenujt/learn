@@ -17,7 +17,7 @@ Sara Li integrated the SDK because the resolved the conflict was updated the lib
 
 ## 📐 本课核心
 
-**规则：** because 原因 → I stayed late because the release was urgent.
+[复习第 178 课的规则](178-completion.md)
 
 **示范：** `Even though I was tired, I reviewed the PR.` — 尽管我很累，我还是审查了 PR。
 

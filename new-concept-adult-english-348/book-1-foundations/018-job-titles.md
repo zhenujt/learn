@@ -17,7 +17,7 @@ Yuki Tanaka has a role. This is Yuki Tanaka's role. Its level is senior. "Is tha
 
 ## 📐 本课核心
 
-**规则：** 形容词性物主代词放在名词前：my, your, his, her, its, our, their。
+[复习第 013 课的规则](013-family.md)
 
 **示范：** `Her team is on the third floor.` — 她的团队在三楼。
 

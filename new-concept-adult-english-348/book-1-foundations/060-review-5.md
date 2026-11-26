@@ -17,7 +17,7 @@ There is a writing documentation in Lin Wei's office. There are reviewing a PR n
 
 ## 📐 本课核心
 
-**规则：** 用来说明某处存在某物。单数或不可数 → there is；复数 → there are。
+[复习第 058 课的规则](058-arrangements.md)
 
 **示范：** `There is a new update available.` — 有一个新的更新可用。
 

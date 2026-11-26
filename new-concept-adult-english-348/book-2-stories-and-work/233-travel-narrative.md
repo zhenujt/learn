@@ -17,7 +17,7 @@ The developer who booked is Lin Wei. The framework, which is flew, works well. T
 
 ## 📐 本课核心
 
-**规则：** who 修饰人：The developer who fixed the bug got a bonus.
+[复习第 193 课的规则](193-opening.md)
 
 **示范：** `The meeting, which lasted two hours, was productive.` — 这个持续两小时的会议很有成果。
 

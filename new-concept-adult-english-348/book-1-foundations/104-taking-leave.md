@@ -17,7 +17,7 @@ Emma Liu is going to submit the form early next notify the team. The team will l
 
 ## 📐 本课核心
 
-**规则：** be going to + 动词原形：已计划好的将来行动。I am going to deploy tomorrow.
+[复习第 097 课的规则](097-body.md)
 
 **示范：** `Will the release be on time?` — 发布会准时吗？
 

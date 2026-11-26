@@ -17,7 +17,7 @@ Yesterday, David Zhou rained early. David Zhou canceled the new feature and stay
 
 ## 📐 本课核心
 
-**规则：** 表示过去完成的动作。规则动词加 -ed：worked, checked, deployed。
+[复习第 073 课的规则](073-yesterday.md)
 
 **示范：** `I fixed the bug yesterday.` — 我昨天修了那个缺陷。
 

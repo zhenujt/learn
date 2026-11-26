@@ -17,7 +17,7 @@ Mia Chen needs some water. There isn't any sugar left. "Do you have any cups?" "
 
 ## 📐 本课核心
 
-**规则：** 可数名词有单复数：a task / tasks; an error / errors。
+[复习第 061 课的规则](061-food.md)
 
 **示范：** `There aren't any available servers.` — 没有可用的服务器。
 

@@ -17,7 +17,7 @@ Ravi Gupta asked, "Do you know what the resolution is?" "I'm not sure how the ve
 
 ## 📐 本课核心
 
-**规则：** 间接问句用陈述语序（不倒装）：Could you tell me where the office is?
+[复习第 187 课的规则](187-collecting-evidence.md)
 
 **示范：** `Could you tell me when the meeting starts?` — 你能告诉我会议什么时候开始吗？
 

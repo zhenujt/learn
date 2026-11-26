@@ -17,7 +17,7 @@ Before Mia Chen approves the design, the team proceed to development. When the t
 
 ## 📐 本课核心
 
-**规则：** 时间从句：when, before, after, while, as soon as, until。
+[复习第 241 课的规则](241-time-clauses.md)
 
 **示范：** `I will call you as soon as the meeting ends.` — 会议一结束我就打给你。
 

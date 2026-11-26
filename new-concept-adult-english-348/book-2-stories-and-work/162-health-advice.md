@@ -17,7 +17,7 @@ The new rests properly is recoverer than the old one. push too hard is the most 
 
 ## 📐 本课核心
 
-**规则：** 短词（1-2 音节）：加 -er / -est → faster, fastest。
+[复习第 124 课的规则](../book-1-foundations/124-files.md)
 
 **示范：** `Python is easier to read than C++.` — Python 比 C++ 更容易阅读。
 

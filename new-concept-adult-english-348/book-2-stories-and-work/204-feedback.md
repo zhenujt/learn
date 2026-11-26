@@ -17,7 +17,7 @@ Sara Li said that the gave useful feedback was senior. She told the team she wou
 
 ## 📐 本课核心
 
-**规则：** 直接引语变间接引语：时态后退一步 (backshift)。
+[复习第 199 课的规则](199-action-items.md)
 
 **示范：** `He asked if I could help.` — 他问我能不能帮忙。
 

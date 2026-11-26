@@ -17,7 +17,7 @@ The new option is cost-effectiveer than the old one. plan A is the most flexible
 
 ## 📐 本课核心
 
-**规则：** 短词（1-2 音节）：加 -er / -est → faster, fastest。
+[复习第 124 课的规则](../book-1-foundations/124-files.md)
 
 **示范：** `She is the most experienced developer on the team.` — 她是团队中最有经验的开发者。
 

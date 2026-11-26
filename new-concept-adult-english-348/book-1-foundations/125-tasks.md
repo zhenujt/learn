@@ -17,7 +17,7 @@ Alex Wang thinks assigns tasks is more daily than reviews the board. The updates
 
 ## 📐 本课核心
 
-**规则：** 短词（1-2 音节）：加 -er / -est → faster, fastest。
+[复习第 124 课的规则](124-files.md)
 
 **示范：** `Which framework is the most popular?` — 哪个框架最流行？
 

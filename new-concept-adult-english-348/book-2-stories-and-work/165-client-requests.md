@@ -17,7 +17,7 @@ If the project passes, Alex Wang will renew the contract immediately. Unless som
 
 ## 📐 本课核心
 
-**规则：** 结构：If + 一般现在时, will + 动词原形。表示真实可能发生的情况。
+[复习第 121 课的规则](../book-1-foundations/121-computer.md)
 
 **示范：** `If she finishes early, she can help us.` — 如果她提前完成，可以帮我们。
 

@@ -17,7 +17,7 @@ Tom Park enjoys meets all criteria. The team decided to mark as done. fails one 
 
 ## 📐 本课核心
 
-**规则：** 动名词 (V-ing) 作名词用：Testing is important. I enjoy coding.
+[复习第 265 课的规则](265-review-b3u5.md)
 
 **示范：** `Testing before deployment is essential.` — 部署前测试是必须的。
 

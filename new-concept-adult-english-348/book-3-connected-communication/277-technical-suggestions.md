@@ -17,7 +17,7 @@
 
 ## 📐 本课核心
 
-**规则：** 直接引语变间接引语：时态后退一步 (backshift)。
+[复习第 199 课的规则](../book-2-stories-and-work/199-action-items.md)
 
 **示范：** `She told me she would send the report.` — 她告诉我她会发报告。
 

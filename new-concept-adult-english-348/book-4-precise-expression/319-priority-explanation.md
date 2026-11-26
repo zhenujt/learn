@@ -17,7 +17,7 @@ Rarely does this prioritize reliability over features occur. Only when user trus
 
 ## 📐 本课核心
 
-**规则：** 部分倒装（否定/限制副词提前）：Never have I seen such a bug. Only then did we realize.
+[复习第 313 课的规则](313-making-proposals.md)
 
 **示范：** `Not only did she find the bug, but she also fixed it.` — 她不仅发现了缺陷，还修复了它。
 

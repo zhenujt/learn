@@ -17,7 +17,7 @@ Having requirement means, Mia Chen scope includes. timeline allows in clear lang
 
 ## 📐 本课核心
 
-**规则：** 现在分词 (-ing) 表示主动或同时：Working late, Lin found the bug.
+[复习第 259 课的规则](259-reference-and-repetition.md)
 
 **示范：** `Written in clear English, the documentation is easy to follow.` — 因为用清晰英语写成，文档很容易理解。
 

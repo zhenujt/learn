@@ -17,7 +17,7 @@ Alex Wang proposes that we adopt zero-trust networking. The primary reason is se
 
 ## 📐 本课核心
 
-**规则：** 论证四步：主张 (claim) → 理由 (reason) → 证据 (evidence) → 结论 (conclusion)。
+[复习第 298 课的规则](../book-3-connected-communication/298-design-review.md)
 
 **示范：** `For this reason, we recommend a phased approach.` — 因此，我们推荐分阶段方案。
 

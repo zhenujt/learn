@@ -17,7 +17,7 @@ Lin Wei thinks finishes the test is more build than escalate. The miss the windo
 
 ## 📐 本课核心
 
-**规则：** 短词（1-2 音节）：加 -er / -est → faster, fastest。
+[复习第 124 课的规则](../book-1-foundations/124-files.md)
 
 **示范：** `This solution is faster than the old one.` — 这个方案比旧的快。
 

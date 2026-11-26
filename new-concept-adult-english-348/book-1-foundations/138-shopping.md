@@ -17,7 +17,7 @@ Right now, Yuki Tanaka is snacks. The team is water in the meeting room. Yuki Ta
 
 ## 📐 本课核心
 
-**规则：** 结构：am/is/are + 动词-ing。表示此刻正在发生或近期临时安排。
+[复习第 049 课的规则](049-present-continuous.md)
 
 **示范：** `Are you deploying the fix?` — 你在部署修复吗？
 

@@ -17,7 +17,7 @@ It is possible that the vulnerability will expose sensitive data. The results in
 
 ## 📐 本课核心
 
-**规则：** 缓和语气避免绝对化：may, might, appear to, seem to, suggest, indicate。
+[复习第 295 课的规则](../book-3-connected-communication/295-review-b3u11.md)
 
 **示范：** `Based on current evidence, we believe the risk is manageable.` — 基于当前证据，我们认为风险可控。
 

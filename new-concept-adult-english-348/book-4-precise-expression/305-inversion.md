@@ -17,7 +17,7 @@ If the team had complex architecture earlier, they might have thorough testing. 
 
 ## 📐 本课核心
 
-**规则：** 结构：If + had + 过去分词, would have + 过去分词。表示过去没有发生的假设。
+[复习第 304 课的规则](304-review-b4u1.md)
 
 **示范：** `If he had joined earlier, he would know the context now.` — 如果他早点加入，他现在就了解背景了。(混合)
 

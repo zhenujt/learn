@@ -17,7 +17,7 @@ Could you tell Sara Li when the process starts? Sara Li doesn't know if the rest
 
 ## 📐 本课核心
 
-**规则：** 间接问句用陈述语序（不倒装）：Could you tell me where the office is?
+[复习第 187 课的规则](187-collecting-evidence.md)
 
 **示范：** `I was wondering whether we could reschedule.` — 我想知道我们能否改期。
 

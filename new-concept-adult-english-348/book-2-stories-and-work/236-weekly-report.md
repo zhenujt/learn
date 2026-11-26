@@ -17,7 +17,7 @@ Sara Li said that the completed the sprint was delivered four features. She told
 
 ## 📐 本课核心
 
-**规则：** 直接引语变间接引语：时态后退一步 (backshift)。
+[复习第 199 课的规则](199-action-items.md)
 
 **示范：** `He said that he was working on the fix.` — 他说他正在修复中。
 

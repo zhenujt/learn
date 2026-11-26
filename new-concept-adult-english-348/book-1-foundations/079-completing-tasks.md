@@ -17,7 +17,7 @@ Last week, Ravi Gupta finished a problem. Ravi Gupta submitted the logs and rece
 
 ## 📐 本课核心
 
-**规则：** 表示过去完成的动作。规则动词加 -ed：worked, checked, deployed。
+[复习第 073 课的规则](073-yesterday.md)
 
 **示范：** `We went to the client's office last Monday.` — 上周一我们去了客户的办公室。
 

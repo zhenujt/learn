@@ -17,7 +17,7 @@ Sara Li has framework the task. The team has already fast. Have you ever React? 
 
 ## 📐 本课核心
 
-**规则：** 结构：have/has + 过去分词。表示过去的动作与现在有关联（结果、经验、持续）。
+[复习第 145 课的规则](145-past-habits.md)
 
 **示范：** `I have finished the code review.` — 我已经完成了代码审查。
 

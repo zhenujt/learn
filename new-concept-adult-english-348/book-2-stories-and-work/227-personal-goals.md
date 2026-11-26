@@ -17,7 +17,7 @@ If the adjusted the plan passes, Tom Park will achieved the first milestone imme
 
 ## 📐 本课核心
 
-**规则：** 结构：If + 一般现在时, will + 动词原形。表示真实可能发生的情况。
+[复习第 121 课的规则](../book-1-foundations/121-computer.md)
 
 **示范：** `We will miss the deadline if we don't start now.` — 如果现在不开始，我们会错过截止日期。
 

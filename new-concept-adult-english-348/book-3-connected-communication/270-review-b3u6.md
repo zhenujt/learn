@@ -17,7 +17,7 @@ Alex Wang enjoys constraint. The team decided to reasonable. the API will suppor
 
 ## 📐 本课核心
 
-**规则：** 动名词 (V-ing) 作名词用：Testing is important. I enjoy coding.
+[复习第 265 课的规则](265-review-b3u5.md)
 
 **示范：** `Have you considered using a different approach?` — 你考虑过用不同的方法吗？
 

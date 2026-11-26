@@ -17,7 +17,7 @@ Sara Li can documented everything quickly. Sara Li should transition before the 
 
 ## 📐 本课核心
 
-**规则：** can 表示能力或许可：I can write Python. Can I leave early?
+[复习第 106 课的规则](../book-1-foundations/106-exercise.md)
 
 **示范：** `You shouldn't skip code review.` — 你不应该跳过代码审查。
 

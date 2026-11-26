@@ -17,7 +17,7 @@ Mia Chen can offered assistance quickly. Mia Chen should colleague before the me
 
 ## 📐 本课核心
 
-**规则：** can 表示能力或许可：I can write Python. Can I leave early?
+[复习第 106 课的规则](../book-1-foundations/106-exercise.md)
 
 **示范：** `We must finish this before Friday.` — 我们必须在周五前完成。
 

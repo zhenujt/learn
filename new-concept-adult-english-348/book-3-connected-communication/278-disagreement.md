@@ -17,7 +17,7 @@ Tom Park said that the disagreed with the approach was complexity. She told the 
 
 ## 📐 本课核心
 
-**规则：** 直接引语变间接引语：时态后退一步 (backshift)。
+[复习第 199 课的规则](../book-2-stories-and-work/199-action-items.md)
 
 **示范：** `They explained that the system had crashed.` — 他们解释说系统崩溃了。
 

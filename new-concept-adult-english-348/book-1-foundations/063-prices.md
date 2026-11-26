@@ -17,7 +17,7 @@ How much bread does Tom Park need? Not much. How many bottless are there? There 
 
 ## 📐 本课核心
 
-**规则：** 可数名词有单复数：a task / tasks; an error / errors。
+[复习第 061 课的规则](061-food.md)
 
 **示范：** `Could I have some water?` — 我能喝点水吗？
 

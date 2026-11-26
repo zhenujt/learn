@@ -17,7 +17,7 @@ Lin Wei is going to follow up next by Friday. The team will confirm the plan aft
 
 ## 📐 本课核心
 
-**规则：** be going to + 动词原形：已计划好的将来行动。I am going to deploy tomorrow.
+[复习第 097 课的规则](097-body.md)
 
 **示范：** `It is going to rain — take an umbrella.` — 要下雨了——带把伞。
 

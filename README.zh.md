@@ -27,14 +27,7 @@
 
 ## 存档资料
 
-下面的旧教材内容已合并进主线教材，保留作参考，不再更新。每篇旧文档开头都注明了对应的新课。
-
-- `01-foundations`、`02-intermediate`、`03-advanced`：18 课语法
-- `english-grammar/英语语法全解.md`：45 章语法大字典
-- `adult-software-english-course`：成年人软件开发英语课程
-- `zero-to-work-english`：零基础到职场英语（发音和词汇部分继续使用）
-- `workplace-spoken-english`：工作日常英语口语全指南
-- `new-concept-adult-english`、`new-concept-adult-english-348`：通用生活英语课程
+旧教材不再更新。查找对应的新课或旧资料的独有内容，请看[旧资料去向](dev-meeting-english/README.zh.md#旧资料去向)。
 
 ## 文档音频
 

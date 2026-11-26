@@ -17,7 +17,7 @@ If the team had migrate to Kubernetes earlier, they might have container orchest
 
 ## 📐 本课核心
 
-**规则：** 结构：If + had + 过去分词, would have + 过去分词。表示过去没有发生的假设。
+[复习第 304 课的规则](304-review-b4u1.md)
 
 **示范：** `The outage could have been avoided if the config had been reviewed.` — 如果配置被审查过，这次宕机本可避免。
 
