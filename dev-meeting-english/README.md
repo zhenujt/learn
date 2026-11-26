@@ -85,6 +85,7 @@ Full index with frequency: [Grammar Index](grammar/README.md).
 ### Vocabulary Review
 
 - [Grades 3–9: PEP Textbook Source Index and Independent Review List](vocabulary/README.md)
+- On the docs site homepage, use the Software Meeting English or Grade 3–9 Vocabulary entry to open the course or vocabulary index directly.
 
 ## References Still in Use
 

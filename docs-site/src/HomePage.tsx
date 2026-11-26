@@ -20,6 +20,20 @@ interface SiteRoute {
 
 const routes: SiteRoute[] = [
   {
+    path: "docs-simple-grammar/?doc=dev-meeting-english%2FREADME.zh.md",
+    name: "软件开发会议英语（最新）",
+    englishName: "SOFTWARE MEETING ENGLISH",
+    description: "16 周学习计划、24 课语法和 7 个会议场景，先看懂字幕，再练开口汇报。",
+    icon: BookOpen,
+  },
+  {
+    path: "docs-simple-grammar/?doc=dev-meeting-english%2Fvocabulary%2FREADME.zh.md",
+    name: "人教版教材索引与词汇复习",
+    englishName: "GRADE 3–9 VOCABULARY",
+    description: "按年级查阅三年级到初三的教材资源，复习常用词义和会议用法。",
+    icon: LibraryBig,
+  },
+  {
     path: "demo-platform/",
     name: "Platform 演示稿",
     englishName: "PLATFORM DEMO",
